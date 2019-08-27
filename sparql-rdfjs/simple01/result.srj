@@ -1,0 +1,9 @@
+{
+  "head": {"vars":["s","p","o"]},
+  "results": { "bindings": [
+                {"s":{"value":"http://example.org/s1","type":"uri"},"p":{"value":"http://example.org/p","type":"uri"},"o":{"value":"http://example.org/o1","type":"uri"}},
+                {"s":{"value":"http://example.org/s2","type":"uri"},"p":{"value":"http://example.org/p","type":"uri"},"o":{"value":"http://example.org/o1","type":"uri"}},
+                {"s":{"value":"http://example.org/s2","type":"uri"},"p":{"value":"http://example.org/p","type":"uri"},"o":{"value":"http://example.org/o2","type":"uri"}},
+                {"s":{"value":"http://example.org/s3","type":"uri"},"p":{"value":"http://example.org/p","type":"uri"},"o":{"value":"http://example.org/o3","type":"uri"}}
+                ]}
+}

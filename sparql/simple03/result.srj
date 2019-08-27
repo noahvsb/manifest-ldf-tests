@@ -1,0 +1,83 @@
+{
+ "head": {
+  "vars": [
+   "o",
+   "s",
+   "p"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "o": {
+     "value": "http://dbpedia.org/resource/Belgium",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/assembly",
+     "type": "uri"
+    }
+   },
+   {
+    "o": {
+     "value": "http://dbpedia.org/resource/Liège_(province)",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/assembly",
+     "type": "uri"
+    }
+   },
+   {
+    "o": {
+     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/assembly",
+     "type": "uri"
+    }
+   },
+   {
+    "o": {
+     "value": "http://dbpedia.org/resource/Liège_(province)",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/assembly",
+     "type": "uri"
+    }
+   },
+   {
+    "o": {
+     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/assembly",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

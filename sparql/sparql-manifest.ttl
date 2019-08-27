@@ -6,20 +6,45 @@
 @prefix :       <https://comunica.github.io/manifest-ldf-tests/sparql/sparql-manifest.ttl#> .
 
 <>  rdf:type mf:Manifest ;
-  rdfs:label "SPARQL-FILE query library" ;
+  rdfs:label "SPARQL query library" ;
   mf:entries
   ( 
   :directors01
+  :software02
+  :simple03
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
-  mf:name    "SELECT - DBpedia" ;
+  mf:name    "SELECT - DBpedia TPF" ;
   rdfs:comment "Directors of movies starring Brad Pitt" ;
   mf:action
-        [ qt:query  <directors01.rq> ;
+        [ qt:query  <directors01.rq> 
           et:mockFolder <directors01> ] ;
   et:dataSources(
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <directors01/result.srj> . 
   
+:software02 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBpedia TPF" ;
+  rdfs:comment "Belgian software" ;
+  mf:action
+        [ qt:query  <software02.rq> 
+          et:mockFolder <software02> ] ;
+  et:dataSources(
+    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <software02/result.srj> . 
+
+:simple03 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBPedia TPF & SPARQL" ;
+  rdfs:comment "Simple bindings with 'Belgium' as object" ;
+  mf:action
+        [ qt:query  <simple03.rq> ;
+          et:mockFolder <simple03> ] ;
+  et:dataSources (
+    [ et:source <http://fragments.dbpedia.org/2015/en> ;
+      et:sourceType et:TPF ]
+    [ et:source <http://dbpedia.org/sparql> ;
+      et:sourceType et:SPARQL ] ) ;
+  mf:result  <simple03/result.srj> .
