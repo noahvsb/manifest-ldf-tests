@@ -14,67 +14,67 @@
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/affiliation",
+     "value": "http://dbpedia.org/ontology/assembly",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Université_catholique_de_Louvain",
+     "value": "http://dbpedia.org/resource/Liège_(province)",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/affiliation",
+     "value": "http://dbpedia.org/ontology/assembly",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Université_catholique_de_Louvain",
+     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/affiliation",
+     "value": "http://dbpedia.org/ontology/assembly",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Belgium",
+     "value": "http://dbpedia.org/resource/Liège_(province)",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Antoni_Bolesław_Dobrowolski",
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/almaMater",
+     "value": "http://dbpedia.org/ontology/assembly",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/University_of_Liège",
+     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Antoni_Bolesław_Dobrowolski",
+     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/almaMater",
+     "value": "http://dbpedia.org/ontology/assembly",
      "type": "uri"
     }
    }
