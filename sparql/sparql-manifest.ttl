@@ -16,7 +16,7 @@
   mf:name    "SELECT - DBpedia" ;
   rdfs:comment "Directors of movies starring Brad Pitt" ;
   mf:action
-        [ qt:query  <directors01/query.rq> 
+        [ qt:query  <directors01.rq> 
           et:mockFolder <directors01> ] ;
   et:dataSources(
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
