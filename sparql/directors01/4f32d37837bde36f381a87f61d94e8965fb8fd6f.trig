@@ -1,0 +1,129 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector
+# Hashed IRI: http://fragments.dbpedia.org/2016-04/en?predicate=http://dbpedia.org/ontology/director
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector#metadata> {
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector>.
+<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
+<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector> void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/director> ?o }."@en;
+    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "118505"^^xsd:integer;
+    void:triples "118505"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector&page=1>;
+    hydra:next <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector&page=2>
+}
+<http://dbpedia.org/resource/!Oka_Tokat> dbpedia-owl:director dbpedia:Ricky_Davao.
+<http://dbpedia.org/resource/!Women_Art_Revolution> dbpedia-owl:director dbpedia:Lynn_Hershman_Leeson.
+<http://dbpedia.org/resource/$1,000_Reward> dbpedia-owl:director <http://dbpedia.org/resource/Jack_Harvey_(director)>.
+<http://dbpedia.org/resource/$1,000_a_Touchdown> dbpedia-owl:director <http://dbpedia.org/resource/James_P._Hogan_(director)>.
+<http://dbpedia.org/resource/$5_Cover> dbpedia-owl:director dbpedia:Craig_Brewer.
+<http://dbpedia.org/resource/$9.99> dbpedia-owl:director dbpedia:Tatia_Rosenthal.
+<http://dbpedia.org/resource/$_(film)> dbpedia-owl:director dbpedia:Richard_Brooks.
+<http://dbpedia.org/resource/$pent> dbpedia-owl:director <http://dbpedia.org/resource/Gil_Cates_Jr.>.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee> dbpedia-owl:director dbpedia:Peter_Faiman.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee_II> dbpedia-owl:director dbpedia:John_Cornell.
+<http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22> dbpedia-owl:director dbpedia:Renzo_Arbore.
+<http://dbpedia.org/resource/%22Good_Luck,_Father_Ted%22> dbpedia-owl:director dbpedia:Declan_Lowney.
+<http://dbpedia.org/resource/%22Pimpernel%22_Smith> dbpedia-owl:director <http://dbpedia.org/resource/Leslie_Howard_(actor)>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Collection> dbpedia-owl:director <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Video_Collection> dbpedia-owl:director <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Videos> dbpedia-owl:director <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>, dbpedia:Dror_Soref, dbpedia:Janet_Greek, <http://dbpedia.org/resource/Mark_Osborne_(filmmaker)>, <http://dbpedia.org/resource/Robert_K._Weiss>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic_Live!:_The_Alpocalypse_Tour> dbpedia-owl:director dbpedia:Wayne_Isham.
+<http://dbpedia.org/resource/%3F_(Lost)> dbpedia-owl:director dbpedia:Deran_Sarafian.
+<http://dbpedia.org/resource/%3F_(film)> dbpedia-owl:director dbpedia:Hanung_Bramantyo.
+<http://dbpedia.org/resource/&ME> dbpedia-owl:director dbpedia:Norbert_ter_Hall.
+<http://dbpedia.org/resource/(Blooper)_Bunny> dbpedia-owl:director dbpedia:Greg_Ford, dbpedia:Terry_Lennon.
+<http://dbpedia.org/resource/(Otto)> dbpedia-owl:director dbpedia:Job_Roggeveen, dbpedia:Joris_Oprins, dbpedia:Marieke_Blaauw.
+<http://dbpedia.org/resource/(T)error> dbpedia-owl:director dbpedia:David_Felix_Sutcliffe, <http://dbpedia.org/resource/Lyric_R._Cabral>.
+<http://dbpedia.org/resource/(Untitled)_(film)> dbpedia-owl:director <http://dbpedia.org/resource/Jonathan_Parker_(director)>.
+<http://dbpedia.org/resource/(_)_(film)> dbpedia-owl:director <http://dbpedia.org/resource/Morgan_Fisher_(artist)>.
+<http://dbpedia.org/resource/(sic)nesses> dbpedia-owl:director <http://dbpedia.org/resource/P._R._Brown>, dbpedia:Shawn_Crahan.
+<http://dbpedia.org/resource/*Corpus_Callosum> dbpedia-owl:director dbpedia:Michael_Snow.
+<http://dbpedia.org/resource/-30-_(film)> dbpedia-owl:director dbpedia:Jack_Webb.
+<http://dbpedia.org/resource/...All_the_Marbles> dbpedia-owl:director dbpedia:Robert_Aldrich.
+<http://dbpedia.org/resource/...And_Found> dbpedia-owl:director <http://dbpedia.org/resource/Stephen_Williams_(director)>.
+<http://dbpedia.org/resource/...And_God_Created_Them> dbpedia-owl:director dbpedia:Jacobo_Morales.
+<http://dbpedia.org/resource/...And_Justice_for_All_(film)> dbpedia-owl:director dbpedia:Norman_Jewison.
+<http://dbpedia.org/resource/...And_Once_Again> dbpedia-owl:director dbpedia:Amol_Palekar.
+<http://dbpedia.org/resource/...And_the_Bags_in_the_River> dbpedia-owl:director dbpedia:Adam_Bernstein.
+<http://dbpedia.org/resource/...But_the_Olsen_Gang_Wasnt_Dead> dbpedia-owl:director dbpedia:Knut_Bohwim.
+<http://dbpedia.org/resource/...En_la_Plaza_de_Toros_México> dbpedia-owl:director dbpedia:Ana_Gabriel.
+<http://dbpedia.org/resource/...First_Do_No_Harm> dbpedia-owl:director dbpedia:Jim_Abrahams.
+<http://dbpedia.org/resource/...In_Translation> dbpedia-owl:director dbpedia:Tucker_Gates.
+<http://dbpedia.org/resource/...La_bocca_mi_bacio_tutto_tremante> dbpedia-owl:director dbpedia:Ubaldo_Maria_Del_Colle.
+<http://dbpedia.org/resource/...More_than_1000_Words> dbpedia-owl:director dbpedia:Solo_Avital.
+<http://dbpedia.org/resource/...Nor_the_Battle_to_the_Strong> dbpedia-owl:director dbpedia:Kim_Friedman.
+<http://dbpedia.org/resource/...One_Third_of_a_Nation...> dbpedia-owl:director dbpedia:Dudley_Murphy.
+<http://dbpedia.org/resource/...Re> dbpedia-owl:director dbpedia:Sunil_Kumar_Desai.
+<http://dbpedia.org/resource/...So_Goes_the_Nation> dbpedia-owl:director dbpedia:Adam_Del_Deo, <http://dbpedia.org/resource/James_D._Stern>.
+<http://dbpedia.org/resource/...Thirteen_Years_Later> dbpedia-owl:director <http://dbpedia.org/resource/Thomas_J._Wright>.
+<http://dbpedia.org/resource/...To_Save_Us_All_from_Satans_Power> dbpedia-owl:director dbpedia:Jack_Bender.
+<http://dbpedia.org/resource/...To_Skin_a_Cat> dbpedia-owl:director dbpedia:Dan_OBerry.
+<http://dbpedia.org/resource/...Y_mañana_serán_mujeres> dbpedia-owl:director <http://dbpedia.org/resource/Alejandro_Galindo_(director)>.
+<http://dbpedia.org/resource/...Ye_Who_Enter_Here> dbpedia-owl:director dbpedia:Billy_Gierhart.
+<http://dbpedia.org/resource/..._nur_ein_Komödiant> dbpedia-owl:director dbpedia:Erich_Engel.
+<http://dbpedia.org/resource/...denn_die_Musik_und_die_Liebe_in_Tirol> dbpedia-owl:director dbpedia:Werner_Jacobs.
+<http://dbpedia.org/resource/...tick...tick...tick...> dbpedia-owl:director dbpedia:Ralph_Nelson.
+<http://dbpedia.org/resource/...und_sowas_muß_um_acht_ins_Bett> dbpedia-owl:director dbpedia:Werner_Jacobs.
+<http://dbpedia.org/resource/...à_la_campagne> dbpedia-owl:director dbpedia:Manuel_Poirier.
+<http://dbpedia.org/resource/.07%25> dbpedia-owl:director dbpedia:Adam_Kane.
+<http://dbpedia.org/resource/.303_(film)> dbpedia-owl:director dbpedia:David_Serge.
+<http://dbpedia.org/resource/.com_for_Murder> dbpedia-owl:director dbpedia:Nico_Mastorakis.
+<http://dbpedia.org/resource/.hack//Liminality> dbpedia-owl:director dbpedia:Hiroshi_Morioka, <http://dbpedia.org/resource/Kōichi_Mashimo>.
+<http://dbpedia.org/resource/.hack//Roots> dbpedia-owl:director <http://dbpedia.org/resource/Kōichi_Mashimo>.
+<http://dbpedia.org/resource/.hack//Sign> dbpedia-owl:director <http://dbpedia.org/resource/Kōichi_Mashimo>.
+<http://dbpedia.org/resource/.hack//The_Movie> dbpedia-owl:director dbpedia:Hiroshi_Matsuyama.
+<http://dbpedia.org/resource/0-8-4> dbpedia-owl:director dbpedia:David_Straiton.
+<http://dbpedia.org/resource/002_Operazione_Luna> dbpedia-owl:director dbpedia:Lucio_Fulci.
+<http://dbpedia.org/resource/008:_Operation_Exterminate> dbpedia-owl:director dbpedia:Umberto_Lenzi.
+<http://dbpedia.org/resource/009_Re:Cyborg> dbpedia-owl:director dbpedia:Kenji_Kamiyama.
+<http://dbpedia.org/resource/033> dbpedia-owl:director dbpedia:Birsa_Dasgupta.
+<http://dbpedia.org/resource/06/05> dbpedia-owl:director <http://dbpedia.org/resource/Theo_van_Gogh_(film_director)>.
+<http://dbpedia.org/resource/08/15_(1954_film)> dbpedia-owl:director dbpedia:Paul_May.
+<http://dbpedia.org/resource/08/15_(film_series)> dbpedia-owl:director dbpedia:Paul_May.
+<http://dbpedia.org/resource/1%25_(South_Park)> dbpedia-owl:director dbpedia:Trey_Parker.
+<http://dbpedia.org/resource/1,000_Dollars_a_Minute> dbpedia-owl:director dbpedia:Aubrey_Scotto.
+<http://dbpedia.org/resource/1,778_Stories_of_Me_and_My_Wife> dbpedia-owl:director dbpedia:Mamoru_Hoshi.
+<http://dbpedia.org/resource/1,_2,_3,_Sun> dbpedia-owl:director dbpedia:Bertrand_Blier.
+<http://dbpedia.org/resource/1-2-3_Corona> dbpedia-owl:director <http://dbpedia.org/resource/Hans_Müller_(director)>.
+<http://dbpedia.org/resource/1-2-3_Go> dbpedia-owl:director <http://dbpedia.org/resource/Edward_L._Cahn>.
+<http://dbpedia.org/resource/1-900_(film)> dbpedia-owl:director <http://dbpedia.org/resource/Theo_van_Gogh_(film_director)>.
+<http://dbpedia.org/resource/1-Ichi> dbpedia-owl:director dbpedia:Masato_Tanno.
+<http://dbpedia.org/resource/1._April_2000> dbpedia-owl:director dbpedia:Wolfgang_Liebeneiner.
+<http://dbpedia.org/resource/10,000_BC_(film)> dbpedia-owl:director dbpedia:Roland_Emmerich.
+<http://dbpedia.org/resource/10,000_Black_Men_Named_George> dbpedia-owl:director <http://dbpedia.org/resource/Robert_Townsend_(actor)>.
+<http://dbpedia.org/resource/10,000_Bullets> dbpedia-owl:director dbpedia:Yoshitaka_Murayama.
+<http://dbpedia.org/resource/10,000_Hours> dbpedia-owl:director <http://dbpedia.org/resource/Joyce_E._Bernal>.
+<http://dbpedia.org/resource/10,000_Kids_and_a_Cop> dbpedia-owl:director <http://dbpedia.org/resource/Charles_Barton_(director)>.
+<http://dbpedia.org/resource/10-8:_Officers_on_Duty> dbpedia-owl:director dbpedia:Alex_Zakrzewski, <http://dbpedia.org/resource/James_Whitmore,_Jr.>, dbpedia:Jeff_Bleckner, dbpedia:Martin_Campbell, dbpedia:Perry_Lang, dbpedia:Tawnia_McKiernan.

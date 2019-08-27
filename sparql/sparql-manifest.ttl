@@ -1,0 +1,25 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mf:     <http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#> .
+@prefix qt:     <http://www.w3.org/2001/sw/DataAccess/tests/test-query#> .
+@prefix et:     <https://comunica.github.io/ontology-query-testing/ontology-query-testing.ttl#> .
+@prefix :       <https://comunica.github.io/manifest-ldf-tests/sparql/sparql-manifest.ttl#> .
+
+<>  rdf:type mf:Manifest ;
+  rdfs:label "SPARQL-FILE query library" ;
+  mf:entries
+  ( 
+  :directors01
+  ) .
+
+:directors01 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBpedia" ;
+  rdfs:comment "Directors of movies starring Brad Pitt" ;
+  mf:action
+        [ qt:query  <directors01/query.rq> 
+          et:mockFolder <directors01> ] ;
+  et:dataSources(
+    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <directors01/result.srj> . 
+  
