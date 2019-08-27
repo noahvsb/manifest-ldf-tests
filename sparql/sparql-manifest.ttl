@@ -18,7 +18,7 @@
   mf:name    "SELECT - DBpedia TPF" ;
   rdfs:comment "Directors of movies starring Brad Pitt" ;
   mf:action
-        [ qt:query  <directors01.rq> 
+        [ qt:query  <directors01.rq> ;
           et:mockFolder <directors01> ] ;
   et:dataSources(
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
@@ -29,7 +29,7 @@
   mf:name    "SELECT - DBpedia TPF" ;
   rdfs:comment "Belgian software" ;
   mf:action
-        [ qt:query  <software02.rq> 
+        [ qt:query  <software02.rq> ;
           et:mockFolder <software02> ] ;
   et:dataSources(
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
