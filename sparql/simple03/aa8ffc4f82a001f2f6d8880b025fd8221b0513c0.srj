@@ -1,0 +1,7 @@
+# Query: query=SELECT%20%3Fo%20WHERE%20%7B%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FMary_Matha_Major_Seminary%3E%20%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Faffiliation%3E%20%3Fo.%20%7D
+# Hashed IRI: http://dbpedia.org/sparql?query=SELECT ?o WHERE { <http://dbpedia.org/resource/Mary_Matha_Major_Seminary> <http://dbpedia.org/ontology/affiliation> ?o. }
+# Content-type: application/sparql-results+json
+
+{ "head": { "link": [], "vars": ["o"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "o": { "type": "uri", "value": "http://dbpedia.org/resource/Universit\u00E9_catholique_de_Louvain" }} ] } }

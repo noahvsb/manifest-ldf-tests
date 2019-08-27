@@ -14,67 +14,67 @@
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/affiliation",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Liège_(province)",
+     "value": "http://dbpedia.org/resource/Université_catholique_de_Louvain",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/affiliation",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
+     "value": "http://dbpedia.org/resource/Université_catholique_de_Louvain",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Mary_Matha_Major_Seminary",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/affiliation",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Liège_(province)",
+     "value": "http://dbpedia.org/resource/Belgium",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Antoni_Bolesław_Dobrowolski",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/almaMater",
      "type": "uri"
     }
    },
    {
     "o": {
-     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
+     "value": "http://dbpedia.org/resource/University_of_Liège",
      "type": "uri"
     },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Antoni_Bolesław_Dobrowolski",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/almaMater",
      "type": "uri"
     }
    }
