@@ -1,0 +1,138 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper
+# Hashed IRI: http://fragments.dbpedia.org/2016-04/en?predicate=http://dbpedia.org/ontology/developer
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper#metadata> {
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper>.
+<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
+<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper> void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/developer> ?o }."@en;
+    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "28722"^^xsd:integer;
+    void:triples "28722"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&page=1>;
+    hydra:next <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&page=2>
+}
+<http://dbpedia.org/resource/%5Etxt2regex$> dbpedia-owl:developer <http://sourceforge.net/project/memberlist.php?group_id=28856>.
+<http://dbpedia.org/resource/*Lisp> dbpedia-owl:developer dbpedia:Thinking_Machines_Corporation.
+<http://dbpedia.org/resource/.NET_Compact_Framework_controls> dbpedia-owl:developer dbpedia:Microsoft.
+<http://dbpedia.org/resource/.NET_Framework> dbpedia-owl:developer dbpedia:Microsoft.
+<http://dbpedia.org/resource/.NET_Gadgeteer> dbpedia-owl:developer dbpedia:Microsoft.
+<http://dbpedia.org/resource/.NET_Micro_Framework> dbpedia-owl:developer dbpedia:Microsoft.
+<http://dbpedia.org/resource/.NET_Reflector> dbpedia-owl:developer dbpedia:Redgate.
+<http://dbpedia.org/resource/.QL> dbpedia-owl:developer dbpedia:Semmle.
+<http://dbpedia.org/resource/.dbf> dbpedia-owl:developer dbpedia:DBase.
+<http://dbpedia.org/resource/.detuned> dbpedia-owl:developer dbpedia:Farbrausch.
+<http://dbpedia.org/resource/.hack//G.U.> dbpedia-owl:developer dbpedia:CyberConnect2.
+<http://dbpedia.org/resource/.hack_(video_game_series)> dbpedia-owl:developer dbpedia:CyberConnect2.
+<http://dbpedia.org/resource/.kkrieger> dbpedia-owl:developer dbpedia:Farbrausch.
+<http://dbpedia.org/resource/005> dbpedia-owl:developer dbpedia:Sega.
+<http://dbpedia.org/resource/007:_Agent_Under_Fire> dbpedia-owl:developer dbpedia:Visceral_Games.
+<http://dbpedia.org/resource/007:_Quantum_of_Solace> dbpedia-owl:developer dbpedia:Treyarch.
+<http://dbpedia.org/resource/007_Legends> dbpedia-owl:developer dbpedia:Eurocom.
+<http://dbpedia.org/resource/007_Racing> dbpedia-owl:developer dbpedia:Eutechnyx.
+<http://dbpedia.org/resource/0_A.D._(video_game)> dbpedia-owl:developer dbpedia:Wildfire_Games.
+<http://dbpedia.org/resource/0x10c> dbpedia-owl:developer dbpedia:Mojang.
+<http://dbpedia.org/resource/10,000_Bullets> dbpedia-owl:developer dbpedia:Yoshitaka_Murayama.
+<http://dbpedia.org/resource/1000_Days_of_Syria> dbpedia-owl:developer dbpedia:Mitch_Swenson.
+<http://dbpedia.org/resource/1000_Heroz> dbpedia-owl:developer dbpedia:RedLynx.
+<http://dbpedia.org/resource/1001_Crystal_Mazes_Collection> dbpedia-owl:developer dbpedia:Teyon.
+<http://dbpedia.org/resource/1001_Spikes> dbpedia-owl:developer dbpedia:Nicalis.
+<http://dbpedia.org/resource/100_Bullets_(video_game)> dbpedia-owl:developer dbpedia:Acclaim_Studios_Austin.
+<http://dbpedia.org/resource/100_Classic_Book_Collection> dbpedia-owl:developer dbpedia:Genius_Sonority.
+<http://dbpedia.org/resource/100_Rogues> dbpedia-owl:developer dbpedia:Dinofarm_Games.
+<http://dbpedia.org/resource/101-in-1_Party_Megamix> dbpedia-owl:developer dbpedia:Nordcurrent.
+<http://dbpedia.org/resource/101-in-1_Sports_Party_Megamix> dbpedia-owl:developer dbpedia:Nordcurrent.
+<http://dbpedia.org/resource/101_Dalmatians:_Escape_from_DeVil_Manor> dbpedia-owl:developer dbpedia:DreamForge_Intertainment.
+<http://dbpedia.org/resource/101_Dalmatians:_The_Series> dbpedia-owl:developer dbpedia:Jim_Jinkins.
+<http://dbpedia.org/resource/101_MiniGolf_World> dbpedia-owl:developer dbpedia:Teyon.
+<http://dbpedia.org/resource/101_Shark_Pets> dbpedia-owl:developer dbpedia:Teyon.
+<http://dbpedia.org/resource/102_Dalmatians:_Puppies_to_the_Rescue> dbpedia-owl:developer dbpedia:Crystal_Dynamics.
+<http://dbpedia.org/resource/1080°_Avalanche> dbpedia-owl:developer dbpedia:Nintendo_Software_Technology.
+<http://dbpedia.org/resource/1080°_Snowboarding> dbpedia-owl:developer <http://dbpedia.org/resource/Nintendo_Entertainment_Analysis_&_Development>.
+<http://dbpedia.org/resource/10_Things_I_Hate_About_You_(TV_series)> dbpedia-owl:developer dbpedia:Carter_Covington.
+<http://dbpedia.org/resource/10th_Frame> dbpedia-owl:developer dbpedia:Indie_Built.
+<http://dbpedia.org/resource/11.22.63> dbpedia-owl:developer dbpedia:Bridget_Carpenter.
+<http://dbpedia.org/resource/11_Somerset> dbpedia-owl:developer <http://dbpedia.org/resource/CinéGroupe>.
+<http://dbpedia.org/resource/12Riven:_The_Psi-Climinal_of_Integral> dbpedia-owl:developer dbpedia:KID.
+<http://dbpedia.org/resource/13_Demon_Street> dbpedia-owl:developer dbpedia:Herts-Lion.
+<http://dbpedia.org/resource/13_Sentinels:_Aegis_Rim> dbpedia-owl:developer dbpedia:Vanillaware.
+<http://dbpedia.org/resource/13_anys_i_un_dia> dbpedia-owl:developer <http://dbpedia.org/resource/Televisió_de_Catalunya>.
+<http://dbpedia.org/resource/13_x_13> dbpedia-owl:developer <http://dbpedia.org/resource/Televisió_de_Catalunya>.
+<http://dbpedia.org/resource/16_dobles> dbpedia-owl:developer dbpedia:Diagonal_TV, <http://dbpedia.org/resource/Televisió_de_Catalunya>.
+<http://dbpedia.org/resource/17_(app)> dbpedia-owl:developer <http://dbpedia.org/resource/Cmn:黃立成>.
+<http://dbpedia.org/resource/17_Bernard_Club> dbpedia-owl:developer <http://dbpedia.org/resource/TV5_Network_Inc.>.
+<http://dbpedia.org/resource/180_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/David_Whittaker_(video_game_composer)>, dbpedia:Ste_Pickford.
+<http://dbpedia.org/resource/1830:_Railroads_&_Robber_Barons> dbpedia-owl:developer dbpedia:Simtex.
+<http://dbpedia.org/resource/1869_(video_game)> dbpedia-owl:developer dbpedia:Max_Design.
+<http://dbpedia.org/resource/187_Ride_or_Die> dbpedia-owl:developer dbpedia:Ubisoft.
+<http://dbpedia.org/resource/18_Wheeler:_American_Pro_Trucker> dbpedia-owl:developer dbpedia:Acclaim_Cheltenham, dbpedia:Sega_AM2.
+<http://dbpedia.org/resource/1941:_Counter_Attack> dbpedia-owl:developer dbpedia:Capcom.
+<http://dbpedia.org/resource/1942:_Joint_Strike> dbpedia-owl:developer dbpedia:Backbone_Entertainment.
+<http://dbpedia.org/resource/1942:_The_Pacific_Air_War> dbpedia-owl:developer dbpedia:MicroProse.
+<http://dbpedia.org/resource/1942_(video_game)> dbpedia-owl:developer dbpedia:Capcom.
+<http://dbpedia.org/resource/1943:_The_Battle_of_Midway> dbpedia-owl:developer dbpedia:Capcom.
+<http://dbpedia.org/resource/1944:_The_Loop_Master> dbpedia-owl:developer dbpedia:Eighting.
+<http://dbpedia.org/resource/19XX:_The_War_Against_Destiny> dbpedia-owl:developer dbpedia:Capcom.
+<http://dbpedia.org/resource/19_Part_One:_Boot_Camp> dbpedia-owl:developer dbpedia:Cascade_Games.
+<http://dbpedia.org/resource/1Password> dbpedia-owl:developer <https://agilebits.com>.
+<http://dbpedia.org/resource/1_Second_Everyday> dbpedia-owl:developer dbpedia:Cesar_Kuriyama.
+<http://dbpedia.org/resource/1_vs._100_(2008_video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/ECommerce_Industries,_Inc._(ECi)>.
+<http://dbpedia.org/resource/1_vs._100_(2009_video_game)> dbpedia-owl:developer dbpedia:Microsoft_Studios.
+<http://dbpedia.org/resource/1legcall> dbpedia-owl:developer <http://dbpedia.org/resource/TalkFree,_Inc>.
+<http://dbpedia.org/resource/20-sim> dbpedia-owl:developer dbpedia:Controllab.
+<http://dbpedia.org/resource/2002_FIFA_World_Cup_(video_game)> dbpedia-owl:developer dbpedia:EA_Canada.
+<http://dbpedia.org/resource/2006_FIFA_World_Cup_(video_game)> dbpedia-owl:developer dbpedia:EA_Canada, dbpedia:Exient_Entertainment.
+<http://dbpedia.org/resource/2010_FIFA_World_Cup_South_Africa_(video_game)> dbpedia-owl:developer dbpedia:EA_Canada, dbpedia:HB_Studios, dbpedia:Xbox_360.
+<http://dbpedia.org/resource/2014_FIFA_World_Cup_Brazil_(video_game)> dbpedia-owl:developer dbpedia:EA_Canada.
+<http://dbpedia.org/resource/20_em_1> dbpedia-owl:developer dbpedia:Tectoy.
+<http://dbpedia.org/resource/221B_Baker_Street_(video_game)> dbpedia-owl:developer dbpedia:Datasoft.
+<http://dbpedia.org/resource/227_(TV_series)> dbpedia-owl:developer dbpedia:Jack_Elinson.
+<http://dbpedia.org/resource/2400_A.D.> dbpedia-owl:developer dbpedia:Origin_Systems.
+<http://dbpedia.org/resource/24:_The_Game> dbpedia-owl:developer dbpedia:Guerrilla_Cambridge.
+<http://dbpedia.org/resource/24_Oras> dbpedia-owl:developer dbpedia:GMA_News_and_Public_Affairs.
+<http://dbpedia.org/resource/24_Oras_Bikol> dbpedia-owl:developer dbpedia:GMA_News_and_Public_Affairs.
+<http://dbpedia.org/resource/24_Oras_Southern_Mindanao> dbpedia-owl:developer dbpedia:GMA_News_and_Public_Affairs.
+<http://dbpedia.org/resource/250_Mannin_no_Kanken_Wii_de_Tokoton_Kanji_Nou> dbpedia-owl:developer dbpedia:IE_Institute.
+<http://dbpedia.org/resource/25_To_Life> dbpedia-owl:developer dbpedia:Avalanche_Software.
+<http://dbpedia.org/resource/2XL_ATV_Offroad> dbpedia-owl:developer <http://dbpedia.org/resource/2XL_Games>.
+<http://dbpedia.org/resource/2XL_Fleet_Defense> dbpedia-owl:developer <http://dbpedia.org/resource/2XL_Games>.
+<http://dbpedia.org/resource/2XL_Supercross> dbpedia-owl:developer <http://dbpedia.org/resource/2XL_Games>.
+<http://dbpedia.org/resource/2XL_TrophyLite_Rally> dbpedia-owl:developer <http://dbpedia.org/resource/2XL_Games>.
+<http://dbpedia.org/resource/2Xtreme> dbpedia-owl:developer <http://dbpedia.org/resource/989_Studios>.
+<http://dbpedia.org/resource/2_Spicy> dbpedia-owl:developer dbpedia:Sega.
+<http://dbpedia.org/resource/2_on_2_Open_Ice_Challenge> dbpedia-owl:developer dbpedia:Avalanche_Software, dbpedia:Midway_Games.
+<http://dbpedia.org/resource/2nd_Super_Robot_Wars> dbpedia-owl:developer dbpedia:Banpresto.
+<http://dbpedia.org/resource/2nd_Super_Robot_Wars_Alpha> dbpedia-owl:developer dbpedia:Banpresto.
+<http://dbpedia.org/resource/2nd_Super_Robot_Wars_Original_Generation> dbpedia-owl:developer dbpedia:Banpresto.
+<http://dbpedia.org/resource/3-2-1,_Rattle_Battle!> dbpedia-owl:developer dbpedia:Tecmo.

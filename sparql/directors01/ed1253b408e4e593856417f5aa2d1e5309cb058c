@@ -1,0 +1,77 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring
+# Hashed IRI: http://fragments.dbpedia.org/2016-04/en?predicate=http://dbpedia.org/ontology/starring
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring#metadata> {
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>.
+<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
+<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring> void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/starring> ?o }."@en;
+    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "401556"^^xsd:integer;
+    void:triples "401556"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=1>;
+    hydra:next <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2>
+}
+<http://dbpedia.org/resource/!Oka_Tokat> dbpedia-owl:starring dbpedia:Agot_Isidro, dbpedia:Ang_TV, dbpedia:Angelika_Dela_Cruz, dbpedia:Diether_Ocampo, dbpedia:Jericho_Rosales, dbpedia:Paolo_Contis, dbpedia:Rica_Peralejo, dbpedia:Ricky_Davao.
+<http://dbpedia.org/resource/$1,000_Reward> dbpedia-owl:starring dbpedia:Jane_Fairbanks, dbpedia:Madeline_and_Marion_Fairbanks.
+<http://dbpedia.org/resource/$1,000_a_Touchdown> dbpedia-owl:starring dbpedia:Eric_Blore, <http://dbpedia.org/resource/Joe_E._Brown>, dbpedia:Martha_Raye, dbpedia:Susan_Hayward.
+<http://dbpedia.org/resource/$40_a_Day> dbpedia-owl:starring dbpedia:Rachael_Ray.
+<http://dbpedia.org/resource/$5_Cover> dbpedia-owl:starring dbpedia:Al_Kapone, dbpedia:Amy_LaVere, dbpedia:Clare_Grant, dbpedia:Muck_Sticky.
+<http://dbpedia.org/resource/$9.99> dbpedia-owl:starring dbpedia:Anthony_LaPaglia, dbpedia:Geoffrey_Rush.
+<http://dbpedia.org/resource/$_(film)> dbpedia-owl:starring <http://dbpedia.org/resource/Gert_Fröbe>, dbpedia:Goldie_Hawn, dbpedia:Robert_Webber, dbpedia:Scott_Brady, dbpedia:Warren_Beatty.
+<http://dbpedia.org/resource/$h*!_My_Dad_Says> dbpedia-owl:starring dbpedia:Jonathan_Sadowski, dbpedia:Nicole_Sullivan, dbpedia:Tim_Bagley, dbpedia:Will_Sasso, dbpedia:William_Shatner.
+<http://dbpedia.org/resource/$pent> dbpedia-owl:starring dbpedia:Jason_London, dbpedia:Phill_Lewis.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee> dbpedia-owl:starring dbpedia:David_Gulpilil, dbpedia:John_Meillon, dbpedia:Linda_Kozlowski, dbpedia:Mark_Blum.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee_II> dbpedia-owl:starring dbpedia:John_Meillon, dbpedia:Linda_Kozlowski.
+<http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22> dbpedia-owl:starring dbpedia:Bobby_Solo, dbpedia:Gigi_Proietti, dbpedia:Luciano_De_Crescenzo, dbpedia:Martufello, dbpedia:Nino_Frassica, dbpedia:Pietra_Montecorvino, dbpedia:Renzo_Arbore, dbpedia:Roberto_Benigni.
+<http://dbpedia.org/resource/%22Pimpernel%22_Smith> dbpedia-owl:starring <http://dbpedia.org/resource/Francis_L._Sullivan>, <http://dbpedia.org/resource/Leslie_Howard_(actor)>, dbpedia:Mary_Morris.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Collection> dbpedia-owl:starring <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Video_Collection> dbpedia-owl:starring <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Videos> dbpedia-owl:starring <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic_Live!> dbpedia-owl:starring <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%22Weird_Al%22_Yankovic_Live!:_The_Alpocalypse_Tour> dbpedia-owl:starring <http://dbpedia.org/resource/%22Weird_Al%22_Yankovic>.
+<http://dbpedia.org/resource/%3F_(film)> dbpedia-owl:starring dbpedia:Agus_Kuncoro, dbpedia:Endhita, <http://dbpedia.org/resource/Revalina_S._Temat>, dbpedia:Reza_Rahadian.
+<http://dbpedia.org/resource/&ME> dbpedia-owl:starring dbpedia:Mark_Waschke, dbpedia:Rossy_de_Palma, dbpedia:Teun_Luijkx, <http://dbpedia.org/resource/Verónica_Echegui>.
+<http://dbpedia.org/resource/(Sex)_Appeal> dbpedia-owl:starring dbpedia:Alyssa_Chia, dbpedia:Amber_Kuo, dbpedia:Leon_Dai, dbpedia:Vivian_Hsu.
+<http://dbpedia.org/resource/(T)error> dbpedia-owl:starring dbpedia:Saeed_Torres.
+<http://dbpedia.org/resource/(Untitled)_(film)> dbpedia-owl:starring dbpedia:Adam_Goldberg, dbpedia:Eion_Bailey, dbpedia:Marley_Shelton, dbpedia:Vinnie_Jones.
+<http://dbpedia.org/resource/*Corpus_Callosum> dbpedia-owl:starring dbpedia:Jacqueline_Anderson.
+<http://dbpedia.org/resource/+1_(film)> dbpedia-owl:starring dbpedia:Ashley_Hinshaw, dbpedia:Natalie_Hall, dbpedia:Rhys_Wakefield.
+<http://dbpedia.org/resource/-30-_(film)> dbpedia-owl:starring dbpedia:Jack_Webb, dbpedia:Whitney_Blake, dbpedia:William_Conrad.
+<http://dbpedia.org/resource/....And_Proud> dbpedia-owl:starring dbpedia:Sue_Perkins.
+<http://dbpedia.org/resource/...All_the_Marbles> dbpedia-owl:starring dbpedia:Burt_Young, dbpedia:Laurene_Landon, dbpedia:Peter_Falk, <http://dbpedia.org/resource/Tracy_Reed_(American_actress)>, dbpedia:Vicki_Frederick.
+<http://dbpedia.org/resource/...And_God_Created_Them> dbpedia-owl:starring dbpedia:Norma_Candal.
+<http://dbpedia.org/resource/...And_Justice_for_All_(film)> dbpedia-owl:starring dbpedia:Al_Pacino, dbpedia:Jack_Warden, dbpedia:John_Forsythe, dbpedia:Lee_Strasberg.
+<http://dbpedia.org/resource/...And_Mother_Makes_Five> dbpedia-owl:starring dbpedia:Charlotte_Mitchell, dbpedia:David_Parfitt, dbpedia:Maxine_Gordon, dbpedia:Patricia_Routledge, dbpedia:Richard_Coleman, dbpedia:Robin_Davies, dbpedia:Tony_Britton, dbpedia:Wendy_Craig.
+<http://dbpedia.org/resource/...And_Mother_Makes_Three> dbpedia-owl:starring dbpedia:David_Parfitt, dbpedia:George_Selway.
