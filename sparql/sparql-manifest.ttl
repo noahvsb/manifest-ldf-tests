@@ -12,6 +12,8 @@
   :directors01
   :software02
   :simple03
+  :common04
+  :missing05
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -48,3 +50,40 @@
     [ et:source <http://dbpedia.org/sparql> ;
       et:sourceType et:SPARQL ] ) ;
   mf:result  <simple03/result.srj> .
+
+:common04 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBPedia TPF & Ruben(s)' FILE" ;
+  rdfs:comment "All common interests of Ruben V and Ruben T" ;
+  mf:action
+        [ qt:query  <common04.rq> ;
+          et:mockFolder <common04> ] ;
+  et:dataSources (
+    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ]
+    [ et:source <https://www.rubensworks.net/> ;
+      et:sourceType et:FILE ]
+    [ et:source <https://ruben.verborgh.org/profile/> ;
+      et:sourceType et:FILE ] ) ;
+  mf:result  <common04/result.srj> .
+
+:missing05 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBPedia TPF" ;
+  rdfs:comment "The missing link between Vermeersch and Mortier" ;
+  mf:action
+        [ qt:query  <missing05.rq> ;
+          et:mockFolder <missing05> ] ;
+  et:dataSources (
+    [ et:source <http://data.linkeddatafragments.org/ugent-biblio> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <missing05/result.srj> .
+
+:schrodinger06 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "ASK - DBPedia TPF" ;
+  rdfs:comment "Erwin Schrödinger working at Ghent University" ;
+  mf:action
+        [ qt:query  <schrodinger06.rq> ;
+          et:mockFolder <schrodinger06> ] ;
+  et:dataSources (
+    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <schrodinger06/result.srj> .

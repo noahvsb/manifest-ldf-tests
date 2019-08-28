@@ -1,0 +1,145 @@
+# Query: predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname
+# Hashed IRI: http://data.linkeddatafragments.org/ugent-biblio?predicate=http://xmlns.com/foaf/0.1/name
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> {
+<http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> foaf:primaryTopic <http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>.
+<http://data.linkeddatafragments.org/#dataset> hydra:member <http://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<http://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname> void:subset <http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of UGent Biblio"@en;
+    dcterms:description "Triple Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { ?s <http://xmlns.com/foaf/0.1/name> ?o }."@en;
+    dcterms:source <http://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "1052886"^^xsd:integer;
+    void:triples "1052886"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=1>;
+    hydra:next <http://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=2>
+}
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1> foaf:name "C LIS".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B10> foaf:name "Björn Soenens".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100> foaf:name "Ludo Cuyvers".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000> foaf:name "Jozef Vandeveire".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B10000> foaf:name "SC Zenz".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100000> foaf:name "TIGIST ARAYA".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000000> foaf:name "S Harper".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000001> foaf:name "SS Padula".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000002> foaf:name "J Jackson".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000003> foaf:name "E Olaiya".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000004> foaf:name "D Petyt".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000005> foaf:name "BC Radburn-Smith".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000006> foaf:name "CH Shepherd-Themistocleous".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000007> foaf:name "IR Tomalin".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000008> foaf:name "WJ Womersley".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000009> foaf:name "R Bainbridge".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100001> foaf:name "TAHA NURHUSSEN".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000010> foaf:name "O Buchmuller".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000011> foaf:name "D Burton".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000012> foaf:name "J Hrubec".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000013> foaf:name "V Genchev".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000014> foaf:name "D Colling".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000015> foaf:name "N Cripps".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000016> foaf:name "M Cutajar".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000017> foaf:name "P Dauncey".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000018> foaf:name "G Davies".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000019> foaf:name "M Della Negra".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100002> foaf:name "H MITIKU".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000020> foaf:name "W Ferguson".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000021> foaf:name "J Fulcher".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000022> foaf:name "D Futyan".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000023> foaf:name "A Gilbert".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000024> foaf:name "P Iaydjiev".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000025> foaf:name "AG Bryer".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000026> foaf:name "G Hall".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000027> foaf:name "Z Hatherell".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000028> foaf:name "J Hays".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000029> foaf:name "G Iles".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100003> foaf:name "AMANUEL ZENEBE".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000030> foaf:name "M Jarvis".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000031> foaf:name "G Karapostoli".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000032> foaf:name "M Kenzie".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000033> foaf:name "R Lane".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000034> foaf:name "R Lucas".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000035> foaf:name "S Piperov".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000036> foaf:name "L Lyons".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000037> foaf:name "AM Magnan".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000038> foaf:name "J Marrouche".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000039> foaf:name "B Mathias".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100004> foaf:name "B MINTESINOT".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000040> foaf:name "R Nandi".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000041> foaf:name "J Nash".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000042> foaf:name "A Nikitenko".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000043> foaf:name "J Pela".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000044> foaf:name "M Pesaresi".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000045> foaf:name "K Petridis".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000046> foaf:name "M Rodozov".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000047> foaf:name "M Pioppi".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000048> foaf:name "DM Raymond".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000049> foaf:name "S Rogerson".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100005> foaf:name "J DECKERS".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000050> foaf:name "A Rose".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000051> foaf:name "C Seez".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000052> foaf:name "P Sharp".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000053> foaf:name "A Sparrow".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000054> foaf:name "A Tapper".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000055> foaf:name "MV Acosta".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000056> foaf:name "T Virdee".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000057> foaf:name "G Sultanov".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000058> foaf:name "S Wakefield".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000059> foaf:name "N Wardle".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100006> foaf:name "NIGUSSIE HAREGEWEYN".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000060> foaf:name "T Whyntie".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000061> foaf:name "M Chadwick".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000062> foaf:name "JE Cole".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000063> foaf:name "PR Hobson".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000064> foaf:name "A Khan".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000065> foaf:name "P Kyberd".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000066> foaf:name "D Leggat".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000067> foaf:name "D Leslie".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000068> foaf:name "M Vutova".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000069> foaf:name "W Martin".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100007> foaf:name "K PARIDAENS".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000070> foaf:name "ID Reid".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000071> foaf:name "P Symonds".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000072> foaf:name "L Teodorescu".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000073> foaf:name "M Turner".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000074> foaf:name "J Dittmann".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000075> foaf:name "K Hatakeyama".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000076> foaf:name "A Kasmi".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000077> foaf:name "H Liu".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000078> foaf:name "T Scarborough".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000079> foaf:name "A Dimitrov".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B100008> foaf:name "J DECKERS".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000080> foaf:name "O Charaf".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000081> foaf:name "SI Cooper".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000082> foaf:name "C Henderson".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000083> foaf:name "P Rumerio".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000084> foaf:name "A Avetisyan".
+<http://data.linkeddatafragments.org/.well-known/genid/ugent-biblio/B1000085> foaf:name "T Bose".

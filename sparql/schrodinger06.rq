@@ -1,0 +1,6 @@
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbpediar: <http://dbpedia.org/resource/>
+PREFIX dbpediap: <http://dbpedia.org/property/>
+ASK {
+ dbpediar:Erwin_Schrödinger dbpediap:workplaces dbpediar:Ghent_University
+}
