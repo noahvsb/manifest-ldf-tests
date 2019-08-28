@@ -12,7 +12,7 @@
   :simple01
   ) .
 
-:selectwhere01 rdf:type et:LdfQueryEvaluationTest ;
+:simple01 rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "simple01 - Local data file" ;
   rdfs:comment "Simple SELECT query" ;
   mf:action
