@@ -14,6 +14,7 @@
   :simple03
   :common04
   :missing05
+  :schrodinger06
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -61,9 +62,9 @@
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ]
     [ et:source <https://www.rubensworks.net/> ;
-      et:sourceType et:FILE ]
+      et:sourceType et:File ]
     [ et:source <https://ruben.verborgh.org/profile/> ;
-      et:sourceType et:FILE ] ) ;
+      et:sourceType et:File ] ) ;
   mf:result  <common04/result.srj> .
 
 :missing05 rdf:type et:LdfQueryEvaluationTest ;
