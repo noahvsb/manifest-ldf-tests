@@ -20,7 +20,7 @@
   mf:action
         [ qt:query  <simple01.rq> ] ;
   et:dataSources (
-    [ et:source <simple01/data.hdt> ;
+    [ et:source <simple01/simple.hdt> ;
       et:sourceType et:HDT ] ) ;
   mf:result  <simple01/result.srj> .
 
@@ -40,6 +40,6 @@
   mf:action
         [ qt:query  <vervoersmiddelen03.rq> ] ;
   et:dataSources(
-    [ et:source <vervoersmiddelen03/data.hdt> ;
+    [ et:source <vervoersmiddelen03/vervoersmiddelen.hdt> ;
       et:sourceType et:HDT ] ) ;
   mf:result  <vervoersmiddelen03/result.srj> . 
