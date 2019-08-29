@@ -1,0 +1,5 @@
+{"head": {"vars":["type"]},
+"results": { "bindings": [
+{"type":{"value":"https://data.vlaanderen.be/id/concept/Vervoersmiddelen/Fiets","type":"uri"}},
+{"type":{"value":"https://data.vlaanderen.be/id/concept/Vervoersmiddelen/Auto","type":"uri"}}
+]}}

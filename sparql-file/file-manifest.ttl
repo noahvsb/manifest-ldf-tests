@@ -11,6 +11,7 @@
   ( 
   :simple01
   :information02
+  :vervoersmiddelen03
   ) .
 
 :simple01 rdf:type et:LdfQueryEvaluationTest ;
@@ -32,3 +33,13 @@
     [ et:source <https://ruben.verborgh.org/profile/> ;
       et:sourceType et:File ] ) ;
   mf:result  <information02/result.ttl> . 
+
+:vervoersmiddelen03 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Vlaanderen's Wegen en Verkeer dataset" ;
+  rdfs:comment "The types of transport the Flemish dataset contains" ;
+  mf:action
+        [ qt:query  <vervoersmiddelen03.rq> ] ;
+  et:dataSources(
+    [ et:source <vervoersmiddelen03/data.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <vervoersmiddelen03/result.ttl> . 
