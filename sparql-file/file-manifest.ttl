@@ -30,7 +30,7 @@
   mf:action
         [ qt:query  <information02.rq> ] ;
   et:dataSources(
-    [ et:source <https://ruben.verborgh.org/profile/> ;
+    [ et:source <information02/rubenv.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <information02/result.srj> . 
 

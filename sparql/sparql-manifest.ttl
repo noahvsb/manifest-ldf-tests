@@ -12,7 +12,7 @@
   :directors01
   :software02
   :simple03
-  # :common04
+  :common04
   :missing05
   :schrodinger06
   ) .
@@ -61,9 +61,9 @@
   et:dataSources (
     [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ]
-    [ et:source <https://www.rubensworks.net/> ;
+    [ et:source <common04/rubent.html> ;
       et:sourceType et:File ]
-    [ et:source <https://ruben.verborgh.org/profile/> ;
+    [ et:source <common04/rubenv.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <common04/result.srj> .
 
