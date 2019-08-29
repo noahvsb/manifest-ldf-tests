@@ -1,0 +1,76 @@
+@prefix : <https://ruben.verborgh.org/profile/#>.
+@prefix p: <https://data.verborgh.org/people/>.
+@prefix bibo: <http://purl.org/ontology/bibo/>.
+@prefix cc: <http://creativecommons.org/ns#>.
+@prefix cert: <http://www.w3.org/ns/auth/cert#>.
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dbp: <http://dbpedia.org/resource/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix org: <http://www.w3.org/ns/org#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix pim: <http://www.w3.org/ns/pim/space#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix wikipedia: <http://en.wikipedia.org/wiki/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+# Profile document
+
+<https://ruben.verborgh.org/profile/>
+    a foaf:Document;
+    rdfs:label "Ruben Verborgh’s FOAF profile"@en;
+    foaf:maker :me;
+    foaf:primaryTopic :me.
+
+
+# Personal details
+
+:me a foaf:Person;
+    foaf:name  "Ruben Verborgh"@en, "Ruben Verborgh"@nl;
+    rdfs:label "Ruben Verborgh"@en, "Ruben Verborgh"@nl;
+    vcard:fn   "Ruben Verborgh"@en, "Ruben Verborgh"@nl;
+    con:preferredURI "https://ruben.verborgh.org/profile/#me";
+    foaf:givenName "Ruben"@en, "Ruben"@nl;
+    foaf:familyName "Verborgh"@en, "Verborgh"@nl;
+    foaf:title "Prof. Dr."@en, "prof. dr. ir."@nl;
+    dbo:birthPlace dbp:Ostend;
+    dbo:birthDate "1987-02-28"^^xsd:date;
+    foaf:birthday "02-28";
+    foaf:age 32;
+    foaf:gender "male"@en;
+    dbo:location dbp:Ghent;
+    foaf:based_near dbp:Ghent;
+    foaf:img <https://ruben.verborgh.org/images/ruben.jpg>;
+    foaf:mbox <mailto:ruben.verborgh@ugent.be>;
+    ldp:inbox <https://drive.verborgh.org/inbox/>;
+    pim:storage <https://drive.verborgh.org/>;
+    pim:preferencesFile <https://drive.verborgh.org/settings/prefs.ttl>;
+    solid:oidcIssuer <https://drive.verborgh.org>;
+    solid:publicTypeIndex <https://drive.verborgh.org/settings/publicTypeIndex.ttl>;
+    solid:privateTypeIndex <https://drive.verborgh.org/settings/privateTypeIndex.ttl>;
+    foaf:homepage <https://ruben.verborgh.org/>;
+    foaf:weblog <https://ruben.verborgh.org/blog/>;
+    foaf:publications <https://ruben.verborgh.org/publications/>;
+    foaf:account <https://github.com/RubenVerborgh>,
+                 <https://twitter.com/RubenVerborgh>,
+                 <https://www.linkedin.com/in/rubenverborgh/>;
+    dbo:orcidId "0000-0002-8596-222X";
+    foaf:workplaceHomepage <http://idlab.ugent.be/>,
+                           <http://idlab.technology/>,
+                           <http://www.ugent.be/>,
+                           <https://www.imec-int.com/>;
+    org:memberOf <http://idlab.technology/#organization>,
+                 dbp:Ghent_University,
+                 dbp:IMEC;
+    cert:key [
+        a cert:RSAPublicKey;
+        cert:modulus "B0D07791D6B2D498C16425AA06E380B1C479E8B7363DB170211A50001941ABBC3EB0DC6CB3D17933B381C775B4A2D99D9EDB3AFB10543A892CA4649E69791190B316DDCA430581C55A28134E60AAEEA04EFEFE0D01E03F1D58B92A03D5AB9E5279F22A8BF1D04BF38F27F36A73F12A70C7508FFC96E2E2E4D333AED6424503AFFC95522AE7BFB5C4420CA9ED1232B2651338920A60DF1EE4743D575E20FF9352E4959F545B0FECF2A22ACBD74689E2DD130267A8CD2990892D94B6703D2EB49703159E106E75BCB2C7A268DA152BA7570520B035DE86272BAA82F4EEED207543B30875C054882120C593A1A8CFC87FBB41576CD7E5C11F35AF5F3EF4931ED04F4ABF6385C48B03363CFBD3AD4FF612A1ACCDAD15EDBB0543C58CC6EF6B1E577F93AA1E068FB3F8A0141A4AD75866F0C3814187DE38BC31DE2596BAC9324263B1F1B124DE32687AF9D20E8D4128B14C458CA6925690B486D3CA72FEA274D750EBE0101BD7ACC83AC7E47AFA559E13B167C169B8D97F749AAC7A33BD4C8D329EF15BCE5EDBDCA1DAD8F46A7E80E1C35292E28AA14A61D72F349D6ACE3E6F849CE51A23986C623E19A4F7133323D886C027C0686219013D2A00E92770DF328BCAB3D68A7587A4EB88B9CDE3F1F71EDED1574D3ECBAC4DA4EF8D0EEE31776E167C95DCA0504BA8B14878924C058782AC2E76932660045B947D5CD0C6F1F4449EF079"^^xsd:hexBinary;
+        cert:exponent 65537;
+    ].

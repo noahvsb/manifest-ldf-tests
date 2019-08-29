@@ -10,6 +10,7 @@
   mf:entries
   ( 
   :simple01
+  :information02
   ) .
 
 :simple01 rdf:type et:LdfQueryEvaluationTest ;
@@ -21,3 +22,23 @@
     [ et:source <simple01/data.hdt> ;
       et:sourceType et:HDT ] ) ;
   mf:result  <simple01/result.srj> .
+
+:information02 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Ruben's profile" ;
+  rdfs:comment "Bithdate, birthplace and gender of Ruben V" ;
+  mf:action
+        [ qt:query  <information02.rq> ] ;
+  et:dataSources(
+    [ et:source <information02/rubenv.hdt> ;
+      et:sourceType et:HDT ] ) ;
+  mf:result  <information02/result.srj> . 
+
+:vervoersmiddelen03 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Vlaanderen's Wegen en Verkeer dataset" ;
+  rdfs:comment "The types of transport the Flemish dataset contains" ;
+  mf:action
+        [ qt:query  <vervoersmiddelen03.rq> ] ;
+  et:dataSources(
+    [ et:source <vervoersmiddelen03/data.hdt> ;
+      et:sourceType et:HDT ] ) ;
+  mf:result  <vervoersmiddelen03/result.srj> . 

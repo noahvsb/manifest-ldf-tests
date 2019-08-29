@@ -1,0 +1,4 @@
+{"head": {"vars":["birthDate","birthplace","gender"]},
+"results": { "bindings": [
+{"birthplace":{"value":"http://dbpedia.org/resource/Ostend","type":"uri"},"birthDate":{"value":"1987-02-28","type":"literal","datatype":"http://www.w3.org/2001/XMLSchema#date"},"gender":{"value":"male","type":"literal","xml:lang":"en"}}
+]}}

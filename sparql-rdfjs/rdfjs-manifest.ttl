@@ -10,6 +10,8 @@
   mf:entries
   ( 
   :simple01
+  :vervoersmiddelen02
+  :information03
   ) .
 
 :simple01 rdf:type et:LdfQueryEvaluationTest ;
@@ -21,3 +23,23 @@
     [ et:source <simple01/data.ttl> ;
       et:sourceType et:RDFJS ] ) ;
   mf:result  <simple01/result.srj> .
+
+:vervoersmiddelen02 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "simple01 - Local data file" ;
+  rdfs:comment "Simple SELECT query" ;
+  mf:action
+        [ qt:query  <vervoersmiddelen02.rq> ] ;
+  et:dataSources (
+    [ et:source <vervoersmiddelen02/data.ttl> ;
+      et:sourceType et:RDFJS ] ) ;
+  mf:result  <vervoersmiddelen02/result.srj> .
+
+:information03 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Ruben's profile" ;
+  rdfs:comment "Bithdate, birthplace and gender of Ruben V" ;
+  mf:action
+        [ qt:query  <information03.rq> ] ;
+  et:dataSources(
+    [ et:source <information03/rubenv.ttl> ;
+      et:sourceType et:RDFJS ] ) ;
+  mf:result  <information03/result.srj> . 
