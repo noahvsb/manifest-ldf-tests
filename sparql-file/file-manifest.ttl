@@ -10,6 +10,7 @@
   mf:entries
   ( 
   :simple01
+  :information02
   ) .
 
 :simple01 rdf:type et:LdfQueryEvaluationTest ;
@@ -21,3 +22,13 @@
     [ et:source <simple01/data.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <simple01/result.ttl> . 
+
+:information02 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Ruben's profile" ;
+  rdfs:comment "Bithdate, birthplace and gender of Ruben V" ;
+  mf:action
+        [ qt:query  <information02.rq> ] ;
+  et:dataSources(
+    [ et:source <https://ruben.verborgh.org/profile/> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <information02/result.ttl> . 

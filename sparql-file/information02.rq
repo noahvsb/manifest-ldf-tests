@@ -1,0 +1,8 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX ruben: <https://ruben.verborgh.org/profile/#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT ?birthDate ?birthplace ?gender  WHERE {
+	ruben:me dbo:birthPlace ?birthplace ;
+          dbo:birthDate ?birthDate ;
+          foaf:gender ?gender .
+}
