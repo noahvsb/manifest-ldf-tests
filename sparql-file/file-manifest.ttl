@@ -32,7 +32,7 @@
   et:dataSources(
     [ et:source <https://ruben.verborgh.org/profile/> ;
       et:sourceType et:File ] ) ;
-  mf:result  <information02/result.ttl> . 
+  mf:result  <information02/result.srj> . 
 
 :vervoersmiddelen03 rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "SELECT - Vlaanderen's Wegen en Verkeer dataset" ;
@@ -42,4 +42,4 @@
   et:dataSources(
     [ et:source <vervoersmiddelen03/data.ttl> ;
       et:sourceType et:File ] ) ;
-  mf:result  <vervoersmiddelen03/result.ttl> . 
+  mf:result  <vervoersmiddelen03/result.srj> . 
