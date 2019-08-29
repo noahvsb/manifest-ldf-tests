@@ -11,6 +11,7 @@
   ( 
   :simple01
   :information02
+  :vervoersmiddelen03
   ) .
 
 :simple01 rdf:type et:LdfQueryEvaluationTest ;
