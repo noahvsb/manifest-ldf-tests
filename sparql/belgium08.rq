@@ -4,4 +4,4 @@ SELECT ?population ?countryCode WHERE {
   ?location gn:name "Belgium" ;
             gn:countryCode ?countryCode .
   OPTIONAL { ?location gn:population ?population . }
-}'
+}
