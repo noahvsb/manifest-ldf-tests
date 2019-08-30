@@ -1,0 +1,45 @@
+# Query: subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class
+# Hashed IRI: http://data.linkeddatafragments.org/lov?subject=http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet&predicate=http://www.w3.org/1999/02/22-rdf-syntax-ns#type&object=http://www.w3.org/2000/01/rdf-schema#Class
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class#metadata> {
+<http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class#metadata> foaf:primaryTopic <http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>.
+<http://data.linkeddatafragments.org/#dataset> hydra:member <http://data.linkeddatafragments.org/lov#dataset>.
+<http://data.linkeddatafragments.org/lov#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://data.linkeddatafragments.org/lov{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class> void:subset <http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of LOV"@en;
+    dcterms:description "Triple Pattern Fragment of the 'LOV' dataset containing triples matching the pattern { <http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class>  }."@en;
+    dcterms:source <http://data.linkeddatafragments.org/lov#dataset>;
+    hydra:totalItems "1"^^xsd:integer;
+    void:triples "1"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Frdf-vocabulary.ddialliance.org%2Fdiscovery%23LogicalDataSet&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class&page=1>
+}
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> a rdfs:Class.

@@ -102,7 +102,7 @@
       et:sourceType et:TPF ] ) ;
   mf:result  <extends07/result.srj> .
 
-  :belgium08 rdf:type et:LdfQueryEvaluationTest ;
+:belgium08 rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "SELECT, OPTIONAL - Geonames TPF" ;
   rdfs:comment "All countryCades of places named 'Belgiu'" ;
   mf:action
