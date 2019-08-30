@@ -14,6 +14,10 @@ This repository consists of 4 test manifests that can be used to test the 4 quer
 
 # More information
 
+## queries
+
+A lot of the queries are inspired by the pre-built queries on [query.linkeddatafragments.org](http://query.linkeddatafragments.org/).
+
 ## ontology-query-testing
 
 The ontology which is used by the above named test manifests. More information can be found here [ontology](https://github.com/comunica/ontology-query-testing/).
