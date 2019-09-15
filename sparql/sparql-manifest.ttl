@@ -104,7 +104,7 @@
 
 :belgium08 rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "SELECT, OPTIONAL - Geonames TPF" ;
-  rdfs:comment "All countryCades of places named 'Belgiu'" ;
+  rdfs:comment "All countryCades of places named 'Belgium'" ;
   mf:action
         [ qt:query  <belgium08.rq> ;
           et:mockFolder <belgium08> ] ;
