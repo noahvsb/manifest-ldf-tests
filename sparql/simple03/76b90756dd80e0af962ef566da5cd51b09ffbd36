@@ -1,8 +1,0 @@
-# Query: query=SELECT%20%3Fo%20WHERE%20%7B%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FFord_Taunus_TC%3E%20%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fassembly%3E%20%3Fo.%20%7D
-# Hashed IRI: http://dbpedia.org/sparql?query=SELECT ?o WHERE { <http://dbpedia.org/resource/Ford_Taunus_TC> <http://dbpedia.org/ontology/assembly> ?o. }
-# Content-type: application/sparql-results+json
-
-{ "head": { "link": [], "vars": ["o"] },
-  "results": { "distinct": false, "ordered": true, "bindings": [
-    { "o": { "type": "uri", "value": "http://dbpedia.org/resource/Belgium" }},
-    { "o": { "type": "uri", "value": "http://dbpedia.org/resource/Genk_Body_&_Assembly" }} ] } }

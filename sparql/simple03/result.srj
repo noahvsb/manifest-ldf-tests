@@ -1,7 +1,6 @@
 {
  "head": {
   "vars": [
-   "o",
    "s",
    "p"
   ]
@@ -9,72 +8,52 @@
  "results": {
   "bindings": [
    {
-    "o": {
-     "value": "http://dbpedia.org/resource/Belgium",
-     "type": "uri"
-    },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Pieter_Serry",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/birthPlace",
      "type": "uri"
     }
    },
    {
-    "o": {
-     "value": "http://dbpedia.org/resource/Liège_(province)",
-     "type": "uri"
-    },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Pieter_De_Crem",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/birthPlace",
      "type": "uri"
     }
    },
    {
-    "o": {
-     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
-     "type": "uri"
-    },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Jef_Tavernier",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/birthPlace",
      "type": "uri"
     }
    },
    {
-    "o": {
-     "value": "http://dbpedia.org/resource/Liège_(province)",
-     "type": "uri"
-    },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Flor_Grammens",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/birthPlace",
      "type": "uri"
     }
    },
    {
-    "o": {
-     "value": "http://dbpedia.org/resource/Portello_(district_of_Milan)",
-     "type": "uri"
-    },
     "s": {
-     "value": "http://dbpedia.org/resource/Alfa_Romeo_1900",
+     "value": "http://dbpedia.org/resource/Gertjan_De_Mets",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/assembly",
+     "value": "http://dbpedia.org/ontology/birthPlace",
      "type": "uri"
     }
    }

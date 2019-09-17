@@ -43,7 +43,7 @@
 
 :simple03 rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "SELECT - DBPedia TPF & SPARQL" ;
-  rdfs:comment "Simple bindings with 'Belgium' as object" ;
+  rdfs:comment "Simple bindings with the city 'Aalter' as object" ;
   mf:action
         [ qt:query  <simple03.rq> ;
           et:mockFolder <simple03> ] ;

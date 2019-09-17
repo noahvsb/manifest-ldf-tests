@@ -17,13 +17,13 @@
 @prefix hydra: <http://www.w3.org/ns/hydra/core#>.
 @prefix void: <http://rdfs.org/ns/void#>.
 
-<http://fragments.dbpedia.org/2015/en#metadata> {
-<http://fragments.dbpedia.org/2015/en#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2015/en>.
-<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2015/en#dataset>.
-<http://fragments.dbpedia.org/2015/en#dataset> a void:Dataset, hydra:Collection;
-    void:subset <http://fragments.dbpedia.org/2015/en>;
+<https://fragments.dbpedia.org/2015/en#metadata> {
+<https://fragments.dbpedia.org/2015/en#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2015/en>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2015/en#dataset>.
+<https://fragments.dbpedia.org/2015/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2015/en>;
     hydra:search _:triplePattern.
-_:triplePattern hydra:template "http://fragments.dbpedia.org/2015/en{?subject,predicate,object}";
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2015/en{?subject,predicate,object}";
     hydra:variableRepresentation hydra:ExplicitRepresentation;
     hydra:mapping _:subject, _:predicate, _:object.
 _:subject hydra:variable "subject";
@@ -31,23 +31,25 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object.
-<http://fragments.dbpedia.org/2015/en> void:subset <http://fragments.dbpedia.org/2015/en>;
-    a hydra:PartialCollectionView;
-    dcterms:title "Linked Data Fragment of DBpedia 2015-04"@en;
-    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2015-04' dataset containing triples matching the pattern { ?s ?p ?o }."@en;
-    dcterms:source <http://fragments.dbpedia.org/2015/en#dataset>;
-    hydra:totalItems "398216004"^^xsd:integer;
-    void:triples "398216004"^^xsd:integer;
-    hydra:itemsPerPage "100"^^xsd:integer;
-    hydra:first <http://fragments.dbpedia.org/2015/en?page=1>;
-    hydra:next <http://fragments.dbpedia.org/2015/en?page=2>
+    hydra:property rdf:object
 }
 <http://commons.wikimedia.org/wiki/Special:FilePath/!!!善福寺.JPG> dc11:rights <http://en.wikipedia.org/wiki/File:!!!善福寺.JPG>;
     a dbpedia-owl:Image;
     foaf:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/!!!善福寺.JPG?width=300>.
-<http://commons.wikimedia.org/wiki/Special:FilePath/!!!善福寺.JPG?width=300> dc11:rights <http://en.wikipedia.org/wiki/File:!!!善福寺.JPG>;
-    a dbpedia-owl:Image.
+<http://commons.wikimedia.org/wiki/Special:FilePath/!!!善福寺.JPG?width=300> dc11:rights <http://en.wikipedia.org/wiki/File:!!!善福寺.JPG>.
+<https://fragments.dbpedia.org/2015/en#metadata> {
+<https://fragments.dbpedia.org/2015/en> void:subset <https://fragments.dbpedia.org/2015/en>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2015-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2015-04' dataset containing triples matching the pattern { ?s ?p ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2015/en#dataset>;
+    hydra:totalItems "398216004"^^xsd:integer;
+    void:triples "398216004"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2015/en?page=1>;
+    hydra:next <https://fragments.dbpedia.org/2015/en?page=2>
+}
+<http://commons.wikimedia.org/wiki/Special:FilePath/!!!善福寺.JPG?width=300> a dbpedia-owl:Image.
 <http://commons.wikimedia.org/wiki/Special:FilePath/!!Capo32.JPG> dc11:rights <http://en.wikipedia.org/wiki/File:!!Capo32.JPG>;
     a dbpedia-owl:Image;
     foaf:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/!!Capo32.JPG?width=300>.

@@ -1,7 +1,0 @@
-# Query: query=SELECT%20(COUNT(*)%20AS%20%3Fcount)%20WHERE%20%7B%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FCitro%C3%ABn_Traction_Avant%3E%20%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fassembly%3E%20%3Fo.%20%7D
-# Hashed IRI: http://dbpedia.org/sparql?query=SELECT (COUNT(*) AS ?count) WHERE { <http://dbpedia.org/resource/Citroën_Traction_Avant> <http://dbpedia.org/ontology/assembly> ?o. }
-# Content-type: application/sparql-results+json
-
-{ "head": { "link": [], "vars": ["count"] },
-  "results": { "distinct": false, "ordered": true, "bindings": [
-    { "count": { "type": "typed-literal", "datatype": "http://www.w3.org/2001/XMLSchema#integer", "value": "10" }} ] } }

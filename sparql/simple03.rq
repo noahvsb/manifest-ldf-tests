@@ -1,1 +1,1 @@
-SELECT * WHERE { ?s ?p <http://dbpedia.org/resource/Belgium>. ?s ?p ?o } LIMIT 5
+SELECT * WHERE { ?s ?p <http://dbpedia.org/resource/Aalter> } ORDER BY ?p LIMIT 5
