@@ -48,8 +48,6 @@
         [ qt:query  <simple03.rq> ;
           et:mockFolder <simple03> ] ;
   et:dataSources (
-    [ et:source <http://fragments.dbpedia.org/2015/en> ;
-      et:sourceType et:TPF ]
     [ et:source <http://dbpedia.org/sparql> ;
       et:sourceType et:SPARQL ] ) ;
   mf:result  <simple03/result.srj> .
