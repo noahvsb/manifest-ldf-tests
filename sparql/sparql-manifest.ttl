@@ -109,6 +109,6 @@
         [ qt:query  <belgium08.rq> ;
           et:mockFolder <belgium08> ] ;
   et:dataSources (
-    [ et:source <http://data.linkeddatafragments.org/lov> ;
+    [ et:source <http://data.linkeddatafragments.org/geonames> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <belgium08/result.srj> .
