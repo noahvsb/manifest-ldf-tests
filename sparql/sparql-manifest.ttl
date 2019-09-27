@@ -17,6 +17,8 @@
   :schrodinger06
   :extends07
   :belgium08
+  :300triples09
+  :annepubs10
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -110,3 +112,25 @@
     [ et:source <http://data.linkeddatafragments.org/geonames> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <belgium08/result.srj> .
+
+:300triples09 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBpedia TPF" ;
+  rdfs:comment "300 triples in DBpedia" ;
+  mf:action
+        [ qt:query  <300triples09.rq> ;
+          et:mockFolder <300triples09> ] ;
+  et:dataSources (
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <300triples09/result.srj> .
+
+:annepubs10 rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Biblio TPF" ;
+  rdfs:comment "Publications by Anne De Paepe" ;
+  mf:action
+        [ qt:query  <annepubs10.rq> ;
+          et:mockFolder <annepubs10> ] ;
+  et:dataSources (
+    [ et:source <http://data.linkeddatafragments.org/ugent-biblio> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <annepubs10/result.srj> .

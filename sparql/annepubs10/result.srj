@@ -1,0 +1,5622 @@
+{
+ "head": {
+  "vars": [
+   "title",
+   "classification"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "title": {
+     "value": "Improved Molecular Diagnostics of Idiopathic Short Stature and Allied Disorders: Quantitative Polymerase Chain Reaction-Based Copy Number Profiling of SHOX and Pseudoautosomal Region 1",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "FOXL2 copy number changes in the molecular pathogenesis of BPES: unique cohort of 17 deletions",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Low serum vitamin K in PXE results in defective carboxylation of mineralization inhibitors similar to the GGCX mutations in the PXE-like syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in Fibrillin-1 Cause Congenital Scleroderma: Stiff Skin Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel deletions causing pseudoxanthoma elasticum underscore the genomic instability of the ABCC6 region",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The revised Ghent nosology for the Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Connective Tissue Disorders",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Next generation sequencing: (r)evolutie in DNA sequenering en haar rol in de moderne geneeskunde",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gebruik van genexpresieanalyse in de aanpak van neuroblastoom bij kinderen",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Marfan and Marfan-like syndromes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Using real-time qPCR to evaluate RNAi-mediated gene silencing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Altered TGFβ signaling and cardiovascular manifestations in patients with autosomal recessive cutis laxa type I caused by fibulin-4 deficiency",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Cardiovascular manifestations in men and women carrying a FBN1 mutation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A Turkish patient of typical Loeys-Dietz syndrome with a TGFBR2 mutation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Vascular haemostasis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical utility gene card for: Marfan syndrome type 1 and related phenotypes [FBN1]",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The heritable disorders of connective tissue: epidemiology, nosology and clinical features",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Musculoskeletal complaints, physical activity and health-related quality of life among patients with the Ehlers-Danlos syndrome hypermobility type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Meta-analysis of neuroblastomas reveals a skewed ALK mutation spectrum in tumors with MYCN amplification",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of binding partners interacting with the α1-N-propeptide of type V collagen",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "COL5A1 signal peptide mutations interfere with protein secretion and cause classic Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical and genetic aspects of ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The Ghent Marfan trial: a randomized, double-blind placebo controlled trial with losartan in Marfan patients treated with β-blockers",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Erfelijke hemochromatose: van Kelten en IJzeren Tijdperk tot genetische diagnose.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Effect of celiprolol on prevention of cardiovascular events in vascular Ehlers-Danlos syndrome: a prospective randomised, open, blinded-endpoints trial",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Musculocontractural ehlers-danlos syndrome (former EDS type VIB) and adducted thumb clubfoot syndrome (ATCS) represent a single clinical entity caused by mutations in the dermatan-4-sulfotransferase 1 encoding CHST14 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the BRCA1 and BRCA2 genes results in the identification of novel and recurrent mutations in 6/16 Flemish patients with breast and/or ovarian cancer but not in 12 sporadic patients with early-onset disease. Human Mutation, Mutation in Brief#224, 1999, Online. Human Mutation, 13, 1999, 256-258.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the BRCA1 and BRCA2 genes in the Belgian Patient Population and Identification of a Belgian Founder Mutation BRCA1 IVS5+3A>G. Disease markers, 15, 1999, 69-73.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Dural ectasia and the diagnosis of Marfan's syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Preterm premature rupture of membranes in a patient with the hypermobility type of the Ehlers-Danlos syndrome - A case report.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetic counselling and testing for hereditary breast and ovarian cancer: The gent(le) approach.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos-Syndrom Typ IV. Fortschritte der praktischen Dermatologie und Venerologie. Editors: Plewig G., Wolff H., pg. 610-612, Springer Verlag, 1999.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "CAG repeat contraction in the androgen receptor gene in three brothers with mental retardation.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Exon 10b of the NF1 gene represents a mutational hotspot and harbors a recurrent missense mutation Y489C associated with aberrant splicing.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Expanding the spectrum of FOXC1 and PITX2 mutations and copy number changes in patients with anterior segment malformations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Widening of the spinal canal and dural ectasia in Marfan's syndrome: assessment by CT",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Refined physical mapping and genomic structure of the EXTL1 gene.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Reply to the letter to the editor by Marc Williams",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Medische genetica in de klinische praktijk",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Preconceptueel en prenataal genetisch advies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Kanker en erfelijkheid: van moleculaire diagnostiek tot psychologische begeleiding",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Het Marfansyndroom: een paradigma voor de studie van aorta-aneurysma's",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Health status and impact of pain: a comparative study between female patients with the Ehlers-Danlos syndrome, fibromyalgia and rheumatoid arthritis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Bleeding in collagen disorders: the example of the Ehlers-Danlos syndromes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Toepassing van microarray-analyse in de genetische diagnostiek",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "DNA-chipanalyse in de moleculaire diagnostiek van genetisch heterogene aandoeningen: netvliesaandoeningen als voorbeeld",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in FKBP10 cause recessive osteogenesis imperfecta and bruck syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Massive parallel amplicon sequencing of the breast cancer genes BRCA1 and BRCA2: opportunities, challenges, and limitations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prognosis factors in probands with an FBN1 mutation diagnosed before the age of 1 year",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The relationship between genetic testing, psychological well-being and surveillance behavior: a questionnaire study in presymptomatic female and male BRCA carriers and non-carriers",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of P73 and TP53 in Merkel cell carcinoma.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Acrogeria of the Gottron type in a mother and son",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Nieuwe inzichten in de moleculaire oorzaken van familiale borst- en ovariumkanker.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Familiale borst- en/of ovariumkanker: diagnostisch en predictief genetisch onderzoek.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Symposium - Genetica in de praktijk, wat biedt 2000 ?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Two pregnancies after preimplantation genetic diagnosis for osteogenesis imperfecta type I and type IV.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "COL3A1 mutation leading to acrogeria (Gottron type).",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in a gene encoding an ABC transporter cause pseudoxanthoma elasticum.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Exhaustive mutation analysis of the NF1 gene allows identification of 95% of mutations and reveals a high frequency of unusual splicing defects.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Classical Ehlers-Danlos syndrome caused by a mutation in type I collagen.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Glycine to tryptophan substitution in type I collagen in a patient with OI type III: a unique collagen mutation.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Chromosome 2 short arm translocations revealed by M-FISH analysis of neuroblastoma cell lines.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A novel disorder caused by defective biosynthesis of N-linked oligosaccharides due to glucosidase I deficiency.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Arg-Cys substitution at codon 1246 of the human myosin Va gene is not associated with Griscelli syndrome.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prevalence of the Cys282Tyr and His63Asp mutation in flemish patients with hereditary hemochromatosis.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Carrier screening for cystic fibrosis in a prenatal setting.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Characterization of mutations leading to recessive dystrophic epidermolysis bullosa and Marfan syndrome in a single patient.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "LDL receptor-related protein 5 (LRP5) affects bone accrual and eye development.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Acrogeric phenotype in Ehlers-Danlos syndrome type IV attributed to a missense mutation in the COL3A1 gene.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A spectrum of ABCC6 mutations is responsible for pseudoxanthoma elasticum.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genotype and phenotype analysis of 171 patients referred for molecular study of the fibrillin-1 gene FBN1 because of suspected Marfan syndrome.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Chromosomal aberrations in Bloom syndrome patients with myeloid malignancies.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Quantification of splice variants using real-time PCR. Nucleic Acids Res., 29, 2001, E68.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Frequent allelic loss at 10q23 but low incidence of PTEN mutations in Merkel cell carcinoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular cytogenetic and clinical findings in ETV6/ABL1-positive leukemia.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Combined M-FISH and CGH analysis allows comprehensive description of genetic alterations in neuroblastoma cell lines.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Association between Cys282Tyr missense mutation and haptoglobin phenotype polymorphism in patients with chronic hepatitis C.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pathological splice mutations outside the invariant AG/GT splice sites of BRCA1 exon 5 increase alternative transcript levels in the 5 ' end of the BRCA1 gene.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Quantification of MYCN, DDX1, and NAG gene copy number in neuroblastoma using a real-time quantitative PCR assay.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygous Gly530Ser substitution in COL5A1 causes mild classical Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Acute intramural haematoma of the coeliac artery.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Strategies for prenatal and preimplantation genetic diagnosis in Marfan syndrome (MFS).",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Moleculaire genetica bij de vasculaire vorm van het syndroom van Ehlers-Danlos",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Evaluation and application of denaturing HPLC for mutation detection in Marfan syndrome: Identification of 20 novel mutations and two novel polymorphisms in the FBN1 gene.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Quantification of NF1 transcripts reveals novel highly expressed splice variants.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Elimination of primer-dimer artifacts and genomic coamplification using a two-step SYBR green I real time RT-PCR.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Accurate normalization of real-time quantitative RT-PCR data by geometric averaging of multiple internal control genes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular cytogenetic analysis of 10;11 rearrangements in acute myeloid leukemia.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Kallmann syndrome in a patient with congenital spherocytosis and an interstitial 8p11.2 deletion.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Meerkleuren fluorescentie in situ hybridisatie: methodologie en toepassingen in diagnostiek en onderzoek",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Wanneer speelt erfelijkheid een rol",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Oral manifestations of patients with Marfan syndrome: A case-control study.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Does monosymptomatic enuresis exist? A molecular genetic exploration of 32 families with enuresis/incontinence.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Localization of the 17q breakpoint of a constitutional 1;17 translocation in a patient with neuroblastoma within a 25-kb segment located between the ACCN1 and TLK2 genes and near the distal breakpoints of two microdeletions in neurofibromatosis type I patients.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygosity for a missense mutation in fibulin-5 (FBLN5) results in a severe form of cutis laxa.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Combined karyotyping, CGH and M-fish analysis allows detailed characterization of unidentified chromosomal rearrangements in Merkel cell carcinoma.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of cytogenetic subclasses and recurring chromosomal aberrations in AML and MDS with complex karyotypes using M-FISH.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Vitamin D receptor gene allelic variants, bone density, and bone turnover in community-dwelling men.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Heritable collagen disorders: From genotype to phenotype.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Occipital Horn syndrome in a 2-year-old boy.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical and radiographic features of a family with hypochondroplasia owing to a novel Asn540Ser mutation in the fibroblast growth factor receptor 3 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Report of five novel and one recurrent COL2A1 mutations with analysis of genotype-phenotype correlation in patients with a lethal type II collagen disorder",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Presymptomatic testing for genetic diseases: new frontiers, new dilemmas.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Assignment of SHOX2 (alias OG12X and SHOT) to human chromosome bands 3q25 -&gt; q26.1 by in situ hybridization.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prenatal diagnosis of osteogenesis imperfecta type I by COL1A1 null-allele testing.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the BRCA1 and BRCA2 genes in the Belgian patient population and identification of a Belgian founder mutation BRCA1 IVS5+3A &gt; G.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A four base pair insertion polymorphism in the 3' untranslated region of the COL1A1 gene is highly informative for null-allele testing in patients with osteogenesis imperfecta type I",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Marfan database (third edition): new mutations and new routines for the software",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Analysis of the COL1A1 and COL1A2 genes by PCR amplification and scanning by conformation-sensitive gel electrophoresis identifies only COL1A1 mutations in 15 patients with osteogenesis imperfecta type I: identification of common sequences of null-allele mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Diverse mutations in the gene for cartilage oligomeric matrix protein in the pseudoachondroplasia multiple epiphyseal dysplasia disease spectrum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndromes: Revised nosology, Villefranche, 1997.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Fluorescent in-situ hybridization on human embryos showing cleavage arrest after freezing and thawing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Application of fluorescence in situ hybridization to the identification of different marker chromosomes.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Psychosocial adaptation in adolescents and young adults with Marfan syndrome: an exploratory study.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetic heterogeneity of neuroblastoma studied by comparative genomic hybridization.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Correlation of linkage data with phenotype in eight families with Stickler syndrome.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Bruck syndrome: neonatal presentation and natural course in three patients.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Chondrodysplasia punctata with multiple congenital anomalies: a new syndrome?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Human myosin V gene produces different transcripts in a cell type-specific manner",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in the COL5A1 gene are causal in the Ehlers-Danlos syndromes I and II",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Monosomy 22 in a mixed germ cell sex cord stromal tumor of the ovary",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteogenesis imperfects phenotypes resulting from serine for glycine substitutions in the α2(I) collagen chain",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Analysis of 22 cystic fibrosis mutations in 62 patients from the Flanders, Belgium, reveals a high prevalence of Nordic mutation 394delTT.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Functional analysis of the p53 pathway in neuroblastoma cells using the small-molecule MDM2 antagonist Nutlin-3",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Vitamin K does not prevent soft tissue mineralization in a mouse model of pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A novel splice variant in the N-propeptide of COL5A1 causes an EDS phenotype with severe Kyphoscoliosis and eye involvement",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "New insights into the pathogenesis of autosomal-dominant cutis laxa with report of five ELN mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Impairment and impact of pain in female patients with Ehlers-Danlos syndrome: a comparative study with fibromyalgia and rheumatoid arthritis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Hereditary connective tissue diseases in young adult stroke: a comprehensive synthesis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "EFEMP2-related cutis laxa",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Klinische en genetische aspecten van het syndroom van Turner",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De genetische raadpleging: waarom doorverwijzen ?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of glycine-661 by serine in the α1(I) and α2(I) chains of type I collagen results in different clinical and biochemical phenotypes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Refined genetic and physical mapping of BPES type II",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Neuropsychological aspects of Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Balance, gait, falls and fear of falling in women with the hypermobility type of ehlers-danlos syndrome.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Medication, surgery, and physiotherapy among patients with the hypermobility type of Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Applying massive parallel sequencing to molecular diagnosis of Marfan and Loeys-Dietz syndromes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Functional polymorphism in gamma-glutamylcarboxylase is a risk factor for severe neonatal hemorrhage",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The genetics of familial adenomatous polyposis (FAP) and MutYH-associated polyposis (MAP)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The lymphatic vasculature determines the extent and localization of ectopic calcification in pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of valine for glycine-793 in type-III procollagen in Ehlers-Danlos syndrome type-IV",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetic-linkage between the collagen type-VII gene COL7A1 and pretibial epidermolysis bullosa with lichenoid features",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteogenesis imperfecta: the audiologic phenotype lacks correlation with the genotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Single-strand conformation polymorphism (SSCP) analysis of the COL3A1 gene detects a mutation that results in the substitution of glycine-1009 to valine and causes severe Ehlers-Danlos syndrome type-IV",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Patienten-spezifisches Modell der Wandschubspannung von Aortenbogen",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteogenesis imperfecta: the audiological phenotype lacks correlation with the genotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of a novel recurrent 1q42.2-1qter deletion in high risk MYCN single copy 11q deleted neuroblastomas",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel MYH11 and ACTA2 mutations reveal a role for enhanced TGFβ signaling in FTAAD",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Oorzaken en behandeling van aortadilatatie bij het bicuspide-aortaklepsyndroom",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Selectieve inhibitie van de p53–MDM2 interactie door nutlin-3 als een nieuwe therapeutische strategie voor neuroblastoom",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pharmacological activation of p53 and gene therapy as emerging treatment options for neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The microRNA body map: dissecting microRNA function through integrative genomics",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Phenotypic spectrum of the SMAD3-related aneurysms-osteoarthritis syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Atypical presentation of pseudoxanthoma elasticum with abdominal cutis laxa: evidence for a spectrum of ectopic calcification disorders?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical utility gene card for: Loeys-Dietz syndrome (TGFBR1/2) and related phenotypes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "EVI1-mediated down regulation of MIR449A is essential for the survival of EVI1 positive leukaemic cells",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteoporosis-pseudoglioma syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Balance and gait and risk of falling in females with the Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Muscle mass, muscle strength, and functional impairment in women with the Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Presence and impact of autonomic symptoms in patients with Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prevalence of BRCA1/2 mutations in sporadic breast/ovarian cancer patients and identification of a novel de novo BRCA1 mutation in a patient diagnosed with late onset breast and ovarian cancer: implications for genetic testing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Evaluation of RAD51C as a new breast cancer suceptibility gene in Belgian/Dutch population",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "GLUT10 is required for the development of the cardiovascular system and the notochord and connects mitochondrial function to TGFβ signaling",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The new Ghent criteria for Marfan syndrome: what do they change ?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Familial Turner syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular cytogenetic analysis of XX males using Y-specific DNA-sequences, including SRY",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Dickkopf-3 is regulated by the MYCN-induced miR-17-92 cluster in neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Evidence for a relationship between Ehlers-Danlos type VII C in humans and bovine dermatosparaxis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Neurofibromin is actively transported to the nucleus",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Combined subtractive cDNA cloning and array CGH: an efficient approach for identification of overexpressed genes in DNA amplicons",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygous mutations in IHH cause acrocapitofemoral dysplasia, an autosomal recessive disorder with cone- shaped epiphyses in hands and hips",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Expression analyses identify MLL as a prominent target of 11q23 amplification and support an etiologic role for MLL gain of function in myeloid malignancies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "BRCA1/2 mutation spectrum and frequencies in Belgian breast/ovarian cancer families",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygosity mapping of a gene for arterial tortuosity snydrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Unusual oral findings in dermatosparaxis (Ehlers-Danlos syndrome type VIIC)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Update of the UMD-FBN1 mutation database and creation of an FBN1 polymorphlism database",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Application of laser capture microdissection in genetic analysis of neuroblastoma and neuroblastoma precursor cells",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular cytogenetic analysis of complex chromosomal rearrangements in patients with mental retardation and congenital malformations: delineation of 7q21.11 breakpoints",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Congenital diaphragmatic eventration and bilateral ureterohydronephrosis in a patient with neonatal Marfan syndrome caused by a mutation in exon 25 of the FBN1 gene and review of the literature",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Differentiating pathogenic mutations from polymorphic alterations in the splice sites of BRCA1 and BRCA2",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Loss-of-function mutations in FGFR1 cause autosomal dominant Kallmann syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Split hand foot malformation is associated with a reduced level of Dactylin gene expression",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pathologieën van collageen en elastine: recent verworven inzichten",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Agressive cardiovascular phenotype of aneurysms-osteoarthritis syndrome caused by pathogenic SMAD3 variants",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Evaluation of RAD51C as cancer susceptibility gene in a large breast-ovarian cancer patient population referred for genetic testing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Superior mesenteric artery aneurysm in a 9-year-old boy with classical Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gene-expression profiling reveals distinct expression patterns for classic versus variant Merkel cell phenotypes and new classifier genes to distinguish Merkel cell from small-cell lung carcinoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Cutis Laxa of the autosomal recessive type in a consanguineous family",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Evidence for involvement of a tumor suppressor gene on 1p in malignant peripheral nerve sheath tumors",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "More than 125 FOXL2 mutations and variants in BPES and POF patients in the human FOXL2 allelic variant database",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "FOXL2 and BPES: mutational hotspots, phenotypic variability, and revision of the genotype-phenotype correlation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular nosology of heritable disorders of connective tissue",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "E.C. Concerted Action on Heritable Connective Tissue Disorders. Proc. ICHG, Washington, 10 oktober 1991, Abstract 354, p. 72.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Study of a type III collagen protein defect in a patient with ecchymotic EDS: importance of the analysis of non-cutaneous connective tissues",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetic counseling of a couple presenting respectively terminal transverse defect and congenital arthrogryposis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pallister-Killian syndrome: characterization of the isochromosome 12p by fluorescent in situ hybridization",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De ovariële functie bij het Turner syndroom",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pseudoxanthoma elasticum: similar autosomal recessive subtype in Belgian and Afrikaner families",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Moleculaire biologie voor de internist: toepassingen in de genetica",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Les constituants de la matrice extra-cellulaire du cartillage et de l'os. Proceed. 8ième journée du Club de Conseil Génétique de Langue Française, 1993, pp. 7-9.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of Gly 769 by serine in collagen type III in a three generation family showing variable expressivity of EDS type IV. Proceed. 5th Internat. Conference on osteogenesis imperfecta, 1993, pp. 114-115.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Exclusion of the gene for type III collagen as the candidate gene for intracranial aneurysms and cervical artery dissections. DNA sequencing of 55 unrelated patients reveals that type III collagen coding sequences are highly conserved. Neurology 1993 ,43, 2652-2658.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The Lujan syndrome or mental retardation with marfanoid habitus: the challenge of adequate nosological definition",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of Gly-1OO9 for valine: further evidence that mutations close to the C-terminal end of the helix produce a severe EDS IV phenotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The lethal form of osteogenesis imperfecta in three individuals results from a common Gly 502 to serine mutation in the a2 chain of type I collagen. Proceed. 5th Internat. Conference on osteogenesis imperfecta, 1993, pp. 65-67.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The osteoporosis pseudoglioma syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Het syndroom van Marfan. Roussel diagnose, 295,1994.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prenatale diagnose: Zal mijn baby gezond zijn ? Tijdschrift KVLV, 1994, 82ste jaargang, Nr. 11, pp. 30-32.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Actualité génétique et pédiatrie: 'Les collagénoses: nouvelles concep tions' et 'L'étude du collagène sur culture de fibroblastes: implications cliniques', samenvatting lezingen, pp. 33-60, pp. 91-110,1994.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in the gene for collagen type III: phenotypic spectrum and genotype-phenotype correlation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Abnormal fibrillin morphology in fibroblast cultures from patients with neonatal Marfan syndrome. J. Amer. Acad. Dermatol.,1994, 30, pp. 103-107.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Classification of Pseudoxanthoma Elasticum.Journal of the American Academy of Dermatology, 1994,30,pp. 103-107.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Congenital bowing of long bones: a retrospective feature in a dominant syndromal type of shorte stature. Chapter 23 in 'Dysmorphology and Genetics of Cardiovascular Disorders', Bartsocas CS, Beighton P, Eds., HTA Medical Publications, Athens, 1994, pp. 158-165.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Three unrelated individuals with perinatally lethal osteogenesis imperfecta resulting from identical glycine S02 serine substitutions in the cc2 chain of type I collagen. Human Genetics, 1994,94, pp. 497-503.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Fibromuscular dysplasia of the arteries: an arterial occlusive disease with severe neurological complications at young age",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Linkage: a primer for dermatologists",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Blepharophimosis-ptosis-epicanthus inversus syndrome (BPES): report of a large family",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Blepharophimosis-ptosis-epicanthus inversus syndrome (BPES): clinical subtypes and their genotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygosity by descent for a COL1A2 mutation in two sibs with severe osteogenesis imperfecta and mild clinical expression in the heterozygotes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Autopsy diagnosis of the Smith-Lemli-Opitz syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Numerieke chromosomale afwijkingen in zaadcellen van patiënten met oligosthenoateratozoospermia. Tijdschrift voor Fertiliteitsonderzoek, 1997, 11 (nr. 4): 96-98.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Klinische Genetica. Een medische tak in volle expansie. Hoofdstuk voor het boek 'Het Medisch Jaar' (editie 1998), 1997.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the BRCAl and BRCA2 genes results in the identification of novel and recurrent mutations in 6/16 Flemish families with breast and/or ovarian cancer but not in 12 sporadic patients with early-onset disease. Mutation, Mutation in B rief#224 Online (http://journals.wiley.com).",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Heritable Connective Tissue Disorders. Hoofdstuk voor het boek 'Ballière's Clinical Paediatrics, International Practice and Research', Vol. 6 Nr. 2, Genetics for the Clinician, Editor: R.C.M. Hennekam, Baillière Tindall, 1998.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Diagnosis and prevention of inherited disorders of collagen. Hoofdstuk voor het boek 'Linee guida assistenziali nel bambino con patologia malformativa e metabolica', Gruppo di Studio di Genetica Clinica délia Società di Pediatria, Editor: E. Boni' oli, M.E. Lorenzetti, Volume III, 1998.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "FISH on human embryos showing cleavage arrest after freezing and thawing: preliminary results. Hum. Reproduction, 13,1998,425-429.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular diagnostic evaluation of NF1 patients using the combined approach of karyotyping, fluorescent in situ hybridisation, the protein truncation assay and heteroduplex analysis. 7th Annual European Neurofibromatoses Meeting, Paris, December 4-5, 1997. Genetic Counseling, 9, 1998, 294.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A 4 bp insertion polymorphism in the 3' UTR of the COL1A1 gene is highly informative for null-allele testing in patients with OI type I. Matrix Biology, 16,1998, 349-352.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "U",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "BRCA-genmutaties bij borstkanker",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The genetic basis of Osteogenesis Imperfecta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Results from an extensive FBN1 mutation analysis in Marfan patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Het syndroom van Marfan bij kinderen: diagnostiek en behandeling",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Dienstverlening centraal: debat over 'genetica in het dagelijkse leven': zit het in mijn genen",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gene expression profiling reveals two distinct subtypes of Merkel cell carcinoma. The Merkel cell",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Met > Val substitution in a highly conserved region of the pro-alpha 1(I) collagen C-propeptide domain causes alternative splicing and a mild EDS/OI phenotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Human fibroblasts with mutations in COL5A1 and COL3A1 genes do not organize collagens and fibronectin in the extracellular matrix, down-regulate alpha(2)beta(1) integrin, and recruit alpha(v)beta(3) instead of alpha(5)beta(1) integrin",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Discordance between phenotypic appearance and genotypic findings in a familial case of classical Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The human FOXL2 mutation database",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Loss-of-function mutations in LEMD3 result in osteopoikilosis, Buschke-Ollendorff syndrome and melorheostosis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Bleeding and bruising in patients with Ehlers-Danlos syndrome and other collagen vascular disorders",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel types of mutation responsible for the dermatosparactic type of Ehlers-Danlos syndrome (type VIIC) and common polymorphisms in the ADAMTS2 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Muscle-tendon tissue properties in the hypermobility type of Ehlers-Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The Ehlers-Danlos syndrome, a disorder with many faces",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos arthrochalasia type (VIIA-B): expanding the phenotype: from prenatal life through adulthood",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Symmetry of footalignment and ankle flexibility in female patients with Ehlers Danlos Syndrome-Hypermobile Type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Impact of Ehlers Danlos Syndrom-Hypermobile Type on lower limb function",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Muscle mass, muscle strength, functional performance, and physical impairment in women with the hypermobility type of Ehlers Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Joint position sense and vibratory perception sense in patients with the Ehlers-Danlos syndrome hypermobility type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Health status and impact of pain: a comparative study between patients with Ehlers-Danlos syndrome, fibromyalgia, and rheumatoid arthritis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "DUP25 remains unconfirmed",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Dental anomalies associated with congenital contractural arachnodactyly",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comprehensive molecular screening of the FBN1 gene favors locus homogeneity of classical Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Familiale aandoeningen van de thoracale aorta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Correlations between aortic stiffness, clinical phenotype and mutations of FBN1 in patients with Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Patients with Marfan syndrome show reduced contraction and relaxation velocities suggesting a primary contractile deficit: a tissue Doppler imaging study",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comprehensive molecular analysis demonstrates type V collagen mutations in over 90% of patients with classic EDS and allows to refine diagnostic criteria",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Orofacial manifestations of congenital fibrillin deficiency: Pathogenesis and clinical diagnostics",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Three new families with arterial tortuosity syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The molecular basis of classic Ehlers-Danlos syndrome: A comprehensive study of biochemical and molecular findings in 48 unrelated patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Nephrocystin-5, a ciliary IQ domain protein, is mutated in Senior-Loken syndrome and interacts with RPGR and calmodulin",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Unequivocal delineation of clinicogenetic subgroups and development of a new model for improved outcome prediction in neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Development of a novel COL3A1 transgenic mouse model for vascular Ehlers Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Characterization of a distinct lethal arteriopathy syndrome in twenty-two infants associated with an identical, novel mutation in FBLN4 gene, confirms fibulin-4 as a critical determinant of human vascular elastogenesis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Thoracic aortic-aneurysm and dissection in association with significant mitral valve disease caused by mutations in TGFB2",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Multiple aneurysms in a patient with aneurysms-osteoarthritis syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "In-frame mutations in exon 1 of SKI cause dominant Shprintzen-Goldberg syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Erfelijke vormen van thoracale aorta-aneurysma's en -dissecties: diagnostiek en beleid",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Funding opportunities include PhD and postdoctoral fellowships and research grants for senior clinical investigators in Belgium",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Prevalence of Fabry disease in a predominantly hypertensive population with left ventricular hypertrophy",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Craniofacial structure in Marfan syndrome: A cephalometrie study",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Oral health in prevalent types of Ehlers-Danlos syndromes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The natural history, including orofacial features of three patients with Ehlers-Danlos syndrome, dermatosparaxis type (EDS type VIIC)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The natural history of human dermatosparaxis: A report of two cases",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The natural history of human dermatosparaxis (Ehlers-Danios Syndrome VII C)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetic fibrillinopathies: new insights in molecular diagnosis and clinical management",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comprehensive clinical and molecular analysis of 12 families with type 1 recessive cutis laxa",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Spectrum of FOXL2 gene mutations in blepharophimosis-ptosis-epicanthus inversus (BPES) families demonstrates a genotype-phenotype correlation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel insights in genotype-phenotype correlations in BPES through in-depth FOXL2 mutation analysis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Spectrum and distribution of FOXL2 gene mutations and variants in BPES, POF and XX male patients: tentative genotype-phenotype correlation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Transcript mapping of the BPES critical region at 3q23: identification of novel candidate genes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Exclusion of the beta '-COP gene and identification of a novel candidate gene for the blepharophimosis syndrome (BPES)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Closing in an the BPES gene on 3q23: Mapping of a de nova reciprocal translocation t(3;4)(q23;p15.2) breakpoint within a 45-kb cosmid and mapping of three candidate genes, RBP1, RBP2, and beta '-COP, distal to the breakpoint",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Assignment of the cellular retinol-binding protein 2 gene (RBP2) to human chromosome band 3q23 by in situ hybridization",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Assignment of the cellular retinol-binding protein 1 gene (RBP1) and of the coatomer beta ' subunit gene (COPB2) to human chromosome band 3q23 by in situ hybridization",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Twenty patients including 7 probands with autosomal dominant cutis laxa confirm clinical and molecular homogeneity",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The perspective from EASAC and FEAM on direct-to-consumer genetic testing for health-related purposes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Questioning the pathogenic role of the GLA p.Ala143Thr 'mutation' in Fabry disease: implications for screening studies and ERT",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genes in thoracic aortic aneurysms/dissections: do they matter?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pharmacogenomics in children: advantages and challenges of next generation sequencing applications",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Attitudes of health care professionals toward carrier screening for cystic fibrosis: a review of the literature",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Histopathology of pseudoxanthoma elasticum and related disorders: histological hallmarks and diagnostic clues",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Het Ehlers-Danlossyndroom, een aandoening met vele gezichten",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Direct-to-consumer genetic testing for health-related purposes in the European Union",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Routine microsatellite instability testing in sporadic colorectal tumours",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Impaired vascular elasticity and diastolic dysfunction in pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Left ventricular dysfunction in a mouse model of Marfan syndrome.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation detection in the ABCC6 gene and analysis in a large international cohort affected by pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Discovery of genes in thoracic aortic aneurysms",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Zebrafish models for ectopic mineralization disorders: practical issues from morpholino design to post-injection observations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ectopic soft tissue calcification: process, determinants and health impact",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "arrayCGHbase: an analysis platform for comparative genomic hybridization microarrays",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "No evidence for involvement of SDHD in neuroblastoma pathogenesis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Deletions involving long-range conserved nongenic sequences upstream and downstream of FOXL2 as a novel disease-causing mechanism in Blepharophimosis syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Radiation-induced damage to normal tissues after radiotherapy in patients treated for gynecologic tumors: Association with single nucleotide polymorphisms in XRCC1, XRCC3, and OGG1 genes and in vitro chromosomal radiosensitivity in lymphocytes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A syndrome of altered cardiovascular, craniofacial, neurocognitive and skeletal development caused by mutations in TGFBR1 or TGFBR2",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A novel mutation in the lysyl hydroxylase 1 gene causes decreased lysyl hydroxylase activity in an Ehlers-Danlos VIA patient",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of an unbalanced X-autosome translocation by array CGH in a boy with a syndromic form of chondrodysplasia punctata brachytelephalangic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular genetics in classic Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the LRP5 gene in men with idiopathic osteoporosis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical and molecular findings in osteoporosis-pseudoglioma syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The use of Tissue Doppler Imaging for the assessment of changes in myocardial structure and function in inherited cardiomyopathies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Missense mutations in LRP5 are not a common cause of idiopathic osteoporosis in adult men",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Magnitude and timing of arterial wave reflection in patients with Marfan disease",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pressure wave reflection is increased in patients with Marfan disease, but is not associated with aortic root diameter",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Assessment of global and local pressure wave reflection in the aorta of patients with Marfan disease",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular cytogenetic study of 126 unselected T-ALL cases reveals high incidence of TCR beta locus rearrangements and putative new T-cell oncogenes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "RTPrimerDB: The Real-Time PCR primer and probe database",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The impact of proband mediated information dissemination in families with a BRCA1/2 gene mutation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "BRCA1 and BRCA2 germline mutation spectrum and frequencies in Belgian breast/ovarian cancer families",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Rapid detection of VHL exon deletions using real-time quantitative PCR",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A new recurrent inversion, inv(7)(p15q34), leads to transcriptional activation of HOXA10 and HOXA11 in a subset of T-cell acute lymphoblastic leukemias",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel cryptic chromosomal rearrangements in childhood acute lymphoblastic leukemia detected by multiple color fluorescent in situ hybridization",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "HOYA gene cluster rearrangement in a t(7;9)(p15;q34) in a child with MDS",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Translocation-excision-deletion-amplification mechanism leading to nonsyntenic coamplification of MYC and ATBF1",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "EVII is consistently expressed as principal transcript in common and rare recurrent 3q26 rearrangements",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Visceral and testicular calcifications as part of the phenotype in pseudoxanthoma elasticum: ultrasound findings in Belgian patients and healthy carriers",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular pathogenesis of multiple gastrointestinal stromal tumors in NF1 patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Emerging patterns of cryptic chromosomal imbalance in patients with idiopathic mental retardation and multiple congenital anomalies: a new series of 140 patients and review of published reports",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "EDS/OI caused by collagen type I mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Recurrent T(3;17)translocations in AML with EVI1 rearrangement",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The TCRB-HOXA rearrangement in T-ALL leads to a specific increase of the alternative HOXA10b transcript",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Fibulin-5 mutations: mechanisms of impaired elastic fiber formation in recessive cutis laxa",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Screening for EVII: ectopic expression absent in T-cell acute lymphoblastic leukemia patients and cell lines",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Total absence of the alpha 2(I) chain of collagen type I causes a rare form of Ehlers-Danlos syndrome with hypermobility and propensity to cardiac valvular problems",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The genetic basis of the joint hypermobility syndromes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutations in the facilitative glucose transporter GLUT10 alter angiogenesis and cause arterial tortuosity syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Aneurysm syndromes caused by mutations in the TGF-beta receptor",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "High resolution tiling-path BAC array deletion mapping suggests commonly involved 3p21-p22 tumor suppressor genes in neuroblastoma and more frequent tumors",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the FBN1 gene in patients with Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Het Ehlers-Danlos syndroom: van genotype naar fenotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De presymptomatische test: praktijkgerichte ervaringen van psycholoog en testaanvrager",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De geheimen van de genen ontrafeld in kunsthal St.-Pietersabdij",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis in the FBN1 gene in patients with Marfan Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation analysis of the FBN1 gene in individuals with Marfan syndrome: sensitivity, methods, clinical indications",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Klinische genetica, cytogenetica en moleculaire genetica",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Aortic aneurysm, short stature and eye anomalies: expanding the phenotype of fibrillin-1 disorders",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Loeys-Dietz syndrome: a new aortic aneurysm syndrome with an aggressive clinical course and widespread vascular involvement",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Detailed description of cardiovascular findings in Loeys-Dietz syndrome, a widespread and aggressive aortic aneurysm syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pseudoxanthoma elasticum-like phenotype with cutis laxa and multiple coagulation factor deficiency represents a separate genetic entity",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Orofacial symptoms in the Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Orofacial and dental aspects of Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Multivariate analyse van de mondgezondheid en orale symptomen in het Marfan syndroom",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The natural history of human dermatosparaxis (Ehlers-Danlos syndrome type VIIc)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Oral manifestations of Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Orofacial manifestations in a thirteen-year-old girl with dermatosparaxis (Ehlers-Danos syndrome type VIIc)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Abnormal dentin structure in two novel gene mutations [COL1A1, Arg134Cys] and [ADAMTS2, Trp795-to-ter] causing rare type I collagen disorders",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "PAX5/IGH rearrangement is a recurrent finding in a subset of aggressive B-NHL with complex chromosomal rearrangements",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Aortic reflection coefficients and their association with global indexes of wave reflection in healthy controls and patients with Marfan's syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The von Hippel-Lindau tumor suppressor gene expression level has prognostic value in neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Variability of aortic stiffness is not associated with the fibrillin 1 genotype in patients with Marfan's syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A critical analysis of minor cardiovascular criteria in the diagnostic evaluation of patients with Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "RTPrimerDB: the real-time PCR primer and probe database, major update 2006",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Small-molecule MDM2 antagonists as a new therapy concept for neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The molecular genetics of Marfan syndrome and related disorders",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "MethBLAST and methPrimerDB: web-tools for PCR based methylation analysis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Neuroblastoma: from molecular cytogenetics to gene expression profiling",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Borstkanker en erfelijkheid",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genetisch advies bij het familiaal voorkomen van borstkanker",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Therapie van het colorectaal carcinoom: kunnen biologische merkers het beleid beïnvloeden?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Recente moleculaire inzichten in erfelijke borst- en ovariumkanker in België",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Human fetal neuroblast and neuroblastoma transcriptome analysis confirms neuroblast origin and highlights neuroblastoma candidate genes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular characterization of a t(2;3)(p23;q26): A recurrent translocation involving the EVI1 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification and characterisation of a founder mutation in the Belgian breast/ovarian cancer population",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Cytogenetic findings in bloom syndrome patients with myeloid malignancies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Unusual chromosome 16 rearrangement with absence of classical CBFB/MYH11 fusion transcripts",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A detailed inventory of DNA copy number alterations in four commonly used Hodgkin's lymphoma cell lines",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genome wide promoter methylation analysis in neuroblastoma with perspectives for integrated molecular profiling",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Array CGH analysis of subnanogram quantities of DNA using whole genome amplification: opportunities for detection of copy number alterations in Hodgkin's lymphoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "ArrayCGH-based classification of neuroblastoma into genomic subgroups",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Integrative genomics in neuroblastoma research",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "ArrayCGH based classification of neuroblastoma into genomic subgroups",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A detailed inventory of DNA copy number alterations in four commonly used Hodgkin lymphoma cell lines",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De bijdrage van M-FISH aan de moleculaire diagnostiek in de hemato-oncologie",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Consortium for osteogeneslis imperfecta mutations in the helical domain of type I collagen: Regions rich in lethal mutations align with collagen binding sites for integrins and proteoglycans",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Three arginine to cysteine substitutions 4 in the pro-alpha (I)-collagen chain cause Ehlers-Danlos syndrome with a propensity to arterial rupture in early adulthood",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation detection in the ABCC6 gene and genotype-phenotype analysis in a large international case series affected by pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pseudoxanthoma elasticum with generalized retinal dysfunction, a common finding?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Effect of mutation type and location on clinical outcome in 1,013 probands with Marfan syndrome or related phenotypes and FBN1 mutations: An international study",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "qBase relative quantification framework and software for management and automated analysis of real-time quantitative PCR data",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Utility of molecular analyses in the exploration of extreme intrafamilial variability in the Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Arterial tortuosity syndrome: Clinical and molecular findings in 12 newly identified families",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of 2 putative critical segments of 17q gain in neuroblastoma through integrative genomics",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "MicroRNA profiling of EVI1 deregulated myeloid leukemia",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "New insights into the pathogenesis and treatment of arterial aneurysms and dissections",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Een Belgische patiënt met Arterial Tortuosity Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pseudoxanthoma elasticum: een metabole bindweefselaandoening",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Borstkanker en erfelijkheid",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Arteriële tortuositeit door fout in glucosetransporter",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Acquired chromosomal rearrangements targeting selected transcription factors: contribution of molecular cytogenetic and expression analyses to the identification of clinically and biologically relevant subgroups in hematological malignancies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "UGent zet cardiovasculaire genetica in de kijker",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Medisch onderzoek aanmoedigen",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Two-tier approach for the detection of alpha-galactosidase A deficiency in a predominantly female haemodialysis population",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gene expression profiling reveals two distinct subtypes of Merkel cell carcinoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "P1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Defective initiation of glycosaminoglycan synthesis due to B3GALT6 mutations causes a pleiotropic Ehlers-Danlos-syndrome-like connective tissue disorder",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Helical mutations in type I collagen that affect the processing of the amino-propeptide result in an Osteogenesis Imperfecta/Ehlers-Danlos Syndrome overlap syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical heterogeneity in patients with the hypermobility type of Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Copper deficiency in patients with cystinosis with cysteamine toxity",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Second family with the Boston-type craniosynostosis syndrome: novel mutation and expansion of the clinical spectrum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Chromosome 7 short arm deletions and disease progression in CML",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A single step real-time quantitative RT-PCR reaction for detection of the BCR/ABL fusion product",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of a novel CBFB/MYH11 fusion in a patient with AML-M1 and a t(16;16)(p13;q22)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "No evidence for correlation of DDX1 gene amplification with improved survival probability in patients with MYCN-amplified neuroblastomas",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Characterization of cardiovascular involvement in pseudoxanthoma elasticum families",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Normal values for ascending aortic diameters with 2D echocardiography",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Marfan related cardiomyopathy: an in vivo and in vitro study of the fbn1C1039G/+ mouse model",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The phenotypic spectrum in patients with arginine to cysteine mutations in the COL2A1 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Primary impairment of left ventricular function in Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical, cytogenetic and molecular characteristics of 14 T-ALL patients carrying the TCR β-HOXA rearrangement: a study of the Groupe Francophone de Cytogénétique Hématologique",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The ABCC6 transporter: what lessons can be learnt from other ATP-binding cassette transporters?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel COL11A1 mutations in Stickler syndrome detected by next-generation sequencing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Impaired balance and gait and increased risk of falling in females with the Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Presence and impact of autonomic symptoms in patients with the hypermobility type of Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Autonomic function tests in patients with the hypermobility type of Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Arguments for dysfunctional pain in Ehlers-Danlos syndrome hypermobility type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Dysautonomia and its underlying mechanisms in the hypermobility type of Ehlers-Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Disorders of connective tissue and extracellular matrix",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Sequence alterations in the carboxyl-terminal propeptide domain",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "First report of the genetic background of Marfan syndrome in Polish patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Deficiency for the ER-stress transducer OASIS causes severe recessive osteogenesis imperfecta in humans",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "New insights into the molecular diagnosis and management of heritable thoracic aortic aneurysms and dissections",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome type VIII: a rare cause of leg ulcers in young patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Compound heterozygous mutations of the TNXB gene cause primary myopathy",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pharmacologic activation of wild-type p53 by nutlin therapy in childhood cancer",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Selective inhibition of the p53–MDM2 interaction by nutlin drugs: a new therapeutic perspective for neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Downregulation of miR-449a is essential for the survival of EVI1 positive leukemic cells through modulation of NOTCH1 and BCL2",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Rapid and sensitive detection of BRCA1/2 mutations in a diagnostic setting: Comparison of two high-resolution melting platforms",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Klinische genetica, cytogenetica en moleculaire genetica",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Deletions in 14q24.1q24.3 are associated with congenital heart defects, brachydactyly, and mild intellectual disability",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Unmasking of epigenetically silenced micromas in neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "CADM1 is a strong neuroblastoma candidate gene that maps within a 3.72 Mb critical region of loss on 11q23",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Missense mutations in the forkhead domain of FOXL2 lead to subcellular mislocalization, protein aggregation and impaired transactivation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Contribution of molecular analyses in diagnosing Marfan syndrome and type I fibrillinopathies: an international study of 1009 probands",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danios syndromes and Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Absence of arterial phenotype in mice with homozygous slc2A10 missense substitutions",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Fortschritt in der Pathogenese des Marfan-Syndroms und verwandter Krankheiten",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel clinico-molecular insights in Pseudoxanthoma elasticum provide an efficient molecular screening method and a comprehensive diagnostic flowchart",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Ehlers-Danlos syndrome, classic type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Methusalemfonds: top in bindweefselziekten: geld voor weesjes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "New insights in the pathogenesis of aortic aneurysms",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Absence of cardiovascular manifestations in a haploinsufficient TGFBR1 mouse model",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Compound heterozygous mutations of the TNXB gene cause primary myopathy: response",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Voorwoord",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A genome-wide linkage scan for low spinal bone mineral density in a single extended family confirms linkage to 1p36.3",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The Ehlers-Danlos syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Association of the type I collagen alpha1 Sp1 polymorphism, bone density and upper limb muscle strength in community-dwelling elderly men.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Perturbation of specific pro-mineralizing signalling pathways in human and murine pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Audiologic and genetic characterization of hearing loss in Osteogenesis Imperfecta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Germline LEMD3 mutations are rare in sporadic patients with isolated melorheostosis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Complex splicing pattern generates great diversity in human NF1 transcripts",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "EVI1 overexpression in t(3;17) positive myeloid malignancies results from juxtaposition of EVI1 to the MSI2 locus at 17q22",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "FOXL2 Mutations and Genomic Rearrangements in BPES",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Aberrant methylation of candidate tumor suppressor genes in neuroblastoma",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical and Molecular Study of 320 Children With Marfan Syndrome and Related Type I Fibrillinopathies in a Series of 1009 Probands With Pathogenic FBN1 Mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteogenesis Imperfecta: klinische en genetische aspecten van de broze botziekte",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A4",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "MICRORNA PROFILING OF EVI1 DEREGULATED MYELOID LEUKEMIA",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A Hotspot Splicing Mutation in LEPREI Affects Prolyl 3-hydroxylation and Causes Recessive Osteogenesis Imperfecta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A hotspot splicing mutation in LEPREI affects prolyl 3-hydroxylation and causes recessive osteogenesis imperfecta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Anomalies leading to the mineralization of elastic fibers in pseudoxanthoma elasticum and the PXE-like syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Niet tevreden, embryo gedumpt: Nieuwe genetische test screent embryo op alle mogelijke ziektes",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Erfelijke bindweefselziekten ontrafelen, is zoeken naar een speld in een hooiberg",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "B2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gentse genetici ontvangen Prijs Gert Noël: testaanvrager erfelijke kanker op maat ondersteund",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gentherapie boekt voorzichtig vooruitgang",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Two-tier approach for the detection of alpha-galactosidase A deficiency in kidney transplant recipients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Recurrent t(3;17) translocations in AML with EVII rearrangement.",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygosity mapping of a gene for arterial tortuosity syndrome to chromosome 20q13",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Neonatal progeroid variant of Marfan syndrome with congenital lipodystrophy results from mutations at the 3' end of FBN1 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Occipital horn syndrome and classical Menkes Syndrome caused by deep intronic mutations, leading to the activation of ATP7A pseudo-exon",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Molecular docking simulations provide insights in the substrate binding sites and possible substrates of the ABCC6 transporter",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "An exploratory case-control study on the impact of IL-1 gene polymorphisms on early implant failure",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Autonomic symptom burden in the hypermobility type of Ehlers–Danlos syndrome: a comparative study with two other EDS types, fibromyalgia, and healthy controls",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Expressed repeat elements improve RT-qPCR normalization across a wide range of zebrafish gene expression studies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Phf6 plays a role in hematopoiesis and thymopoiesis in zebrafish",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Phf6 plays a role in hematopoiesis and thymopoiesis in zebrafish",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Reference values for echocardiographic assessment of the diameter of the aortic root and ascending aorta spanning all age categories",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Loeys-Dietz syndrome is a specific phenotype and not a concomitant of any mutation in a gene involved in TGF-β signaling",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Eight years experience from a skeletal dysplasia referral center in a tertiary hospital in Southern India: a model for the diagnosis and treatment of rare diseases in a developing country",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Imaging findings in a distinct lethal inherited arteriopathy syndrome associated with a novel mutation in the FBLN4 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Osteogenesis imperfecta: meer dan alleen collageen?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Hoop voor de toekomst: genen geven hun geheimen prijs",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "De vakantiejob van Anne De Paepe",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Diagnostic criteria for Stickler syndrome based on comprehensive clinical and molecular analysis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Novel pathogenic COL11A1/COL11A2 variants in Stickler syndrome detected by targeted NGS and exome sequencing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Efficiency of exome sequencing for the molecular diagnosis of Pseudoxanthoma Elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Endogenous pain modulation in the Ehlers-Danlos syndrome, hypermobility type",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Mutation detection rate and - characteristics in thoracic aortic aneurysm (TAA) related disorders: results from next generation sequencing (NGS) panel testing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Expressed repeat elements improve RT-qPCR normalization across a wide range of zebrafish gene expression studies",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Low tendon stiffness and abnormal ultrastructure distinguish classic Ehlers-Danlos syndrome from benign joint hypermobility syndrome in patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Type I procollagen C-propeptide defects: study of genotype-phenotype correlation and predictive role of crystal structure",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Next generation sequencing to determine the cystic fibrosis mutation spectrum in Palestinian population",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gene panel sequencing in heritable thoracic aortic disorders and related entities: results of comprehensive testing in a cohort of 264 patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A zebrafish model for Bruck Syndrome caused by PLOD2 mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Characterization of a COL1A1A haploinsufficient zebrafish model for Osteogenesis Imperfecta type I",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A zebrafish model for Bruck Syndrome caused by PLOD2 mutations",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Characterization of a col1a1a haploinsufficient zebrafish model for Osteogenesis Imperfecta type I",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Congenital contractural arachnodactyly due to a novel splice site mutation in the FBN2 gene",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Wall shear stress: a key determinant in normal arterial growth?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Recessive osteogenesis imperfecta caused by LEPRE1 mutations: clinical documentation and identification of the splice form responsible for prolyl 3-hydroxylation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The influence of aortic root diameter on wall shear stress in the mouse aortic arch",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Wall shear stress in the mouse aortic arch: does size matter?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "P1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Clinical and mutation-type analysis from an international series of 198 probands with a pathogenic FBN1 exons 24-32 mutation",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comprehensive Clinical and Molecular Assessment of 32 Probands With Congenital Contractural Arachnodactyly: Report of 14 Novel Mutations and Review of the Literature",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comprehensive NF1 screening on cultured Schwann cells from neurofibromas: towards an extensive study of the somatic mutation spectrum in neurofibromatosis type 1",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Pathogenic FBN1 Mutations in 146 Adults Not Meeting Clinical Diagnostic Criteria for Marfan Syndrome: Further Delineation of Type 1 Fibrillinopathies and Focus on Patients With an Isolated Major Criterion",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Real-time qPCR as a tool for evaluating RNAi-mediated gene silencing",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Kanker en erfelijkheid: ondersteuning en begeleiding op maat van de patiënten en hun families. Een project van het Centrum voor Medische Genetica van het Universitair Ziekenhuis Gent",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The influence of aortic dimensions on calculated wall shear stress in the mouse aortic arch",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Patient-specific modeling of aortic arch oscillatory shear index patterns in patients with Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Disease-Causing 7.4 kb Cis-Regulatory Deletion Disrupting Conserved Non-Coding Sequences and Their Interaction with the FOXL2 Promotor: Implications for Mutation Screening",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Challenges for CNV interpretation in clinical molecular karyotyping: lessons learned from a 1001 sample experience",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Comparison of miRNA profiles of microdissected Hodgkin/Reed-Sternberg cells and Hodgkin cell lines versus CD77+ B-cells reveals a distinct subset of differentially expressed miRNAs",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Escape from p53-mediated tumor surveillance in neuroblastoma: switching off the p14(ARF)-MDM2-p53 axis",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Bleeding in the heritable connective tissue disorders: Mechanisms, diagnosis and treatment",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Antitumor Activity of the Selective MDM2 Antagonist Nutlin-3 Against Chemoresistant Neuroblastoma With Wild-Type p53",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A new sporadic case of early-onset Loeys-Dietz syndrome due to the recurrent mutation p.R528C in the TGFBR2 gene substantiates interindividual clinical variability",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Chromosome 3p microsatellite allelotyping in neuroblastoma: a report on the technical hurdles",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Genotyping of Frequent BRCA1/2 SNPs with Unlabeled Probes A Supplement to HRMCA Mutation Scanning, Allowing the Strong Reduction of Sequencing Burden",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "RNA pre-amplification enables large-scale RT-qPCR gene-expression studies on limiting sample amounts",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of two critically deleted regions within chromosome segment 7q35-q36 in EVI1 deregulated myeloid leukemia cell lines",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "MODULATION OF MIR-449A EXPRESSION DECREASES CELL VIABILITY, INCREASES APOPTOSIS AND INDUCES DIFFERENTIATION IN EVI1 DEREGULATED LEUKEMIA CELLS",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "MICRORNA SIGNATURES IN GENETIC SUBTYPES OF T-CELL ACUTE LYMPHOBLASTIC LEUKEMIA",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Gentherapie anno 2009: realiteit of fictie ?",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Sp1 polymorphism at the COL1A1 gene as a determinant of bone density in elderly men",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Joint position sense and vibratory perception sense in patients with Ehlers-Danlos syndrome type III (hypermobility type)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Patient-specific modelling of aortic arch wall shear stress patterns in patients with Marfan syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "P1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Effect of Celiprolol on Prevention of Cardiovascular Events in Vascular Ehlers-Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "methGraph: A genome visualization tool for PCR-based methylation assays",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A non-glycine mutation in the C-propeptide of the alpha1(I) collagen chain causes mild Osteogenesis imperfecta and EDS-like features",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Homozygosity for G530S in COL5A1 in a patient with the classical type of Ehlers-Danlos syndrome (EDS).",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "A novel disorder in a newborn caused by defective biosynthesis of N-linked oligosaccharides due to glucosidase I deficiency",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Report of five novel and one recurrent COL2A1 mutations with analysis of genotype-phenotype correlation in patients with a lethal type II collagen disorder (vol 37, pg 263, 2000)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "V",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The vascular type of the Ehlers-Danlos syndrome: update on the correlation between molecular and phenotypic findings",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The biochemical and molecular basis of mild osteogenesis imperfecta",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Correlation of ultrastructural collagen fibril aberrations with a mutation in the COL5A1 gene in Ehlers-Danlos syndrome type I",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of glycine-172 by arginine in the α1 chain of type I collagen in a patient with osteogenesis imperfecta, type III",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Substitution of glycine-1009 for serine in collagen type-III: further evidence that mutations close to the C-terminal end of the helix produce a severe EDS IV phenotype",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "C3",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Detection and characterisation of an overmodified type III collagen by analysis of non-cutaneous connective tissues in a patient with Ehlers-Danlos syndrome IV",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Identification of 34 novel and 56 known FOXL2 mutations in patients with Blepharophimosis syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A2",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Added value of infrared, red-free and autofluorescence fundus imaging in Pseudoxanthoma elasticum",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Stickler syndrome causes by COL2A1 mutations: genotype-phenotype correlation in a series of 100 patients",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Cytogenetic and Array-CGH Characterization of a 6q27 Deletion in a Patient With Developmental Delay and Features of Ehlers-Danlos Syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "The RIN2 syndrome: a new autosomal recessive connective tissue disorder caused by deficiency of Ras and Rab interactor 2 (RIN2)",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   },
+   {
+    "title": {
+     "value": "Short stature, severe aortic root dilation, skin hyperextensibility, extreme joint laxity and craniofacial dysmorphic features: a probable new syndrome",
+     "type": "literal"
+    },
+    "classification": {
+     "value": "A1",
+     "type": "literal"
+    }
+   }
+  ]
+ }
+}

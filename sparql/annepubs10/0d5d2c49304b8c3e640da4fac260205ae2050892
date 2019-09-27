@@ -1,0 +1,47 @@
+# Query: subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification
+# Hashed IRI: http://data.linkeddatafragments.org/ugent-biblio?subject=https://biblio.ugent.be/publication/177331#aggregation&predicate=http://lib.ugent.be/classification/classification
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> {
+<http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> foaf:primaryTopic <http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>.
+<http://data.linkeddatafragments.org/#dataset> hydra:member <http://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<http://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "http://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/publication/177331#aggregation> <http://lib.ugent.be/classification/classification> "A1".
+<http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> {
+<http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification> void:subset <http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of UGent Biblio"@en;
+    dcterms:description "Triple Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { <https://biblio.ugent.be/publication/177331#aggregation> <http://lib.ugent.be/classification/classification> ?o }."@en;
+    dcterms:source <http://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "1"^^xsd:integer;
+    void:triples "1"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <http://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F177331%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification&page=1>
+}
