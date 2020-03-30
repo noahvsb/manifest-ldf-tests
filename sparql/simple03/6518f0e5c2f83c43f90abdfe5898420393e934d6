@@ -1,9 +1,7 @@
-# Query: query=SELECT%20%3Fs%20%3Fp%20WHERE%20%7B%0A%20%20SELECT%20%3Fs%20%3Fp%20WHERE%20%7B%20%3Fs%20%3Fp%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAalter%3E.%20%7D%0A%20%20ORDER%20BY%20(%3Fp)%0A%20%20LIMIT%205%0A%7D
-# Hashed IRI: http://dbpedia.org/sparql?query=SELECT ?s ?p WHERE {
-  SELECT ?s ?p WHERE { ?s ?p <http://dbpedia.org/resource/Aalter>. }
-  ORDER BY (?p)
-  LIMIT 5
-}
+# Query: query=SELECT%20%3Fs%20%3Fp%20WHERE%20%7B%20%3Fs%20%3Fp%20%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAalter%3E.%20%7D%0AORDER%20BY%20(%3Fp)%0ALIMIT%205
+# Hashed IRI: http://dbpedia.org/sparql?query=SELECT ?s ?p WHERE { ?s ?p <http://dbpedia.org/resource/Aalter>. }
+ORDER BY (?p)
+LIMIT 5
 # Content-type: application/sparql-results+json
 
 { "head": { "link": [], "vars": ["s", "p"] },
