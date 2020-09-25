@@ -19,6 +19,8 @@
   :belgium08
   :300triples09
   :annepubs10
+  :emptybgp
+  :employees
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -134,3 +136,43 @@
     [ et:source <http://data.linkeddatafragments.org/ugent-biblio> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <annepubs10/result.srj> .
+
+:emptybgp rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - BOW Empty" ;
+  rdfs:comment "A simple BGP with two patterns that produces no results" ;
+  mf:action
+        [ qt:query  <emptybgp.rq> ;
+          et:mockFolder <emptybgp> ] ;
+  et:dataSources (
+    [ et:source <https://data.betweenourworlds.org/latest> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <emptybgp/result.srj> .
+
+:employees rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Employee profiles" ;
+  rdfs:comment "Federated query to retrieve basic information from multiple employees" ;
+  mf:action
+        [ qt:query  <employees.rq> ;
+          et:mockFolder <employees> ] ;
+  et:dataSources (
+    [ et:source <employees/bendm.html> ;
+      et:sourceType et:File ]
+    [ et:source <employees/brechtvdv.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/erikm.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/geraldh.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/harm.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/office.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/pieterh.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/rubent.html> ;
+      et:sourceType et:File ]
+    [ et:source <employees/rubenv.ttl> ;
+      et:sourceType et:File ]
+    [ et:source <employees/svenl.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <employees/result.srj> .

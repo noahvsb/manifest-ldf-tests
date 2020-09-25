@@ -1,0 +1,27 @@
+# Query: null
+# Hashed IRI: https://pieterheyvaert.com/
+# Content-type: application/n-quads; charset=utf-8
+<https://pieterheyvaert.com/#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/name> "Pieter Heyvaert"@en .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/name> "Pieter Heyvaert"@nl .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/givenName> "Pieter"@en .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/givenName> "Pieter"@nl .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/familyName> "Heyvaert"@en .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/familyName> "Heyvaert"@nl .
+<https://pieterheyvaert.com/#me> <http://www.w3.org/2006/vcard/ns#title> "Development Lead and Developer Advocate" .
+<https://pieterheyvaert.com/#me> <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:pieter.heyvaert@ugent.be> .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:pieter.heyvaert@ugent.be> .
+<https://pieterheyvaert.com/#me> <http://xmlns.com/foaf/0.1/img> <https://pieterheyvaert.com/img/profile.jpg> .
+<https://pieterheyvaert.com/#me> <http://open.vocab.org/terms/twitter-id> "HeyPieter" .
+<https://pieterheyvaert.com/#me> <http://www.w3.org/ns/solid/terms#oidcIssuer> <https://pheyvaer.solid.community> .
+<https://pieterheyvaert.com/#me> <http://dbpedia.org/ontology/orcidId> "0000−0002−1583−5719" .
+<https://pieterheyvaert.com/#me> <http://purl.org/spar/scoro/hasORCID> "0000−0002−1583−5719" .
+_:n3-0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/auth/cert#RSAPublicKey> .
+_:n3-0 <http://www.w3.org/ns/auth/cert#modulus> "CAABC0524A1F2196199DC7F19FF70142D0E456849F08A5A271B06A53B95FB99C3062975BF05E5FE3809CD548DA3B2FB23CD92951FD43DB92F80C6B648B242FADF8FB0CFEF8FF2394453055C11813285DDE9AA70802BF4F211527C8DE9C603D7770E38B575F09349109155B2F8B2D9F0D9BCE69E55FD80041ED9CCE5C0F2549872672F5D17FC44AE3126BCB85E97DB87E315B883208DA0BB895DBFF75DBF4BEA813C13CBB21C7156E70C405A7B92D2BCDBB256AC1E554723B253FA886924CC8E33A676E01E03FFAFBC8254A4C1F4DE66395E0075D7AE3567E24948932DB38378F3CFBDC3DC522D1759F04A55F9AB4847C9ABA053EDAF1B5EC77C945216B1162DB"^^<http://www.w3.org/2001/XMLSchema#hexBinary> .
+_:n3-0 <http://www.w3.org/ns/auth/cert#exponent> "65537"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://pieterheyvaert.com/#me> <http://www.w3.org/ns/auth/cert#key> _:n3-0 .
+<https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HowTo> .
+<https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/#> <http://schema.org/name> "Getting started with Walder" .
+<https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/#> <http://schema.org/url> "https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/" .
+<https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/#> <http://schema.org/contributor> <https://pieterheyvaert.com/#me> .
+<https://pieterheyvaert.com/blog/2020/08/31/getting-started-with-walder/#> <http://schema.org/author> <https://pieterheyvaert.com/#me> .

@@ -1,0 +1,1434 @@
+# Query: null
+# Hashed IRI: https://work.de-meester.org/
+# Content-type: text/html
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Web Space of Ben De Meester">
+    <meta name="author" content="Ben De Meester">
+    <title>Ben De Meester</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="resources/css/scrolling-nav.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="resources/css/bib-publication-list.css" type="text/css"/>
+
+    <style>
+        #bibtex {
+            display: none;
+        }
+
+        section:nth-child(4n) {
+            background-color: rgba(255, 225, 142, .1);
+        }
+        section:nth-child(4n+1) {
+            background-color: rgba(178, 230, 128, .1);
+        }
+        section:nth-child(4n+2) {
+            background-color: rgba(112, 115, 181, .1);
+        }
+        section:nth-child(4n+3) {
+            background-color: rgba(226, 126, 160, .1);
+        }
+    </style>
+
+    <noscript>
+        <style>#bibtex {
+            display: block;
+        }</style>
+    </noscript>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script type="application/ld+json">
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "firstName": {
+      "@id": "foaf:givenName",
+      "@language": "en"
+    },
+    "lastName": {
+      "@id": "foaf:familyName",
+      "@language": "en"
+    },
+    "vcard": {
+      "@id": "http://www.w3.org/2006/vcard/ns#",
+      "@language": "en",
+      "@prefix": true
+    },
+    "img": {
+      "@id": "foaf:img",
+      "@type": "@id"
+    }
+  },
+  "@id": "https://ben.de-meester.org/#me",
+  "@type": "foaf:Person",
+  "firstName": "Ben",
+  "lastName": "De Meester",
+  "vcard:title": "Postdoctoral Researcher",
+  "foaf:mbox": "mailto:ben.demeester@ugent.be",
+  "img": "https://gravatar.com/avatar/92707f5c614704469138dbc868efb7c0?s=320"
+}
+    </script>
+</head>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-49827938-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<body id="home" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" title="Home" href="#home">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" title="Home" href="#home"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" title="Function ontology" href="#function">Function ontology</a>
+                </li>
+                <li>
+                    <a class="page-scroll" title="StoryBlink" href="#storyblink">StoryBlink</a>
+                </li>
+                <li>
+                    <a class="page-scroll" title="SERIF" href="#serif">SERIF</a>
+                </li>
+                <li>
+                    <a class="page-scroll" title="eAuthor" href="#eauthor">eAuthor</a>
+                </li>
+                <li>
+                    <a class="page-scroll" title="Publications" href="#bib">Publications</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="./papers/">Papers</a>
+                </li>
+                <li>
+                    <a href="./presentations/">Presentations</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Section -->
+<section id="intro" style="text-align: center;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" resource="http://ben.de-meester.org/#me" id="me" typeof="http://xmlns.com/foaf/0.1/Person">
+                <h1 property="http://xmlns.com/foaf/0.1/name">
+                    <span property="http://xmlns.com/foaf/0.1/firstName">Ben</span> <span property="http://xmlns.com/foaf/0.1/familyName">De Meester</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FnO Section -->
+<section id="function">
+    <div class="container">
+        <div class="jumbotron" style="text-align: center;">
+            <h1>The Function Ontology (FnO)</h1>
+            <p>An Ontology to Semantically Declare and Describe Functions</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>All information is available at the dedicated website: <a href="https://fno.io">https://fno.io</a>.
+
+                <h3>First publications about the Function Ontology:</h3>
+                <ul>
+                    <li>An Ontology to Semantically Declare and Describe Functions [<a
+                            href="http://2016.eswc-conferences.org/sites/default/files/papers/Accepted%20Posters%20and%20Demos/ESWC2016_POSTER_An_Ontology_to_Semantically_Declare_Describe_Functions.pdf"
+                            title="ESWC2016 publication">paper</a>, <a
+                            href="http://www.slideshare.net/BenDeMeester/eswc2016-pd-an-ontology-to-semantically-declare-and-describe-functions"
+                            title="ESWC2016 Poster">poster</a>]
+                    </li>
+                    <li>Discovering and Using Functions via Content Negotiation [<a
+                            href="http://ceur-ws.org/Vol-1690/paper110.pdf">paper</a>, <a
+                            href="http://www.slideshare.net/BenDeMeester/iswc2016-pd-discovering-and-using-functions-via-content-negotiation">poster</a>]
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- StoryBlink Section -->
+<section id="storyblink">
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+            <h1 style="font-family: Georgia, serif;letter-spacing: 1.7px">
+                <span style="color:#000066;">Story</span><span style="color:#009966;">b</span><span style="color:#ff9900;">link</span></h1>
+
+            <h4 style="font-family: Georgia, serif;">exploring <span style="color:#000066;">stories</span> through <span style="color:#ff9900;">linked</span>
+                <span style="color:#009966;">books</span></h4>
+
+            <p>How are famous classic works connected to each other? Find out on <a title="StoryBlink" href="http://uvdt.test.iminds.be/storyblink/">the StoryBlink Web app</a>!</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>StoryBlink lets users discover relevant links between classic works, but please, try the <a title="StoryBlink" href="http://uvdt.test.iminds.be/storyblink/">StoryBlink site</a>! More detailed info can be found <a href="http://uvdt.test.iminds.be/storyblink/about" title="Storyblink about page">here</a></p>
+
+                <p>If that site would be down (sorry!), please let me know. In the meantime, you can see below how a such a connected amount of books would look like:</p>
+
+                <figure>
+                    <img style="max-width: 100%" alt="The StoryBlink result" src="resources/images/storyblink-demo.png"/>
+                    <figcaption>StoryBlink allows a user to find relevant links between classic works. The result is a diagram where different books are linked to each other, where the link strength is indicated by the width of the links in the diagram.</figcaption>
+                </figure>
+
+                <h3>Current publications about Storyblink:</h3>
+                <ul>
+                    <li>Exposing Digital Content as Linked Data, and Linking them using StoryBlink [<a href="http://ruben.verborgh.org/publications/demeester_nlpdbpedia_2015/" title="NLPDBpedia2015 workshop publication">paper (to be published)</a>, <a href="http://www.slideshare.net/BenDeMeester/20151011-nlpdbpedia2015-exposing-digital-content-as-linked-data-and-linking-them-using-storyblink" title="NLPDBpedia2015 workshop presentation">presentation</a>]</li>
+                    <li>StoryBlink: a Semantic Web Approach for Linking Stories [<a href="http://ceur-ws.org/Vol-1486/paper_48.pdf" title="ISWC2015 demo publication">paper</a>, <a href="http://www.slideshare.net/BenDeMeester/iswc2015-pd-storyblink" title="ISWC2015 demo poster">poster</a>]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERIF Section -->
+<section id="serif">
+    <div class="container">
+        <div class="jumbotron" style="text-align: center;">
+            <h1>SERIF</h1>
+            <p>The Semantic ExeRcise Interchange Format</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>
+                    SERIF is a semantic interchange format for educational assessments, as used in the <a href="https://www.iminds.be/nl/projecten/2014/03/20/edutab">EduTab project</a>.
+                    The content used in the EduTab project consists of educational material, such as multiple choice questions &amp; open questions.
+                </p>
+                <p>
+                    SERIF's specification is defined <a href="http://edutab.test.iminds.be/specs/serif/">here</a>, with published ontology published <a href="http://semweb.mmlab.be/ns/serif">here</a>.
+                </p>
+
+                <p>SERIF's underlying data model is based on the <a href="http://www.imsglobal.org/question/">IMS QTI model</a> from the IMS Global Learning Consortium.</p>
+
+                <h3>Current publications about SERIF:</h3>
+                <ul>
+                    <li>SERIF - A Semantic ExeRcise Interchange Format [<a href="https://linked2015.files.wordpress.com/2015/04/linked_2015_paper_2.pdf">paper</a>, <a href="http://www.slideshare.net/BenDeMeester/20151011-linked2015-serif-a-semantic-exercise-interchange-format" title="LINKed2015 workshop presentation">presentation</a>]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- eAuthor Section -->
+<section id="eauthor">
+    <div class="container">
+        <div class="jumbotron" style="text-align: center; background-image: url('resources/images/paperPattern.png');">
+            <img src="resources/images/eAuthor_logo.png" alt="eAuthor logo" style="max-width: 80%;"/>
+            <p>The authoring environment for advanced e-books</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p>eAuthor is a proof-of-concept digital publishing authoring environment. eAuthor follows a strict division between 'content', 'structure', and 'layout'. Its uses HTML5 as base content format.</p>
+
+                <p>eAuthor's back-end considers every element of a publication &mdash; whether it being a piece of text, an image, a video, or an interactive widget &mdash; as a generic 'content block'. This homogeneous handling of heterogeneous content makes eAuthor fit for future advanced e-books.</p>
+
+                <p>
+                    Furthermore, in its next version, eAuthor supported custom defined data models, which resulted in an extra 'vocabulary' view.
+                </p>
+
+                <h3>Current publications about eAuthor:</h3>
+                <ul>
+                    <li>A digital first authoring environment for enriched e-books using EPUB 3 [<a href="http://dx.doi.org/10.3233/ISU-140748" title="ELPub2015 publication">paper</a>, <a href="http://www.slideshare.net/BenDeMeester/a-digital-first-authoring-environment-for-enriched-ebooks-using-epub-3" title="ELPub2015 presentation">presentation</a>, <span class="glyphicon glyphicon-facetime-video"></span> <a href="http://users.ugent.be/~bjdmeest/PotF_demo.mp4" title="ELPub demo video">video</a>]</li>
+                    <li>Creating discoverable learning content using a user-friendly authoring environment [<a href="http://ceur-ws.org/Vol-1254/2_meester.pdf" title="LILE2015 workshop publication">paper</a>, <a href="http://www.slideshare.net/BenDeMeester/creating-discoverable-learning-content-using-a-userfriendly-authoring-environment" title="LILE2015 workshop presentation">presentation</a>, <span class="glyphicon glyphicon-facetime-video"></span> <a href="http://users.ugent.be/~bjdmeest/lile_demo.mp4" title="LILE2015 workshop demo video">video</a>]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Publications Section -->
+<section id="bib">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Publications</h1>
+                <table id="pubTable" class="display"></table>
+<pre id="bibtex">
+@InProceedings{DeMeester2015c,
+  author    = {De Meester, Ben and De Nies, Tom and De Vocht, Laurens and Verborgh, Ruben and Mannens, Erik and Van de Walle, Rik},
+  title     = {{StoryBlink -- a Semantic Web Approach for Linking Stories}},
+  year      = {2015},
+  comment   = {in biblio},
+  crossref  = {ISWC2015PD},
+  _file      = {:http\://ceur-ws.org/Vol-1486/paper_48.pdf:URL},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2015.10.10},
+  _url       = {http://ceur-ws.org/Vol-1486/paper_48.pdf},
+}
+
+@InProceedings{DeMeester2017Vocabulary,
+  author    = {De Meester, Ben and Dimou, Anastasia and Maroy, Wouter and Kontokostas, Dimitris and Verborgh, Ruben and Lehmann, Jens and Mannens, Erik and Hellman, Sebastian},
+  booktitle = {ISWC 2017 Posters \& Demonstrations and Industry Tracks},
+  title     = {A Vocabulary-Independent Generation Framework for DBpedia and beyond},
+  year      = {2017},
+  address   = {Vienna, Austria},
+  editor    = {Nikita, Nadeschda and Song, Dezhao and Fokoue, Achille and Haase, Peter},
+  month     = oct,
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1963},
+  abstract  = {The DBpedia Extraction Framework, the generation framework behind one of the Linked Open Data cloud’s central hubs, has
+limitations which lead to quality issues with the dbpedia dataset. Therefore, we provide a new take on its Extraction Framework that allows for
+a sustainable and general-purpose Linked Data generation framework by
+adapting a semantic-driven approach. The proposed approach decouples,
+in a declarative manner, the extraction, transformation, and mapping
+rules execution. This way, among others, interchanging different schema
+annotations is supported, instead of being coupled to a certain ontology
+as it is now, because the DBpedia Extraction Framework allows only
+generating a certain dataset with a single semantic representation. In
+this paper, we shed more light to the added value that this aspect brings.
+We provide an extracted dbpedia dataset using a different vocabulary,
+and give users the opportunity to generate a new dbpedia dataset using
+a custom combination of vocabularies.},
+  comment   = {in biblio},
+  crossref  = {ISWC2017PDI},
+  groups    = {IDLab, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  keywords  = {DBpedia, FnO, Generation, Linked Data, RML},
+  owner     = {bjdmeest},
+  timestamp = {2017.10.24},
+  _url       = {http://ceur-ws.org/Vol-1963/paper582.pdf},
+}
+
+@InProceedings{demeester_eswc_2017,
+  author    = {De Meester, Ben and Maroy, Wouter and Dimou, Anastasia and Verborgh, Ruben and Mannens, Erik},
+  title     = {{Declarative Data Transformations for Linked Data Generation: the case of DBpedia}},
+  year      = {2017},
+  pages     = {33--48},
+  comment   = {in biblio, not P1?},
+  crossref  = {ESWC2017II},
+  doi       = {10.1007/978-3-319-58451-5_3},
+  _file      = {:demeester_eswc_2017.pdf:PDF},
+  groups    = {IDLab, DBmedia, paper-2018-phd-eswc, journal-fno-fgcs, mapping-characteristics, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-3-319-58450-8, 978-3-319-58451-5},
+  owner     = {bjdmeest},
+  timestamp = {2017.05.07},
+  _url       = {https://link.springer.com/chapter/10.1007/978-3-319-58451-5_3},
+}
+
+@InProceedings{demeester_eswc_demo_2017,
+  author    = {De Meester, Ben and Maroy, Wouter and Dimou, Anastasia and Verborgh, Ruben and Mannens, Erik},
+  title     = {{RML and FnO:} Shaping {DBpedia} Declaratively},
+  year      = {2017},
+  pages     = {172--177},
+  comment   = {in biblio},
+  crossref  = {ESWC2017PD},
+  doi       = {10.1007/978-3-319-70407-4_32},
+  _file      = {:demeester_eswc_demo_2017.pdf:PDF},
+  groups    = {IDLab, DBmedia, mapping-characteristics, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-3-319-70407-4},
+  owner     = {bjdmeest},
+  timestamp = {2017.05.08},
+  _url       = {https://ruben.verborgh.org/publications/demeester_eswc_demo_2017/},
+}
+
+@InProceedings{Heyvaert2018Declarative,
+  author    = {Heyvaert, Pieter and De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben},
+  title     = {{Declarative Rules for Linked Data Generation at your Fingertips!}},
+  year      = {2018},
+  abstract  = {Linked Data is often generated based on a set of declarative rules using languages such as R2RML and RML. These languages
+are built with machine-processability in mind. It is thus not always straightforward for users to define or understand rules written in these
+languages, preventing them from applying the desired annotations to the
+data sources. In the past, graphical tools were proposed. However, next
+to users who prefer a graphical approach, there are users who desire to
+understand and define rules via a text-based approach. For the latter,
+we introduce an enhancement to their workflow. Instead of requiring
+users to manually write machine-processable rules, we propose writing
+human-friendly rules, and generate machine-processable rules based on
+those human-friendly rules. At the basis is YARRRML: a human-readable
+text-based representation for declarative generation rules. We propose a
+novel browser-based integrated development environment (IDE) called
+“Matey”, showcasing the enhanced workflow. In this work, we describe our
+demo. Users can experience first hand how to generate triples from data in
+different formats by using YARRRML’s representation of the rules. The
+actual machine-processable rules remain completely hidden when editing.
+Matey shows that writing human-friendly rules enhances the workflow
+for a broader range of users. As a result, more desired annotations will
+be added to the data sources which leads to more desired Linked Data.},
+  comment   = {in biblio},
+  crossref  = {ESWC2018PD},
+  _file      = {:Heyvaert2018Declarative.pdf:PDF},
+  groups    = {mapping-characteristics, ecodalo-in-use, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2018.06.07},
+  _url       = {https://2018.eswc-conferences.org/files/posters-demos/paper_297.pdf},
+}
+
+@InProceedings{maroy_iswc_2017,
+  author    = {Maroy, Wouter and Dimou, Anastasia and Kontokostas, Dimitris and De Meester, Ben and Verborgh, Ruben and Lehmann, Jens and Mannens, Erik and Hellmann, Sebastian},
+  title     = {Sustainable Linked Data Generation: The Case of {DBpedia}},
+  year      = {2017},
+  pages     = {297--313},
+  comment   = {in biblio, not P1?},
+  crossref  = {ISWC2017II},
+  doi       = {10.1007/978-3-319-68204-4_28},
+  _file      = {:maroy_iswc_2017.pdf:PDF},
+  groups    = {IDLab, DBmedia, paper-2018-phd-eswc, journal-fno-fgcs, mapping-characteristics, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2017.10.23},
+  _url       = {http://jens-lehmann.org/files/2017/iswc_dbpedia_rml.pdf},
+}
+
+@InProceedings{Tommasini2017Representing,
+  author    = {Tommasini, Riccardo and De Meester, Ben and Heyvaert, Pieter and Verborgh, Ruben and Mannens, Erik and Della Valle, Emanuele},
+  title     = {{Representing Dockerfiles in RDF}},
+  year      = {2017},
+  abstract  = {Containers – lightweight, stand-alone software executables –
+are everywhere. Industries exploit container managers to orchestrate
+complex cloud infrastructures and researchers in academia use them to
+foster reproducibility of computational experiments. Among existing solutions,
+Docker is the de facto standard in the container industry. In this
+paper, we advocate the value of applying the Linked Data paradigm to
+the container ecosystem’s building scripts, as it will allow adding additional
+knowledge, ease decentralized references, and foster interoperability.
+In particular we defined a vocabulary Dockeronto that allows to
+semantically annotate Dockerfiles},
+  comment   = {in biblio},
+  crossref  = {ISWC2017PDI},
+  _file      = {:Tommasini2017Representing.pdf:PDF},
+  groups    = {IDLab, paper-2018-phd-eswc, journal-fno-fgcs, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2017.10.24},
+  _url       = {http://ceur-ws.org/Vol-1963/paper528.pdf},
+}
+
+@InProceedings{Verborgh2014,
+  author    = {Verborgh, Ruben and Hartig, Olaf and De Meester, Ben and Haesendonck, Gerald and De Vocht, Laurens and Vander Sande, Miel and Cyganiak, Richard and Colpaert, Pieter and Mannens, Erik and Van de Walle, Rik},
+  title     = {{Low-Cost Queryable Linked Data through Triple Pattern Fragments}},
+  year      = {2014},
+  pages     = {13--16},
+  comment   = {in biblio},
+  crossref  = {ISWC2014PD},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2014.10.30},
+  _url       = {http://ceur-ws.org/Vol-1272/paper_10.pdf},
+}
+
+@InProceedings{verborgh2014querying,
+  author    = {Verborgh, Ruben and Hartig, Olaf and De Meester, Ben and Haesendonck, Gerald and De Vocht, Laurens and Vander Sande, Miel and Cyganiak, Richard and Colpaert, Pieter and Mannens, Erik and Van de Walle, Rik},
+  title     = {{Querying Datasets on the Web with High Availability}},
+  year      = {2014},
+  pages     = {180--196},
+  comment   = {in biblio},
+  crossref  = {ISWC2014I},
+  doi       = {10.1007/978-3-319-11964-9_12},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-3-319-11963-2},
+  owner     = {rverborgh},
+  timestamp = {2014.10.30},
+  _url       = {http://linkeddatafragments.org/publications/iswc2014.pdf},
+}
+
+@InProceedings{arndt_ruleml_industry_2015,
+  author    = {Arndt, D\"{o}rthe and De Meester, Ben and Bonte, Pieter and Schaballie, Jeroen and Bhatti, Jabran and Dereuddre, Wim and Verborgh, Ruben and Ongenae, Femke and De Turck, Filip and Van de Walle, Rik and Mannens, Erik},
+  booktitle = {Proceedings of the 9<sup>th</sup> International Web Rule Symposium: Industry Track},
+  title     = {Ontology Reasoning using Rules in an {eHealth} Context},
+  year      = {2015},
+  month     = aug,
+  pages     = {465--472},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9202},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2015.08.03},
+  _url       = {http://link.springer.com/chapter/10.1007/978-3-319-21542-6_31},
+}
+
+@InProceedings{arndt_owled_2015,
+  author    = {Arndt, D\"{o}rthe and De Meester, Ben and Bonte, Pieter and Schaballie, Jeroen and Bhatti, Jabran and Dereuddre, Wim and Verborgh, Ruben and Ongenae, Femke and De Turck, Filip and Van de Walle, Rik and Mannens, Erik},
+  booktitle = {Ontology Engineering: 12<sup>th</sup> International Experiences and Directions Workshop on OWL},
+  title     = {{Improving OWL RL reasoning in N3 by using specialized rules}},
+  year      = {2016},
+  address   = {Cham},
+  editor    = {Tamma, Valentina and Dragoni, Mauro and Gon\c{c}alves, Rafael and {\L}awrynowicz, Agnieszka},
+  month     = apr,
+  pages     = {93--104},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9557},
+  comment   = {in biblio},
+  doi       = {10.1007/978-3-319-33245-1_10},
+  _file      = {:https\://link.springer.com/chapter/10.1007%2F978-3-319-33245-1_10:URL},
+  groups    = {IDLab, bdm-bjdmeest, bdm-journal-reasoning-validation, bdm-phdbook},
+  _isbn      = {978-3-319-33245-1},
+  owner     = {bjdmeest},
+  timestamp = {2015.10.09},
+}
+
+@InProceedings{arndt_ruleml_2017,
+  author    = {Arndt, D\"{o}rthe and De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben and Mannens, Erik},
+  booktitle = {Rules and Reasoning: International Joint Conference, RuleML+RR 2017, London, UK, July 12--15, 2017},
+  title     = {{Using Rule-Based Reasoning for RDF Validation}},
+  year      = {2017},
+  address   = {Cham},
+  editor    = {Constantini, Stefania and Franconi, Enrico and Van Woensel, William and Kontchakov, Roman and Sadri, Fariba and Roman, Dumitru},
+  month     = jul,
+  pages     = {22--36},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10364},
+  comment   = {in biblio},
+  doi       = {10.1007/978-3-319-61252-2_3},
+  _file      = {:arndt_ruleml_2017.pdf:PDF},
+  groups    = {IDLab, paper-2018-phd-eswc, paper-2018-unshacled-requirements, ph-rml-website, bdm-bjdmeest, bdm-journal-reasoning-validation, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2017.07.12},
+}
+
+@InProceedings{bonte_ore_2015,
+  author    = {Bonte, Pieter and Ongenae, Femke and Schaballie, Jeroen and De Meester, Ben and Arndt, D\"{o}rthe and Dereuddre, Wim and Bhatti, Jabran and Verstichel, Stijn and Verborgh, Ruben and Van de Walle, Rik and Mannens, Erik and De Turck, Filip},
+  booktitle = {Proceedings of the 4<sup>th</sup> OWL Reasoner Evaluation (ORE) Workshop},
+  title     = {Evaluation and Optimized Usage of {OWL} 2 Reasoners in an Event-based {eHealth} Context},
+  year      = {2015},
+  address   = {Athens, Greece},
+  month     = jun,
+  pages     = {1--7},
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1387},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2015.06.06},
+  _url       = {http://ceur-ws.org/Vol-1387/paper_6.pdf},
+}
+
+@InProceedings{DeMeester2018High,
+  author    = {De Meester, Ben},
+  booktitle = {Proceedings of the Doctoral Consortium},
+  title     = {{High Quality Schema and Data Transformations for Linked Data Generation}},
+  year      = {2018},
+  address   = {Monterey, USA},
+  editor    = {Kirrane, Sabrina and Kagal, Lalana},
+  month     = oct,
+  pages     = {18--26},
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2181},
+  comment   = {in biblio, phd stuff},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2018.10.10},
+  _url       = {http://ceur-ws.org/Vol-2181/paper-03.pdf},
+}
+
+@InProceedings{DeMeester2015e,
+  author    = {De Meester, Ben and Arndt, D\"{o}rthe and Bonte, Pieter and Bhatti, Jabran and Dereuddre, Wim and Verborgh, Ruben and Ongenae, Femke and De Turck, Filip and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Joint Proceedings of SSN-TC and OrdRing 2015},
+  title     = {Event-Driven Rule-Based Reasoning using {EYE}},
+  year      = {2015},
+  editor    = {Calbimonte, Jean-Paul and Celino, Irene and Della Valle, Emanuele and Dell{{\'{A}}}glio, daniele and Kr\"{o}tzsch, Markus and Schlobach, Stefan},
+  month     = oct,
+  pages     = {75--86},
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  comment   = {in biblio},
+  _file      = {:http\://ceur-ws.org/Vol-1488/paper-08.pdf:URL},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2015.10.10},
+  _url       = {http://ceur-ws.org/Vol-1488/paper-08.pdf},
+}
+
+@Article{DeMeester2015,
+  author    = {De Meester, Ben and De Nies, Tom and De Neve, Wesley and Van de Walle, Rik},
+  journal   = {Books in Browsers},
+  title     = {Interlinking Books with the World: Using the {S}emantic {W}eb to Create Books as Reliable, Machine-Understandable Information Service Providers},
+  year      = {2015},
+  month     = feb,
+  number    = {1},
+  pages     = {1--6},
+  volume    = {18},
+  comment   = {in biblio},
+  doi       = {10.3998/3336451.0018.114},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  publisher = {Journal of Electronic Publishing},
+  timestamp = {2015.02.04},
+  _url       = {http://dx.doi.org/10.3998/3336451.0018.114},
+}
+
+@InProceedings{DeMeester2015d,
+  author    = {De Meester, Ben and De Nies, Tom and De Vocht, Laurens and Verborgh, Ruben and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {NLP \& DBpedia 2015 Workshop},
+  title     = {Exposing Digital Content as Linked Data, and Linking them using {StoryBlink}},
+  year      = {2015},
+  editor    = {Paulheim, Heiko and van Erp, Marieke and Filipowska, Agata and Mendes, Pablo N. and B\"{u}mmer, Martin},
+  comment   = {in biblio},
+  _file      = {:DeMeester2015d.pdf:PDF},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2015.10.10},
+  _url       = {https://nlpdbpedia2015.files.wordpress.com/2015/08/nlpdbpedia_2015_submission_1.pdf},
+}
+
+@InProceedings{demeester2014adigitalfirst,
+  author    = {De Meester, Ben and De Nies, Tom and Ghaem Sigarchian, Hajar and Vander Sande, Miel and Van Campen, Jelle and Van Impe, Bram and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the 18<sup>th</sup> Int'l. Conference on Electronic Publishing (ELPUB)},
+  title     = {{{A Digital-First Authoring Environment for Enriched e-Books using EPUB 3}}},
+  year      = {2014},
+  address   = {Thessaloniki, Greece},
+  month     = jun,
+  pages     = {68--77},
+  comment   = {in biblio},
+  doi       = {10.3233/978-1-61499-409-1-68},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-1-61499-409-1},
+  owner     = {bjdmeest},
+  timestamp = {2014.06.01},
+  _url       = {http://dx.doi.org/10.3233/978-1-61499-409-1-68},
+}
+
+@Article{demeester2014adigitalfirst-ISU,
+  author    = {De Meester, Ben and De Nies, Tom and Ghaem Sigarchian, Hajar and Vander Sande, Miel and Van Campen, Jelle and Van Impe, Bram and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  journal   = {Information Services and Use},
+  title     = {{{A Digital-First Authoring Environment for Enriched e-Books using EPUB 3}}},
+  year      = {2014},
+  month     = dec,
+  number    = {3-4},
+  pages     = {259--268},
+  volume    = {34},
+  comment   = {in biblio},
+  doi       = {10.3233/ISU-140748},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  keywords  = {Authoring environment, EPUB 3, Open Web standards},
+  owner     = {bjdmeest},
+  timestamp = {2014.10.01},
+  _url       = {http://dx.doi.org/10.3233/ISU-140748},
+}
+
+@InProceedings{DeMeester2015a,
+  author    = {De Meester, Ben and De Nies, Tom and Verborgh, Ruben and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Compagnion Proceedings of World Wide Web 2015 Conference (WWW)},
+  title     = {{Reconnecting Digital Publications to the Web using their Spatial Information}},
+  year      = {2015},
+  address   = {Firenze, Italy},
+  month     = may,
+  pages     = {749--754},
+  publisher = {ACM},
+  comment   = {in biblio},
+  doi       = {10.1145/2740908.2741714},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-1-4503-3473-0},
+  owner     = {bjdmeest},
+  timestamp = {2015.05.26},
+}
+
+@InProceedings{DeMeester2019EcoDaLo,
+  author    = {De Meester, Ben and Degueldre, Philippe and Segebarth, Allan and Thiers, Peter and Verborgh, Ruben and Dimou, Anastasia},
+  booktitle = {ESWC2019: In-Use Track},
+  title     = {{EcoDaLo: Federating advertisement targeting with Linked Data}},
+  note      = {To be resubmitted},
+  comment   = {to be submitted, not in biblio},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.04.11},
+}
+
+@TechReport{fno,
+  author      = {De Meester, Ben and Dimou, Anastasia},
+  institution = {Ghent University -- imec -- IDLab},
+  title       = {{The Function Ontology}},
+  year        = {2019},
+  month       = may,
+  type        = {Unofficial Draft},
+  comment     = {never in biblio},
+  day         = {29},
+  groups      = {IDLab, journal-fno-fgcs, mapping-characteristics, demo-fnhub, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner       = {bjdmeest},
+  timestamp   = {2016.10.06},
+  url         = {https://w3id.org/function/spec},
+}
+
+@InProceedings{DeMeester2016b,
+  author    = {De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben and Mannens, Erik},
+  booktitle = {15<sup>th</sup> International Semantic Web Conference: Posters \& Demonstrations Track},
+  title     = {Discovering and {U}sing {F}unctions via {C}ontent {N}egotiation},
+  year      = {2016},
+  editor    = {Kawamura, Takahiro and Paulheim, Heiko},
+  month     = oct,
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1690},
+  comment   = {in biblio},
+  _file      = {:http\://ceur-ws.org/Vol-1690/paper110.pdf:URL},
+  groups    = {IDLab, demo-fnhub, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  keywords  = {Content Negotiation, Function, Linked Data},
+  owner     = {bjdmeest},
+  timestamp = {2016.10.16},
+  _url       = {http://ceur-ws.org/Vol-1690/paper110.pdf},
+}
+
+@InProceedings{DeMeester2017Detailed,
+  author    = {De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben and Mannens, E.},
+  booktitle = {Proceedings of the First Workshop on Enabling Open Semantic Science (SemSci)},
+  title     = {Detailed Provenance Capture of Data Processing},
+  year      = {2017},
+  editor    = {Garijo, Daniel and van Hage, Willem Robert and Kauppinen, Tomi and Kuhn, Tobias and Zhao, Jun},
+  month     = oct,
+  pages     = {31--38},
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1931},
+  abstract  = {A large part of Linked Data generation entails processing the
+raw data. However, this process is only documented in human-readable
+form or as a software repository. This inhibits reproducibility and comparability,
+as current documentation solutions do not provide detailed
+metadata and rely on the availability of specific software environments.
+This paper proposes an automatic capturing mechanism for interchangeable
+and implementation independent metadata and provenance that
+includes data processing. Using declarative mapping documents to describe
+the computational experiment allows automatic capturing of termlevel
+provenance for both schema and data transformations, and for both
+the used software tools as the input-output pairs of the data processing
+executions. This approach is applied to mapping documents described
+using rml and fno, and implemented in the rmlmapper. The captured
+metadata can be used to more easily share, reproduce, and compare the
+dataset generation process, across software environments.},
+  comment   = {in biblio},
+  groups    = {IDLab, paper-2018-phd-eswc, journal-fno-fgcs, mapping-characteristics, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  keywords  = {Computational Experiment, Data Processing, FnO, Provenance, RML},
+  owner     = {bjdmeest},
+  timestamp = {2017.10.22},
+  _url       = {http://ceur-ws.org/Vol-1931/#paper-05},
+}
+
+@InProceedings{DeMeester2016,
+  author    = {De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {The Semantic Web: ESWC 2016 Satellite Events, Heraklion, Crete, Greece, May 29 -- June 2, 2016, Revised Selected Papers},
+  title     = {An {O}ntology to {S}emantically {D}eclare and {D}escribe {F}unctions},
+  year      = {2016},
+  editor    = {Sack, Harald and Rizzo, Giuseppe and Steinmetx, Nadine and Mladeni\'{c}, Dunja and Auer, S\"{o}ren and Lange, Christoph},
+  month     = oct,
+  pages     = {46--49},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9989},
+  comment   = {in biblio},
+  doi       = {10.1007/978-3-319-47602-5_10},
+  _file      = {:DeMeester2016.pdf:PDF},
+  groups    = {IDLab, paper-2018-phd-eswc, mapping-characteristics, demo-fnhub, journal-fno-fgcs, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-3-319-47602-5},
+  keywords  = {Application, Function, Ontology, Semantic Web},
+  owner     = {bjdmeest},
+  timestamp = {2016.06.02},
+  _url       = {http://link.springer.com/chapter/10.1007/978-3-319-47602-5_10},
+}
+
+@InProceedings{demeester2014creatingdiscoverable,
+  author    = {De Meester, Ben and Ghaem Sigarchian, Hajar and De Nies, Tom and Dimou, Anastasia and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the Linked Learning meets LinkedUp Workshop: Learning and Education with the Web of Data (LILE)},
+  title     = {Creating Discoverable Learning Content Using a User-Friendly Authoring Environment},
+  year      = {2014},
+  address   = {Riva del Garda, Italy},
+  editor    = {Dietze, Stefan and d'Aquin, Mathieu and Herder, Eelco and Gesevic, Dragan},
+  month     = oct,
+  pages     = {1--6},
+  publisher = {CEUR},
+  series    = {CEUR Workshop Proceedings},
+  comment   = {in biblio},
+  groups    = {IDLab, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  keywords  = {Authoring Environment, EPUB 3, Linked Learning},
+  owner     = {bjdmeest},
+  timestamp = {2014.10.30},
+  _url       = {http://ceur-ws.org/Vol-1254/2_meester.pdf},
+}
+
+@InProceedings{DeMeester2015b,
+  author    = {De Meester, Ben and Ghaem Sigarchian, Hajar and De Nies, Tom and Verborgh, Ruben and Salliau, Frank and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the 1<sup>st</sup> International Workshop on LINKed EDucation at the ISWC 2015},
+  title     = {{SERIF: A Semantic ExeRcise Interchange Format}},
+  year      = {2015},
+  editor    = {Dietze, Stefan and Sack, Harald and Simperl, Elena and Vidal, Maria-Esther and Peroni, Silvio},
+  month     = oct,
+  abstract  = {More and more users obtain new knowledge using e-learning systems,
+	and often assess their understanding of this new knowledge using
+	corresponding assessment items. However, the distribution of content
+	items and assessment items in a learning object is tightly bound.
+	To publish assessment items, independently of the corresponding content
+	items, it is required to wrap these assessment items into separate
+	learning objects, which introduces a large overhead. Moreover, current
+	learning objects are closely coupled with their execution environment.
+	A stand-alone and lightweight format to describe assessment items
+	is needed. This way their publication is facilitated and their discoverability
+	can be increased. This paper proposes some important features for
+	such a format and introduces SERIF: a Semantic ExeRcise Interchange
+	Format, whose underlying data model is based on the QTI data model,
+	and that can be distributed into different RDF serializations. SERIF
+	was applied successfully in three proof-of-concept applications,
+	where we assessed how SERIF is decoupled from the execution environment
+	and extendable to other content and interaction types. In future
+	work, we will exploit its defined semantics for automatic discovery
+	and combination of assessment items.},
+  comment   = {in biblio},
+  _file      = {:https\://linked2015.files.wordpress.com/2015/04/linked_2015_paper_2.pdf:URL},
+  groups    = {IDLab, paper-2018-call, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2015.10.10},
+  _url       = {https://linked2015.files.wordpress.com/2015/04/linked_2015_paper_2.pdf},
+}
+
+@TechReport{DeMeester2017PWP,
+  author      = {De Meester, Ben and Herman, Ivan and Siegman, Tzviya},
+  institution = {W3C},
+  title       = {{PWP Locators}},
+  year        = {2017},
+  month       = sep,
+  type        = {Editor's Draft},
+  comment     = {never in biblio},
+  groups      = {bdm-bjdmeest, bdm-phdbook},
+  owner       = {bjdmeest},
+  timestamp   = {2017.09.27},
+  url         = {https://w3c.github.io/dpub-pwp-loc/},
+}
+
+@Article{DeMeester2019RDF,
+  author    = {De Meester, Ben and Heyvaert, Pieter and Arndt, D\"orthe and Dimou, Anastasia and Verborgh, Ruben},
+  journal   = {Semantic Web Journal},
+  title     = {{RDF Graph Validation Using Rule-Based Reasoning}},
+  year      = {2020},
+  note      = {Accepted, to be published},
+  comment   = {not in biblio},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2020.01.04},
+  _url       = {http://www.semantic-web-journal.net/system/files/swj2330.pdf},
+}
+
+@TechReport{DeMeester2018YARRRML,
+  author      = {De Meester, Ben and Heyvaert, Pieter and Dimou, Anastasia},
+  institution = {imec -- Ghent University -- IDLab},
+  title       = {{YARRRML}},
+  year        = {2019},
+  month       = aug,
+  type        = {Unofficial Draft},
+  comment     = {never in biblio},
+  groups      = {IDLab, ecodalo-in-use, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner       = {bjdmeest},
+  timestamp   = {2019.03.19},
+  url         = {https://w3id.org/yarrrml/spec},
+}
+
+@InProceedings{demeester_voila_2018,
+  author    = {De Meester, Ben and Heyvaert, Pieter and Dimou, Anastasia and Verborgh, Ruben},
+  booktitle = {Proceedings of the 4<sup>th</sup> International Workshop on Visualization and Interaction for Ontologies and Linked Data},
+  title     = {{Towards a Uniform User Interface for Editing Data Shapes}},
+  year      = {2018},
+  editor    = {Ivanova, Valentina and Lambrix, Patrick and Lohmann, Steffen and Pesquita, Catia},
+  month     = oct,
+  pages     = {13--24},
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2187},
+  comment   = {in biblio},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-journal-reasoning-validation, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2018.10.09},
+  _url       = {http://ceur-ws.org/Vol-2187/paper2.pdf},
+}
+
+@InProceedings{DeMeester2019Mapping,
+  author    = {De Meester, Ben and Heyvaert, Pieter and Verborgh, Ruben and Dimou, Anastasia},
+  booktitle = {Joint Proceedings of the 1<sup>st</sup> International Workshop on Knowledge Graph Building and 1<sup>st</sup> International Workshop on Large Scale RDF Analytics co-located with 16<sup>th</sup> Extended Semantic Web Conference (ESWC)},
+  title     = {{Mapping languages analysis of comparative characteristics}},
+  year      = {2019},
+  address   = {Portoro\u{z}, Slovenia},
+  editor    = {Chaves-Fraga, David and Heyvaert, Pieter and Priyatna, Freddy and Sequeda, Juan and Dimou, Anastasia and Jabeen, Hajira and Graux, Damien and Sejdiu, Gezim and Saleem, Mohammed and Lehmann, Jens},
+  month     = jun,
+  pages     = {37--45},
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2489},
+  comment   = {in biblio},
+  date      = {2019-06-03},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2019.03.21},
+  _url       = {http://ceur-ws.org/Vol-2489/paper4.pdf},
+}
+
+@InProceedings{DeMeester2018Interoperable,
+  author    = {De Meester, Ben and Lieber, Sven and Dimou, Anastasia and Verborgh, Ruben},
+  booktitle = {Proceedings of the 19<sup>th</sup> International CALL Research Conference},
+  title     = {{Interoperable User Tracking Logs using Linked Data for improved Learning Analytics}},
+  year      = {2018},
+  address   = {Antwerp},
+  publisher = {Universiteit Antwerpen},
+  abstract  = {Learning analytics can provide adaptive learning and performance support by analyzing user
+tracking logs. However, data-driven learning is usually confined to a specific context (e.g.,
+learning English within one application), and thus not interoperable across systems or domains. In this paper, we investigate ways to improve integration of data across applications
+and educational domains, by means of Linked Data, using existing standards such as the
+Experience API. Using JSON-LD, existing Learning Record Store tools can be used to store
+the tracking logs, which are then interpreted and aligned as Linked Data. We have applied
+the solution in an initial data capture resulting in more than two million statements spanning two different applications. This way, we aim to enrich adaptive learning and performance support across contexts},
+  comment   = {in biblio},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {9789057285943},
+  owner     = {bjdmeest},
+  timestamp = {2018.07.04},
+  _url       = {https://biblio.ugent.be/publication/8575501},
+}
+
+@InProceedings{DeMeester2019Function,
+  author    = {De Meester, Ben and Noterman, Lander and Verborgh, Ruben and Dimou, Anastasia},
+  booktitle = {The Semantic Web: ESWC 2019 Satellite Events},
+  title     = {{The Function Hub: An Implementation-Independent Read/Write Function Description Repository}},
+  year      = {2019},
+  address   = {Portoro\v{z}, Slovenia},
+  editor    = {Hitzler, Pascal and Kirrane, Sabrina and Hartig, Olaf and de Boer, Victor and Vidal, Maria-Esther and Maleshkova, Maria and Schlobach, Stefan and Hammar, Karl and Lasierra, Nelia and Stadtm\"{u}ller and Hose, Katja and Verborgh, Ruben},
+  month     = jun,
+  pages     = {33--37},
+  publisher = {Springer, Cham},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11762},
+  comment   = {in biblio},
+  date      = {2019-10-10},
+  doi       = {10.1007/978-3-030-32327-1_7},
+  ean       = {9783030323271},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-3-030-32327-1},
+  owner     = {bjdmeest},
+  timestamp = {2019.06.01},
+  _url       = {https://ben.de-meester.org/research/preprints/DeMeester2019Function.pdf},
+}
+
+@Article{DeMeester2019Implementation,
+  author    = {De Meester, Ben and Seymoens, Tom and Dimou, Anastasia and Verborgh, Ruben},
+  journal   = {Future Generation Computer Systems},
+  title     = {{Implementation-independent Function Reuse}},
+  year      = {2020},
+  _issn      = {0167-739X},
+  month     = sep,
+  pages     = {946--959},
+  volume    = {110},
+  comment   = {not in biblio},
+  doi       = {10.1016/j.future.2019.10.006},
+  groups    = {demo-fnhub, IDLab, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  publisher = {Elsevier {BV}},
+  timestamp = {2019.10.17},
+  _url       = {https://ben.de-meester.org/research/preprints/DeMeester2019Implementation.pdf},
+}
+
+@InProceedings{4378019,
+  author    = {De Meester, Ben and Verborgh, Ruben and Pauwels, Pieter and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {4<sup>th</sup> FTRA International Conference on Advanced IT, engineering and Management, Abstracts},
+  title     = {Improving Multimedia Analysis through Semantic Integration of Services},
+  year      = {2014},
+  month     = feb,
+  pages     = {2},
+  publisher = {Future Technology Research Association (FTRA)},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  keyword   = {multimedia analysis,web services,semantic reasoning},
+  language  = {eng},
+  location  = {Jeju, South Korea},
+  owner     = {bjdmeest},
+  timestamp = {2014.02.01},
+  _url       = {http://hdl.handle.net/1854/LU-4378019},
+}
+
+@Article{demeester2015towardsrobust,
+  author    = {De Meester, Ben and Verborgh, Ruben and Pauwels, Pieter and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  journal   = {Multimedia Tools and Applications},
+  title     = {Towards Robust and Reliable Multimedia Analysis through Semantic Integration of Services},
+  year      = {2016},
+  _issn      = {1573-7721},
+  month     = nov,
+  number    = {22},
+  pages     = {14019--14038},
+  volume    = {75},
+  comment   = {First online 20/01/2015, in biblio},
+  doi       = {10.1007/s11042-014-2445-9},
+  _file      = {:http\://link.springer.com/article/10.1007/s11042-014-2445-9:URL},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  keywords  = {multimedia analysis, reasoning cycle, semantic reasoning, Web services},
+  owner     = {bjdmeest},
+  timestamp = {2015.01.14},
+  _url       = {https://rdcu.be/6osJ},
+}
+
+@InProceedings{4378014,
+  author    = {De Nies, Tom and Verborgh, Ruben and Vander Sande, Miel and De Meester, Ben and Ghaem Sigarchian, Hajar and Dimou, Anastasia and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {W3C Workshop on Annotations, Abstracts},
+  title     = {{Towards Decentralized Annotations in Digital Books and on the Web}},
+  year      = {2014},
+  month     = apr,
+  pages     = {2},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  keyword   = {Annotations,digital books},
+  language  = {eng},
+  location  = {San Francisco, CA, USA},
+  owner     = {tdnies},
+  timestamp = {2014.04.01},
+  _url       = {http://www.w3.org/2014/04/annotation/submissions/2014.04-W3CAnnotations-Towards\_Decentralized\_Annotations\_in\_Digital\_Books\_and\_on\_the\_Web.pdf},
+}
+
+@Patent{patent_15202196-0-1955,
+  nationality = {BE},
+  number      = {15202196.0-1955},
+  yearfiled   = {2016},
+  author      = {Dereuddre, Wim and Bhatti, Jabran and Crombez, Pieter and Verborgh, Ruben and Arndt, D\"{o}rthe and De Meester, Ben},
+  note        = {Patent pending},
+  title       = {Task management system and method for assigning tasks in a task management system},
+  comment     = {not/never in biblio?},
+  groups      = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner       = {bjdmeest},
+  timestamp   = {2017.01.06},
+}
+
+@InProceedings{Dimou2018Linked,
+  author    = {Dimou, Anastasia and Heyvaert, Pieter and De Meester, Ben},
+  booktitle = {Digital Libraries for Open Knowledge: 22<sup>nd</sup> International Conference on Theory and Practice of Digital Libraries (TPDL)},
+  title     = {{Linked Data Generation from Digital Libraries}},
+  year      = {2018},
+  address   = {Porto, Portugal},
+  editor    = {M{\'{e}}ndez, Eva and Crestani, Fabio and Ribeiro, Cristina and David, Gabriel and Lopes, Jo{\~{a}}o Correia},
+  month     = sep,
+  pages     = {389},
+  publisher = {Springer International Publishing},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11057},
+  comment   = {not in biblio},
+  doi       = {10.1007/978-3-030-00066-0},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2018.09.12},
+}
+
+@InProceedings{Dimou2018What,
+  author    = {Dimou, Anastasia and Heyvaert, Pieter and De Meester, Ben and Verborgh, Ruben},
+  booktitle = {Proceedings of the Workshop on Linked Data on the Web (LDOW 2018)},
+  title     = {What Factors Influence the Design of a Linked Data Generation Algorithm?},
+  year      = {2018},
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {2073},
+  comment   = {in biblio},
+  _file      = {:Dimou2018What.pdf:PDF},
+  groups    = {paper-2018-unshacled-requirements, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {978-1-4503-5640-4},
+  owner     = {bjdmeest},
+  timestamp = {2018.04.23},
+  _url       = {http://hdl.handle.net/1854/LU-8563094},
+}
+
+@InProceedings{ghaem_sigarchian_lisc_2014,
+  author    = {Ghaem Sigarchian, Hajar and De Meester, Ben and De Nies, Tom and Verborgh, Ruben and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the 4<sup>th</sup> Workshop on Linked Science},
+  title     = {EPUB3 for Integrated and Customizable Representation of a Scientific Publication and its Associated Resources},
+  year      = {2014},
+  address   = {Riva del Garda, Italy},
+  month     = oct,
+  pages     = {1--11},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2014.10.30},
+  _url       = {http://ceur-ws.org/Vol-1282/lisc2014_submission_3.pdf},
+}
+
+@InProceedings{GhaemSigarchian2015,
+  author    = {Ghaem Sigarchian, Hajar and De Meester, Ben and De Nies, Tom and Verborgh, Ruben and Salliau, Frank and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the 8<sup>th</sup> International Conference on Interactive Digital Storytelling},
+  title     = {Hybrid Books for Interactive Digital Storytelling: Connecting Story Entities and Emotions to Smart Environments},
+  year      = {2015},
+  month     = nov,
+  pages     = {105--116},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9445},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2015.11.30},
+  _url       = {http://link.springer.com/chapter/10.1007%2F978-3-319-27036-4_10},
+}
+
+@InProceedings{ghaem_sigarchian_icel_2015,
+  author    = {Ghaem Sigarchian, Hajar and De Meester, Ben and De Nies, Tom and Verborgh, Ruben and Salliau, Frank and De Neve, Wesley and Mannens, Erik and Van de Walle, Rik},
+  booktitle = {Proceedings of the 10<sup>th</sup> International Conference on e-Learning},
+  title     = {Towards Making {EPUB} 3-Based e-TextBooks a First-Class Mobile Learning Environment},
+  year      = {2015},
+  month     = jun,
+  publisher = {ACPIL},
+  comment   = {in biblio},
+  groups    = {IDLab, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {1910810258 9781910810255},
+  owner     = {bjdmeest},
+  timestamp = {2015.06.25},
+  _url       = {https://www.researchgate.net/publication/280881124_Towards_Making_EPUB_3-based_e-TextBooks_a_First-Class_Mobile_Learning_Environment},
+}
+
+@TechReport{Gylling2017Web,
+  author      = {Gylling, Markus and De Meester, Ben and Herman, Ivan and Siegman, Tzviya and Cramer, David and Rosenthol, Leonard},
+  institution = {W3C},
+  title       = {{Web Publications for the Open Web Platform: Vision And Technical Challenges}},
+  year        = {2017},
+  month       = may,
+  type        = {Interest Group Note},
+  groups      = {bdm-bjdmeest, bdm-phdbook},
+  owner       = {bjdmeest},
+  timestamp   = {2017.05.02},
+  url         = {https://www.w3.org/TR/pwp/},
+}
+
+@Article{Heyvaert2018Specification,
+  author    = {Heyvaert, Pieter and Dimou, Anastasia and De Meester, Ben and Seymoens, Tom and Herregodts, Aron-Levi and Verborgh, Ruben and Schuurman, Dimitrie and Mannens, Erik},
+  journal   = {Web Semantics: Science, Services and Agents on the World Wide Web},
+  title     = {Specification and implementation of mapping rule visualization and editing: {MapVOWL} and the {RMLEditor}},
+  year      = {2018},
+  month     = mar,
+  pages     = {31--50},
+  volume    = {49},
+  abstract  = {Visual tools are implemented to help users in defining how to generate Linked Data from raw data. This is
+possible thanks to mapping languages which enable detaching mapping rules from the implementation
+that executes them. However, no thorough research has been conducted so far on how to visualize
+such mapping rules, especially if they become large and require considering multiple heterogeneous
+raw data sources and transformed data values. In the past, we proposed the RMLEditor, a visual graphbased user interface, which allows users to easily create mapping rules for generating Linked Data from
+raw data. In this paper, we build on top of our existing work: we (i) specify a visual notation for graph
+visualizations used to represent mapping rules, (ii) introduce an approach for manipulating rules when
+large visualizations emerge, and (iii) propose an approach to uniformly visualize data fraction of raw data
+sources combined with an interactive interface for uniform data fraction transformations. We perform
+two additional comparative user studies. The first one compares the use of the visual notation to present
+mapping rules to the use of a mapping language directly, which reveals that the visual notation is
+preferred. The second one compares the use of the graph-based RMLEditor for creating mapping rules
+to the form-based RMLx Visual Editor, which reveals that graph-based visualizations are preferred to
+create mapping rules through the use of our proposed visual notation and uniform representation of
+heterogeneous data sources and data values.},
+  comment   = {in biblio},
+  doi       = {10.1016/j.websem.2017.12.003},
+  _file      = {:Heyvaert2018Specification.pdf:PDF},
+  groups    = {IDLab, paper-2018-unshacled-requirements, journal-fno-fgcs, ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  keywords  = {Graph, Linked Data, Mapping rule, MapVOWL, RMLEditor, ph-rml-website},
+  owner     = {bjdmeest},
+  publisher = {Elsevier {BV}},
+  timestamp = {2018.03.27},
+  _url       = {https://biblio.ugent.be/publication/8559065/file/8559068.pdf},
+}
+
+@Article{Heyvaert2019Rule,
+  author    = {Heyvaert, Pieter and Dimou, Anastasia and De Meester, Ben and Verborgh, Ruben},
+  journal   = {Semantic Web Journal},
+  title     = {{Rule-driven inconsistency resolution for knowledge graph generation rules}},
+  year      = {2019},
+  _issn      = {2210-4968},
+  month     = oct,
+  number    = {6},
+  pages     = {1071--1086},
+  volume    = {10},
+  comment   = {in biblio},
+  doi       = {10.3233/SW-190358},
+  _file      = {:Heyvaert2019Rule.pdf:PDF},
+  groups    = {IDLab, ph-rml-website, bdm-bjdmeest, bdm-journal-reasoning-validation, bdm-phdbook},
+  owner     = {bjdmeest},
+  publisher = {IOS Press},
+  timestamp = {2019.02.21},
+  _url       = {http://www.semantic-web-journal.net/system/files/swj2064.pdf},
+}
+
+@InProceedings{Lieber2018Linked,
+  author    = {Lieber, Sven and De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben},
+  booktitle = {7<sup>th</sup> International Workshop on Learning and Education with Web Data (LILE2018)},
+  title     = {{Linked Data Generation for Adaptive Learning Analytics Systems}},
+  year      = {2018},
+  address   = {Amsterdam, The Netherlands},
+  editor    = {Dietze, Stefan and d'Aquin, Mathieu and Gasevic, Dragan and Herder, Eelco and Kimmerle, Joachim},
+  month     = may,
+  pages     = {23--26},
+  comment   = {in biblio},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2018.05.27},
+  _url       = {https://websci18.webscience.org/wp-content/uploads/2018/01/WebSci18_Events_PreProceedings-4-Linked_Learning_2018-lres.pdf},
+}
+
+@InProceedings{lieber_kcap_2019,
+  author    = {Lieber, Sven and De Meester, Ben and Dimou, Anastasia and Verborgh, Ruben},
+  booktitle = {Proceedings of the 10<sup>th</sup> International Conference on Knowledge Capture - K-{CAP} {\textquotesingle}19},
+  title     = {{MontoloStats -- Ontology Modeling Statistics}},
+  year      = {2019},
+  editor    = {Troncy, Rapha\"{e}l},
+  month     = nov,
+  pages     = {69--76},
+  publisher = {ACM},
+  comment   = {in biblio},
+  doi       = {10.1145/3360901.3364433},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2020.01.03},
+}
+
+@InProceedings{VanHerwegen2018Knowledge,
+  author    = {Van Herwegen, Joachim and Heyvaert, Pieter and Taelman, Ruben and De Meester, Ben and Dimou, Anastasia},
+  booktitle = {Proceedings of the 27<sup>th</sup> ACM International Conference on Information and Knowledge Management - CIKM '18},
+  title     = {{Knowledge Representation as Linked Data: Tutorial}},
+  year      = {2018},
+  pages     = {1--2},
+  publisher = {ACM Press},
+  comment   = {in biblio},
+  doi       = {10.1145/3269206.3274275},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  _isbn      = {9781450360142},
+  location  = {Torino, Italy},
+  owner     = {bjdmeest},
+  timestamp = {2018.10.22},
+  _url       = {http://dx.doi.org/10.1145/3269206.3274275},
+}
+
+@Article{verborgh_jws_2016,
+  author    = {Verborgh, Ruben and Vander Sande, Miel and Hartig, Olaf and Van Herwegen, Joachim and De Vocht, Laurens and De Meester, Ben and Haesendonck, Gerald and Colpaert, Pieter},
+  journal   = {Journal of Web Semantics},
+  title     = {{Triple Pattern Fragments:} a Low-cost Knowledge Graph Interface for the {Web}},
+  year      = {2016},
+  _issn      = {1570-8268},
+  month     = mar,
+  pages     = {184--206},
+  volume    = {37--38},
+  comment   = {in biblio},
+  doi       = {doi:10.1016/j.websem.2016.03.003},
+  _file      = {:http\://linkeddatafragments.org/publications/jws2016.pdf:URL},
+  groups    = {IDLab, ecodalo-in-use, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2016.03.21},
+  _url       = {http://www.sciencedirect.com/science/article/pii/S1570826816000214},
+}
+
+@Proceedings{ISWC2014PD,
+  title     = {ISWC 2014 Posters \& Demonstrations Track, a track within the 13<sup>th</sup> International Semantic Web Conference (ISWC 2014)},
+  year      = {2014},
+  address   = {Riva Del Garda, Italy},
+  editor    = {Horridge, Matthew and Rospocher, Marco and van Ossenbruggen, Jacco},
+  month     = oct,
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1272},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.11.19},
+}
+
+@Proceedings{ISWC2014I,
+  title     = {{The Semantic Web -- ISWC 2014: 13<sup>th</sup> International Semantic Web Conference, Riva del Garda, Italy, October 19-23, 2014. Proceedings, Part I}},
+  year      = {2014},
+  address   = {Cham},
+  editor    = {Mika, Peter and Tudorache, Tania and Bernstein, Abraham and Welty, Chris and Knoblock, Craig and Vrande{\v{c}}i{\'{c}}, Denny and Groth, Paul and Noy, Natasha and Janowicz, Krzysztof and Goble, Carole},
+  _isbn      = {978-3-319-11964-9},
+  month     = oct,
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8796},
+  doi       = {10.1007/978-3-319-11964-9},
+  groups    = {IDLab, journal-fno-fgcs, bdm-bjdmeest, bdm-journal-reasoning-validation, bdm-phdbook},
+  timestamp = {2019.01.21},
+  venue     = {Riva del Garda, Italy},
+}
+
+@Proceedings{ISWC2015PD,
+  title     = {{ISWC 2015 Posters \& Demonstrations Track co-located with the 14<sup>th</sup> International Semantic Web Conference (ISWC-2015)}},
+  year      = {2015},
+  address   = {Bethlehem, PA, USA},
+  editor    = {Villata, Serena and Pan, Jeff Z. and Dragoni, Mauro},
+  month     = oct,
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1486},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.11.19},
+}
+
+@Proceedings{ISWC2017PDI,
+  title     = {ISWC 2017 Posters \& Demonstrations and Industry Tracks},
+  year      = {2017},
+  address   = {Vienna, Austria},
+  editor    = {Nikita, Nadeschda and Song, Dezhao and Fokoue, Achille and Haase, Peter},
+  month     = oct,
+  publisher = {CEUR-WS.org},
+  series    = {CEUR Workshop Proceedings},
+  volume    = {1963},
+  groups    = {journal-fno-fgcs, bdm-bjdmeest, bdm-phdbook},
+  _issn      = {1613-0073},
+  owner     = {bjdmeest},
+  timestamp = {2019.01.10},
+}
+
+@Proceedings{ISWC2017II,
+  title     = {The Semantic Web -- ISWC 2017: 16<sup>th</sup> International Semantic Web Conference, Vienna, Austria, October 21--25, 2017, Proceedings, Part II},
+  year      = {2017},
+  address   = {Vienna, Austria},
+  editor    = {d'Amato, Claudia and Fernandez, Miriam and Tamma, Valentina and Lecue, Freddy and Cudr{\'e}-Mauroux, Philippe and Sequeda, Juan and Lange, Christoph and Heflin, Jeff},
+  month     = oct,
+  publisher = {Springer, Cham},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10588},
+  doi       = {10.1007/978-3-319-68204-4},
+  groups    = {journal-fno-fgcs, mapping-characteristics, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.01.10},
+}
+
+@Proceedings{ESWC2017I,
+  title     = {{The Semantic Web: 14<sup>th</sup> International Conference, ESWC 2017, Portoro\u{z}, Slovenia, May 28 -- June 1, 2017, Proceedings, Part I}},
+  year      = {2017},
+  address   = {Portoro\u{z}, Slovenia},
+  editor    = {Blomqvist, Eva and Maynard, D. and Gangemi, Aldo and Hoekstra, R. and Hitzler, Pascal and Hartig, Olaf},
+  _isbn      = {978-3-319-58067-8},
+  month     = may,
+  publisher = {Springer, Cham},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10249},
+  date      = {2017-05-07},
+  ean       = {9783319584508},
+  groups    = {IDLab, DBmedia, paper-2018-phd-eswc, journal-fno-fgcs, mapping-characteristics, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  pages     = {33--48},
+  pagetotal = {312},
+  timestamp = {2017.05.07},
+}
+
+@Proceedings{ESWC2017II,
+  title     = {{The Semantic Web: 14<sup>th</sup> International Conference, ESWC 2017, Portoro\u{z}, Slovenia, May 28 -- June 1, 2017, Proceedings, Part II}},
+  year      = {2017},
+  address   = {Cham},
+  editor    = {Blomqvist, Eva and Maynard, D. and Gangemi, Aldo and Hoekstra, R. and Hitzler, Pascal and Hartig, Olaf},
+  _isbn      = {978-3-319-58450-8},
+  month     = may,
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10250},
+  date      = {2017-05-07},
+  doi       = {https://doi.org/10.1007/978-3-319-58451-5},
+  ean       = {9783319584508},
+  groups    = {IDLab, DBmedia, paper-2018-phd-eswc, journal-fno-fgcs, mapping-characteristics, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  pages     = {33--48},
+  pagetotal = {312},
+  timestamp = {2017.05.07},
+  venue     = {Portoro\u{z}, Slovenia},
+}
+
+@Proceedings{ESWC2017PD,
+  title     = {The Semantic Web: ESWC 2017 Satellite Events, Portoro{\v{z}}, Slovenia, May 28 -- June 1, 2017, Revised Selected Papers},
+  year      = {2017},
+  editor    = {Blomqvist, Eva and Hose, Katja and Paulheim, Heiko and {\L}awrynowicz, Agnieszka and Ciravegna, Fabio and Hartig, Olaf},
+  _isbn      = {978-3-319-70407-4},
+  publisher = {Springer, Cham},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10577},
+  doi       = {https://doi.org/10.1007/978-3-319-70407-4},
+  groups    = {bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.11.19},
+}
+
+@Proceedings{ESWC2018PD,
+  title     = {{The Semantic Web: ESWC 2018 Satellite Events, Heraklion, Crete, Greece, June 3-7, 2018, Revised Selected Papers}},
+  year      = {2018},
+  address   = {Heraklion, Crete, Greece},
+  editor    = {Gangemi, Aldo and Gentile, Anna Lisa and Nuzzolese, Andrea Giovanni and Rudolph, Sebastian and Maleshkova, Maria and Paulheim, Heiko and Pan, Jeff Z. and Alam, Mehwish},
+  _isbn      = {978-3-319-98192-5},
+  month     = jun,
+  publisher = {Springer, Cham},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11155},
+  doi       = {https://doi.org/10.1007/978-3-319-98192-5},
+  groups    = {ph-rml-website, bdm-bjdmeest, bdm-phdbook},
+  owner     = {bjdmeest},
+  timestamp = {2019.11.19},
+}
+</pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery -->
+<script src="resources/js/jquery.js"></script>
+<script src="resources/js/bib-list-min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="resources/js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="resources/js/jquery.easing.min.js"></script>
+<script src="resources/js/scrolling-nav.js"></script>
+<script>
+    $(function () {
+        bibtexify("#bibtex", "pubTable");
+    });
+</script>
+<script>
+    var username = "ben.demeester";
+    var hostname = "ugent.be";
+    var phoneParts = ["+32", "9", "331", "49", "59"];
+    var twitterHandle = "Ben__DM";
+    var linktext = username + "@" + hostname ;
+    var $contact = $('#me');
+    $contact.append('<p><span class="glyphicon glyphicon-envelope"></span> <a title="Mail to Ben" property="http://xmlns.com/foaf/0.1/mbox" href="' + "mail" + "to:" + linktext + '">' + linktext + '</a></p>');
+    $contact.append('<p><i class="fa fa-twitter"></i> <a title="Tweet to Ben" href="https://twitter.com/' + twitterHandle + '">@' + twitterHandle + '</a></p>');
+    $contact.append('<p><span class="fa fa-slideshare"></span> <a title="Ben\'s Slideshare" href="http://www.slideshare.net/BenDeMeester/presentations">Slideshare</a></p>');
+    $contact.append('<p><span class="glyphicon glyphicon-earphone"></span> <a title="Phone to Ben" href="' + "tel:" + phoneParts.join('') + '">' + phoneParts.join(' ') + '</a></p>');
+    $contact.append('<p><span class="glyphicon glyphicon-link"></span> <a title="Visit the website of Data Science Lab" href="http://datasciencelab.ugent.be/">Data Science Lab</a></p>');
+</script>
+</body>
+</html>

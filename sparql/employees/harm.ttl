@@ -1,0 +1,9 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<#me> a foaf:Person;
+  foaf:givenName "Harm"@en ;
+  foaf:familyName "Delva"@en ;
+  vcard:title "PhD Student" ;
+  foaf:mbox <mailto:harm.delva@ugent.be> ;
+  foaf:img <profile.jpeg> .
