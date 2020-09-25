@@ -1,0 +1,44 @@
+# Query: subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?subject=https://ruben.verborgh.org/profile/#me&predicate=http://xmlns.com/foaf/0.1/topic_interest&object=http://dbpedia.org/resource/Decentralization
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization> void:subset <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { <https://ruben.verborgh.org/profile/#me> <http://xmlns.com/foaf/0.1/topic_interest> <http://dbpedia.org/resource/Decentralization>  }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "0"^^xsd:integer;
+    void:triples "0"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fruben.verborgh.org%2Fprofile%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FDecentralization&page=1>
+}

@@ -1,5 +1,5 @@
 # Query: subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest
-# Hashed IRI: http://fragments.dbpedia.org/2016-04/en?subject=https://www.rubensworks.net/#me&predicate=http://xmlns.com/foaf/0.1/topic_interest
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?subject=https://www.rubensworks.net/#me&predicate=http://xmlns.com/foaf/0.1/topic_interest
 # Content-type: application/trig;charset=utf-8
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -17,13 +17,13 @@
 @prefix hydra: <http://www.w3.org/ns/hydra/core#>.
 @prefix void: <http://rdfs.org/ns/void#>.
 
-<http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest#metadata> {
-<http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>.
-<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
-<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
-    void:subset <http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>;
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>;
     hydra:search _:triplePattern.
-_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
     hydra:variableRepresentation hydra:ExplicitRepresentation;
     hydra:mapping _:subject, _:predicate, _:object.
 _:subject hydra:variable "subject";
@@ -32,13 +32,13 @@ _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
     hydra:property rdf:object.
-<http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest> void:subset <http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>;
+<https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest> void:subset <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
     dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { <https://www.rubensworks.net/#me> <http://xmlns.com/foaf/0.1/topic_interest> ?o }."@en;
-    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
     hydra:totalItems "0"^^xsd:integer;
     void:triples "0"^^xsd:integer;
     hydra:itemsPerPage "100"^^xsd:integer;
-    hydra:first <http://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&page=1>
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest&page=1>
 }

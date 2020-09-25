@@ -63,7 +63,7 @@
         [ qt:query  <common04.rq> ;
           et:mockFolder <common04> ] ;
   et:dataSources (
-    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ]
     [ et:source <common04/rubent.html> ;
       et:sourceType et:File ]

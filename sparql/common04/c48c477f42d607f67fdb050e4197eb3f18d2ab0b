@@ -1,5 +1,5 @@
 # Query: predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label
-# Hashed IRI: http://fragments.dbpedia.org/2016-04/en?predicate=http://www.w3.org/2000/01/rdf-schema#label
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http://www.w3.org/2000/01/rdf-schema#label
 # Content-type: application/trig;charset=utf-8
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -17,13 +17,13 @@
 @prefix hydra: <http://www.w3.org/ns/hydra/core#>.
 @prefix void: <http://rdfs.org/ns/void#>.
 
-<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> {
-<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>.
-<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
-<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
-    void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
     hydra:search _:triplePattern.
-_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
     hydra:variableRepresentation hydra:ExplicitRepresentation;
     hydra:mapping _:subject, _:predicate, _:object.
 _:subject hydra:variable "subject";
@@ -32,16 +32,16 @@ _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
     hydra:property rdf:object.
-<http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label> void:subset <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
     dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?o }."@en;
-    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
     hydra:totalItems "20013903"^^xsd:integer;
     void:triples "20013903"^^xsd:integer;
     hydra:itemsPerPage "100"^^xsd:integer;
-    hydra:first <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=1>;
-    hydra:next <http://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2>
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2>
 }
 <http://dbpedia.org/datatype/centimetre> rdfs:label "centimetre"@en.
 <http://dbpedia.org/datatype/cubicCentimetre> rdfs:label "cubicCentimetre"@en.

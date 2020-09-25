@@ -1,5 +1,5 @@
 # Query: null
-# Hashed IRI: http://fragments.dbpedia.org/2016-04/en
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en
 # Content-type: application/trig;charset=utf-8
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -17,13 +17,13 @@
 @prefix hydra: <http://www.w3.org/ns/hydra/core#>.
 @prefix void: <http://rdfs.org/ns/void#>.
 
-<http://fragments.dbpedia.org/2016-04/en#metadata> {
-<http://fragments.dbpedia.org/2016-04/en#metadata> foaf:primaryTopic <http://fragments.dbpedia.org/2016-04/en>.
-<http://fragments.dbpedia.org/#dataset> hydra:member <http://fragments.dbpedia.org/2016-04/en#dataset>.
-<http://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
-    void:subset <http://fragments.dbpedia.org/2016-04/en>;
+<https://fragments.dbpedia.org/2016-04/en#metadata> {
+<https://fragments.dbpedia.org/2016-04/en#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en>;
     hydra:search _:triplePattern.
-_:triplePattern hydra:template "http://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
     hydra:variableRepresentation hydra:ExplicitRepresentation;
     hydra:mapping _:subject, _:predicate, _:object.
 _:subject hydra:variable "subject";
@@ -37,17 +37,17 @@ _:object hydra:variable "object";
     dbpprop:isCitedBy <http://dbpedia.org/resource/Tierce_(unit)>;
     dbpprop:newspaper "Biloxi Daily Herald";
     dbpprop:page "6".
-<http://fragments.dbpedia.org/2016-04/en#metadata> {
-<http://fragments.dbpedia.org/2016-04/en> void:subset <http://fragments.dbpedia.org/2016-04/en>;
+<https://fragments.dbpedia.org/2016-04/en#metadata> {
+<https://fragments.dbpedia.org/2016-04/en> void:subset <https://fragments.dbpedia.org/2016-04/en>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
     dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s ?p ?o }."@en;
-    dcterms:source <http://fragments.dbpedia.org/2016-04/en#dataset>;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
     hydra:totalItems "1040358853"^^xsd:integer;
     void:triples "1040358853"^^xsd:integer;
     hydra:itemsPerPage "100"^^xsd:integer;
-    hydra:first <http://fragments.dbpedia.org/2016-04/en?page=1>;
-    hydra:next <http://fragments.dbpedia.org/2016-04/en?page=2>
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?page=2>
 }
 <http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2> dbpprop:title "A New System of Weights and Measures";
     dbpprop:url <http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2>.
