@@ -39,11 +39,11 @@
    },
    {
     "s": {
-     "value": "http://dbpedia.org/resource/Gertjan_De_Mets",
+     "value": "http://dbpedia.org/resource/Bellem",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/ontology/birthPlace",
+     "value": "http://dbpedia.org/ontology/wikiPageRedirects",
      "type": "uri"
     }
    },
