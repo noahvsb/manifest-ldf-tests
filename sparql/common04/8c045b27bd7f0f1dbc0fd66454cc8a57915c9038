@@ -1,5 +1,5 @@
 # Query: subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest
-# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?subject=https://www.rubensworks.net/#me&predicate=http://xmlns.com/foaf/0.1/topic_interest
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?subject=https%3A%2F%2Fwww.rubensworks.net%2F%23me&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Ftopic_interest
 # Content-type: application/trig;charset=utf-8
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
