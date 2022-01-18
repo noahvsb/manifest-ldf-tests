@@ -1,0 +1,143 @@
+# Query: page=4
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?page=4
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en#metadata> {
+<https://fragments.dbpedia.org/2016-04/en#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?page=4>, <https://fragments.dbpedia.org/2016-04/en>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en> void:subset <https://fragments.dbpedia.org/2016-04/en?page=4>.
+<https://fragments.dbpedia.org/2016-04/en?page=4> a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s ?p ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "1040358853"^^xsd:integer;
+    void:triples "1040358853"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?page=1>;
+    hydra:previous <https://fragments.dbpedia.org/2016-04/en?page=3>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?page=5>
+}
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:work dbpedia:The_Oregonian.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08847B3421D9F&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:accessdate "2010-02-14"^^xsd:date;
+    dbpprop:date "1994-03-23"^^xsd:date;
+    dbpprop:isCitedBy dbpedia:Oregon_Citizens_Alliance;
+    dbpprop:location <http://dbpedia.org/resource/Portland,_Oregon>;
+    dbpprop:page "A14";
+    dbpprop:publisher dbpedia:Advance_Publications;
+    dbpprop:title "Anti-gay-rights measures: County and city profiles";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08847B3421D9F&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work dbpedia:The_Oregonian.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08857D2D15ED9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:accessdate "2010-02-14"^^xsd:date;
+    dbpprop:date "1994-05-19"^^xsd:date;
+    dbpprop:first "Sura";
+    dbpprop:isCitedBy dbpedia:Oregon_Citizens_Alliance;
+    dbpprop:last "Rubenstein";
+    dbpprop:location <http://dbpedia.org/resource/Portland,_Oregon>;
+    dbpprop:page "E05";
+    dbpprop:publisher dbpedia:Advance_Publications;
+    dbpprop:title "OCA, foe both proclaim vote victory";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08857D2D15ED9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work dbpedia:The_Oregonian.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08A7271F0FC32&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:accessdate "2008-12-16"^^xsd:date;
+    dbpprop:date "1997-10-04"^^xsd:date;
+    dbpprop:first "Ashbel S.";
+    dbpprop:isCitedBy dbpedia:Cannabis_in_Oregon;
+    dbpprop:last "Green";
+    dbpprop:publisher "The Oregonian";
+    dbpprop:title "Petitioners Expect to Suspend Law Recriminalizing Pot";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08A7271F0FC32&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0>.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08B19B4CBAE1A&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "1998-09-24"^^xsd:date;
+    dbpprop:first "Dave";
+    dbpprop:isCitedBy dbpedia:Darlene_Hooley;
+    dbpprop:last "Hogan";
+    dbpprop:title "Rep. Hooley solidifies base by staking out center on some tough issues";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08B19B4CBAE1A&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08B4B262EB702&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:date "1998-11-05"^^xsd:date;
+    dbpprop:isCitedBy dbpedia:Cannabis_in_Oregon, dbpedia:Drug_policy_of_Oregon;
+    dbpprop:publisher "The Oregonian";
+    dbpprop:title "The War on the War on Drugs";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08B4B262EB702&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0>.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C516403A66F&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "2000-04-20"^^xsd:date;
+    dbpprop:first "Mark";
+    dbpprop:isCitedBy dbpedia:Darlene_Hooley;
+    dbpprop:last "Larabee";
+    dbpprop:title "Bill offers protection from problem of identity theft";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C516403A66F&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C5F948849EA&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "2000-05-22"^^xsd:date;
+    dbpprop:first "Joe";
+    dbpprop:isCitedBy dbpedia:List_of_professional_sportspeople_convicted_of_crimes;
+    dbpprop:last "Rose";
+    dbpprop:publisher dbpedia:The_Oregonian;
+    dbpprop:title "Cleanup duty is next for Harding";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C5F948849EA&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C7489E9BB51&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "2000-07-20"^^xsd:date;
+    dbpprop:first "Ted";
+    dbpprop:isCitedBy dbpedia:Historic_Columbia_River_Highway;
+    dbpprop:last "Mahar";
+    dbpprop:title "The Historic Columbia River Highway Roadside Renovation";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB08C7489E9BB51&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:via "NewsBank";
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EEFDAD3C6F84264&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "2001-10-05"^^xsd:date;
+    dbpprop:first "Darlene";
+    dbpprop:isCitedBy dbpedia:Darlene_Hooley;
+    dbpprop:last "Hooley";
+    dbpprop:title "In my opinion: What it will mean to cut off terrorists' money";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EEFDAD3C6F84264&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0F744572EF85ED68&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0> dbpprop:date "2002-11-10"^^xsd:date;
+    dbpprop:first "Michelle";
+    dbpprop:isCitedBy dbpedia:List_of_Oregon_ballot_measures, <http://dbpedia.org/resource/Oregon_Ballot_Measure_27_(2002)>;
+    dbpprop:last "Cole";
+    dbpprop:title "Measure 27 died in big-dollar blitz";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0F744572EF85ED68&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11050034EF9BFD00&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:date "2006-03-11"^^xsd:date;
+    dbpprop:first "Janie";
+    dbpprop:isCitedBy dbpedia:Oregon_Sustainability_Board;
+    dbpprop:last "Har";
+    dbpprop:title "Governor pushes for renewable energy";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11050034EF9BFD00&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work "The Oregonian".
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=119E94A840D2FBB8&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:accessdate "2007-06-20"^^xsd:date;
+    dbpprop:date "2007-06-20"^^xsd:date;
+    dbpprop:first "Janie";
+    dbpprop:isCitedBy dbpedia:Oregon;
+    dbpprop:last "Har";
+    dbpprop:title "Your loss is state's record game";
+    dbpprop:url <http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=119E94A840D2FBB8&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0>;
+    dbpprop:work dbpedia:The_Oregonian.
+<http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11ABC3E11630C940&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0> dbpprop:accessdate "2015-08-31"^^xsd:date;
+    dbpprop:author "Editorial staff";
+    dbpprop:date "2007-07-29"^^xsd:date;
+    dbpprop:edition "Sunrise";
+    dbpprop:isCitedBy dbpedia:Bull_Run_Hydroelectric_Project, <http://dbpedia.org/resource/Sandy_River_(Oregon)>.

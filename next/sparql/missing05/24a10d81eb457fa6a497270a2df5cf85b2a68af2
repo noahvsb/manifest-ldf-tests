@@ -1,0 +1,120 @@
+# Query: predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=2
+# Hashed IRI: https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=2
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=2>, <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/publication/268280#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/268283#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/268286#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/268288#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person> void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=2>.
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=2> a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { ?s <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person> . }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "181"^^xsd:integer;
+    void:triples "181"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=1>;
+    hydra:previous <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&page=1>
+}
+<https://biblio.ugent.be/publication/268289#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/277585#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/277588#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/277589#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/277590#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307621#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307624#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307629#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307649#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307655#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307656#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307658#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307659#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/307660#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333856#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333857#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333858#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333859#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333860#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333868#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/333871#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/357699#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/357700#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/357713#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/357714#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/357715#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/372352#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/372353#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/372355#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/372356#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/372357#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/375073#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/376986#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/381641#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/381643#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/381645#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/382639#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/384347#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/384348#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/386251#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/4302208#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436276#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436278#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436279#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436280#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436281#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436282#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/436283#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/437588#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/437595#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/437596#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/437597#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/482725#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/524141#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/524152#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/524156#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/524162#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/524166#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/547672#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/707704#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/707721#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/732738#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/735386#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/735394#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/778132#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/785757#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/785761#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/785764#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/785768#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/819177#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/819186#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/822974#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/843677#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/861204#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/861225#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/922683#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.
+<https://biblio.ugent.be/publication/922720#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000458179#person>.

@@ -1,0 +1,78 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=2
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=2
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=2>, <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=2>.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=2> a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/locationCountry> <http://dbpedia.org/resource/Belgium>  }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "133"^^xsd:integer;
+    void:triples "133"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=1>;
+    hydra:previous <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FlocationCountry&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FBelgium&page=1>
+}
+<http://dbpedia.org/resource/St._Bernardus_Brewery> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Stageco dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Standard_Ethics_Aei dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Studios_Hergé> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Suntrip_Records dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:TMF_Dance dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:TMF_Flanders dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:TV5Monde dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Tale_of_Tales_(company)> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Tapptic dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:TeenNick dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Thermote_&_Vanhalst> dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Théâtre_Royal_du_Parc> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Tractebel dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:TripodMaker dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/TéléSAT> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Ucamco dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:VIER dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:VIJF dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/VTM_(TV_channel)> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Vidoosh dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Vidéoclick> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Viohalco dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Vitaya dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Voxbone dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:VtmKzoom dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:WABCO_Vehicle_Control_Systems dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Westmalle_Brewery dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Westvleteren_Brewery dbpedia-owl:locationCountry dbpedia:Belgium.
+<http://dbpedia.org/resource/Winking_(Company)> dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:X-RIS dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:Xite_Music dbpedia-owl:locationCountry dbpedia:Belgium.
+dbpedia:ZF_Wind_Power_Antwerpen dbpedia-owl:locationCountry dbpedia:Belgium.

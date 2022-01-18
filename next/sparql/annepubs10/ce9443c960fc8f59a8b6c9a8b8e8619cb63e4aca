@@ -1,0 +1,39 @@
+# Query: subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification
+# Hashed IRI: https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/publication/1199098#aggregation> <http://lib.ugent.be/classification/classification> "A1".
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification> void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { <https://biblio.ugent.be/publication/1199098#aggregation> <http://lib.ugent.be/classification/classification> ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "1"^^xsd:integer;
+    void:triples "1"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F1199098%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification&page=1>
+}

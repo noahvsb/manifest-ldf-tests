@@ -1,0 +1,137 @@
+# Query: predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle
+# Hashed IRI: https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle> void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { ?s <http://purl.org/dc/terms/title> ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "200835"^^xsd:integer;
+    void:triples "200835"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle&page=1>;
+    hydra:next <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Ftitle&page=2>
+}
+<https://biblio.ugent.be/publication/1000116#aggregation> <http://purl.org/dc/terms/title> "Chloride ingress for concrete containing blast-furnace slag, related to microstructural parameters".
+<https://biblio.ugent.be/publication/1000117#aggregation> <http://purl.org/dc/terms/title> "Violent wave impacts on coastal structures with cantilever surfaces".
+<https://biblio.ugent.be/publication/1000127#aggregation> <http://purl.org/dc/terms/title> "Numerical simulation of highly nonlinear water waves by LVOF".
+<https://biblio.ugent.be/publication/1000151#aggregation> <http://purl.org/dc/terms/title> "On the study of impulsive waves caused by landslides".
+<https://biblio.ugent.be/publication/1000154#aggregation> <http://purl.org/dc/terms/title> "New mercury porosimetry method for the measurement of pore size distribution in cement-based materials".
+<https://biblio.ugent.be/publication/1000179#aggregation> <http://purl.org/dc/terms/title> "The use of micronized sand as a cement replacement".
+<https://biblio.ugent.be/publication/1000206#aggregation> <http://purl.org/dc/terms/title> "Effect of SAP on hardening process and development of microstructure in high performance concrete: a review".
+<https://biblio.ugent.be/publication/1000217#aggregation> <http://purl.org/dc/terms/title> "Processing sequence in the production of engineered cementitious composites".
+<https://biblio.ugent.be/publication/1000229#aggregation> <http://purl.org/dc/terms/title> "De paradijsvogel ; Het boek Jezebel ; De meisjes van Jesses / Louis Paul Boon".
+<https://biblio.ugent.be/publication/1000249#aggregation> <http://purl.org/dc/terms/title> "Intramolecular loop/tail interactions are essential for connexin 43-hemichannel activity".
+<https://biblio.ugent.be/publication/1000273#aggregation> <http://purl.org/dc/terms/title> "Numerical modelling of near-field and far-field wake effects of a farm of wave energy converters".
+<https://biblio.ugent.be/publication/1000276#aggregation> <http://purl.org/dc/terms/title> "Unraveling the mechanism of β-N-oxalyl-α,β-diaminopropionic acid (β-ODAP) induced excitotoxicity and oxidative stress, relevance for neurolathyrism prevention".
+<https://biblio.ugent.be/publication/1000284#aggregation> <http://purl.org/dc/terms/title> "Large scale experimental investigation on waves-Posidonia oceanica interaction".
+<https://biblio.ugent.be/publication/1000292#aggregation> <http://purl.org/dc/terms/title> "Numerical modelling of near-field and far-field wake effects of a farm of wave energy converters".
+<https://biblio.ugent.be/publication/1000319#aggregation> <http://purl.org/dc/terms/title> "Effects of Posidonia oceanica meadow on wave propagation: large-scale experiments".
+<https://biblio.ugent.be/publication/1000324#aggregation> <http://purl.org/dc/terms/title> "Supply chain information flow strategies: an empirical taxonomy".
+<https://biblio.ugent.be/publication/1000325#aggregation> <http://purl.org/dc/terms/title> "Context primeert in Nederlandse Holocaustcartoonzaak".
+<https://biblio.ugent.be/publication/1000327#aggregation> <http://purl.org/dc/terms/title> "Nursing students' pharmacological knowledge and calculation skills".
+<https://biblio.ugent.be/publication/1000333#aggregation> <http://purl.org/dc/terms/title> "Self-medication of upper gastrointestinal symptoms: a community pharmacy study".
+<https://biblio.ugent.be/publication/1000341#aggregation> <http://purl.org/dc/terms/title> "Silence of the limbs: pharmacological symptomatic treatment of intermittent claudication".
+<https://biblio.ugent.be/publication/1000349#aggregation> <http://purl.org/dc/terms/title> "Nurses' practices in pharmacotherapy and their association with educational level".
+<https://biblio.ugent.be/publication/1000356#aggregation> <http://purl.org/dc/terms/title> "AQUAVAN injection, a water-soluble prodrug of Propofol, as a bolus injection: a phase I dose-escalation comparison with DIPRIVAN, part 1: pharmacokinetics (retraction of vol 103, pg 718, 2005)".
+<https://biblio.ugent.be/publication/1000366#aggregation> <http://purl.org/dc/terms/title> "Geometrical optimization for improved power capture of multi-level overtopping based wave energy converters".
+<https://biblio.ugent.be/publication/1000367#aggregation> <http://purl.org/dc/terms/title> "AQUAVAN injection, a water-soluble prodrug of Propofol, as a bolus injection: a phase I dose-escalation comparison with DIPRIVAN, part 2: pharmacodynamics and safety (Retraction of vol 103, pg 730, 2005)".
+<https://biblio.ugent.be/publication/1000386#aggregation> <http://purl.org/dc/terms/title> "COPD management in primary care: an observational, community pharmacy-based study".
+<https://biblio.ugent.be/publication/1000402#aggregation> <http://purl.org/dc/terms/title> "De ICT-coördinator in Vlaanderen: rollen, taken, en uitdagingen".
+<https://biblio.ugent.be/publication/1000403#aggregation> <http://purl.org/dc/terms/title> "How to optimize knowledge sharing in a factory network?".
+<https://biblio.ugent.be/publication/1000409#aggregation> <http://purl.org/dc/terms/title> "Fatigue due to concrete compression in bridges compared to practice".
+<https://biblio.ugent.be/publication/1000410#aggregation> <http://purl.org/dc/terms/title> "The predictive value of behavioural characteristics on the succes of strategic alliances".
+<https://biblio.ugent.be/publication/1000417#aggregation> <http://purl.org/dc/terms/title> "The dynamic management of manufacturing networks".
+<https://biblio.ugent.be/publication/1000419#aggregation> <http://purl.org/dc/terms/title> "Recent and future railway tunnels in Belgium".
+<https://biblio.ugent.be/publication/1000420#aggregation> <http://purl.org/dc/terms/title> "The position of plants in Flanders within global manufacturing networks: benchmarking tool".
+<https://biblio.ugent.be/publication/1000423#aggregation> <http://purl.org/dc/terms/title> "Current and end section design requirements for high-speed tunnels".
+<https://biblio.ugent.be/publication/1000424#aggregation> <http://purl.org/dc/terms/title> "A typology of distribution centres in Flanders".
+<https://biblio.ugent.be/publication/1000425#aggregation> <http://purl.org/dc/terms/title> "Farmacotherapeutische actualiteit".
+<https://biblio.ugent.be/publication/1000432#aggregation> <http://purl.org/dc/terms/title> "The strategic role of distribution centres in Flanders".
+<https://biblio.ugent.be/publication/1000433#aggregation> <http://purl.org/dc/terms/title> "Farmacotherapeutische actualiteit".
+<https://biblio.ugent.be/publication/1000448#aggregation> <http://purl.org/dc/terms/title> "In search of suppliere integration capability: a dynamic co-alignment versus a direct effect model".
+<https://biblio.ugent.be/publication/1000449#aggregation> <http://purl.org/dc/terms/title> "Wind and wind gust effect on narrow composite arch bridges".
+<https://biblio.ugent.be/publication/1000466#aggregation> <http://purl.org/dc/terms/title> "The transcription factor FOXL2 in ovarian function".
+<https://biblio.ugent.be/publication/1000467#aggregation> <http://purl.org/dc/terms/title> "The new wave overtopping database for coastal structures".
+<https://biblio.ugent.be/publication/1000469#aggregation> <http://purl.org/dc/terms/title> "Characterisation by EBSD of Cold Rolled High-Silicon Steel".
+<https://biblio.ugent.be/publication/1000485#aggregation> <http://purl.org/dc/terms/title> "Microstructure and phase identification of tertiary oxide scale on steel by EBSD".
+<https://biblio.ugent.be/publication/1000736#aggregation> <http://purl.org/dc/terms/title> "Numerical simulation of rapid chloride migration test of concrete".
+<https://biblio.ugent.be/publication/1000741#aggregation> <http://purl.org/dc/terms/title> "Bacteria protect and heal concrete and stone".
+<https://biblio.ugent.be/publication/1000744#aggregation> <http://purl.org/dc/terms/title> "Effect of superplasticizers on hydration and setting behaviour of cements".
+<https://biblio.ugent.be/publication/1000752#aggregation> <http://purl.org/dc/terms/title> "Innovative crest designs to reduce wave overtopping: parapet and Stilling Wave Basin".
+<https://biblio.ugent.be/publication/1000753#aggregation> <http://purl.org/dc/terms/title> "Experimental research on the pore pressure attenuation in a rubble mound breakwater".
+<https://biblio.ugent.be/publication/1000758#aggregation> <http://purl.org/dc/terms/title> "Design of rubble mound breakwaters: modelling of wave-induced flow in a porous structure".
+<https://biblio.ugent.be/publication/1000765#aggregation> <http://purl.org/dc/terms/title> "Prediction of the individual wave overtopping volumes of a wave energy converter using physical modeling and first numerical model results".
+<https://biblio.ugent.be/publication/1000766#aggregation> <http://purl.org/dc/terms/title> "Twee kinderen met rectumprolaps".
+<https://biblio.ugent.be/publication/1000769#aggregation> <http://purl.org/dc/terms/title> "Prediction of the individual wave overtopping volumes of a wave energy converter using experimental testing and first numerical model results".
+<https://biblio.ugent.be/publication/1000773#aggregation> <http://purl.org/dc/terms/title> "Apoptotic, necrotic and autophagic cell death types in pathophysiological conditions: morphological and histological aspects".
+<https://biblio.ugent.be/publication/1000794#aggregation> <http://purl.org/dc/terms/title> "Electric power from ocean waves: improving the performance of overtopping devices".
+<https://biblio.ugent.be/publication/1000905#aggregation> <http://purl.org/dc/terms/title> "Experimental and numerical study of the hydrodynamic behaviour of wave energy converters based on wave overtopping".
+<https://biblio.ugent.be/publication/1000958#aggregation> <http://purl.org/dc/terms/title> "Electric power from ocean waves: improving the performance of overtopping devices".
+<https://biblio.ugent.be/publication/1001015#aggregation> <http://purl.org/dc/terms/title> "Medical end-of-life decisions in children in Flanders, Belgium".
+<https://biblio.ugent.be/publication/1001032#aggregation> <http://purl.org/dc/terms/title> "Dictionary of optical networking".
+<https://biblio.ugent.be/publication/1001046#aggregation> <http://purl.org/dc/terms/title> "High-performance networks: introduction".
+<https://biblio.ugent.be/publication/1001057#aggregation> <http://purl.org/dc/terms/title> "Universitetsjubileernas betydelse för det ökade nordiska samarbetet under 1800-talet".
+<https://biblio.ugent.be/publication/1001067#aggregation> <http://purl.org/dc/terms/title> "Future home network requirements".
+<https://biblio.ugent.be/publication/1001171#aggregation> <http://purl.org/dc/terms/title> "Game-theoretic evaluation of competing wireless access networks for offering Mobile Internet".
+<https://biblio.ugent.be/publication/1001172#aggregation> <http://purl.org/dc/terms/title> "Attitudes and practices of physicians regarding physician-assisted dying in minors".
+<https://biblio.ugent.be/publication/1001180#aggregation> <http://purl.org/dc/terms/title> "Making a well-founded choice of the wireless technology for train-to-wayside data services".
+<https://biblio.ugent.be/publication/1001206#aggregation> <http://purl.org/dc/terms/title> "Parking sensor network: economic feasibility study of parking sensors in a city environment".
+<https://biblio.ugent.be/publication/1001213#aggregation> <http://purl.org/dc/terms/title> "Cost comparison of different translucent optical network architectures".
+<https://biblio.ugent.be/publication/1001362#aggregation> <http://purl.org/dc/terms/title> "Comparison of power consumption of mobile WiMAX, HSPA and LTE access networks".
+<https://biblio.ugent.be/publication/1001366#aggregation> <http://purl.org/dc/terms/title> "An architecture of distraction: the MAS by Neutelings Riedijk Architects".
+<https://biblio.ugent.be/publication/1001372#aggregation> <http://purl.org/dc/terms/title> "Techno-economic feasibility study of different WDM/TDM PON architectures".
+<https://biblio.ugent.be/publication/1001375#aggregation> <http://purl.org/dc/terms/title> "Salmonella Typhimurium resides largely as an extracellular pathogen in porcine tonsils, independently of biofilm-associated genes csgA, csgD and adrA".
+<https://biblio.ugent.be/publication/1001378#aggregation> <http://purl.org/dc/terms/title> "State of the art: Recent insights in the mechanism of Salmonella persistence in pigs".
+<https://biblio.ugent.be/publication/1001379#aggregation> <http://purl.org/dc/terms/title> "General framework for techno-economic analysis of next generation access networks".
+<https://biblio.ugent.be/publication/1001402#aggregation> <http://purl.org/dc/terms/title> "Autonomous resource-aware scheduling of large-scale media workflows".
+<https://biblio.ugent.be/publication/1001416#aggregation> <http://purl.org/dc/terms/title> "Mechanisms for autonomous management of networks and services".
+<https://biblio.ugent.be/publication/1001485#aggregation> <http://purl.org/dc/terms/title> "How and why Salmonella Typhimurium circumvents seroconversion in pigs".
+<https://biblio.ugent.be/publication/1001512#aggregation> <http://purl.org/dc/terms/title> "Evaluation of the crystallographic orientation relationships between FCC and BCC phases in TRIP steels".
+<https://biblio.ugent.be/publication/1001679#aggregation> <http://purl.org/dc/terms/title> "Symplectic exponentially-fitted modified Runge-Kutta Gauss methods".
+<https://biblio.ugent.be/publication/1001727#aggregation> <http://purl.org/dc/terms/title> "Performance of closely spaced point absorbers with constrained floater motion".
+<https://biblio.ugent.be/publication/1001770#aggregation> <http://purl.org/dc/terms/title> "UNHCR zestig jaar".
+<https://biblio.ugent.be/publication/1001823#aggregation> <http://purl.org/dc/terms/title> "On the nonlinear evolution of the Poisson's ratio under quasi-static loading for a carbon fabric-reinforced thermoplastic".
+<https://biblio.ugent.be/publication/1001865#aggregation> <http://purl.org/dc/terms/title> "Slamming wave impact on a rigid cylindrical body: comparison of experimental research and numerical simulation".
+<https://biblio.ugent.be/publication/1001867#aggregation> <http://purl.org/dc/terms/title> "Evaluation of local strain distribution in a satin weave composite using fibre Bragg gratings".
+<https://biblio.ugent.be/publication/1001904#aggregation> <http://purl.org/dc/terms/title> "A randomized, open-label, multicenter study evaluating the efficacy of peginterferon alfa-2a versus interferon alfa-2a, in combination with ribavirin, in naïve and relapsed chronic hepatitis C patients".
+<https://biblio.ugent.be/publication/1001931#aggregation> <http://purl.org/dc/terms/title> "Cholesterol and desmosterol in two sperm populations separated on Sil-Select gradient".
+<https://biblio.ugent.be/publication/1001938#aggregation> <http://purl.org/dc/terms/title> "Lowered ω-3 PUFAs are related to major depression, but not to somatization syndrome".
+<https://biblio.ugent.be/publication/1001960#aggregation> <http://purl.org/dc/terms/title> "Overview of three-phase inverter topologies for distributed generation purposes".
+<https://biblio.ugent.be/publication/1001963#aggregation> <http://purl.org/dc/terms/title> "Different networks, different resources? The ethnic inequality in the access to social capital in Belgium".
+<https://biblio.ugent.be/publication/1001965#aggregation> <http://purl.org/dc/terms/title> "Social support as a form of social capital in status attainment research. An explorative study.".
+<https://biblio.ugent.be/publication/1001970#aggregation> <http://purl.org/dc/terms/title> "Het (kunst)-museum".
+<https://biblio.ugent.be/publication/1001975#aggregation> <http://purl.org/dc/terms/title> "Word-final prolongations in an adult male with neurofibromatosis type 1".
+<https://biblio.ugent.be/publication/1002044#aggregation> <http://purl.org/dc/terms/title> "The bipolar semantics of querying null values in regular and fuzzy databases: dealing with inapplicability".
+<https://biblio.ugent.be/publication/1002053#aggregation> <http://purl.org/dc/terms/title> "The public’s signatures: visitors' books in nineteenth-century museums".
+<https://biblio.ugent.be/publication/1002077#aggregation> <http://purl.org/dc/terms/title> "Consistently handling geographical user data: context-dependent detection of co-located POIs".
+<https://biblio.ugent.be/publication/1002088#aggregation> <http://purl.org/dc/terms/title> "Aspirations to life: pleas for new forms of display in Belgian museums c. 1900".
+<https://biblio.ugent.be/publication/1002098#aggregation> <http://purl.org/dc/terms/title> "The city on the hill: a history of Leuven university 1968-2005".
+<https://biblio.ugent.be/publication/1002108#aggregation> <http://purl.org/dc/terms/title> "De zieke natie: over de medicalisering van de samenleving".
+<https://biblio.ugent.be/publication/1002114#aggregation> <http://purl.org/dc/terms/title> "De intrede van het publiek: museumbezoek in België 1830-1914".
+<https://biblio.ugent.be/publication/1002128#aggregation> <http://purl.org/dc/terms/title> "Jef Denyn: identiteit in veelvoud".
+<https://biblio.ugent.be/publication/1002138#aggregation> <http://purl.org/dc/terms/title> "Het museum en zijn publiek: van 1816 tot 1914".
+<https://biblio.ugent.be/publication/1002143#aggregation> <http://purl.org/dc/terms/title> "Brussel: de Marollen: de duurzame poëzie van een volkswijk".

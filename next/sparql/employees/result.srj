@@ -1,0 +1,13 @@
+{
+ "head": {
+  "vars": [
+   "employee_givenName",
+   "employee_familyName",
+   "employee_img",
+   "employee_title"
+  ]
+ },
+ "results": {
+  "bindings": []
+ }
+}

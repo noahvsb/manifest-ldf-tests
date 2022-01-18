@@ -1,0 +1,62 @@
+{
+ "head": {
+  "vars": [
+   "s",
+   "p"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/Pieter_De_Crem",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/Pieter_Serry",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/Jef_Tavernier",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/Poeke",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/wikiPageRedirects",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/Aalter,_Belgium",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/ontology/wikiPageRedirects",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}
