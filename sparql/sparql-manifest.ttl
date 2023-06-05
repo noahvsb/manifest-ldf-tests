@@ -21,6 +21,10 @@
   :annepubs10
   :emptybgp
   :employees
+  :starwars-valuesbind
+  :wws-unionfilter
+  :empty-group
+  :optional-filter-exists
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -176,3 +180,47 @@
     [ et:source <employees/svenl.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <employees/result.srj> .
+
+:starwars-valuesbind rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Star Wars with VALUES and BIND" ;
+  rdfs:comment "Non-trivial join with VALUES and BIND" ;
+  mf:action
+        [ qt:query  <starwars-valuesbind.rq> ;
+          et:mockFolder <starwars-valuesbind> ] ;
+  et:dataSources (
+    [ et:source <starwars-valuesbind/starwars.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <starwars-valuesbind/result.srj> .
+
+:wws-unionfilter rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - WWS with UNION and FILTER" ;
+  rdfs:comment "Non-trivial join with UNION and FILTER" ;
+  mf:action
+        [ qt:query  <wws-unionfilter.rq> ;
+          et:mockFolder <wws-unionfilter> ] ;
+  et:dataSources (
+    [ et:source <wws-unionfilter/wws.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <wws-unionfilter/result.srj> .
+
+:empty-group rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - GROUP BY over empty dataset" ;
+  rdfs:comment "A GROUP BY, ORDER BY over no triples" ;
+  mf:action
+        [ qt:query  <empty-group.rq> ;
+          et:mockFolder <empty-group> ] ;
+  et:dataSources (
+    [ et:source <empty-group/empty.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <empty-group/result.srj> .
+
+:optional-filter-exists rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - OPTIONAL FILTER EXISTS" ;
+  rdfs:comment "FILTER EXISTS works within an OPTIONAL block" ;
+  mf:action
+        [ qt:query  <optional-filter-exists.rq> ;
+          et:mockFolder <optional-filter-exists> ] ;
+  et:dataSources (
+    [ et:source <optional-filter-exists/2triples.ttl> ;
+      et:sourceType et:File ] ) ;
+  mf:result  <optional-filter-exists/result.srj> .

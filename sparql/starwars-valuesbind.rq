@@ -1,0 +1,13 @@
+PREFIX swapi: <http://swapi.dev/documentation#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?s ?p ?o
+WHERE {
+  ?luke swapi:hair_color "blond" .
+
+  {
+      VALUES ?p { swapi:name }
+      ?s ?p ?o .
+      BIND(?s AS ?luke)
+  }
+}

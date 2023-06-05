@@ -1,0 +1,27 @@
+{
+ "head": {
+  "vars": [
+   "s",
+   "p",
+   "o"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "value": "http://swapi.dev/documentation#name",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://swapi.dev/api/people/1/",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Luke Skywalker",
+     "type": "literal"
+    }
+   }
+  ]
+ }
+}
