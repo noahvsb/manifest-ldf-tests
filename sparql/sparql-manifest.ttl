@@ -34,7 +34,7 @@
         [ qt:query  <directors01.rq> ;
           et:mockFolder <directors01> ] ;
   et:dataSources(
-    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <directors01/result.srj> . 
   
@@ -45,7 +45,7 @@
         [ qt:query  <software02.rq> ;
           et:mockFolder <software02> ] ;
   et:dataSources(
-    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <software02/result.srj> . 
 
@@ -82,7 +82,7 @@
         [ qt:query  <missing05.rq> ;
           et:mockFolder <missing05> ] ;
   et:dataSources (
-    [ et:source <http://data.linkeddatafragments.org/ugent-biblio> ;
+    [ et:source <https://data.linkeddatafragments.org/ugent-biblio> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <missing05/result.srj> .
 
@@ -93,7 +93,7 @@
         [ qt:query  <schrodinger06.rq> ;
           et:mockFolder <schrodinger06> ] ;
   et:dataSources (
-    [ et:source <http://fragments.dbpedia.org/2016-04/en> ;
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <schrodinger06/result.srj> .
 
@@ -104,7 +104,7 @@
         [ qt:query  <extends07.rq> ;
           et:mockFolder <extends07> ] ;
   et:dataSources (
-    [ et:source <http://data.linkeddatafragments.org/lov> ;
+    [ et:source <https://data.linkeddatafragments.org/lov> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <extends07/result.srj> .
 
@@ -115,7 +115,7 @@
         [ qt:query  <belgium08.rq> ;
           et:mockFolder <belgium08> ] ;
   et:dataSources (
-    [ et:source <http://data.linkeddatafragments.org/geonames> ;
+    [ et:source <https://data.linkeddatafragments.org/geonames> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <belgium08/result.srj> .
 
@@ -137,7 +137,7 @@
         [ qt:query  <annepubs10.rq> ;
           et:mockFolder <annepubs10> ] ;
   et:dataSources (
-    [ et:source <http://data.linkeddatafragments.org/ugent-biblio> ;
+    [ et:source <https://data.linkeddatafragments.org/ugent-biblio> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <annepubs10/result.srj> .
 
