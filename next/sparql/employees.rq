@@ -1,7 +1,0 @@
-SELECT ?employee_givenName ?employee_familyName ?employee_img ?employee_title WHERE {
-  <http://knows.proxy.ilabt.imec.be/person/office/#> <http://schema.org/employee> ?employee.
-  ?employee <http://xmlns.com/foaf/0.1/givenName> ?employee_givenName;
-    <http://xmlns.com/foaf/0.1/familyName> ?employee_familyName;
-    <http://xmlns.com/foaf/0.1/img> ?employee_img;
-    <http://www.w3.org/2006/vcard/ns#title> ?employee_title.
-}

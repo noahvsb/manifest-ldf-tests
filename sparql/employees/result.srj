@@ -1,10 +1,10 @@
 {
  "head": {
   "vars": [
-	"employee_familyName",
-	"employee_givenName",
-	"employee_img",
-	"employee_title"
+   "employee_givenName",
+   "employee_familyName",
+   "employee_img",
+   "employee_title"
   ]
  },
  "results": {

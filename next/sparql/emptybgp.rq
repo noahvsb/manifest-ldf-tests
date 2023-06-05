@@ -1,4 +1,0 @@
-SELECT ?rating WHERE {
-  ?df_0 <http://schema.org/reviewRating> ?rating.
-  ?rating <http://schema.org/ratingValue> "5".
-}

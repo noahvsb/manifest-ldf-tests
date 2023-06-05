@@ -633,6 +633,11 @@
     }
    },
    {
+    "title": {
+     "value": "Two-Fisted Tales (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
     "name": {
      "value": "Richard Donner",
      "type": "literal",
@@ -641,14 +646,14 @@
     "movie": {
      "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
      "type": "uri"
-    },
+    }
+   },
+   {
     "title": {
      "value": "Two-Fisted Tales (film)",
      "type": "literal",
      "xml:lang": "en"
-    }
-   },
-   {
+    },
     "name": {
      "value": "Robert Zemeckis",
      "type": "literal",
@@ -657,14 +662,14 @@
     "movie": {
      "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
      "type": "uri"
-    },
+    }
+   },
+   {
     "title": {
      "value": "Two-Fisted Tales (film)",
      "type": "literal",
      "xml:lang": "en"
-    }
-   },
-   {
+    },
     "name": {
      "value": "Tom Holland (director)",
      "type": "literal",
@@ -673,11 +678,6 @@
     "movie": {
      "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
      "type": "uri"
-    },
-    "title": {
-     "value": "Two-Fisted Tales (film)",
-     "type": "literal",
-     "xml:lang": "en"
     }
    },
    {

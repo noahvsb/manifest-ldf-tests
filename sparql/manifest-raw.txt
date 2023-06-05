@@ -1,0 +1,16 @@
+directors01 TPF@https://fragments.dbpedia.org/2016-04/en
+software02 TPF@https://fragments.dbpedia.org/2016-04/en
+simple03 TPF@https://dbpedia.org/sparql
+common04 TPF@https://fragments.dbpedia.org/2016-04/en FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/common04_static/rubent.html FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/common04_static/rubenv.ttl
+missing05 TPF@https://data.linkeddatafragments.org/ugent-biblio
+schrodinger06 TPF@https://fragments.dbpedia.org/2016-04/en
+extends07 TPF@https://data.linkeddatafragments.org/lov
+belgium08 TPF@https://data.linkeddatafragments.org/geonames
+300triples09 TPF@https://fragments.dbpedia.org/2016-04/en
+annepubs10 TPF@https://data.linkeddatafragments.org/ugent-biblio
+emptybgp TPF@https://data.betweenourworlds.org/latest
+employees FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/bendm.html FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/brechtvdv.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/erikm.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/geraldh.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/harm.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/office.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/pieterh.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/rubent.html FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/rubenv.ttl FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/employees_static/svenl.ttl
+starwars-valuesbind FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/starwars-valuesbind/starwars.ttl
+wws-unionfilter FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/wws-unionfilter/wws.ttl
+empty-group FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/empty-group/empty.ttl
+optional-filter-exists FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/optional-filter-exists/2triples.ttl

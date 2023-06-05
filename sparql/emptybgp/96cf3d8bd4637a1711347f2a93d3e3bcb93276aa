@@ -13,8 +13,8 @@
 <https://data.betweenourworlds.org/#dataset> hydra:member <https://data.betweenourworlds.org/latest#dataset>.
 <https://data.betweenourworlds.org/latest#dataset> a void:Dataset, hydra:Collection;
     void:subset <https://data.betweenourworlds.org/latest>;
-    hydra:search _:triplePattern.
-_:triplePattern hydra:template "https://data.betweenourworlds.org/latest{?subject,predicate,object}";
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.betweenourworlds.org/latest{?subject,predicate,object}";
     hydra:variableRepresentation hydra:ExplicitRepresentation;
     hydra:mapping _:subject, _:predicate, _:object.
 _:subject hydra:variable "subject";
@@ -25,56 +25,11 @@ _:object hydra:variable "object";
     hydra:property rdf:object.
 <https://data.betweenourworlds.org/latest> void:subset <https://data.betweenourworlds.org/latest>;
     a hydra:PartialCollectionView;
-    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (September 2020)"@en;
-    <http://purl.org/dc/terms/description> "Triple Pattern Fragment of the 'Latest (September 2020)' dataset containing triples matching the pattern { ?s ?p ?o }."@en;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (January 2022)"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Latest (January 2022)' dataset containing triples matching the pattern { ?s ?p ?o. }."@en;
     <http://purl.org/dc/terms/source> <https://data.betweenourworlds.org/latest#dataset>;
-    hydra:totalItems "4077984"^^xsd:integer;
-    void:triples "4077984"^^xsd:integer;
-    hydra:itemsPerPage "100"^^xsd:integer;
-    hydra:first <https://data.betweenourworlds.org/latest?page=1>;
-    hydra:next <https://data.betweenourworlds.org/latest?page=2>
+    hydra:totalItems 0;
+    void:triples 0;
+    hydra:itemsPerPage 100;
+    hydra:first <https://data.betweenourworlds.org/latest?page=1>
 }
-<https://betweenourworlds.org/anime/009-re-cyborg> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
-    <http://dbpedia.org/ontology/title> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
-    <http://purl.org/dc/terms/description> "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
-    <http://purl.org/dc/terms/title> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
-    <http://schema.org/contentRating> "PG", "Teens 13 or older";
-    <http://schema.org/description> "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
-    <http://schema.org/endDate> "2012-10-27"^^<http://schema.org/Date>;
-    <http://schema.org/image> "https://media.kitsu.io/anime/cover_images/6588/original.jpg?1597701520"^^<http://schema.org/URL>;
-    <http://schema.org/mainEntityOfPage> "https://anidb.net/perl-bin/animedb.pl?show=anime&aid=8699"^^<http://schema.org/URL>, "https://kitsu.io/anime/009-re-cyborg"^^<http://schema.org/URL>, "https://myanimelist.net/anime/11755"^^<http://schema.org/URL>, "https://www.animelab.com/shows/009-recyborg"^^<http://schema.org/URL>;
-    <http://schema.org/name> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
-    <http://schema.org/numberOfEpisodes> "1";
-    <http://schema.org/startDate> "2012-10-27"^^<http://schema.org/Date>;
-    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/009-re-cyborg>;
-    a <http://dbpedia.org/ontology/Anime>, <http://dbpedia.org/ontology/Cartoon>, <http://dbpedia.org/ontology/Film>, <http://dbpedia.org/ontology/Work>, <http://schema.org/CreativeWork>, <http://schema.org/Movie>, <http://schema.org/Thing>;
-    rdfs:comment "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
-    rdfs:label "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
-    <https://betweenourworlds.org/ontology/character> <https://betweenourworlds.org/character/albert-heinrich>, <https://betweenourworlds.org/character/chang-changku>, <https://betweenourworlds.org/character/francoise-arnoul>, <https://betweenourworlds.org/character/geronimo-jr>, <https://betweenourworlds.org/character/great-britain>, <https://betweenourworlds.org/character/isaac-gilmore>, <https://betweenourworlds.org/character/ivan-whisky>, <https://betweenourworlds.org/character/jet-link>, <https://betweenourworlds.org/character/joe-shimamura>, <https://betweenourworlds.org/character/pyunma>.
-<https://betweenourworlds.org/anime/1-100-rice-planting> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
-    <http://dbpedia.org/ontology/title> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
-    <http://purl.org/dc/terms/description> "A 1/100 scale of rice planting in a field done with paper stop-motion.";
-    <http://purl.org/dc/terms/title> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
-    <http://schema.org/contentRating> "", "G";
-    <http://schema.org/description> "A 1/100 scale of rice planting in a field done with paper stop-motion.";
-    <http://schema.org/endDate> "2016-06-26"^^<http://schema.org/Date>;
-    <http://schema.org/mainEntityOfPage> "https://kitsu.io/anime/1-100-rice-planting"^^<http://schema.org/URL>, "https://myanimelist.net/anime/36745"^^<http://schema.org/URL>;
-    <http://schema.org/name> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
-    <http://schema.org/numberOfEpisodes> "1";
-    <http://schema.org/startDate> "2016-06-26"^^<http://schema.org/Date>;
-    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/1-100-rice-planting>;
-    a <http://dbpedia.org/ontology/Anime>, <http://dbpedia.org/ontology/Cartoon>, <http://dbpedia.org/ontology/Work>, <http://schema.org/CreativeWork>, <http://schema.org/Thing>;
-    rdfs:comment "A 1/100 scale of rice planting in a field done with paper stop-motion.";
-    rdfs:label "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja.
-<https://betweenourworlds.org/anime/1-100-shibuya-crossing> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
-    <http://dbpedia.org/ontology/title> "1/100 SHIBUYA Crossing"@en, "1/100 SHIBUYA Crossing"@ja, "1/100 Shibuya Crossing", "1/100 Shibuya Crossing"@ja;
-    <http://purl.org/dc/terms/description> "A 1/100 scale of the famous Shibuya scramble crossing done with paper stop-motion.";
-    <http://purl.org/dc/terms/title> "1/100 SHIBUYA Crossing"@en, "1/100 SHIBUYA Crossing"@ja, "1/100 Shibuya Crossing", "1/100 Shibuya Crossing"@ja;
-    <http://schema.org/contentRating> "", "G";
-    <http://schema.org/description> "A 1/100 scale of the famous Shibuya scramble crossing done with paper stop-motion.";
-    <http://schema.org/endDate> "2015-06-28"^^<http://schema.org/Date>;
-    <http://schema.org/mainEntityOfPage> "https://kitsu.io/anime/1-100-shibuya-crossing"^^<http://schema.org/URL>, "https://myanimelist.net/anime/36746"^^<http://schema.org/URL>;
-    <http://schema.org/name> "1/100 SHIBUYA Crossing"@en, "1/100 SHIBUYA Crossing"@ja, "1/100 Shibuya Crossing", "1/100 Shibuya Crossing"@ja;
-    <http://schema.org/numberOfEpisodes> "1";
-    <http://schema.org/startDate> "2015-06-28"^^<http://schema.org/Date>;
-    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/1-100-shibuya-crossing>.

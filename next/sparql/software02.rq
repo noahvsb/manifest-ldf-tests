@@ -1,4 +1,0 @@
-SELECT ?software ?company WHERE {
-  ?software dbpedia-owl:developer ?company.
-  ?company dbpedia-owl:locationCountry [ rdfs:label "Belgium"@en ].
-}

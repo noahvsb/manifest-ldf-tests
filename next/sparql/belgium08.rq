@@ -1,6 +1,0 @@
-PREFIX gn: <http://www.geonames.org/ontology#>
-PREFIX w3pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
-SELECT ?countryCode WHERE {
-  ?location gn:name "Belgium" ;
-            gn:countryCode ?countryCode .
-}
