@@ -1,5 +1,5 @@
 # Query: null
-# Hashed IRI: https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/optional-filter-exists/2triples.ttl
+# Hashed IRI: https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/optional-filter-exists_static/2triples.ttl
 # Content-type: text/plain; charset=utf-8
 <http://subject> <http://predicate> <http://object>.
 _:blank <http://predicate> <http://object>.

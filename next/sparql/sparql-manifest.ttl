@@ -199,7 +199,7 @@
         [ qt:query  <wws-unionfilter.rq> ;
           et:mockFolder <wws-unionfilter> ] ;
   et:dataSources (
-    [ et:source <wws-unionfilter/wws.ttl> ;
+    [ et:source <wws-unionfilter_static/wws.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <wws-unionfilter/result.srj> .
 
@@ -210,7 +210,7 @@
         [ qt:query  <empty-group.rq> ;
           et:mockFolder <empty-group> ] ;
   et:dataSources (
-    [ et:source <empty-group/empty.ttl> ;
+    [ et:source <empty-group_static/empty.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <empty-group/result.srj> .
 
@@ -221,6 +221,6 @@
         [ qt:query  <optional-filter-exists.rq> ;
           et:mockFolder <optional-filter-exists> ] ;
   et:dataSources (
-    [ et:source <optional-filter-exists/2triples.ttl> ;
+    [ et:source <optional-filter-exists_static/2triples.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <optional-filter-exists/result.srj> .

@@ -1,6 +1,3 @@
-# Query: null
-# Hashed IRI: https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/wws-unionfilter/wws.ttl
-# Content-type: text/plain; charset=utf-8
 @prefix wws: <http://wws#>.
 wws:ent1 wws:p12 wws:ent2.
 wws:ent2 wws:p23 wws:ent3.
