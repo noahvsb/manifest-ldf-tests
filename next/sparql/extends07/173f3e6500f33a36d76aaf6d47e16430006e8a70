@@ -1,0 +1,37 @@
+# Query: subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class
+# Hashed IRI: https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class#metadata> {
+<https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/lov#dataset>.
+<https://data.linkeddatafragments.org/lov#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/lov{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class> void:subset <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of LOV"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'LOV' dataset containing triples matching the pattern { <http://vocab.gtfs.org/terms#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> . }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/lov#dataset>;
+    hydra:totalItems "1"^^xsd:integer;
+    void:triples "1"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class&page=1>
+}
+<http://vocab.gtfs.org/terms#Feed> a rdfs:Class.

@@ -1,0 +1,41 @@
+{
+ "head": {
+  "vars": [
+   "o",
+   "p",
+   "s"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "s": {
+     "value": "http://subject",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://predicate",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://object",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "bc_0_b0_blank",
+     "type": "bnode"
+    },
+    "p": {
+     "value": "http://predicate",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://object",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

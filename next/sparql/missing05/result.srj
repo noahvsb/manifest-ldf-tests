@@ -1,0 +1,17 @@
+{
+ "head": {
+  "vars": [
+   "coauthorName"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "coauthorName": {
+     "value": "Johan Braeckman",
+     "type": "literal"
+    }
+   }
+  ]
+ }
+}

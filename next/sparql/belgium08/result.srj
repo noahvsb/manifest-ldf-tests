@@ -1,0 +1,53 @@
+{
+ "head": {
+  "vars": [
+   "countryCode"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "countryCode": {
+     "value": "US",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "ZA",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "ZA",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "ZA",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "US",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "US",
+     "type": "literal"
+    }
+   },
+   {
+    "countryCode": {
+     "value": "US",
+     "type": "literal"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "head": {
+  "vars": [
+   "e1"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "e1": {
+     "value": "http://wws#ent1",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

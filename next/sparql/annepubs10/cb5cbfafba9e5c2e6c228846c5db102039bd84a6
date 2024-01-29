@@ -1,0 +1,139 @@
+# Query: null
+# Hashed IRI: https://data.linkeddatafragments.org/ugent-biblio
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/ugent-biblio#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/ugent-biblio>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/ugent-biblio#dataset>.
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/ugent-biblio>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/ugent-biblio{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object
+}
+<https://data.linkeddatafragments.org/.well-known/genid/B1> <http://xmlns.com/foaf/0.1/givenname> "C";
+    <http://xmlns.com/foaf/0.1/name> "C LIS";
+    <http://xmlns.com/foaf/0.1/surname> "LIS".
+<https://data.linkeddatafragments.org/.well-known/genid/B10> <http://xmlns.com/foaf/0.1/givenname> "Björn".
+<https://data.linkeddatafragments.org/ugent-biblio#metadata> {
+<https://data.linkeddatafragments.org/ugent-biblio> void:subset <https://data.linkeddatafragments.org/ugent-biblio>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'UGent Biblio' dataset containing triples matching the pattern { ?s ?p ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/ugent-biblio#dataset>;
+    hydra:totalItems "13358127"^^xsd:integer;
+    void:triples "13358127"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/ugent-biblio?page=1>;
+    hydra:next <https://data.linkeddatafragments.org/ugent-biblio?page=2>
+}
+<https://data.linkeddatafragments.org/.well-known/genid/B10> <http://xmlns.com/foaf/0.1/name> "Björn Soenens";
+    <http://xmlns.com/foaf/0.1/surname> "Soenens".
+<https://data.linkeddatafragments.org/.well-known/genid/B100> <http://xmlns.com/foaf/0.1/givenname> "Ludo";
+    <http://xmlns.com/foaf/0.1/name> "Ludo Cuyvers";
+    <http://xmlns.com/foaf/0.1/surname> "Cuyvers".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000> <http://xmlns.com/foaf/0.1/givenname> "Jozef";
+    <http://xmlns.com/foaf/0.1/name> "Jozef Vandeveire";
+    <http://xmlns.com/foaf/0.1/surname> "Vandeveire".
+<https://data.linkeddatafragments.org/.well-known/genid/B10000> <http://xmlns.com/foaf/0.1/givenname> "SC";
+    <http://xmlns.com/foaf/0.1/name> "SC Zenz";
+    <http://xmlns.com/foaf/0.1/surname> "Zenz".
+<https://data.linkeddatafragments.org/.well-known/genid/B100000> <http://xmlns.com/foaf/0.1/givenname> "TIGIST";
+    <http://xmlns.com/foaf/0.1/name> "TIGIST ARAYA";
+    <http://xmlns.com/foaf/0.1/surname> "ARAYA".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000000> <http://xmlns.com/foaf/0.1/givenname> "S";
+    <http://xmlns.com/foaf/0.1/name> "S Harper";
+    <http://xmlns.com/foaf/0.1/surname> "Harper".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000001> <http://xmlns.com/foaf/0.1/givenname> "SS";
+    <http://xmlns.com/foaf/0.1/name> "SS Padula";
+    <http://xmlns.com/foaf/0.1/surname> "Padula".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000002> <http://xmlns.com/foaf/0.1/givenname> "J";
+    <http://xmlns.com/foaf/0.1/name> "J Jackson";
+    <http://xmlns.com/foaf/0.1/surname> "Jackson".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000003> <http://xmlns.com/foaf/0.1/givenname> "E";
+    <http://xmlns.com/foaf/0.1/name> "E Olaiya";
+    <http://xmlns.com/foaf/0.1/surname> "Olaiya".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000004> <http://xmlns.com/foaf/0.1/givenname> "D";
+    <http://xmlns.com/foaf/0.1/name> "D Petyt";
+    <http://xmlns.com/foaf/0.1/surname> "Petyt".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000005> <http://xmlns.com/foaf/0.1/givenname> "BC";
+    <http://xmlns.com/foaf/0.1/name> "BC Radburn-Smith";
+    <http://xmlns.com/foaf/0.1/surname> "Radburn-Smith".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000006> <http://xmlns.com/foaf/0.1/givenname> "CH";
+    <http://xmlns.com/foaf/0.1/name> "CH Shepherd-Themistocleous";
+    <http://xmlns.com/foaf/0.1/surname> "Shepherd-Themistocleous".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000007> <http://xmlns.com/foaf/0.1/givenname> "IR";
+    <http://xmlns.com/foaf/0.1/name> "IR Tomalin";
+    <http://xmlns.com/foaf/0.1/surname> "Tomalin".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000008> <http://xmlns.com/foaf/0.1/givenname> "WJ";
+    <http://xmlns.com/foaf/0.1/name> "WJ Womersley";
+    <http://xmlns.com/foaf/0.1/surname> "Womersley".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000009> <http://xmlns.com/foaf/0.1/givenname> "R";
+    <http://xmlns.com/foaf/0.1/name> "R Bainbridge";
+    <http://xmlns.com/foaf/0.1/surname> "Bainbridge".
+<https://data.linkeddatafragments.org/.well-known/genid/B100001> <http://xmlns.com/foaf/0.1/givenname> "TAHA";
+    <http://xmlns.com/foaf/0.1/name> "TAHA NURHUSSEN";
+    <http://xmlns.com/foaf/0.1/surname> "NURHUSSEN".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000010> <http://xmlns.com/foaf/0.1/givenname> "O";
+    <http://xmlns.com/foaf/0.1/name> "O Buchmuller";
+    <http://xmlns.com/foaf/0.1/surname> "Buchmuller".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000011> <http://xmlns.com/foaf/0.1/givenname> "D";
+    <http://xmlns.com/foaf/0.1/name> "D Burton";
+    <http://xmlns.com/foaf/0.1/surname> "Burton".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000012> <http://xmlns.com/foaf/0.1/givenname> "J";
+    <http://xmlns.com/foaf/0.1/name> "J Hrubec";
+    <http://xmlns.com/foaf/0.1/surname> "Hrubec".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000013> <http://xmlns.com/foaf/0.1/givenname> "V";
+    <http://xmlns.com/foaf/0.1/name> "V Genchev";
+    <http://xmlns.com/foaf/0.1/surname> "Genchev".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000014> <http://xmlns.com/foaf/0.1/givenname> "D";
+    <http://xmlns.com/foaf/0.1/name> "D Colling";
+    <http://xmlns.com/foaf/0.1/surname> "Colling".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000015> <http://xmlns.com/foaf/0.1/givenname> "N";
+    <http://xmlns.com/foaf/0.1/name> "N Cripps";
+    <http://xmlns.com/foaf/0.1/surname> "Cripps".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000016> <http://xmlns.com/foaf/0.1/givenname> "M";
+    <http://xmlns.com/foaf/0.1/name> "M Cutajar";
+    <http://xmlns.com/foaf/0.1/surname> "Cutajar".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000017> <http://xmlns.com/foaf/0.1/givenname> "P";
+    <http://xmlns.com/foaf/0.1/name> "P Dauncey";
+    <http://xmlns.com/foaf/0.1/surname> "Dauncey".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000018> <http://xmlns.com/foaf/0.1/givenname> "G";
+    <http://xmlns.com/foaf/0.1/name> "G Davies";
+    <http://xmlns.com/foaf/0.1/surname> "Davies".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000019> <http://xmlns.com/foaf/0.1/givenname> "M";
+    <http://xmlns.com/foaf/0.1/name> "M Della Negra";
+    <http://xmlns.com/foaf/0.1/surname> "Della Negra".
+<https://data.linkeddatafragments.org/.well-known/genid/B100002> <http://xmlns.com/foaf/0.1/givenname> "H";
+    <http://xmlns.com/foaf/0.1/name> "H MITIKU";
+    <http://xmlns.com/foaf/0.1/surname> "MITIKU".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000020> <http://xmlns.com/foaf/0.1/givenname> "W";
+    <http://xmlns.com/foaf/0.1/name> "W Ferguson";
+    <http://xmlns.com/foaf/0.1/surname> "Ferguson".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000021> <http://xmlns.com/foaf/0.1/givenname> "J";
+    <http://xmlns.com/foaf/0.1/name> "J Fulcher";
+    <http://xmlns.com/foaf/0.1/surname> "Fulcher".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000022> <http://xmlns.com/foaf/0.1/givenname> "D";
+    <http://xmlns.com/foaf/0.1/name> "D Futyan";
+    <http://xmlns.com/foaf/0.1/surname> "Futyan".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000023> <http://xmlns.com/foaf/0.1/givenname> "A";
+    <http://xmlns.com/foaf/0.1/name> "A Gilbert";
+    <http://xmlns.com/foaf/0.1/surname> "Gilbert".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000024> <http://xmlns.com/foaf/0.1/givenname> "P";
+    <http://xmlns.com/foaf/0.1/name> "P Iaydjiev";
+    <http://xmlns.com/foaf/0.1/surname> "Iaydjiev".
+<https://data.linkeddatafragments.org/.well-known/genid/B1000025> <http://xmlns.com/foaf/0.1/givenname> "AG".

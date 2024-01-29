@@ -1,0 +1,97 @@
+# Query: null
+# Hashed IRI: https://data.linkeddatafragments.org/geonames
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/geonames#metadata> {
+<https://data.linkeddatafragments.org/geonames#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/geonames>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/geonames#dataset>.
+<https://data.linkeddatafragments.org/geonames#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/geonames>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/geonames{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://data.linkeddatafragments.org/geonames> void:subset <https://data.linkeddatafragments.org/geonames>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of GeoNames"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'GeoNames' dataset containing triples matching the pattern { ?s ?p ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/geonames#dataset>;
+    hydra:totalItems "123020821"^^xsd:integer;
+    void:triples "123020821"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/geonames?page=1>;
+    hydra:next <https://data.linkeddatafragments.org/geonames?page=2>
+}
+<http://sws.geonames.org/1/> <http://www.geonames.org/ontology#alternateName> "Kūh-e Zardar"@fa;
+    <http://www.geonames.org/ontology#countryCode> "IR";
+    <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#T>;
+    <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#T.MT>;
+    <http://www.geonames.org/ontology#locationMap> <http://www.geonames.org/1/kuh-e-zardar.html>;
+    <http://www.geonames.org/ontology#name> "Kūh-e Zardar";
+    <http://www.geonames.org/ontology#nearbyFeatures> <http://sws.geonames.org/1/nearby.rdf>;
+    <http://www.geonames.org/ontology#parentADM1> <http://sws.geonames.org/125605/>;
+    <http://www.geonames.org/ontology#parentCountry> <http://sws.geonames.org/130758/>;
+    <http://www.geonames.org/ontology#parentFeature> <http://sws.geonames.org/125605/>;
+    a <http://www.geonames.org/ontology#Feature>;
+    rdfs:isDefinedBy <http://sws.geonames.org/1/about.rdf>;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "32.98333";
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "49.13333".
+<http://sws.geonames.org/1000065/> <http://www.geonames.org/ontology#countryCode> "ZA";
+    <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P>;
+    <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL>;
+    <http://www.geonames.org/ontology#locationMap> <http://www.geonames.org/1000065/greenwood-park.html>;
+    <http://www.geonames.org/ontology#name> "Greenwood Park";
+    <http://www.geonames.org/ontology#nearbyFeatures> <http://sws.geonames.org/1000065/nearby.rdf>;
+    <http://www.geonames.org/ontology#parentADM1> <http://sws.geonames.org/972062/>;
+    <http://www.geonames.org/ontology#parentADM2> <http://sws.geonames.org/8299474/>;
+    <http://www.geonames.org/ontology#parentADM3> <http://sws.geonames.org/8347491/>;
+    <http://www.geonames.org/ontology#parentCountry> <http://sws.geonames.org/953987/>;
+    <http://www.geonames.org/ontology#parentFeature> <http://sws.geonames.org/8347491/>;
+    a <http://www.geonames.org/ontology#Feature>;
+    rdfs:isDefinedBy <http://sws.geonames.org/1000065/about.rdf>;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-29.78333";
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "31.01667".
+<http://sws.geonames.org/1000501/> <http://www.geonames.org/ontology#alternateName> "Grahamstad", "Grahamstad"@af, "Grahamstown", "Grahamstown"@de, "Grahamstown"@en, "Grahamstown"@fr;
+    <http://www.geonames.org/ontology#countryCode> "ZA";
+    <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P>;
+    <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPLA3>;
+    <http://www.geonames.org/ontology#locationMap> <http://www.geonames.org/1000501/grahamstown.html>;
+    <http://www.geonames.org/ontology#name> "Grahamstown";
+    <http://www.geonames.org/ontology#nearbyFeatures> <http://sws.geonames.org/1000501/nearby.rdf>;
+    <http://www.geonames.org/ontology#parentADM1> <http://sws.geonames.org/1085593/>;
+    <http://www.geonames.org/ontology#parentADM2> <http://sws.geonames.org/8347341/>;
+    <http://www.geonames.org/ontology#parentADM3> <http://sws.geonames.org/8347456/>;
+    <http://www.geonames.org/ontology#parentCountry> <http://sws.geonames.org/953987/>;
+    <http://www.geonames.org/ontology#parentFeature> <http://sws.geonames.org/8347456/>;
+    <http://www.geonames.org/ontology#population> "91548";
+    <http://www.geonames.org/ontology#wikipediaArticle> <http://af.wikipedia.org/wiki/Grahamstad>, <http://ca.wikipedia.org/wiki/Grahamstown>, <http://da.wikipedia.org/wiki/Grahamstown>, <http://de.wikipedia.org/wiki/Grahamstown>, <http://en.wikipedia.org/wiki/Grahamstown>, <http://fr.wikipedia.org/wiki/Grahamstown>, <http://no.wikipedia.org/wiki/Grahamstown>;
+    a <http://www.geonames.org/ontology#Feature>;
+    rdfs:isDefinedBy <http://sws.geonames.org/1000501/about.rdf>;
+    rdfs:seeAlso <http://dbpedia.org/resource/Grahamstown>;
+    <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "-33.30422";
+    <http://www.w3.org/2003/01/geo/wgs84_pos#long> "26.53276".
+<http://sws.geonames.org/100077/> <http://www.geonames.org/ontology#alternateName> "Abou Ghraib"@fr, "Abu Ghraib - أبو غريب"@gl, "Abu Ghraib"@da, "Abu Ghraib"@en, "Abu Ghraib"@es, "Abu Ghraib"@it, "Abu Ghraib"@nl, "Abu Ghuraib"@de, "Abū Ghraib Farms", "Abū Ghurayb", "Mazāri‘ Abī Ghurayb", "Mazārı‘ Abī Gharīb", "Абу-Грейб"@ru, "אבו גרייב"@he, "ابو غریب"@ur;
+    <http://www.geonames.org/ontology#countryCode> "IQ";
+    <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P>;
+    <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL>;
+    <http://www.geonames.org/ontology#locationMap> <http://www.geonames.org/100077/abu-ghurayb.html>;
+    <http://www.geonames.org/ontology#name> "Abū Ghurayb";
+    <http://www.geonames.org/ontology#nearbyFeatures> <http://sws.geonames.org/100077/nearby.rdf>;
+    <http://www.geonames.org/ontology#parentADM1> <http://sws.geonames.org/98180/>;
+    <http://www.geonames.org/ontology#parentCountry> <http://sws.geonames.org/99237/>;
+    <http://www.geonames.org/ontology#parentFeature> <http://sws.geonames.org/98180/>;
+    <http://www.geonames.org/ontology#population> "900000";
+    <http://www.geonames.org/ontology#wikipediaArticle> <http://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%BA%D8%B1%D9%8A%D8%A8_%28%D9%85%D8%AF%D9%8A%D9%86%D8%A9%29>, <http://ar.wikipedia.org/wiki/%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A3%D8%A8%D9%88_%D8%BA%D8%B1%D9%8A%D8%A8>, <http://cy.wikipedia.org/wiki/Abu_Ghraib>, <http://da.wikipedia.org/wiki/Abu_Ghraib>, <http://de.wikipedia.org/wiki/Abu_Ghuraib>, <http://en.wikipedia.org/wiki/Abu_Ghraib>, <http://es.wikipedia.org/wiki/Abu_Ghraib>, <http://et.wikipedia.org/wiki/Ab%C5%AB_Ghurayb>, <http://fr.wikipedia.org/wiki/Abou_Ghraib>, <http://gl.wikipedia.org/wiki/Abu_Ghraib_-_%D8%A3%D8%A8%D9%88_%D8%BA%D8%B1%D9%8A%D8%A8>, <http://he.wikipedia.org/wiki/%D7%90%D7%91%D7%95_%D7%92%D7%A8%D7%99%D7%99%D7%91>, <http://it.wikipedia.org/wiki/Abu_Ghraib>, <http://la.wikipedia.org/wiki/Abu_Ghraib>, <http://nl.wikipedia.org/wiki/Abu_Ghraib>, <http://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%83-%D0%93%D1%80%D0%B5%D0%B9%D0%B1>, <http://ur.wikipedia.org/wiki/%D8%A7%D8%A8%D9%88_%D8%BA%D8%B1%DB%8C%D8%A8>.

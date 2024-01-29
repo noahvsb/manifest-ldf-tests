@@ -1,0 +1,9 @@
+SELECT * WHERE { 
+  ?s ?p ?o.
+  OPTIONAL {
+    FILTER EXISTS {
+      ?s2 ?p ?o.
+      FILTER (?s != ?s2)
+    }
+  }
+}

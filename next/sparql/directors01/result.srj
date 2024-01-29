@@ -1,0 +1,701 @@
+{
+ "head": {
+  "vars": [
+   "movie",
+   "title",
+   "name"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "title": {
+     "value": "12 Monkeys",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Terry Gilliam",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/12_Monkeys",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "A River Runs Through It (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Robert Redford",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/A_River_Runs_Through_It_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Across the Tracks",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Sandy Tung",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Across_the_Tracks",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Babel (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Alejandro González Iñárritu",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Babel_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Burn After Reading",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Coen brothers",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Burn_After_Reading",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Cool World",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Ralph Bakshi",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Cool_World",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Cutting Class",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Rospo Pallenberg",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Cutting_Class",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Happy Feet Two",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "George Miller (director)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Happy_Feet_Two",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Interview with the Vampire (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Neil Jordan",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Interview_with_the_Vampire_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Johnny Suede",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tom DiCillo",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Johnny_Suede",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Kalifornia",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Dominic Sena",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Kalifornia",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Legends of the Fall",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Edward Zwick",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Legends_of_the_Fall",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Meet Joe Black",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Martin Brest",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Meet_Joe_Black",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Megamind",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tom McGrath (animator)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Megamind",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Moneyball (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Bennett Miller",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Moneyball_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Mr. & Mrs. Smith (2005 film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Doug Liman",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Mr._&_Mrs._Smith_(2005_film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Ocean's Eleven",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Eleven",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Oceans Eleven",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Eleven",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Ocean's Thirteen",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Thirteen",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Oceans Thirteen",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Thirteen",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Ocean's Trilogy",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Trilogy",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Ocean's Twelve",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Twelve",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Oceans Twelve",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Steven Soderbergh",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Oceans_Twelve",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Seven (1995 film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "David Fincher",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Seven_(1995_film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Seven Years in Tibet (1997 film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Jean-Jacques Annaud",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Seven_Years_in_Tibet_(1997_film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Sinbad: Legend of the Seven Seas",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tim Johnson (film director)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Sinbad:_Legend_of_the_Seven_Seas",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Sleepers (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Barry Levinson",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Sleepers_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Spy Game",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tony Scott",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Spy_Game",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Assassination of Jesse James by the Coward Robert Ford",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Andrew Dominik",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Audition (2015 film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Martin Scorsese",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Audition_(2015_film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Curious Case of Benjamin Button (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "David Fincher",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Curious_Case_of_Benjamin_Button_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Devil's Own",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Alan J. Pakula",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Devils_Own",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Favor",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Donald Petrie",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Favor",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Mexican",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Gore Verbinski",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Mexican",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "The Tiger (upcoming film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Michaël R. Roskam",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/The_Tiger_(upcoming_film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Thelma & Louise",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Ridley Scott",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Thelma_&_Louise",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Too Young to Die?",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Robert Markowitz",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Too_Young_to_Die%3F",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Troy (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Wolfgang Petersen",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Troy_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "True Romance",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tony Scott",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/True_Romance",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Two-Fisted Tales (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Richard Donner",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Two-Fisted Tales (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Robert Zemeckis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "Two-Fisted Tales (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "Tom Holland (director)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/Two-Fisted_Tales_(film)",
+     "type": "uri"
+    }
+   },
+   {
+    "title": {
+     "value": "War Machine (film)",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "name": {
+     "value": "David Michôd",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/War_Machine_(film)",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

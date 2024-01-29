@@ -1,0 +1,14 @@
+# Query: null
+# Hashed IRI: https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/starwars-valuesbind/starwars.ttl
+# Content-type: text/plain; charset=utf-8
+<http://swapi.dev/api/people/1/>
+      <http://swapi.dev/documentation#name> "Luke Skywalker" ;
+      <http://swapi.dev/documentation#hair_color> "blond" .
+
+<http://swapi.dev/api/people/10/>
+      <http://swapi.dev/documentation#name> "Obi-Wan Kenobi" ;
+      <http://swapi.dev/documentation#hair_color> "auburn, white" .
+
+<http://swapi.dev/api/people/32/>
+      <http://swapi.dev/documentation#name> "Qui-Gon Jinn" ;
+      <http://swapi.dev/documentation#hair_color> "brown" .

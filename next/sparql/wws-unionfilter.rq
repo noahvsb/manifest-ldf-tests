@@ -1,0 +1,16 @@
+PREFIX wws: <http://wws#> 
+SELECT ?e1 WHERE { 
+    ?e1 wws:p12 ?e2. 
+
+  {
+    ?e1 wws:access_XP wws:everyone_node.
+  }
+  UNION
+  {
+     ?e1 wws:access_XP ?user_node1.
+     ?user_node1 wws:userid "userB".
+     ?user_node1 wws:filter ?filterfunction1.
+     ?user_node1 wws:filtercontext ?filtercontext1.
+     FILTER (bound(?e1))
+  } 
+}

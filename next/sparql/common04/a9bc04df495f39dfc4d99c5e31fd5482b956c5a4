@@ -1,0 +1,56 @@
+# Query: predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2>, <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2>.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=2> a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "20013903"^^xsd:integer;
+    void:triples "20013903"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=1>;
+    hydra:previous <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=3>
+}
+dbpedia-owl:AdultActor rdfs:label "ポルノ女優"@ja, "色情演員"@zh, "성인 배우"@ko.
+dbpedia-owl:Agent rdfs:label "Agent"@de, "agent"@en, "agent"@fr, "agent"@nl, "agente"@es, "agente"@it, "axente"@gl, "gníomhaire"@ga, "πράκτορας"@el, "エージェント"@ja, "에이전트"@ko.
+dbpedia-owl:Agglomeration rdfs:label "Ballungsgebiet"@de, "agglomeratie"@nl, "agglomeration"@en, "agglomération"@fr, "aglomeración"@gl, "aglomeracja"@pl, "συσσώρευση"@el.
+dbpedia-owl:Aircraft rdfs:label "Flugzeug"@de, "aereo"@it, "aerárthach"@ga, "aircraft"@en, "avion"@fr, "avion"@ro, "avión"@es, "avión"@gl, "samolot"@pl, "vliegtuig"@nl, "αεροσκάφος"@el, "航空機"@ja, "飛機"@zh, "비행기"@ko.
+dbpedia-owl:Airline rdfs:label "Fluggesellschaft"@de, "aerlíne"@ga, "airline"@en, "compagnia aerea"@it, "compagnie aérienne"@fr, "compañía aerea"@es, "compañía aérea"@gl, "linia lotnicza"@pl, "luchtvaartmaatschappij"@nl, "αεροπορική εταιρεία"@el, "航空会社"@ja, "航空公司"@zh, "항공사"@ko.
+dbpedia-owl:Airport rdfs:label "Flughafen"@de, "aerfort"@ga, "aeroporto"@gl, "aeroporto"@it, "aeroporto"@pt, "aeropuerto"@es, "airport"@en, "aéroport"@fr, "lotnisko"@pl, "luchthaven"@nl, "αεροδρόμιο"@el, "機場"@zh, "空港"@ja, "공항"@ko.
+dbpedia-owl:Album rdfs:label "Album"@de, "albam"@ga, "album (wydawnictwo muzyczne)"@pl, "album"@el, "album"@en, "album"@es, "album"@fr, "album"@it, "album"@nl, "álbum"@gl, "álbum"@pt, "アルバム"@ja, "照片集"@zh, "앨범"@ko.
+dbpedia-owl:Altitude rdfs:label "Höhe"@de, "airde"@ga, "altitude"@en, "altitude"@fr, "altitude"@gl, "hoogte"@nl, "υψόμετρο"@el, "高度"@ja.
+dbpedia-owl:AmateurBoxer rdfs:label "Amateurboxer"@de, "amateur boxer"@en, "amateur boxer"@nl, "boxeador afeccionado"@gl, "boxeur amateur"@fr, "dornálaí amaitéarach"@ga, "pugile amatoriale"@it, "ερασιτέχνης μποξέρ"@el, "アマチュアボクサー"@ja, "아마추어 권투 선수"@ko.
+dbpedia-owl:Ambassador rdfs:label "Botschafter"@de, "ambasadóir"@ga, "ambasciatore"@it, "ambassadeur"@fr, "ambassadeur"@nl, "ambassador"@en.

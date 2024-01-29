@@ -1,0 +1,62 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "s"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Davy_De_fauw",
+     "type": "uri"
+    }
+   },
+   {
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Jef_Tavernier",
+     "type": "uri"
+    }
+   },
+   {
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Pieter_De_Crem",
+     "type": "uri"
+    }
+   },
+   {
+    "p": {
+     "value": "http://dbpedia.org/ontology/birthPlace",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Pieter_Serry",
+     "type": "uri"
+    }
+   },
+   {
+    "p": {
+     "value": "http://dbpedia.org/ontology/ground",
+     "type": "uri"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Club_YLA",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}
