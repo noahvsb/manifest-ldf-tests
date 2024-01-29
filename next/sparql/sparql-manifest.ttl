@@ -188,7 +188,7 @@
         [ qt:query  <starwars-valuesbind.rq> ;
           et:mockFolder <starwars-valuesbind> ] ;
   et:dataSources (
-    [ et:source <starwars-valuesbind/starwars.ttl> ;
+    [ et:source <starwars-valuesbind_static/starwars.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <starwars-valuesbind/result.srj> .
 
