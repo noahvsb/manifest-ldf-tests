@@ -1,0 +1,101 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/child> ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "14576"^^xsd:integer;
+    void:triples "14576"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fchild&page=2>
+}
+<http://dbpedia.org/resource/%60Abdul-Bahxc3xa1> dbpedia-owl:child <http://dbpedia.org/resource/Munavvar_Khánum>, <http://dbpedia.org/resource/Rúhá_Khánum>, <http://dbpedia.org/resource/Túbá_Khánum>, dbpedia:xe1xb8x8ciyxc3xa1iyyih_Khxc3xa1num.
+<http://dbpedia.org/resource/A._A._Milne> dbpedia-owl:child dbpedia:Christopher_Robin_Milne.
+<http://dbpedia.org/resource/A._Alfred_Taubman> dbpedia-owl:child <http://dbpedia.org/resource/Robert_S._Taubman>.
+<http://dbpedia.org/resource/A._Bartlett_Giamatti> dbpedia-owl:child dbpedia:Marcus_Giamatti, dbpedia:Paul_Giamatti.
+<http://dbpedia.org/resource/A._Bhimsingh> dbpedia-owl:child <http://dbpedia.org/resource/B._Kannan>, <http://dbpedia.org/resource/B._Lenin>.
+<http://dbpedia.org/resource/A._Felix_du_Pont> dbpedia-owl:child <http://dbpedia.org/resource/A._Felix_du_Pont,_Jr.>, dbpedia:Alice_du_Pont_Mills, dbpedia:Lydia_Chichester_du_Pont, dbpedia:Richard_Chichester_du_Pont.
+<http://dbpedia.org/resource/A._K._Fazlul_Huq> dbpedia-owl:child <http://dbpedia.org/resource/A._K._Faezul_Huq>.
+<http://dbpedia.org/resource/A._K._Hangal> dbpedia-owl:child dbpedia:Retired_Bollywood_photographer.
+<http://dbpedia.org/resource/A._Linwood_Holton,_Jr.> dbpedia-owl:child dbpedia:Anne_Holton, dbpedia:Woody_Holton.
+<http://dbpedia.org/resource/A._M._Rathnam> dbpedia-owl:child dbpedia:Jyothi_Krishna, dbpedia:Ravi_Krishna.
+<http://dbpedia.org/resource/A._Q._M._Badruddoza_Chowdhury> dbpedia-owl:child <http://dbpedia.org/resource/Mahi_B._Chowdhury>.
+<http://dbpedia.org/resource/A._Sivasailam> dbpedia-owl:child dbpedia:Mallika_Srinivasan.
+<http://dbpedia.org/resource/A._Vincent> dbpedia-owl:child dbpedia:Ajayan_Vincent, dbpedia:Jayanan_Vincent.
+dbpedia:Aafia_Siddiqui dbpedia-owl:child <http://dbpedia.org/resource/Ahmed_Siddiqui_(American_youth)>.
+dbpedia:Aang dbpedia-owl:child <http://dbpedia.org/resource/Tenzin_(The_Legend_of_Korra)>, dbpedia:The_Legend_of_Korra.
+dbpedia:Aaron_Bancroft dbpedia-owl:child dbpedia:George_Bancroft.
+dbpedia:Aaron_Burr dbpedia-owl:child dbpedia:Theodosia_Burr_Alston.
+dbpedia:Aaron_Frenkel dbpedia-owl:child <http://dbpedia.org/resource/5_(number)>.
+dbpedia:Aaron_Gural dbpedia-owl:child dbpedia:Jeffrey_Gural.
+dbpedia:Aaron_Spelling dbpedia-owl:child dbpedia:Randy_Spelling, dbpedia:Tori_Spelling.
+dbpedia:Abbas_Kiarostami dbpedia-owl:child dbpedia:Bahman_Kiarostami.
+dbpedia:Abbey_Bartlet dbpedia-owl:child dbpedia:Eleanor_Bartlet, dbpedia:List_of_The_West_Wing_characters, dbpedia:Zoey_Bartlet.
+dbpedia:Abbott_Barnes_Rice dbpedia-owl:child dbpedia:Willard_Rice.
+dbpedia:Abby_Aldrich_Rockefeller dbpedia-owl:child <http://dbpedia.org/resource/Abby_Rockefeller_Mauzé>, dbpedia:David_Rockefeller, <http://dbpedia.org/resource/John_D._Rockefeller_III>, dbpedia:Laurance_Rockefeller, dbpedia:Nelson_Rockefeller, dbpedia:Winthrop_Rockefeller.
+dbpedia:Abby_Jimenez dbpedia-owl:child dbpedia:Sassa_Jimenez.
+dbpedia:Abby_May dbpedia-owl:child dbpedia:Abigail_May_Alcott_Nieriker, dbpedia:Anna_Alcott_Pratt, dbpedia:Elizabeth_Sewall_Alcott, dbpedia:Louisa_May_Alcott.
+dbpedia:Abd_Manaf_ibn_Qusai dbpedia-owl:child dbpedia:Abd_Shams_ibn_Abd_Manaf, dbpedia:Hashim_ibn_Abd_Manaf, dbpedia:Muttalib_ibn_Abd_Manaf, dbpedia:Nawfal_ibn_Abd_Manaf.
+dbpedia:Abd_Shams_ibn_Abd_Manaf dbpedia-owl:child dbpedia:Umayya_ibn_Abd_Shams.
+dbpedia:Abdelaziz_Bennani dbpedia-owl:child dbpedia:Yahya_Bennani.
+dbpedia:Abdellatif_Filali dbpedia-owl:child dbpedia:Fuad_Filali.
+dbpedia:Abdo_Hakim dbpedia-owl:child dbpedia:Ghadi_Hakim, <http://dbpedia.org/resource/Omar_Hakim_(voice_actor)>.
+dbpedia:Abdoulaye_Wade dbpedia-owl:child dbpedia:Karim_Wade.
+dbpedia:Abdul_Bakeer_Markar dbpedia-owl:child dbpedia:Imthiaz_Bakeer_Markar.
+dbpedia:Abdul_Ghafoor_Bhurgri dbpedia-owl:child dbpedia:Abdul-Majid_Bhurgri.
+dbpedia:Abdul_Razak_Hussein dbpedia-owl:child dbpedia:Najib_Razak, dbpedia:Nazir_Razak.
+dbpedia:Abdul_Samad_Khan_Achakzai dbpedia-owl:child dbpedia:Hamid_Khan_Achakzai, dbpedia:Mahmood_Khan_Achakzai, dbpedia:Muhammad_Khan_Achakzai.
+dbpedia:Abdul_Taib_Mahmud dbpedia-owl:child dbpedia:Sulaiman_Abdul_Rahman_Taib.
+dbpedia:Abdulhadi_al-Khawaja dbpedia-owl:child dbpedia:Maryam_al-Khawaja, dbpedia:Zainab_al-Khawaja.
+dbpedia:Abdullah_Eksioglu dbpedia-owl:child dbpedia:Ali_Erdem_Eksioglu.
+dbpedia:Abdullah_ibn_Abdul-Muttalib dbpedia-owl:child dbpedia:Muhammad.
+dbpedia:Abdullah_ibn_Alawi_al-Haddad dbpedia-owl:child dbpedia:Muhammad.
+<http://dbpedia.org/resource/Abdur_Razzak_(actor)> dbpedia-owl:child dbpedia:Bapparaj.
+<http://dbpedia.org/resource/Abdyl_Frashëri> dbpedia-owl:child <http://dbpedia.org/resource/Feridun_Frashëri>, <http://dbpedia.org/resource/Halid_Frashëri>, <http://dbpedia.org/resource/Midhat_Frashëri>.
+dbpedia:Abe_Pollin dbpedia-owl:child dbpedia:Robert_Pollin.
+dbpedia:Abed_Hossain_Khan dbpedia-owl:child dbpedia:Shahadat_Hossain_Khan.
+dbpedia:Abeid_Karume dbpedia-owl:child dbpedia:Ali_Karume, dbpedia:Amani_Abeid_Karume.
+dbpedia:Abel_Herzberg dbpedia-owl:child dbpedia:Judith_Herzberg.
+dbpedia:Abel_Magwitch dbpedia-owl:child <http://dbpedia.org/resource/Estella_(Great_Expectations)>.
+dbpedia:Abel_Meeropol dbpedia-owl:child dbpedia:Michael_Meeropol, dbpedia:Robert_Meeropol.
+dbpedia:Abel_Seyler dbpedia-owl:child dbpedia:Johann_Anton_Leisewitz, dbpedia:Ludwig_Erdwin_Seyler.
+<http://dbpedia.org/resource/Abel_Smith_(1717–1788)> dbpedia-owl:child <http://dbpedia.org/resource/Abel_Smith_(1748–1779)>, <http://dbpedia.org/resource/George_Smith_(1765–1836)>, <http://dbpedia.org/resource/John_Smith_(Wendover_MP)>, <http://dbpedia.org/resource/Robert_Smith,_1st_Baron_Carrington>, <http://dbpedia.org/resource/Samuel_Smith_(1754–1834)>.
+dbpedia:Abhimanyu dbpedia-owl:child dbpedia:Parikshit.
+dbpedia:Abiah_Darby dbpedia-owl:child dbpedia:Abraham_Darby_III.
+dbpedia:Abiel_Abbot_Low dbpedia-owl:child dbpedia:Abbot_Augustus_Low, dbpedia:Seth_Low.
+dbpedia:Abigail_Adams dbpedia-owl:child dbpedia:Abigail_Adams_Smith, <http://dbpedia.org/resource/Charles_Adams_(1770–1800)>, dbpedia:John_Quincy_Adams, <http://dbpedia.org/resource/Thomas_Boylston_Adams_(1772–1832)>.
+<http://dbpedia.org/resource/Abigail_Campbell_Kawānanakoa> dbpedia-owl:child <http://dbpedia.org/resource/Abigail_Kapiolani_Kawānanakoa>.

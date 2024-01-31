@@ -14,3 +14,4 @@ starwars-valuesbind FILE@https://raw.githubusercontent.com/comunica/manifest-ldf
 wws-unionfilter FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/wws-unionfilter_static/wws.ttl
 empty-group FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/empty-group_static/empty.ttl
 optional-filter-exists FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/optional-filter-exists_static/2triples.ttl
+willis-product TPF@https://fragments.dbpedia.org/2016-04/en

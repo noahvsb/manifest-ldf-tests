@@ -1,0 +1,6 @@
+SELECT *
+WHERE {
+  [ rdfs:label "Bruce Willis"@en ]
+    (dbpedia-owl:spouse|dbpedia-owl:child) [ rdfs:label ?person ].
+  ?s dbpprop:cityServed dbpedia:Italy.
+}
