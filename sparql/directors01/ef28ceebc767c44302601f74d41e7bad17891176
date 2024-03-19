@@ -31,10 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://dbpedia.org/resource/!Oka_Tokat> dbpedia-owl:starring dbpedia:Agot_Isidro, dbpedia:Ang_TV, dbpedia:Angelika_Dela_Cruz, dbpedia:Diether_Ocampo.
-<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -46,7 +43,7 @@ _:object hydra:variable "object";
     hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=1>;
     hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2>
 }
-<http://dbpedia.org/resource/!Oka_Tokat> dbpedia-owl:starring dbpedia:Jericho_Rosales, dbpedia:Paolo_Contis, dbpedia:Rica_Peralejo, dbpedia:Ricky_Davao.
+<http://dbpedia.org/resource/!Oka_Tokat> dbpedia-owl:starring dbpedia:Agot_Isidro, dbpedia:Ang_TV, dbpedia:Angelika_Dela_Cruz, dbpedia:Diether_Ocampo, dbpedia:Jericho_Rosales, dbpedia:Paolo_Contis, dbpedia:Rica_Peralejo, dbpedia:Ricky_Davao.
 <http://dbpedia.org/resource/$1,000_Reward> dbpedia-owl:starring dbpedia:Jane_Fairbanks, dbpedia:Madeline_and_Marion_Fairbanks.
 <http://dbpedia.org/resource/$1,000_a_Touchdown> dbpedia-owl:starring dbpedia:Eric_Blore, <http://dbpedia.org/resource/Joe_E._Brown>, dbpedia:Martha_Raye, dbpedia:Susan_Hayward.
 <http://dbpedia.org/resource/$40_a_Day> dbpedia-owl:starring dbpedia:Rachael_Ray.

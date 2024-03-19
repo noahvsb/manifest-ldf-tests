@@ -23,13 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<https://data.linkeddatafragments.org/.well-known/genid/B000028e45ddf529a0ffc1a00d40c32c5> <http://purl.org/dc/terms/identifier> ":arce91eb28";
-    rdf:first <https://data.linkeddatafragments.org/.well-known/genid/Bd687ae8b6409e50cec47aa39279a16ce>;
-    rdf:rest rdf:nil.
-<https://data.linkeddatafragments.org/.well-known/genid/B000154f9b1ce51429bd5090cdf18383a> a owl:Restriction.
-<https://data.linkeddatafragments.org/lov#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/lov> void:subset <https://data.linkeddatafragments.org/lov>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of LOV"@en;
@@ -41,7 +35,11 @@ _:object hydra:variable "object";
     hydra:first <https://data.linkeddatafragments.org/lov?page=1>;
     hydra:next <https://data.linkeddatafragments.org/lov?page=2>
 }
-<https://data.linkeddatafragments.org/.well-known/genid/B000154f9b1ce51429bd5090cdf18383a> owl:cardinality "1"^^xsd:nonNegativeInteger;
+<https://data.linkeddatafragments.org/.well-known/genid/B000028e45ddf529a0ffc1a00d40c32c5> <http://purl.org/dc/terms/identifier> ":arce91eb28";
+    rdf:first <https://data.linkeddatafragments.org/.well-known/genid/Bd687ae8b6409e50cec47aa39279a16ce>;
+    rdf:rest rdf:nil.
+<https://data.linkeddatafragments.org/.well-known/genid/B000154f9b1ce51429bd5090cdf18383a> a owl:Restriction;
+    owl:cardinality "1"^^xsd:nonNegativeInteger;
     owl:onProperty <http://www.essepuntato.it/2013/10/vagueness/hasApplicabilityContext>.
 <https://data.linkeddatafragments.org/.well-known/genid/B0003f1f015356a74a3bf69933419de4f> rdf:first <http://purl.org/healthcarevocab/v1#SequenceItem.DataObservationSequence>;
     rdf:rest <https://data.linkeddatafragments.org/.well-known/genid/B77bcca2962ffd853bfbab07943103128>.

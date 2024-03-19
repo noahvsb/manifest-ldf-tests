@@ -23,10 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<https://data.linkeddatafragments.org/.well-known/genid/B2797> <http://xmlns.com/foaf/0.1/name> "L CASSIERS".
-<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname> void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -37,3 +34,4 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=1>
 }
+<https://data.linkeddatafragments.org/.well-known/genid/B2797> <http://xmlns.com/foaf/0.1/name> "L CASSIERS".

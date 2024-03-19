@@ -23,7 +23,10 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object.
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/person/801000458179#person> <http://xmlns.com/foaf/0.1/name> "Hendrik Pinxten".
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> {
 <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname> void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -34,4 +37,3 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fperson%2F801000458179%23person&predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=1>
 }
-<https://biblio.ugent.be/person/801000458179#person> <http://xmlns.com/foaf/0.1/name> "Hendrik Pinxten".

@@ -31,12 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://dbpedia.org/resource/Sunset_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.
-<http://dbpedia.org/resource/The_Graveyard_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.
-<http://dbpedia.org/resource/The_Path_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.
-<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FTale_of_Tales_(company)#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FTale_of_Tales_(company)> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FTale_of_Tales_%28company%29>.
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FTale_of_Tales_%28company%29> a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -47,3 +42,6 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FTale_of_Tales_(company)&page=1>
 }
+<http://dbpedia.org/resource/Sunset_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.
+<http://dbpedia.org/resource/The_Graveyard_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.
+<http://dbpedia.org/resource/The_Path_(video_game)> dbpedia-owl:developer <http://dbpedia.org/resource/Tale_of_Tales_(company)>.

@@ -23,11 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<https://biblio.ugent.be/publication/1000116#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/002000161117#person>, <https://biblio.ugent.be/person/002003450629#person>, <https://biblio.ugent.be/person/801000928732#person>.
-<https://biblio.ugent.be/publication/1000117#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/000060746046#person>.
-<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator> void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -39,6 +35,8 @@ _:object hydra:variable "object";
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&page=1>;
     hydra:next <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&page=2>
 }
+<https://biblio.ugent.be/publication/1000116#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/002000161117#person>, <https://biblio.ugent.be/person/002003450629#person>, <https://biblio.ugent.be/person/801000928732#person>.
+<https://biblio.ugent.be/publication/1000117#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/000060746046#person>.
 <https://biblio.ugent.be/publication/1000127#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000901854#person>, <https://biblio.ugent.be/person/801001600456#person>.
 <https://biblio.ugent.be/publication/1000151#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000626315#person>, <https://biblio.ugent.be/person/801000901854#person>, <https://biblio.ugent.be/person/801001600456#person>.
 <https://biblio.ugent.be/publication/1000154#aggregation> <http://purl.org/dc/terms/creator> <https://data.linkeddatafragments.org/.well-known/genid/B113894>, <https://data.linkeddatafragments.org/.well-known/genid/B113895>, <https://biblio.ugent.be/person/801001790719#person>.

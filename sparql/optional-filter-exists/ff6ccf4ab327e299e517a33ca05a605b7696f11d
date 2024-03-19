@@ -1,5 +1,0 @@
-# Query: null
-# Hashed IRI: http://127.0.0.1:8080/2triples.ttl
-# Content-type: text/turtle; charset=UTF-8
-<http://subject> <http://predicate> <http://object>.
-_:blank <http://predicate> <http://object>.

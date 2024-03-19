@@ -31,13 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-dbpedia:Beyond_Divinity dbpedia-owl:developer dbpedia:Larian_Studios.
-dbpedia:Divine_Divinity dbpedia-owl:developer dbpedia:Larian_Studios.
-<http://dbpedia.org/resource/Divinity:_Dragon_Commander> dbpedia-owl:developer dbpedia:Larian_Studios.
-<http://dbpedia.org/resource/Divinity:_Original_Sin> dbpedia-owl:developer dbpedia:Larian_Studios.
-<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FLarian_Studios#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FLarian_Studios> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FLarian_Studios>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -48,5 +42,9 @@ dbpedia:Divine_Divinity dbpedia-owl:developer dbpedia:Larian_Studios.
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FLarian_Studios&page=1>
 }
+dbpedia:Beyond_Divinity dbpedia-owl:developer dbpedia:Larian_Studios.
+dbpedia:Divine_Divinity dbpedia-owl:developer dbpedia:Larian_Studios.
+<http://dbpedia.org/resource/Divinity:_Dragon_Commander> dbpedia-owl:developer dbpedia:Larian_Studios.
+<http://dbpedia.org/resource/Divinity:_Original_Sin> dbpedia-owl:developer dbpedia:Larian_Studios.
 <http://dbpedia.org/resource/Divinity:_Original_Sin_2> dbpedia-owl:developer dbpedia:Larian_Studios.
 dbpedia:Divinity_II dbpedia-owl:developer dbpedia:Larian_Studios.

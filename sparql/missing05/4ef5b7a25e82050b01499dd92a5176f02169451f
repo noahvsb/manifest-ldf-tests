@@ -23,7 +23,10 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object.
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/publication/248900#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000064422#person>.
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F248900%23aggregation&predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator#metadata> {
 <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F248900%23aggregation&predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator> void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F248900%23aggregation&predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -34,4 +37,3 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F248900%23aggregation&predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&page=1>
 }
-<https://biblio.ugent.be/publication/248900#aggregation> <http://purl.org/dc/terms/creator> <https://biblio.ugent.be/person/801000064422#person>.

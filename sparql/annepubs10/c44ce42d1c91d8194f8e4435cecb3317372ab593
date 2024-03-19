@@ -23,7 +23,10 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object.
+    hydra:property rdf:object
+}
+<https://biblio.ugent.be/publication/433095#aggregation> <http://lib.ugent.be/classification/classification> "A4".
+<https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F433095%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification#metadata> {
 <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F433095%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification> void:subset <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F433095%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -34,4 +37,3 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?subject=https%3A%2F%2Fbiblio.ugent.be%2Fpublication%2F433095%23aggregation&predicate=http%3A%2F%2Flib.ugent.be%2Fclassification%2Fclassification&page=1>
 }
-<https://biblio.ugent.be/publication/433095#aggregation> <http://lib.ugent.be/classification/classification> "A4".

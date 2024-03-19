@@ -31,10 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-dbpedia:The_Mexican dbpedia-owl:director dbpedia:Gore_Verbinski.
-<https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Mexican&predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Mexican&predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector> void:subset <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Mexican&predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -45,3 +42,4 @@ dbpedia:The_Mexican dbpedia-owl:director dbpedia:Gore_Verbinski.
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FThe_Mexican&predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdirector&page=1>
 }
+dbpedia:The_Mexican dbpedia-owl:director dbpedia:Gore_Verbinski.

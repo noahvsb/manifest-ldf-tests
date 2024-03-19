@@ -23,13 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://sws.geonames.org/5245314/> <http://www.geonames.org/ontology#name> "Belgium".
-<http://sws.geonames.org/1020327/> <http://www.geonames.org/ontology#name> "Belgium".
-<http://sws.geonames.org/1020328/> <http://www.geonames.org/ontology#name> "Belgium".
-<http://sws.geonames.org/1020329/> <http://www.geonames.org/ontology#name> "Belgium".
-<https://data.linkeddatafragments.org/geonames?predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23name&object=%22Belgium%22#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/geonames?predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23name&object=%22Belgium%22> void:subset <https://data.linkeddatafragments.org/geonames?predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23name&object=%22Belgium%22>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of GeoNames"@en;
@@ -40,6 +34,10 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/geonames?predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23name&object=%22Belgium%22&page=1>
 }
+<http://sws.geonames.org/5245314/> <http://www.geonames.org/ontology#name> "Belgium".
+<http://sws.geonames.org/1020327/> <http://www.geonames.org/ontology#name> "Belgium".
+<http://sws.geonames.org/1020328/> <http://www.geonames.org/ontology#name> "Belgium".
+<http://sws.geonames.org/1020329/> <http://www.geonames.org/ontology#name> "Belgium".
 <http://sws.geonames.org/4798529/> <http://www.geonames.org/ontology#name> "Belgium".
 <http://sws.geonames.org/4884380/> <http://www.geonames.org/ontology#name> "Belgium".
 <http://sws.geonames.org/5108652/> <http://www.geonames.org/ontology#name> "Belgium".

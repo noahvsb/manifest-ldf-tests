@@ -25,11 +25,57 @@ _:object hydra:variable "object";
     hydra:property rdf:object.
 <https://data.betweenourworlds.org/latest> void:subset <https://data.betweenourworlds.org/latest>;
     a hydra:PartialCollectionView;
-    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (January 2022)"@en;
-    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Latest (January 2022)' dataset containing triples matching the pattern { ?s ?p ?o. }."@en;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (January 2024)"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Latest (January 2024)' dataset containing triples matching the pattern { ?s ?p ?o. }."@en;
     <http://purl.org/dc/terms/source> <https://data.betweenourworlds.org/latest#dataset>;
-    hydra:totalItems 0;
-    void:triples 0;
+    hydra:totalItems 4539409;
+    void:triples 4539409;
     hydra:itemsPerPage 100;
-    hydra:first <https://data.betweenourworlds.org/latest?page=1>
+    hydra:first <https://data.betweenourworlds.org/latest?page=1>;
+    hydra:next <https://data.betweenourworlds.org/latest?page=2>
 }
+<https://betweenourworlds.org/anime/0-man> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
+    <http://dbpedia.org/ontology/title> "0 Man", "0 Man"@ja, "0マン"@ja;
+    <http://purl.org/dc/terms/description> "This sci-fi story centers around Ricky, a Zero Man raised by humans in Tokyo. Zero Men are very similar to humans, but their intelligence and strength is far greater, while also sharing similar characteristics to squirrels. When Ricky finds out that the Zero Men are planning to go to war with the human race, it’s up to him to try and put a stop to the conflict and save his adopted family.\n\nNote: 0 Man is a Shounen manga created by Osamu Tezuka that was serialized from September 13th, 1959 to December 11th, 1960. In 1968, a four-minute pilot was made by Mushi Productions in the hopes that the series would be picked up and turned into its own show, much like what was done with Kimba the White Lion and Astro Boy. However, due to budget constraints, it was cancelled. The pilot has not surfaced since, however material such as concept art and storyboards have been found.";
+    <http://purl.org/dc/terms/title> "0 Man", "0 Man"@ja, "0マン"@ja;
+    <http://schema.org/contentRating> "", "G";
+    <http://schema.org/description> "This sci-fi story centers around Ricky, a Zero Man raised by humans in Tokyo. Zero Men are very similar to humans, but their intelligence and strength is far greater, while also sharing similar characteristics to squirrels. When Ricky finds out that the Zero Men are planning to go to war with the human race, it’s up to him to try and put a stop to the conflict and save his adopted family.\n\nNote: 0 Man is a Shounen manga created by Osamu Tezuka that was serialized from September 13th, 1959 to December 11th, 1960. In 1968, a four-minute pilot was made by Mushi Productions in the hopes that the series would be picked up and turned into its own show, much like what was done with Kimba the White Lion and Astro Boy. However, due to budget constraints, it was cancelled. The pilot has not surfaced since, however material such as concept art and storyboards have been found.";
+    <http://schema.org/endDate> "1968-01-01"^^<http://schema.org/Date>;
+    <http://schema.org/mainEntityOfPage> "https://kitsu.io/anime/0-man"^^<http://schema.org/URL>, "https://myanimelist.net/anime/52399"^^<http://schema.org/URL>;
+    <http://schema.org/name> "0 Man", "0 Man"@ja, "0マン"@ja;
+    <http://schema.org/numberOfEpisodes> "1";
+    <http://schema.org/startDate> "1968-01-01"^^<http://schema.org/Date>;
+    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/0-man>;
+    a <http://dbpedia.org/ontology/Anime>, <http://dbpedia.org/ontology/Cartoon>, <http://dbpedia.org/ontology/Work>, <http://schema.org/CreativeWork>, <http://schema.org/Thing>;
+    rdfs:comment "This sci-fi story centers around Ricky, a Zero Man raised by humans in Tokyo. Zero Men are very similar to humans, but their intelligence and strength is far greater, while also sharing similar characteristics to squirrels. When Ricky finds out that the Zero Men are planning to go to war with the human race, it’s up to him to try and put a stop to the conflict and save his adopted family.\n\nNote: 0 Man is a Shounen manga created by Osamu Tezuka that was serialized from September 13th, 1959 to December 11th, 1960. In 1968, a four-minute pilot was made by Mushi Productions in the hopes that the series would be picked up and turned into its own show, much like what was done with Kimba the White Lion and Astro Boy. However, due to budget constraints, it was cancelled. The pilot has not surfaced since, however material such as concept art and storyboards have been found.";
+    rdfs:label "0 Man", "0 Man"@ja, "0マン"@ja.
+<https://betweenourworlds.org/anime/009-re-cyborg> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
+    <http://dbpedia.org/ontology/title> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
+    <http://purl.org/dc/terms/description> "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
+    <http://purl.org/dc/terms/title> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
+    <http://schema.org/contentRating> "PG", "Teens 13 or older";
+    <http://schema.org/description> "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
+    <http://schema.org/endDate> "2012-10-27"^^<http://schema.org/Date>;
+    <http://schema.org/image> "https://media.kitsu.io/anime/cover_images/6588/original.jpg"^^<http://schema.org/URL>;
+    <http://schema.org/mainEntityOfPage> "https://anidb.net/perl-bin/animedb.pl?show=anime&aid=8699"^^<http://schema.org/URL>, "https://kitsu.io/anime/009-re-cyborg"^^<http://schema.org/URL>, "https://myanimelist.net/anime/11755"^^<http://schema.org/URL>, "https://www.animelab.com/shows/009-recyborg"^^<http://schema.org/URL>;
+    <http://schema.org/name> "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
+    <http://schema.org/numberOfEpisodes> "1";
+    <http://schema.org/startDate> "2012-10-27"^^<http://schema.org/Date>;
+    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/009-re-cyborg>;
+    a <http://dbpedia.org/ontology/Anime>, <http://dbpedia.org/ontology/Cartoon>, <http://dbpedia.org/ontology/Film>, <http://dbpedia.org/ontology/Work>, <http://schema.org/CreativeWork>, <http://schema.org/Movie>, <http://schema.org/Thing>;
+    rdfs:comment "Nine regular humans from different parts of the world are abducted and transformed into cyborgs with astounding powers for the purpose of being used as weapons. The nine cyborgs rebel and start to fight against their creators in the name of justice and world peace. Decades later, the nine cyborgs seem to be untouched by time, but they live in a world where \"justice\" has as many nuances as the number of people living on the planet. What is their place in the world now? \n\"In the beginning was the Voice, and the word was Him; and all obeyed His word in great awe. But those who dwelt upon the land, through vanity, cunning and greed, attempted to build a multitude of towers whose tops reached unto heaven, and accumulated great wealth on earth. Scattering across the land and laying it to waste, man turned a deaf ear to His Voice. So He gave unto man an opportunity to atone for his misdeeds; and flame and smoke and the roar of a lion descended upon earth; and shattered the many towers to dust....\" \n(Source: Production I.G Official Website) ";
+    rdfs:label "009 RE:CYBORG"@ja, "009 Re:Cyborg", "009 Re:Cyborg"@ja;
+    <https://betweenourworlds.org/ontology/character> <https://betweenourworlds.org/character/albert-heinrich>, <https://betweenourworlds.org/character/chang-changku>, <https://betweenourworlds.org/character/francoise-arnoul>, <https://betweenourworlds.org/character/geronimo-jr>, <https://betweenourworlds.org/character/great-britain>, <https://betweenourworlds.org/character/isaac-gilmore>, <https://betweenourworlds.org/character/ivan-whisky>, <https://betweenourworlds.org/character/jet-link>, <https://betweenourworlds.org/character/joe-shimamura>, <https://betweenourworlds.org/character/pyunma>.
+<https://betweenourworlds.org/anime/1-100-rice-planting> <http://dbpedia.org/ontology/numberOfEpisodes> "1";
+    <http://dbpedia.org/ontology/title> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
+    <http://purl.org/dc/terms/description> "A 1/100 scale of rice planting in a field done with paper stop-motion.";
+    <http://purl.org/dc/terms/title> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
+    <http://schema.org/contentRating> "", "G";
+    <http://schema.org/description> "A 1/100 scale of rice planting in a field done with paper stop-motion.";
+    <http://schema.org/endDate> "2016-06-26"^^<http://schema.org/Date>;
+    <http://schema.org/mainEntityOfPage> "https://kitsu.io/anime/1-100-rice-planting"^^<http://schema.org/URL>, "https://myanimelist.net/anime/36745"^^<http://schema.org/URL>;
+    <http://schema.org/name> "1/100 RICE Planting"@en, "1/100 RICE Planting"@ja, "1/100 Rice Planting", "1/100 Rice Planting"@ja;
+    <http://schema.org/numberOfEpisodes> "1";
+    <http://schema.org/startDate> "2016-06-26"^^<http://schema.org/Date>;
+    <http://schema.org/trailer> <https://betweenourworlds.org/trailer/1-100-rice-planting>;
+    a <http://dbpedia.org/ontology/Anime>, <http://dbpedia.org/ontology/Cartoon>, <http://dbpedia.org/ontology/Work>, <http://schema.org/CreativeWork>.

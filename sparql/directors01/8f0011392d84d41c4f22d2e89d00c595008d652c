@@ -31,10 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-dbpedia:Martin_Scorsese rdfs:label "Martin Scorsese"@en.
-<https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FMartin_Scorsese&predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FMartin_Scorsese&predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label> void:subset <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FMartin_Scorsese&predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -45,3 +42,4 @@ dbpedia:Martin_Scorsese rdfs:label "Martin Scorsese"@en.
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://fragments.dbpedia.org/2016-04/en?subject=http%3A%2F%2Fdbpedia.org%2Fresource%2FMartin_Scorsese&predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&page=1>
 }
+dbpedia:Martin_Scorsese rdfs:label "Martin Scorsese"@en.

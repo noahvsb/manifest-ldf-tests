@@ -25,6 +25,7 @@
   :wws-unionfilter
   :empty-group
   :optional-filter-exists
+  :willis-product
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -69,9 +70,9 @@
   et:dataSources (
     [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ]
-    [ et:source <common04/rubent.html> ;
+    [ et:source <common04_static/rubent.html> ;
       et:sourceType et:File ]
-    [ et:source <common04/rubenv.ttl> ;
+    [ et:source <common04_static/rubenv.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <common04/result.srj> .
 
@@ -159,25 +160,25 @@
         [ qt:query  <employees.rq> ;
           et:mockFolder <employees> ] ;
   et:dataSources (
-    [ et:source <employees/bendm.html> ;
+    [ et:source <employees_static/bendm.html> ;
       et:sourceType et:File ]
-    [ et:source <employees/brechtvdv.ttl> ;
+    [ et:source <employees_static/brechtvdv.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/erikm.ttl> ;
+    [ et:source <employees_static/erikm.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/geraldh.ttl> ;
+    [ et:source <employees_static/geraldh.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/harm.ttl> ;
+    [ et:source <employees_static/harm.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/office.ttl> ;
+    [ et:source <employees_static/office.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/pieterh.ttl> ;
+    [ et:source <employees_static/pieterh.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/rubent.html> ;
+    [ et:source <employees_static/rubent.html> ;
       et:sourceType et:File ]
-    [ et:source <employees/rubenv.ttl> ;
+    [ et:source <employees_static/rubenv.ttl> ;
       et:sourceType et:File ]
-    [ et:source <employees/svenl.ttl> ;
+    [ et:source <employees_static/svenl.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <employees/result.srj> .
 
@@ -188,7 +189,7 @@
         [ qt:query  <starwars-valuesbind.rq> ;
           et:mockFolder <starwars-valuesbind> ] ;
   et:dataSources (
-    [ et:source <starwars-valuesbind/starwars.ttl> ;
+    [ et:source <starwars-valuesbind_static/starwars.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <starwars-valuesbind/result.srj> .
 
@@ -199,7 +200,7 @@
         [ qt:query  <wws-unionfilter.rq> ;
           et:mockFolder <wws-unionfilter> ] ;
   et:dataSources (
-    [ et:source <wws-unionfilter/wws.ttl> ;
+    [ et:source <wws-unionfilter_static/wws.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <wws-unionfilter/result.srj> .
 
@@ -210,7 +211,7 @@
         [ qt:query  <empty-group.rq> ;
           et:mockFolder <empty-group> ] ;
   et:dataSources (
-    [ et:source <empty-group/empty.ttl> ;
+    [ et:source <empty-group_static/empty.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <empty-group/result.srj> .
 
@@ -221,6 +222,17 @@
         [ qt:query  <optional-filter-exists.rq> ;
           et:mockFolder <optional-filter-exists> ] ;
   et:dataSources (
-    [ et:source <optional-filter-exists/2triples.ttl> ;
+    [ et:source <optional-filter-exists_static/2triples.ttl> ;
       et:sourceType et:File ] ) ;
   mf:result  <optional-filter-exists/result.srj> .
+
+:willis-product rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBpedia TPF Bruce Willis product" ;
+  rdfs:comment "Spouses and children of Bruce Willis with a cartesian product" ;
+  mf:action
+        [ qt:query  <willis-product.rq> ;
+          et:mockFolder <willis-product> ] ;
+  et:dataSources(
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <willis-product/result.srj> . 

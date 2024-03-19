@@ -1,0 +1,639 @@
+{
+ "head": {
+  "vars": [
+   "person",
+   "s"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Albenga_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bologna_Guglielmo_Marconi_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bolzano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Centocelle_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Falcone–Borsellino_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Florence_Airport,_Peretola",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Foggia_%22Gino_Lisa%22_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Genoa_Cristoforo_Colombo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Grosseto_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/LAquilaxe2x80x93Preturo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lecce_Galatina_Air_Base",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lucca-Tassignano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Pisa_International_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Rieti_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Taranto-Grottaglie_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Tortolì_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Turin_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice-Lido_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Demi Moore",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice_Marco_Polo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Albenga_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bologna_Guglielmo_Marconi_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bolzano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Centocelle_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Falcone–Borsellino_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Florence_Airport,_Peretola",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Foggia_%22Gino_Lisa%22_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Genoa_Cristoforo_Colombo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Grosseto_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/LAquilaxe2x80x93Preturo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lecce_Galatina_Air_Base",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lucca-Tassignano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Pisa_International_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Rieti_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Taranto-Grottaglie_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Tortolì_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Turin_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice-Lido_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Rumer Willis",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice_Marco_Polo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Albenga_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bologna_Guglielmo_Marconi_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Bolzano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Centocelle_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Falcone–Borsellino_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Florence_Airport,_Peretola",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Foggia_%22Gino_Lisa%22_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Genoa_Cristoforo_Colombo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Grosseto_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/LAquilaxe2x80x93Preturo_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lecce_Galatina_Air_Base",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Lucca-Tassignano_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Pisa_International_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Rieti_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Taranto-Grottaglie_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Tortolì_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Turin_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice-Lido_Airport",
+     "type": "uri"
+    }
+   },
+   {
+    "person": {
+     "value": "Emma Heming",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "s": {
+     "value": "http://dbpedia.org/resource/Venice_Marco_Polo_Airport",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

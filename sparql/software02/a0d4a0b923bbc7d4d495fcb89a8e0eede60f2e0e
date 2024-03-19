@@ -31,10 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-dbpedia:Mimics dbpedia-owl:developer dbpedia:Materialise_NV.
-<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FMaterialise_NV#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FMaterialise_NV> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FMaterialise_NV>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -45,3 +42,4 @@ dbpedia:Mimics dbpedia-owl:developer dbpedia:Materialise_NV.
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&object=http%3A%2F%2Fdbpedia.org%2Fresource%2FMaterialise_NV&page=1>
 }
+dbpedia:Mimics dbpedia-owl:developer dbpedia:Materialise_NV.

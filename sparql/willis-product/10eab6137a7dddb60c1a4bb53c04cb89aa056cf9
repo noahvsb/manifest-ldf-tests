@@ -1,0 +1,128 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/spouse> ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "35680"^^xsd:integer;
+    void:triples "35680"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fspouse&page=2>
+}
+<http://dbpedia.org/resource/%60Abdul-Bahxc3xa1> dbpedia-owl:spouse <http://dbpedia.org/resource/Munirih_Khánum>.
+<http://dbpedia.org/resource/(George)_Clyde_Fisher> dbpedia-owl:spouse dbpedia:Te_Ata_Fisher.
+dbpedia:A-Lin dbpedia-owl:spouse dbpedia:Huang_Kan-lin.
+<http://dbpedia.org/resource/A.L._Monsohn_Lithography> dbpedia-owl:spouse <http://dbpedia.org/resource/Rachel-Leah_Miriam_(Honig)_Monsohn>.
+<http://dbpedia.org/resource/A._Bartlett_Giamatti> dbpedia-owl:spouse <http://www.yaledailynews.com/news/university-news/2004/09/23/former-first-lady-of-yale-passes-away/>.
+<http://dbpedia.org/resource/A._Bhimsingh> dbpedia-owl:spouse dbpedia:Sukumari.
+<http://dbpedia.org/resource/A._Boyd_Ferris> dbpedia-owl:spouse dbpedia:Kerry-Lynne_Findlay.
+<http://dbpedia.org/resource/A._C._Grayling> dbpedia-owl:spouse dbpedia:Katie_Hickman.
+<http://dbpedia.org/resource/A._E._van_Vogt> dbpedia-owl:spouse dbpedia:Edna_Mayne_Hull.
+<http://dbpedia.org/resource/A._J._Langer> dbpedia-owl:spouse <http://dbpedia.org/resource/Charles_Courtenay,_19th_Earl_of_Devon>.
+<http://dbpedia.org/resource/A._J._Liebling> dbpedia-owl:spouse dbpedia:Jean_Stafford.
+<http://dbpedia.org/resource/A._K._Gopalan> dbpedia-owl:spouse dbpedia:Susheela_Gopalan.
+<http://dbpedia.org/resource/A._L._Vijay> dbpedia-owl:spouse dbpedia:Amala_Paul.
+<http://dbpedia.org/resource/A._N._R._Robinson> dbpedia-owl:spouse dbpedia:Patricia_Robinson.
+<http://dbpedia.org/resource/A._P._Lutali> dbpedia-owl:spouse dbpedia:Susana_Leiato_Lutali.
+<http://dbpedia.org/resource/A._R._Colquhoun> dbpedia-owl:spouse dbpedia:Ethel_Tawse_Jollie.
+<http://dbpedia.org/resource/A._Whitney_Brown> dbpedia-owl:spouse dbpedia:Carolyn_Wonderland.
+dbpedia:A_Ge dbpedia-owl:spouse dbpedia:Xu_Kuang.
+dbpedia:A_Martinez dbpedia-owl:spouse dbpedia:Mare_Winningham.
+dbpedia:Aadesh_Bandekar dbpedia-owl:spouse dbpedia:Suchitra_Bandekar.
+dbpedia:Aafia_Siddiqui dbpedia-owl:spouse dbpedia:Amjad_Mohammed_Khan, dbpedia:Ammar_al-Baluchi.
+dbpedia:Aaliyah dbpedia-owl:spouse <http://dbpedia.org/resource/R._Kelly>.
+dbpedia:Aamina_Sheikh dbpedia-owl:spouse dbpedia:Mohib_Mirza.
+dbpedia:Aamir_Ali dbpedia-owl:spouse dbpedia:Sanjeeda_Sheikh.
+dbpedia:Aamir_Khan dbpedia-owl:spouse dbpedia:Kiran_Rao.
+dbpedia:Aanchal_Kumar dbpedia-owl:spouse dbpedia:Anupam_Mittal.
+dbpedia:Aang dbpedia-owl:spouse <http://dbpedia.org/resource/Katara_(Avatar:_The_Last_Airbender)>.
+dbpedia:Aaron_Blabey dbpedia-owl:spouse dbpedia:Kirstie_Hutton.
+dbpedia:Aaron_Burr dbpedia-owl:spouse dbpedia:Eliza_Jumel.
+dbpedia:Aaron_Elkins dbpedia-owl:spouse dbpedia:Charlotte_Elkins.
+dbpedia:Aaron_Frenkel dbpedia-owl:spouse dbpedia:Maja_Ruth_Frenkel.
+dbpedia:Aaron_Lee dbpedia-owl:spouse dbpedia:Namiko_Chan_Takahashi.
+dbpedia:Aaron_Ruben dbpedia-owl:spouse dbpedia:Maureen_Arthur.
+dbpedia:Aaron_Spelling dbpedia-owl:spouse dbpedia:Candy_Spelling, dbpedia:Carolyn_Jones.
+dbpedia:Aaron_Staton dbpedia-owl:spouse dbpedia:Connie_Fletcher.
+dbpedia:Aaron_Taylor-Johnson dbpedia-owl:spouse dbpedia:Sam_Taylor-Johnson.
+dbpedia:Aarti_Bajaj dbpedia-owl:spouse dbpedia:Anurag_Kashyap.
+dbpedia:Aarudhra dbpedia-owl:spouse <http://dbpedia.org/resource/K.Ramalakshmi>.
+dbpedia:Aarya_Babbar dbpedia-owl:spouse dbpedia:Jasmine_Puri.
+<http://dbpedia.org/resource/Aarón_Díaz> dbpedia-owl:spouse dbpedia:Kate_del_Castillo, dbpedia:Lola_Ponce.
+<http://dbpedia.org/resource/Aarón_Sanchez> dbpedia-owl:spouse dbpedia:Ife_Sanchez_Mora.
+dbpedia:Aase_Bye dbpedia-owl:spouse dbpedia:Trygve_Hoff.
+dbpedia:Aashiq_Abu dbpedia-owl:spouse dbpedia:Rima_Kallingal.
+dbpedia:Aashish_Chaudhary dbpedia-owl:spouse dbpedia:Samita_Bangargi.
+dbpedia:Aasiya_Zubair dbpedia-owl:spouse dbpedia:Muzzammil_Hassan.
+dbpedia:Abala_Bose dbpedia-owl:spouse dbpedia:Jagadish_Chandra_Bose.
+dbpedia:Abaoji dbpedia-owl:spouse <http://dbpedia.org/resource/Empress_Shulü_Ping>.
+<http://dbpedia.org/resource/Abbas_(actor)> dbpedia-owl:spouse dbpedia:Erum_Ali.
+dbpedia:Abbas_I_of_Persia dbpedia-owl:spouse <http://dbpedia.org/resource/Tinatin_(Leili_sultan)>.
+dbpedia:Abbas_Tyrewala dbpedia-owl:spouse dbpedia:Pakhi_Tyrewala.
+dbpedia:Abbas_ibn_Ali dbpedia-owl:spouse dbpedia:Lubaba_bint_Ubaydillah.
+dbpedia:Abbey_Bartlet dbpedia-owl:spouse dbpedia:Josiah_Bartlet.
+dbpedia:Abbey_Clancy dbpedia-owl:spouse dbpedia:Peter_Crouch.
+<http://dbpedia.org/resource/Abbie_G._Rogers> dbpedia-owl:spouse dbpedia:Henry_Huttleston_Rogers.
+dbpedia:Abby_Abadi dbpedia-owl:spouse dbpedia:Norman_Hakim.
+dbpedia:Abby_Aldrich_Rockefeller dbpedia-owl:spouse <http://dbpedia.org/resource/John_D._Rockefeller,_Jr.>.
+dbpedia:Abby_Brammell dbpedia-owl:spouse dbpedia:Jake_La_Botz.
+dbpedia:Abby_Jimenez dbpedia-owl:spouse <http://dbpedia.org/resource/Ramon_Jimenez,_Jr.>.
+dbpedia:Abby_Kelley dbpedia-owl:spouse dbpedia:Stephen_Symonds_Foster.
+dbpedia:Abby_Lockhart dbpedia-owl:spouse <http://dbpedia.org/resource/Luka_Kovač>.
+dbpedia:Abby_May dbpedia-owl:spouse dbpedia:Amos_Bronson_Alcott.
+dbpedia:Abby_McDeere dbpedia-owl:spouse dbpedia:Mitch_McDeere.
+dbpedia:Abd-ar-Rahman_III dbpedia-owl:spouse <http://dbpedia.org/resource/Wiktionary:bint>.
+dbpedia:Abd_al-Malik_ibn_Marwan dbpedia-owl:spouse dbpedia:Atikah_bint_Yazid, dbpedia:Fatima_bint_Hisham, dbpedia:Walida_bint_Al-Abbas.
+dbpedia:Abdallah_El-Yafi dbpedia-owl:spouse dbpedia:Hind_El-Azm.
+<http://dbpedia.org/resource/Abdalá_Bucaram,_Jr.> dbpedia-owl:spouse <http://dbpedia.org/resource/Gabriela_Pazmiño>.
+dbpedia:Abdel_Fattah_el-Sisi dbpedia-owl:spouse dbpedia:Entissar_Amer.
+<http://dbpedia.org/resource/Abderremane,_Sultan_of_Mohéli> dbpedia-owl:spouse <http://dbpedia.org/resource/Ravao,_Queen_of_Mohéli>.
+dbpedia:Abdoulaye_Wade dbpedia-owl:spouse dbpedia:Viviane_Wade.
+dbpedia:Abdul-Rahman_bin_Abdulaziz_Al_Saud dbpedia-owl:spouse dbpedia:Maha_Al_Ibrahim.
+dbpedia:Abdul_Ghafur_Muhiuddin_Shah_of_Pahang dbpedia-owl:spouse dbpedia:Ratu_Ungu, dbpedia:Saiful_Rijal.
+dbpedia:Abdul_Halim_of_Kedah dbpedia-owl:spouse dbpedia:Sultanah_Haminah_Hamidun, dbpedia:Tuanku_Bahiyah.
+dbpedia:Abdul_Hamid_I dbpedia-owl:spouse <http://dbpedia.org/resource/Ayşe_Seniyeperver_Sultan>, <http://dbpedia.org/resource/Nakşidil_Sultan>.
+dbpedia:Abdul_Hamid_II dbpedia-owl:spouse <http://dbpedia.org/resource/Bedrifelek_Kadınefendi>, <http://dbpedia.org/resource/Behice_Hanımefendi>, <http://dbpedia.org/resource/Bidar_Kadınefendi>, <http://dbpedia.org/resource/Fatma_Pesend_Hanımefendi>, <http://dbpedia.org/resource/Mezide_Mestan_Kadınefendi>, <http://dbpedia.org/resource/Müşfikâ_Kadınefendi>, <http://dbpedia.org/resource/Nazikedâ_Kadınefendi>, <http://dbpedia.org/resource/Peyveste_Hanımefendi>, <http://dbpedia.org/resource/Saliha_Naciye_Kadınefendi>.
+dbpedia:Abdul_Kadir_Yusuf dbpedia-owl:spouse dbpedia:Fatimah_Hashim.
+<http://dbpedia.org/resource/Abdul_Khaliq_(philosopher)> dbpedia-owl:spouse dbpedia:Razia_khaliq.
+dbpedia:Abdul_Mannan_Bhuiyan dbpedia-owl:spouse dbpedia:Dhaka.
+dbpedia:Abdul_Rahman_of_Negeri_Sembilan dbpedia-owl:spouse dbpedia:Tunku_Kurshiah.
+dbpedia:Abdul_Razak_Hussein dbpedia-owl:spouse dbpedia:Rahah_Noah.
+dbpedia:Abdul_Sattar_Edhi dbpedia-owl:spouse dbpedia:Bilquis_Edhi.
+dbpedia:Abdullah_Ahmad_Badawi dbpedia-owl:spouse dbpedia:Endon_Mahmood, dbpedia:Jeanne_Abdullah.
+dbpedia:Abdullah_Eksioglu dbpedia-owl:spouse dbpedia:Elvin_Eksioglu.
+<http://dbpedia.org/resource/Abdullah_Gül> dbpedia-owl:spouse <http://dbpedia.org/resource/Hayrünnisa_Gül>.

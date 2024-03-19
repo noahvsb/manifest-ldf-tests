@@ -1,9 +1,9 @@
 {
  "head": {
   "vars": [
-   "s",
+   "o",
    "p",
-   "o"
+   "s"
   ]
  },
  "results": {
@@ -1572,48 +1572,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/volume",
-     "type": "uri"
-    },
-    "o": {
-     "value": "XIII",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/year",
-     "type": "uri"
-    },
-    "o": {
-     "value": "1885",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/accessdate",
      "type": "uri"
     },
@@ -1709,7 +1667,7 @@
    },
    {
     "s": {
-     "value": "http://0-chroniclingamerica.loc.gov.library.colby.edu/lccn/sn83045433/1906-12-10/ed-1/seq-8/;words=Paul+Yale+Veeder+VEEDER",
+     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
      "type": "uri"
     },
     "p": {
@@ -1717,8 +1675,51 @@
      "type": "uri"
     },
     "o": {
+     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/volume",
+     "type": "uri"
+    },
+    "o": {
+     "value": "XIII",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-cdl.library.cornell.edu.source.unco.edu:80/cgi-bin/moa/moa-cgi?notisid=ANU4519-0019",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/year",
+     "type": "uri"
+    },
+    "o": {
+     "value": "1885",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
      "value": "http://0-chroniclingamerica.loc.gov.library.colby.edu/lccn/sn83045433/1906-12-10/ed-1/seq-8/;words=Paul+Yale+Veeder+VEEDER",
      "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/date",
+     "type": "uri"
+    },
+    "o": {
+     "value": "1906-12-10",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -1769,26 +1770,11 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/date",
-     "type": "uri"
-    },
-    "o": {
-     "value": "1906-12-10",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-dictionary.oed.com.clicnet4.clic.edu/cgi/entry/50126019",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/url",
      "type": "uri"
     },
     "o": {
-     "value": "http://0-dictionary.oed.com.clicnet4.clic.edu/cgi/entry/50126019",
+     "value": "http://0-chroniclingamerica.loc.gov.library.colby.edu/lccn/sn83045433/1906-12-10/ed-1/seq-8/;words=Paul+Yale+Veeder+VEEDER",
      "type": "uri"
     }
    },
@@ -1869,6 +1855,20 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-dictionary.oed.com.clicnet4.clic.edu/cgi/entry/50126019",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-dictionary.oed.com.clicnet4.clic.edu/cgi/entry/50126019",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/work",
      "type": "uri"
     },
@@ -1883,12 +1883,13 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/url",
+     "value": "http://dbpedia.org/property/accessDate",
      "type": "uri"
     },
     "o": {
-     "value": "http://0-digital.library.nashville.org.waldo.library.nashville.org/cdm/singleitem/collection/nr/id/1329/rec/1",
-     "type": "uri"
+     "value": "2015-09-25",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -1925,13 +1926,12 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/accessDate",
+     "value": "http://dbpedia.org/property/url",
      "type": "uri"
     },
     "o": {
-     "value": "2015-09-25",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
+     "value": "http://0-digital.library.nashville.org.waldo.library.nashville.org/cdm/singleitem/collection/nr/id/1329/rec/1",
+     "type": "uri"
     }
    },
    {
@@ -1954,12 +1954,27 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/url",
+     "value": "http://dbpedia.org/property/author",
      "type": "uri"
     },
     "o": {
+     "value": "Melonyce McAfee",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
      "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:AMNP:SVAB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=116B9D9423160E40&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/date",
+     "type": "uri"
+    },
+    "o": {
+     "value": "2005-12-29",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -1996,13 +2011,12 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/date",
+     "value": "http://dbpedia.org/property/url",
      "type": "uri"
     },
     "o": {
-     "value": "2005-12-29",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:AMNP:SVAB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=116B9D9423160E40&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
     }
    },
    {
@@ -2017,34 +2031,6 @@
     "o": {
      "value": "Slate",
      "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:AMNP:SVAB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=116B9D9423160E40&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/author",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Melonyce McAfee",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
     }
    },
    {
@@ -2068,34 +2054,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "M'Allister Loses Point: Testimony of Acts Similar to One Charged Allowed in Court",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
@@ -2103,6 +2061,20 @@
      "value": "1913-02-19",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
     }
    },
    {
@@ -2149,7 +2121,21 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "M'Allister Loses Point: Testimony of Acts Similar to One Charged Allowed in Court",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2157,7 +2143,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF682CA80CFF0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     }
    },
@@ -2182,35 +2168,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "270.0",
-     "type": "literal",
-     "datatype": "http://dbpedia.org/datatype/second"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
@@ -2218,6 +2175,20 @@
      "value": "1913-02-22",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
     }
    },
    {
@@ -2264,7 +2235,22 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "270.0",
+     "type": "literal",
+     "datatype": "http://dbpedia.org/datatype/second"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2272,7 +2258,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11BEF68C65F8D728&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     }
    },
@@ -2297,34 +2283,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "M'Allister Denies All Guilt: Portland Attorney Will Arrive in City Thursday",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
@@ -2332,6 +2290,20 @@
      "value": "1912-11-20",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
     }
    },
    {
@@ -2378,7 +2350,21 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "M'Allister Denies All Guilt: Portland Attorney Will Arrive in City Thursday",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2386,7 +2372,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADA86A4ACC28&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     }
    },
@@ -2411,34 +2397,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "M'Allister Put in Jail: Portland Lawyer Arrested on Train Going South",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
@@ -2446,6 +2404,20 @@
      "value": "1912-11-22",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
     }
    },
    {
@@ -2492,7 +2464,21 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "M'Allister Put in Jail: Portland Lawyer Arrested on Train Going South",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2500,7 +2486,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1ADAE5609DC68&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     }
    },
@@ -2517,34 +2503,6 @@
      "value": "2010-12-27",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "M'Allister Is Convicted: Recommendation of Mercy Wins over Three Jurors",
-     "type": "literal"
     }
    },
    {
@@ -2568,6 +2526,20 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/location",
      "type": "uri"
     },
@@ -2606,7 +2578,21 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "M'Allister Is Convicted: Recommendation of Mercy Wins over Three Jurors",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2614,7 +2600,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AE7ACDF11F50&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     }
    },
@@ -2639,34 +2625,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "McAllister Is Sentenced",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
@@ -2674,6 +2632,20 @@
      "value": "1913-02-26",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Portland_vice_scandal",
+     "type": "uri"
     }
    },
    {
@@ -2720,35 +2692,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Vanport_Library",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2756,8 +2700,22 @@
      "type": "uri"
     },
     "o": {
-     "value": "Vanport Gets First Library",
+     "value": "McAllister Is Sentenced",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=11C1AEBF87039FB0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
     }
    },
    {
@@ -2781,20 +2739,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/newspaper",
-     "type": "uri"
-    },
-    "o": {
-     "value": "The Oregonian",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12AB31E55F43AA7E&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/isCitedBy",
      "type": "uri"
     },
@@ -2805,16 +2749,44 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12AB31E55F43AA7E&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/last",
+     "value": "http://dbpedia.org/property/newspaper",
      "type": "uri"
     },
     "o": {
-     "value": "Thompson",
+     "value": "The Oregonian",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Vanport Gets First Library",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12A9F151EA21FBCA&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
     }
    },
    {
@@ -2843,6 +2815,34 @@
     },
     "o": {
      "value": "Margaret",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12AB31E55F43AA7E&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Vanport_Library",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12AB31E55F43AA7E&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/last",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Thompson",
      "type": "literal"
     }
    },
@@ -2894,6 +2894,35 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/date",
+     "type": "uri"
+    },
+    "o": {
+     "value": "1948-11-14",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12B5A4704EB1E6E0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Vanport_Library",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12B5A4704EB1E6E0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/newspaper",
      "type": "uri"
     },
@@ -2932,7 +2961,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12B5A4704EB1E6E0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2940,14 +2969,28 @@
      "type": "uri"
     },
     "o": {
-     "value": "1948-11-14",
+     "value": "1983-12-29",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=12B5A4704EB1E6E0&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/first",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Spencer",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -2955,8 +2998,22 @@
      "type": "uri"
     },
     "o": {
-     "value": "http://dbpedia.org/resource/Vanport_Library",
+     "value": "http://dbpedia.org/resource/Bud_Clark",
      "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/last",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Heinz",
+     "type": "literal"
     }
    },
    {
@@ -2971,6 +3028,20 @@
     "o": {
      "value": "http://dbpedia.org/resource/The_Oregonian",
      "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/subscription",
+     "type": "uri"
+    },
+    "o": {
+     "value": "yes",
+     "type": "literal"
     }
    },
    {
@@ -3003,7 +3074,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -3011,14 +3082,28 @@
      "type": "uri"
     },
     "o": {
-     "value": "1983-12-29",
+     "value": "1984-11-11",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/first",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Robin",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -3032,21 +3117,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/first",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Spencer",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
      "type": "uri"
     },
     "p": {
@@ -3054,21 +3125,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "Heinz",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=132687A0623AEC98&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/subscription",
-     "type": "uri"
-    },
-    "o": {
-     "value": "yes",
+     "value": "Cody",
      "type": "literal"
     }
    },
@@ -3084,6 +3141,20 @@
     "o": {
      "value": "http://dbpedia.org/resource/The_Oregonian",
      "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/subscription",
+     "type": "uri"
+    },
+    "o": {
+     "value": "yes",
+     "type": "literal"
     }
    },
    {
@@ -3116,101 +3187,16 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/date",
-     "type": "uri"
-    },
-    "o": {
-     "value": "1984-11-11",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Bud_Clark",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/first",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Robin",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/last",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Cody",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:EANX-NB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=13286D2B36BBF680&svc_dat=HistArchive:ahnpdoc&req_dat=8CE642B8CA5C4083BE84A2539D6E1A73",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/subscription",
-     "type": "uri"
-    },
-    "o": {
-     "value": "yes",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
      "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:BULB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=1104AFD8AA38DE50&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/title",
+     "value": "http://dbpedia.org/property/author",
      "type": "uri"
     },
     "o": {
-     "value": "Disappearing trails - Many segments of the Santiam Wagon Road, which once stretched from Albany to Ontario, have become impassable or outright obliterated",
+     "value": "Erin Foote Marlowe",
      "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:BULB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=1104AFD8AA38DE50&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:BULB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=1104AFD8AA38DE50&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
     }
    },
    {
@@ -3248,12 +3234,26 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/author",
+     "value": "http://dbpedia.org/property/title",
      "type": "uri"
     },
     "o": {
-     "value": "Erin Foote Marlowe",
+     "value": "Disappearing trails - Many segments of the Santiam Wagon Road, which once stretched from Albany to Ontario, have become impassable or outright obliterated",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:BULB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=1104AFD8AA38DE50&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:BULB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=1104AFD8AA38DE50&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
     }
    },
    {
@@ -3267,6 +3267,92 @@
     },
     "o": {
      "value": "The Bend Bulletin",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/accessdate",
+     "type": "uri"
+    },
+    "o": {
+     "value": "2009-10-08",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/date",
+     "type": "uri"
+    },
+    "o": {
+     "value": "1993-05-11",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/first",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Elaine S.",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Les_AuCoin",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/United_States_Senate_election_in_Oregon,_1992",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/last",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Povich",
      "type": "literal"
     }
    },
@@ -3304,77 +3390,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/date",
-     "type": "uri"
-    },
-    "o": {
-     "value": "1993-05-11",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Les_AuCoin",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/United_States_Senate_election_in_Oregon,_1992",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/first",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Elaine S.",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/last",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Povich",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/work",
      "type": "uri"
     },
@@ -3399,17 +3414,59 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:CTRB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0FFEC9C4E25EA4AA&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/accessdate",
+     "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
     "o": {
-     "value": "2009-10-08",
+     "value": "2002-03-22",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/first",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Steve",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/List_of_Oregon_ballot_measures",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/last",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Law",
+     "type": "literal"
     }
    },
    {
@@ -3446,32 +3503,32 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/work",
+     "type": "uri"
+    },
+    "o": {
+     "value": "The Statesman Journal",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/date",
      "type": "uri"
     },
     "o": {
-     "value": "2002-03-22",
+     "value": "1989-08-21",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/List_of_Oregon_ballot_measures",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
@@ -3479,13 +3536,27 @@
      "type": "uri"
     },
     "o": {
-     "value": "Steve",
+     "value": "Web",
      "type": "literal"
     }
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Historic_Columbia_River_Highway",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
@@ -3493,21 +3564,7 @@
      "type": "uri"
     },
     "o": {
-     "value": "Law",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ERGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=10D4E8025AB0F648&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/work",
-     "type": "uri"
-    },
-    "o": {
-     "value": "The Statesman Journal",
+     "value": "Ruble",
      "type": "literal"
     }
    },
@@ -3545,54 +3602,11 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/date",
+     "value": "http://dbpedia.org/property/via",
      "type": "uri"
     },
     "o": {
-     "value": "1989-08-21",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Historic_Columbia_River_Highway",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/first",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Web",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/last",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Ruble",
+     "value": "NewsBank",
      "type": "literal"
     }
    },
@@ -3612,15 +3626,43 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB085A23109B664&svc_dat=InfoWeb:aggregated4&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/via",
+     "value": "http://dbpedia.org/property/first",
      "type": "uri"
     },
     "o": {
-     "value": "NewsBank",
+     "value": "Jonathan",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/57th_Oregon_Legislative_Assembly",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/last",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Nicholas",
      "type": "literal"
     }
    },
@@ -3658,48 +3700,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/57th_Oregon_Legislative_Assembly",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/first",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Jonathan",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/last",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Nicholas",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087C2EB169AE8&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/work",
      "type": "uri"
     },
@@ -3714,26 +3714,13 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/title",
+     "value": "http://dbpedia.org/property/accessdate",
      "type": "uri"
     },
     "o": {
-     "value": "Anti-gay, county measures pass: Cornelius voters OK home-grown ballot measure",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
+     "value": "2010-02-14",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -3757,20 +3744,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Oregon_Citizens_Alliance",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/first",
      "type": "uri"
     },
@@ -3785,41 +3758,26 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Oregon_Citizens_Alliance",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/last",
      "type": "uri"
     },
     "o": {
      "value": "Rubenstein",
      "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/work",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/The_Oregonian",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/accessdate",
-     "type": "uri"
-    },
-    "o": {
-     "value": "2010-02-14",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -3866,7 +3824,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
@@ -3874,8 +3832,36 @@
      "type": "uri"
     },
     "o": {
-     "value": "Packwood sets '92 campaign spending record",
+     "value": "Anti-gay, county measures pass: Cornelius voters OK home-grown ballot measure",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CA68C52860&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/work",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/The_Oregonian",
+     "type": "uri"
     }
    },
    {
@@ -3884,12 +3870,13 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/url",
+     "value": "http://dbpedia.org/property/accessdate",
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
+     "value": "2009-10-08",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -3905,6 +3892,20 @@
      "value": "1993-05-25",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/first",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Don",
+     "type": "literal"
     }
    },
    {
@@ -3941,11 +3942,11 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/first",
+     "value": "http://dbpedia.org/property/last",
      "type": "uri"
     },
     "o": {
-     "value": "Don",
+     "value": "Hamilton",
      "type": "literal"
     }
    },
@@ -3955,12 +3956,26 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/last",
+     "value": "http://dbpedia.org/property/title",
      "type": "uri"
     },
     "o": {
-     "value": "Hamilton",
+     "value": "Packwood sets '92 campaign spending record",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
     }
    },
    {
@@ -3979,7 +3994,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087CBCE407D62&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
@@ -3987,37 +4002,9 @@
      "type": "uri"
     },
     "o": {
-     "value": "2009-10-08",
+     "value": "2010-02-14",
      "type": "literal",
      "datatype": "http://www.w3.org/2001/XMLSchema#date"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/title",
-     "type": "uri"
-    },
-    "o": {
-     "value": "Anti-gay-rights measures win handily",
-     "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/url",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
     }
    },
    {
@@ -4041,20 +4028,6 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/isCitedBy",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/Oregon_Citizens_Alliance",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
      "value": "http://dbpedia.org/property/first",
      "type": "uri"
     },
@@ -4069,41 +4042,26 @@
      "type": "uri"
     },
     "p": {
+     "value": "http://dbpedia.org/property/isCitedBy",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Oregon_Citizens_Alliance",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
      "value": "http://dbpedia.org/property/last",
      "type": "uri"
     },
     "o": {
      "value": "Rubenstein",
      "type": "literal"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/work",
-     "type": "uri"
-    },
-    "o": {
-     "value": "http://dbpedia.org/resource/The_Oregonian",
-     "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/accessdate",
-     "type": "uri"
-    },
-    "o": {
-     "value": "2010-02-14",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -4151,7 +4109,7 @@
    },
    {
     "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     },
     "p": {
@@ -4159,8 +4117,36 @@
      "type": "uri"
     },
     "o": {
-     "value": "Anti-gay-rights measure: County and city profiles",
+     "value": "Anti-gay-rights measures win handily",
      "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC289CE9DD&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/work",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/The_Oregonian",
+     "type": "uri"
     }
    },
    {
@@ -4169,12 +4155,13 @@
      "type": "uri"
     },
     "p": {
-     "value": "http://dbpedia.org/property/url",
+     "value": "http://dbpedia.org/property/accessdate",
      "type": "uri"
     },
     "o": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
+     "value": "2010-02-14",
+     "type": "literal",
+     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -4204,21 +4191,6 @@
     "o": {
      "value": "http://dbpedia.org/resource/Oregon_Citizens_Alliance",
      "type": "uri"
-    }
-   },
-   {
-    "s": {
-     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
-     "type": "uri"
-    },
-    "p": {
-     "value": "http://dbpedia.org/property/accessdate",
-     "type": "uri"
-    },
-    "o": {
-     "value": "2010-02-14",
-     "type": "literal",
-     "datatype": "http://www.w3.org/2001/XMLSchema#date"
     }
    },
    {
@@ -4261,6 +4233,34 @@
     },
     "o": {
      "value": "http://dbpedia.org/resource/Advance_Publications",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/title",
+     "type": "uri"
+    },
+    "o": {
+     "value": "Anti-gay-rights measure: County and city profiles",
+     "type": "literal"
+    }
+   },
+   {
+    "s": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
+     "type": "uri"
+    },
+    "p": {
+     "value": "http://dbpedia.org/property/url",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://0-docs.newsbank.com.catalog.multcolib.org/openurl?ctx_ver=z39.88-2004&rft_id=info:sid/iw.newsbank.com:NewsBank:ORGB&rft_val_format=info:ofi/fmt:kev:mtx:ctx&rft_dat=0EB087EC8504C4B9&svc_dat=InfoWeb:aggregated5&req_dat=0D10F2CADB4B24C0",
      "type": "uri"
     }
    }

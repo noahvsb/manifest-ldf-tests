@@ -31,7 +31,13 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object.
+    hydra:property rdf:object
+}
+<http://dbpedia.org/resource/%5Etxt2regex$> dbpedia-owl:developer <http://sourceforge.net/project/memberlist.php?group_id=28856>.
+<http://dbpedia.org/resource/*Lisp> dbpedia-owl:developer dbpedia:Thinking_Machines_Corporation.
+<http://dbpedia.org/resource/.NET_Compact_Framework_controls> dbpedia-owl:developer dbpedia:Microsoft.
+<http://dbpedia.org/resource/.NET_Framework> dbpedia-owl:developer dbpedia:Microsoft.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper#metadata> {
 <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -43,10 +49,6 @@ _:object hydra:variable "object";
     hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&page=1>;
     hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fdeveloper&page=2>
 }
-<http://dbpedia.org/resource/%5Etxt2regex$> dbpedia-owl:developer <http://sourceforge.net/project/memberlist.php?group_id=28856>.
-<http://dbpedia.org/resource/*Lisp> dbpedia-owl:developer dbpedia:Thinking_Machines_Corporation.
-<http://dbpedia.org/resource/.NET_Compact_Framework_controls> dbpedia-owl:developer dbpedia:Microsoft.
-<http://dbpedia.org/resource/.NET_Framework> dbpedia-owl:developer dbpedia:Microsoft.
 <http://dbpedia.org/resource/.NET_Gadgeteer> dbpedia-owl:developer dbpedia:Microsoft.
 <http://dbpedia.org/resource/.NET_Micro_Framework> dbpedia-owl:developer dbpedia:Microsoft.
 <http://dbpedia.org/resource/.NET_Reflector> dbpedia-owl:developer dbpedia:Redgate.

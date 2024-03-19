@@ -23,10 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<https://biblio.ugent.be/publication/135121#aggregation> <http://purl.org/dc/terms/creator> <https://data.linkeddatafragments.org/.well-known/genid/B2797>.
-<https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797> void:subset <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of UGent Biblio"@en;
@@ -37,3 +34,4 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/ugent-biblio?predicate=http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fcreator&object=https%3A%2F%2Fdata.linkeddatafragments.org%2F.well-known%2Fgenid%2FB2797&page=1>
 }
+<https://biblio.ugent.be/publication/135121#aggregation> <http://purl.org/dc/terms/creator> <https://data.linkeddatafragments.org/.well-known/genid/B2797>.

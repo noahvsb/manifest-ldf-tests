@@ -23,12 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.
-<http://www.w3.org/ns/adms#Asset> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.
-<http://vocab.gtfs.org/terms#Feed> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.
-<https://data.linkeddatafragments.org/lov?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23subClassOf&object=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/lov?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23subClassOf&object=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset> void:subset <https://data.linkeddatafragments.org/lov?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23subClassOf&object=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of LOV"@en;
@@ -39,3 +34,6 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/lov?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23subClassOf&object=http%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23Dataset&page=1>
 }
+<http://rdf-vocabulary.ddialliance.org/discovery#LogicalDataSet> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.
+<http://www.w3.org/ns/adms#Asset> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.
+<http://vocab.gtfs.org/terms#Feed> rdfs:subClassOf <http://www.w3.org/ns/dcat#Dataset>.

@@ -31,13 +31,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2> dbpprop:date "1899-05-06"^^xsd:date;
-    dbpprop:isCitedBy <http://dbpedia.org/resource/Tierce_(unit)>;
-    dbpprop:newspaper "Biloxi Daily Herald";
-    dbpprop:page "6".
-<https://fragments.dbpedia.org/2016-04/en#metadata> {
+    hydra:property rdf:object.
 <https://fragments.dbpedia.org/2016-04/en> void:subset <https://fragments.dbpedia.org/2016-04/en>;
     a hydra:PartialCollectionView;
     dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
@@ -49,7 +43,11 @@ _:object hydra:variable "object";
     hydra:first <https://fragments.dbpedia.org/2016-04/en?page=1>;
     hydra:next <https://fragments.dbpedia.org/2016-04/en?page=2>
 }
-<http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2> dbpprop:title "A New System of Weights and Measures";
+<http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2> dbpprop:date "1899-05-06"^^xsd:date;
+    dbpprop:isCitedBy <http://dbpedia.org/resource/Tierce_(unit)>;
+    dbpprop:newspaper "Biloxi Daily Herald";
+    dbpprop:page "6";
+    dbpprop:title "A New System of Weights and Measures";
     dbpprop:url <http://0-access.newspaperarchive.com.lib.utep.edu/us/mississippi/biloxi/biloxi-daily-herald/1899/05-06/page-6?tag=tierce+wine&rtserp=tags/tierce-wine?page=2>.
 <http://0-access.newspaperarchive.com.topcat.switchinc.org/Viewer.aspx?img=7578853> dbpprop:accessdate "2010-04-21"^^xsd:date;
     dbpprop:date "1937-01-04"^^xsd:date;

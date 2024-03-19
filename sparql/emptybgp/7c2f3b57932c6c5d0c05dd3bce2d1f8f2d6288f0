@@ -25,8 +25,8 @@ _:object hydra:variable "object";
     hydra:property rdf:object.
 <https://data.betweenourworlds.org/latest?predicate=http%3A%2F%2Fschema.org%2FratingValue&object=%225%22> void:subset <https://data.betweenourworlds.org/latest?predicate=http%3A%2F%2Fschema.org%2FratingValue&object=%225%22>;
     a hydra:PartialCollectionView;
-    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (January 2022)"@en;
-    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Latest (January 2022)' dataset containing triples matching the pattern { ?s <http://schema.org/ratingValue> 5. }."@en;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of Latest (January 2024)"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Latest (January 2024)' dataset containing triples matching the pattern { ?s <http://schema.org/ratingValue> 5. }."@en;
     <http://purl.org/dc/terms/source> <https://data.betweenourworlds.org/latest#dataset>;
     hydra:totalItems 0;
     void:triples 0;

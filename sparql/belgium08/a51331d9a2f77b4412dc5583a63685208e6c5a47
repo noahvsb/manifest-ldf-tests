@@ -23,10 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://sws.geonames.org/5108652/> <http://www.geonames.org/ontology#countryCode> "US".
-<https://data.linkeddatafragments.org/geonames?subject=http%3A%2F%2Fsws.geonames.org%2F5108652%2F&predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23countryCode#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/geonames?subject=http%3A%2F%2Fsws.geonames.org%2F5108652%2F&predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23countryCode> void:subset <https://data.linkeddatafragments.org/geonames?subject=http%3A%2F%2Fsws.geonames.org%2F5108652%2F&predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23countryCode>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of GeoNames"@en;
@@ -37,3 +34,4 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/geonames?subject=http%3A%2F%2Fsws.geonames.org%2F5108652%2F&predicate=http%3A%2F%2Fwww.geonames.org%2Fontology%23countryCode&page=1>
 }
+<http://sws.geonames.org/5108652/> <http://www.geonames.org/ontology#countryCode> "US".

@@ -23,10 +23,7 @@ _:subject hydra:variable "subject";
 _:predicate hydra:variable "predicate";
     hydra:property rdf:predicate.
 _:object hydra:variable "object";
-    hydra:property rdf:object
-}
-<http://vocab.gtfs.org/terms#Feed> a rdfs:Class.
-<https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class#metadata> {
+    hydra:property rdf:object.
 <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class> void:subset <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class>;
     a hydra:PartialCollectionView;
     <http://purl.org/dc/terms/title> "Linked Data Fragment of LOV"@en;
@@ -37,3 +34,4 @@ _:object hydra:variable "object";
     hydra:itemsPerPage "100"^^xsd:integer;
     hydra:first <https://data.linkeddatafragments.org/lov?subject=http%3A%2F%2Fvocab.gtfs.org%2Fterms%23Feed&predicate=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23type&object=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23Class&page=1>
 }
+<http://vocab.gtfs.org/terms#Feed> a rdfs:Class.
