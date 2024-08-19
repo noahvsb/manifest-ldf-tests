@@ -15,3 +15,4 @@ wws-unionfilter FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tes
 empty-group FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/empty-group_static/empty.ttl
 optional-filter-exists FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/optional-filter-exists_static/2triples.ttl
 willis-product TPF@https://fragments.dbpedia.org/2016-04/en
+non-existing-optional-fed TPF@https://fragments.dbpedia.org/2016-04/en TPF@https://data.linkeddatafragments.org/ugent-biblio

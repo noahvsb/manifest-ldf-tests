@@ -1,0 +1,1013 @@
+{
+ "head": {
+  "vars": [
+   "o",
+   "o2",
+   "s"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Agot_Isidro",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Ang_TV",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Angelika_Dela_Cruz",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Diether_Ocampo",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jericho_Rosales",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Paolo_Contis",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Rica_Peralejo",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/!Oka_Tokat",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Ricky_Davao",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_Reward",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jane_Fairbanks",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_Reward",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Madeline_and_Marion_Fairbanks",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_a_Touchdown",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Eric_Blore",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_a_Touchdown",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Joe_E._Brown",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_a_Touchdown",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Martha_Raye",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$1,000_a_Touchdown",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Susan_Hayward",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$40_a_Day",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Rachael_Ray",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$5_Cover",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Al_Kapone",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$5_Cover",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Amy_LaVere",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$5_Cover",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Clare_Grant",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$5_Cover",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Muck_Sticky",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$9.99",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Anthony_LaPaglia",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$9.99",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Geoffrey_Rush",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Gert_Fröbe",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Goldie_Hawn",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Robert_Webber",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Scott_Brady",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Warren_Beatty",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$h*!_My_Dad_Says",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jonathan_Sadowski",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$h*!_My_Dad_Says",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Nicole_Sullivan",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$h*!_My_Dad_Says",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Tim_Bagley",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$h*!_My_Dad_Says",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Will_Sasso",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$h*!_My_Dad_Says",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/William_Shatner",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$pent",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jason_London",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/$pent",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Phill_Lewis",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/David_Gulpilil",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/John_Meillon",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Linda_Kozlowski",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Mark_Blum",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee_II",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/John_Meillon",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Crocodile%22_Dundee_II",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Linda_Kozlowski",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Bobby_Solo",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Gigi_Proietti",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Luciano_De_Crescenzo",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Martufello",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Nino_Frassica",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Pietra_Montecorvino",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Renzo_Arbore",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Roberto_Benigni",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Pimpernel%22_Smith",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Francis_L._Sullivan",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Pimpernel%22_Smith",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Leslie_Howard_(actor)",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Pimpernel%22_Smith",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Mary_Morris",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Collection",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Ultimate_Video_Collection",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic:_The_Videos",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic_Live!",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic_Live!:_The_Alpocalypse_Tour",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/%22Weird_Al%22_Yankovic",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%3F_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Agus_Kuncoro",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%3F_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Endhita",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%3F_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Revalina_S._Temat",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/%3F_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Reza_Rahadian",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/&ME",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Mark_Waschke",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/&ME",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Rossy_de_Palma",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/&ME",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Teun_Luijkx",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/&ME",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Verónica_Echegui",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Sex)_Appeal",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Alyssa_Chia",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Sex)_Appeal",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Amber_Kuo",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Sex)_Appeal",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Leon_Dai",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Sex)_Appeal",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Vivian_Hsu",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(T)error",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Saeed_Torres",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Untitled)_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Adam_Goldberg",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Untitled)_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Eion_Bailey",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Untitled)_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Marley_Shelton",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/(Untitled)_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Vinnie_Jones",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/*Corpus_Callosum",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jacqueline_Anderson",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/+1_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Ashley_Hinshaw",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/+1_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Natalie_Hall",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/+1_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Rhys_Wakefield",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/-30-_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jack_Webb",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/-30-_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Whitney_Blake",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/-30-_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/William_Conrad",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/....And_Proud",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Sue_Perkins",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...All_the_Marbles",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Burt_Young",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...All_the_Marbles",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Laurene_Landon",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...All_the_Marbles",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Peter_Falk",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...All_the_Marbles",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Tracy_Reed_(American_actress)",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...All_the_Marbles",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Vicki_Frederick",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_God_Created_Them",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Norma_Candal",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Justice_for_All_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Al_Pacino",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Justice_for_All_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Jack_Warden",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Justice_for_All_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/John_Forsythe",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Justice_for_All_(film)",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Lee_Strasberg",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Charlotte_Mitchell",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/David_Parfitt",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Maxine_Gordon",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Patricia_Routledge",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Richard_Coleman",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Robin_Davies",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Tony_Britton",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Five",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/Wendy_Craig",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Three",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/David_Parfitt",
+     "type": "uri"
+    }
+   },
+   {
+    "s": {
+     "value": "http://dbpedia.org/resource/...And_Mother_Makes_Three",
+     "type": "uri"
+    },
+    "o": {
+     "value": "http://dbpedia.org/resource/George_Selway",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

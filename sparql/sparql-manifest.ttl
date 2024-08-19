@@ -26,6 +26,7 @@
   :empty-group
   :optional-filter-exists
   :willis-product
+  :non-existing-optional-fed
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -236,3 +237,16 @@
     [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <willis-product/result.srj> . 
+
+:non-existing-optional-fed rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Federated query with optional not existing" ;
+  rdfs:comment "The right-hand side of an optional that matches no sources should be handled correctly" ;
+  mf:action
+        [ qt:query  <non-existing-optional-fed.rq> ;
+          et:mockFolder <non-existing-optional-fed> ] ;
+  et:dataSources(
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ]
+    [ et:source <https://data.linkeddatafragments.org/ugent-biblio> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <non-existing-optional-fed/result.srj> . 

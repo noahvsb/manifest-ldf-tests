@@ -1,0 +1,76 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2>, <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2>.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=2> a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/starring> ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "401556"^^xsd:integer;
+    void:triples "401556"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=1>;
+    hydra:previous <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2Fstarring&page=3>
+}
+<http://dbpedia.org/resource/...And_Mother_Makes_Three> dbpedia-owl:starring dbpedia:Richard_Coleman, dbpedia:Richard_Thorp, dbpedia:Robin_Davies, dbpedia:Wendy_Craig.
+<http://dbpedia.org/resource/...And_Once_Again> dbpedia-owl:starring dbpedia:Antara_Mali, dbpedia:Rajat_Kapoor, dbpedia:Rituparna_Sengupta.
+<http://dbpedia.org/resource/...But_the_Olsen_Gang_Wasnt_Dead> dbpedia-owl:starring dbpedia:Arve_Opsahl, <http://dbpedia.org/resource/Aud_Schønemann>, dbpedia:Carsten_Byhring, dbpedia:Sverre_Holm.
+<http://dbpedia.org/resource/...First_Do_No_Harm> dbpedia-owl:starring dbpedia:Allison_Janney, dbpedia:Fred_Ward, dbpedia:Leo_Burmester, dbpedia:Margo_Martindale, dbpedia:Meryl_Streep, dbpedia:Seth_Adkins, <http://dbpedia.org/resource/Tom_Butler_(actor)>.
+<http://dbpedia.org/resource/...More_than_1000_Words> dbpedia-owl:starring dbpedia:Ziv_Koren.
+<http://dbpedia.org/resource/...One_Third_of_a_Nation...> dbpedia-owl:starring dbpedia:Hiram_Sherman, <http://dbpedia.org/resource/Leif_Erickson_(actor)>, dbpedia:Myron_McCormick, dbpedia:Sidney_Lumet, dbpedia:Sylvia_Sidney.
+<http://dbpedia.org/resource/...Re> dbpedia-owl:starring dbpedia:Anant_Nag, dbpedia:Harshika_Poonacha, dbpedia:Ramesh_Aravind.
+<http://dbpedia.org/resource/..._nur_ein_Komödiant> dbpedia-owl:starring dbpedia:Christl_Mardayn, <http://dbpedia.org/resource/Hans_Moser_(actor)>, dbpedia:Paul_Wegener, dbpedia:Rudolf_Forster.
+<http://dbpedia.org/resource/...denn_die_Musik_und_die_Liebe_in_Tirol> dbpedia-owl:starring dbpedia:Claus_Biederstaedt, dbpedia:Gunther_Philipp, dbpedia:Hannelore_Auer, dbpedia:Vivi_Bach.
+<http://dbpedia.org/resource/...ing> dbpedia-owl:starring dbpedia:Im_Soo-jung, dbpedia:Kim_Rae-won, dbpedia:Lee_Mi-sook.
+<http://dbpedia.org/resource/...on_Television> dbpedia-owl:starring dbpedia:Chris_Tarrant, dbpedia:Clive_James, dbpedia:Keith_Floyd.
+<http://dbpedia.org/resource/...tick...tick...tick...> dbpedia-owl:starring dbpedia:Fredric_March, dbpedia:George_Kennedy, dbpedia:Jim_Brown.
+<http://dbpedia.org/resource/...und_sowas_muß_um_acht_ins_Bett> dbpedia-owl:starring <http://dbpedia.org/resource/Gitte_Hænning>, dbpedia:Gunther_Philipp, <http://dbpedia.org/resource/Ingeborg_Schöner>, <http://dbpedia.org/resource/Peter_Alexander_(Austrian_performer)>.
+<http://dbpedia.org/resource/...à_la_campagne> dbpedia-owl:starring <http://dbpedia.org/resource/Benoît_Régent>, dbpedia:Jean-Jacques_Vanier, <http://dbpedia.org/resource/Judith_Henry_(actress)>, <http://dbpedia.org/resource/Sergi_López_(actor)>.
+<http://dbpedia.org/resource/.303_(film)> dbpedia-owl:starring dbpedia:Mark_Mifsud.
+<http://dbpedia.org/resource/.45_(film)> dbpedia-owl:starring dbpedia:Aisha_Tyler, dbpedia:Angus_Macfadyen, dbpedia:Milla_Jovovich, dbpedia:Sarah_Strange, dbpedia:Stephen_Dorff.
+<http://dbpedia.org/resource/.com_for_Murder> dbpedia-owl:starring dbpedia:Huey_Lewis, dbpedia:Nastassja_Kinski, dbpedia:Nicollette_Sheridan, dbpedia:Roger_Daltrey.
+<http://dbpedia.org/resource/.hack//The_Movie> dbpedia-owl:starring dbpedia:Nanami_Sakuraba.
+<http://dbpedia.org/resource/002_Operazione_Luna> dbpedia-owl:starring dbpedia:Ciccio_Ingrassia, dbpedia:Franco_Franchi, <http://dbpedia.org/resource/Mónica_Randall>.
+<http://dbpedia.org/resource/0137> dbpedia-owl:starring dbpedia:Hubert_Winkels, dbpedia:Roger_Willemsen, dbpedia:Sabine_Brandi, dbpedia:Sandra_Maischberger.
+<http://dbpedia.org/resource/033> dbpedia-owl:starring dbpedia:Parambrata_Chatterjee, dbpedia:Rudranil_Ghosh.
+<http://dbpedia.org/resource/03:34:_Earthquake_in_Chile> dbpedia-owl:starring dbpedia:Andrea_Freund, <http://dbpedia.org/resource/Andrés_Reyes_(actor)>, dbpedia:Eduardo_Paxeco, <http://dbpedia.org/resource/Fernando_Gómez-Revira>, dbpedia:Loreto_Aravena, dbpedia:Marcelo_Alonso.
+<http://dbpedia.org/resource/06/05> dbpedia-owl:starring dbpedia:Johnny_de_Mol, dbpedia:Tara_Elders, <http://dbpedia.org/resource/Thijs_Römer>, dbpedia:Tooske_Ragas.
+<http://dbpedia.org/resource/1,000_Dollars_a_Minute> dbpedia-owl:starring <http://dbpedia.org/resource/Roger_Pryor_(actor)>.
+<http://dbpedia.org/resource/1,778_Stories_of_Me_and_My_Wife> dbpedia-owl:starring dbpedia:Tsuyoshi_Kusanagi, <http://dbpedia.org/resource/Yūko_Takeuchi>.
+<http://dbpedia.org/resource/1,_2,_3,_Sun> dbpedia-owl:starring dbpedia:Anouk_Grinberg, dbpedia:Jean-Pierre_Marielle, dbpedia:Marcello_Mastroianni.
+<http://dbpedia.org/resource/1-2-3_Corona> dbpedia-owl:starring dbpedia:Eva_Ingeborg_Scholz.
+<http://dbpedia.org/resource/1-Ichi> dbpedia-owl:starring dbpedia:Chisato_Amate, <http://dbpedia.org/resource/Kôji_Chihara>, <http://dbpedia.org/resource/Nao_Ōmori>, dbpedia:Yuki_Oikawa.
+<http://dbpedia.org/resource/1._April_2000> dbpedia-owl:starring dbpedia:Hilde_Krahl, dbpedia:Josef_Meinrad.
+<http://dbpedia.org/resource/10,000_BC_(film)> dbpedia-owl:starring dbpedia:Affif_Ben_Badra, dbpedia:Camilla_Belle, dbpedia:Cliff_Curtis, dbpedia:Joel_Virgel, dbpedia:Marco_Khan.
