@@ -27,6 +27,7 @@
   :optional-filter-exists
   :willis-product
   :non-existing-optional-fed
+  :starring-selective-filter
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -250,3 +251,14 @@
     [ et:source <https://data.linkeddatafragments.org/ugent-biblio> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <non-existing-optional-fed/result.srj> . 
+
+:starring-selective-filter rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - DBpedia TPF Movies starring Brad Pitt with selective filter" ;
+  rdfs:comment "A query with a very selective filter that can be pushed into a triple pattern" ;
+  mf:action
+        [ qt:query  <starring-selective-filter.rq> ;
+          et:mockFolder <starring-selective-filter> ] ;
+  et:dataSources(
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <starring-selective-filter/result.srj> . 

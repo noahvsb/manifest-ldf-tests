@@ -1,0 +1,29 @@
+{
+ "head": {
+  "vars": [
+   "movie",
+   "title",
+   "name"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "name": {
+     "value": "Terry Gilliam",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "title": {
+     "value": "12 Monkeys",
+     "type": "literal",
+     "xml:lang": "en"
+    },
+    "movie": {
+     "value": "http://dbpedia.org/resource/12_Monkeys",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

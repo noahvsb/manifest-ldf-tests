@@ -1,0 +1,7 @@
+SELECT ?movie ?title ?name
+WHERE {
+  ?movie dbpedia-owl:starring [ rdfs:label "Brad Pitt"@en ];
+         rdfs:label ?title;
+         dbpedia-owl:director [ rdfs:label ?name ].
+      FILTER(?movie = <http://dbpedia.org/resource/12_Monkeys>)
+}
