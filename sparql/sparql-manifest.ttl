@@ -28,6 +28,7 @@
   :willis-product
   :non-existing-optional-fed
   :starring-selective-filter
+  :zero-or-more-path-zero
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -261,4 +262,15 @@
   et:dataSources(
     [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
       et:sourceType et:TPF ] ) ;
-  mf:result  <starring-selective-filter/result.srj> . 
+  mf:result  <starring-selective-filter/result.srj> .
+
+:employees rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Zero or more path zero" ;
+  rdfs:comment "Zero-or-more property path where only the zero part applies" ;
+  mf:action
+        [ qt:query  <zero-or-more-path-zero.rq> ;
+          et:mockFolder <zero-or-more-path-zero> ] ;
+  et:dataSources (
+      [ et:source <common04_static/rubent.html> ;
+        et:sourceType et:File ] ) ;
+  mf:result  <zero-or-more-path-zero/result.srj> .

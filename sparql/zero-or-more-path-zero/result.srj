@@ -1,0 +1,363 @@
+{
+ "head": {
+  "vars": [
+   "a",
+   "b",
+   "rel"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "rel": {
+     "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://xmlns.com/foaf/0.1/Person",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/name",
+     "type": "uri"
+    },
+    "b": {
+     "value": "Ruben Taelman",
+     "type": "literal"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/logo",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://www.rubensworks.net/img/ruben.jpg",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/img",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://www.rubensworks.net/img/ruben.jpg",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/homepage",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://www.rubensworks.net",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://idlab.ugent.be/",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://www.ugent.be/",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/workplaceHomepage",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://www.imec-int.com/",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/ns/org#memberOf",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://idlab.technology/#organization",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/ns/org#memberOf",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Ghent_University",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/ns/org#memberOf",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/IMEC",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/2002/07/owl#sameAs",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://linkedsoftwaredependencies.org/users/npm/rubensworks",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/2002/07/owl#sameAs",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/common04_static/orcid.org/0000-0001-5118-256X",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/2002/07/owl#sameAs",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://www.rubensworks.net/",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Linked_Data",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Semantic_Web",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/World_Wide_Web",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Decentralization",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Programming",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/topic_interest",
+     "type": "uri"
+    },
+    "b": {
+     "value": "http://dbpedia.org/resource/Versioning",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://www.w3.org/ns/auth/cert#key",
+     "type": "uri"
+    },
+    "b": {
+     "value": "bc_0_df_10_0",
+     "type": "bnode"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/holdsAccount",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://github.com/rubensworks",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/holdsAccount",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://twitter.com/rubensworks",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/holdsAccount",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://www.linkedin.com/in/taelmanruben",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   },
+   {
+    "rel": {
+     "value": "http://xmlns.com/foaf/0.1/holdsAccount",
+     "type": "uri"
+    },
+    "b": {
+     "value": "https://scholar.google.be/citations?user=2avKLOkAAAAJ",
+     "type": "uri"
+    },
+    "a": {
+     "value": "https://www.rubensworks.net/#me",
+     "type": "uri"
+    }
+   }
+  ]
+ }
+}

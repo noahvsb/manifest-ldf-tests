@@ -1,0 +1,6 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT *
+WHERE {
+  <https://www.rubensworks.net/#me> owl:nonExisting? ?a .
+  ?a ?rel ?b .
+}
