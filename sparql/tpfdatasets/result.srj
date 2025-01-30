@@ -1,0 +1,32 @@
+{
+ "head": {
+  "vars": [
+   "dataset",
+   "label"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "dataset": {
+     "value": "https://data.linkeddatafragments.org/linkedgeodata#dataset",
+     "type": "uri"
+    },
+    "label": {
+     "value": "LinkedGeoData",
+     "type": "literal"
+    }
+   },
+   {
+    "dataset": {
+     "value": "https://data.linkeddatafragments.org/linkedpolitics#dataset",
+     "type": "uri"
+    },
+    "label": {
+     "value": "Linked Politics",
+     "type": "literal"
+    }
+   }
+  ]
+ }
+}

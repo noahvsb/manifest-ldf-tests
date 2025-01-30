@@ -1,0 +1,58 @@
+# Query: predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph
+# Hashed IRI: https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph#metadata> {
+<https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/#dataset>;
+    a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph>;
+    <http://www.w3.org/ns/sparql-service-description#defaultGraph> <urn:ldf:defaultGraph>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/{?subject,predicate,object,graph}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object, _:graph.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+_:graph hydra:variable "graph";
+    hydra:property <http://www.w3.org/ns/sparql-service-description#graph>.
+<https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph> void:subset <https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of dataset index"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'dataset index' dataset containing triples matching the pattern { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?o @default. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/#dataset>;
+    hydra:totalItems "19"^^xsd:integer;
+    void:triples "19"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/?predicate=http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label&graph=urn%3Aldf%3AdefaultGraph&page=1>
+}
+<https://data.linkeddatafragments.org/dbpedia2014#dataset> rdfs:label "DBpedia 2014".
+<https://data.linkeddatafragments.org/geonames#dataset> rdfs:label "GeoNames".
+<https://data.linkeddatafragments.org/linkedgeodata#dataset> rdfs:label "LinkedGeoData".
+<https://data.linkeddatafragments.org/linkedpolitics#dataset> rdfs:label "Linked Politics".
+<https://data.linkeddatafragments.org/wiktionary#dataset> rdfs:label "Wiktionary".
+<https://data.linkeddatafragments.org/wordnet#dataset> rdfs:label "WordNet 3.1".
+<https://data.linkeddatafragments.org/dblp#dataset> rdfs:label "DBLP".
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> rdfs:label "UGent Biblio".
+<https://data.linkeddatafragments.org/scholarlydata#dataset> rdfs:label "ScholarlyData".
+<https://data.linkeddatafragments.org/benchmark#dataset> rdfs:label "ISWC2014 Benchmark".
+<https://data.linkeddatafragments.org/lov#dataset> rdfs:label "LOV".
+<https://data.linkeddatafragments.org/viaf#dataset> rdfs:label "VIAF".
+<https://data.linkeddatafragments.org/harvard#dataset> rdfs:label "Harvard".
+<https://data.linkeddatafragments.org/bwv#dataset> rdfs:label "BWV".
+<https://data.linkeddatafragments.org/ugentmemorialis#dataset> rdfs:label "UGentMemorialis".
+<https://data.linkeddatafragments.org/victoria#dataset> rdfs:label "Victoria".
+<https://data.linkeddatafragments.org/loc#dataset> rdfs:label "Library of Congress".
+<https://data.linkeddatafragments.org/eswc2020#dataset> rdfs:label "ESWC 2020".
+<https://data.linkeddatafragments.org/covid19#dataset> rdfs:label "COVID-19".

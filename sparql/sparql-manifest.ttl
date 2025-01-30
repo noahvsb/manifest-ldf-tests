@@ -29,6 +29,7 @@
   :non-existing-optional-fed
   :starring-selective-filter
   :zero-or-more-path-zero
+  :tpfdatasets
   ) .
 
 :directors01 rdf:type et:LdfQueryEvaluationTest ;
@@ -274,3 +275,14 @@
       [ et:source <common04_static/rubent.html> ;
         et:sourceType et:File ] ) ;
   mf:result  <zero-or-more-path-zero/result.srj> .
+
+:tpfdatasets rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - TPF Datasets via QPF" ;
+  rdfs:comment "TPF datasets containing Link in the title through a QPF interface" ;
+  mf:action
+        [ qt:query  <tpfdatasets.rq> ;
+          et:mockFolder <tpfdatasets> ] ;
+  et:dataSources(
+    [ et:source <https://data.linkeddatafragments.org/> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <tpfdatasets/result.srj> . 

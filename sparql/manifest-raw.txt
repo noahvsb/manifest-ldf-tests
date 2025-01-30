@@ -18,3 +18,4 @@ willis-product TPF@https://fragments.dbpedia.org/2016-04/en
 non-existing-optional-fed TPF@https://fragments.dbpedia.org/2016-04/en TPF@https://data.linkeddatafragments.org/ugent-biblio
 starring-selective-filter TPF@https://fragments.dbpedia.org/2016-04/en
 zero-or-more-path-zero FILE@https://raw.githubusercontent.com/comunica/manifest-ldf-tests/master/sparql/common04_static/rubent.html
+tpfdatasets TPF@https://data.linkeddatafragments.org/

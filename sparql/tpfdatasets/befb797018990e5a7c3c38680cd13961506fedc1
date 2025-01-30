@@ -1,0 +1,115 @@
+# Query: null
+# Hashed IRI: https://data.linkeddatafragments.org/
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/#metadata> {
+<https://data.linkeddatafragments.org/#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/#dataset>;
+    a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/>;
+    <http://www.w3.org/ns/sparql-service-description#defaultGraph> <urn:ldf:defaultGraph>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/{?subject,predicate,object,graph}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object, _:graph.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+_:graph hydra:variable "graph";
+    hydra:property <http://www.w3.org/ns/sparql-service-description#graph>.
+<https://data.linkeddatafragments.org/> void:subset <https://data.linkeddatafragments.org/>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of dataset index"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'dataset index' dataset containing triples matching the pattern { ?s ?p ?o ?g. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/#dataset>;
+    hydra:totalItems "76"^^xsd:integer;
+    void:triples "76"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/?page=1>
+}
+<https://data.linkeddatafragments.org/dbpedia2014#dataset> a void:Dataset;
+    rdfs:label "DBpedia 2014";
+    <http://purl.org/dc/terms/title> "DBpedia 2014";
+    <http://purl.org/dc/terms/description> "DBpedia 2014 with an HDT back-end".
+<https://data.linkeddatafragments.org/geonames#dataset> a void:Dataset;
+    rdfs:label "GeoNames";
+    <http://purl.org/dc/terms/title> "GeoNames";
+    <http://purl.org/dc/terms/description> "GeoNames covers all countries and contains over 8 million placenames".
+<https://data.linkeddatafragments.org/linkedgeodata#dataset> a void:Dataset;
+    rdfs:label "LinkedGeoData";
+    <http://purl.org/dc/terms/title> "LinkedGeoData";
+    <http://purl.org/dc/terms/description> "OpenStreetMap as Linked Data".
+<https://data.linkeddatafragments.org/linkedpolitics#dataset> a void:Dataset;
+    rdfs:label "Linked Politics";
+    <http://purl.org/dc/terms/title> "Linked Politics";
+    <http://purl.org/dc/terms/description> "Plenary debates of the European Parliament".
+<https://data.linkeddatafragments.org/wiktionary#dataset> a void:Dataset;
+    rdfs:label "Wiktionary";
+    <http://purl.org/dc/terms/title> "Wiktionary";
+    <http://purl.org/dc/terms/description> "A dictionary of the English language".
+<https://data.linkeddatafragments.org/wordnet#dataset> a void:Dataset;
+    rdfs:label "WordNet 3.1";
+    <http://purl.org/dc/terms/title> "WordNet 3.1";
+    <http://purl.org/dc/terms/description> "WordNet® is a large lexical database of English".
+<https://data.linkeddatafragments.org/dblp#dataset> a void:Dataset;
+    rdfs:label "DBLP";
+    <http://purl.org/dc/terms/title> "DBLP";
+    <http://purl.org/dc/terms/description> "The DBLP Computer Science Bibliography".
+<https://data.linkeddatafragments.org/ugent-biblio#dataset> a void:Dataset;
+    rdfs:label "UGent Biblio";
+    <http://purl.org/dc/terms/title> "UGent Biblio";
+    <http://purl.org/dc/terms/description> "Ghent University Academic Bibliography".
+<https://data.linkeddatafragments.org/scholarlydata#dataset> a void:Dataset;
+    rdfs:label "ScholarlyData";
+    <http://purl.org/dc/terms/title> "ScholarlyData";
+    <http://purl.org/dc/terms/description> "Scholarly Linked Open Data".
+<https://data.linkeddatafragments.org/benchmark#dataset> a void:Dataset;
+    rdfs:label "ISWC2014 Benchmark";
+    <http://purl.org/dc/terms/title> "ISWC2014 Benchmark";
+    <http://purl.org/dc/terms/description> "Result of the BSBM for triple pattern fragments".
+<https://data.linkeddatafragments.org/lov#dataset> a void:Dataset;
+    rdfs:label "LOV";
+    <http://purl.org/dc/terms/title> "LOV";
+    <http://purl.org/dc/terms/description> "Linked Open Vocabularies".
+<https://data.linkeddatafragments.org/viaf#dataset> a void:Dataset;
+    rdfs:label "VIAF";
+    <http://purl.org/dc/terms/title> "VIAF";
+    <http://purl.org/dc/terms/description> "Virtual International Authority File".
+<https://data.linkeddatafragments.org/harvard#dataset> a void:Dataset;
+    rdfs:label "Harvard";
+    <http://purl.org/dc/terms/title> "Harvard";
+    <http://purl.org/dc/terms/description> "Harvard Library metadata".
+<https://data.linkeddatafragments.org/bwv#dataset> a void:Dataset;
+    rdfs:label "BWV";
+    <http://purl.org/dc/terms/title> "BWV";
+    <http://purl.org/dc/terms/description> "Bach-Werke-Verzeichnis".
+<https://data.linkeddatafragments.org/ugentmemorialis#dataset> a void:Dataset;
+    rdfs:label "UGentMemorialis";
+    <http://purl.org/dc/terms/title> "UGentMemorialis";
+    <http://purl.org/dc/terms/description> "Biographical data of UGent professors between 1817 and 2012".
+<https://data.linkeddatafragments.org/victoria#dataset> a void:Dataset;
+    rdfs:label "Victoria";
+    <http://purl.org/dc/terms/title> "Victoria";
+    <http://purl.org/dc/terms/description> "Public Record Office Victoria Semantic Wiki".
+<https://data.linkeddatafragments.org/loc#dataset> a void:Dataset;
+    rdfs:label "Library of Congress";
+    <http://purl.org/dc/terms/title> "Library of Congress";
+    <http://purl.org/dc/terms/description> "Library of Congress Digital Catalog Records".
+<https://data.linkeddatafragments.org/eswc2020#dataset> a void:Dataset;
+    rdfs:label "ESWC 2020";
+    <http://purl.org/dc/terms/title> "ESWC 2020";
+    <http://purl.org/dc/terms/description> "Metadata on the ESWC 2020 conference".
+<https://data.linkeddatafragments.org/covid19#dataset> a void:Dataset;
+    rdfs:label "COVID-19";
+    <http://purl.org/dc/terms/title> "COVID-19";
+    <http://purl.org/dc/terms/description> "Knowledge graph of literature on COVID-19".
