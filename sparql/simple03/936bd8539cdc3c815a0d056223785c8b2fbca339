@@ -7,7 +7,7 @@
 
 <meta charset="utf-8" />
 <meta name="viewport"  content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="Copyright" content="Copyright &#169; 2024 OpenLink Software" />
+<meta name="Copyright" content="Copyright &#169; 2025 OpenLink Software" />
 <meta name="Keywords"  content="OpenLink Virtuoso Sparql" />
 <title>OpenLink Virtuoso SPARQL Query Editor</title>
 
@@ -214,10 +214,10 @@ checked="checked" />
 
 <footer id="footer" class="small text-muted">
 <div class="text-center">
-Copyright &#169; 2024 <a href="https://www.openlinksw.com/">OpenLink Software</a>
+Copyright &#169; 2025 <a href="https://www.openlinksw.com/">OpenLink Software</a>
 <br/>
-<a href="https://virtuoso.openlinksw.com/">Virtuoso</a> version 08.03.3329 (42780c0b7c) on Linux (x86_64-generic-linux-glibc25)
-Single Server Edition (62 GB total memory, 38 GB memory in use)
+<a href="https://virtuoso.openlinksw.com/">Virtuoso</a> version 08.03.3332 (2e06712827) on Linux (x86_64-generic-linux-glibc212)
+Single Server Edition (61 GB total memory, 41 GB memory in use)
 
 </div>
 </footer>
@@ -413,7 +413,7 @@ return link;
 function sparqlSubmitForm () {
 var link = sparqlGenerateLink(1);
 
-if (max_url > 0 && max_url < link.length) {
+if (link.length > 14000 || (max_url > 0 && max_url < link.length)) {
 $('#sparql_form').attr('method', 'post');
 }
 document.forms['sparql_form'].submit();
