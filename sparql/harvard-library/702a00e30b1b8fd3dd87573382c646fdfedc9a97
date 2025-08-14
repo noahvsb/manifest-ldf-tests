@@ -1,0 +1,41 @@
+# Query: predicate=http%3A%2F%2Fschema.org%2Fname
+# Hashed IRI: https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname#metadata> {
+<https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/viaf#dataset>.
+<https://data.linkeddatafragments.org/viaf#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/viaf{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object
+}
+<http://viaf.org/viaf/> <http://schema.org/name> "\"Nirālā\", Sūryakānta Tripāṭhī", "A'Beckett, Arthur William", "A'la, Abd.", "A. D. G.".
+<https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname#metadata> {
+<https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname> void:subset <https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of VIAF"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'VIAF' dataset containing triples matching the pattern { ?s <http://schema.org/name> ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/viaf#dataset>;
+    hydra:totalItems "38069915"^^xsd:integer;
+    void:triples "38069915"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname&page=1>;
+    hydra:next <https://data.linkeddatafragments.org/viaf?predicate=http%3A%2F%2Fschema.org%2Fname&page=2>
+}
+<http://viaf.org/viaf/> <http://schema.org/name> "A.F.R.", "AM-DVL", "Aakeson, Kim Fupz", "Aalst, Leo van der", "Aarnoutse, Leuntje", "Aaron, Jan", "Aaron, Jane", "Aaron, Pietro", "Aaronson, Jon", "Abad Faciolince, Héctor", "Abad de Santillán, Diego", "Abad, Mercedes", "Abadan-Unat, Nermin", "Abadie, Philippe", "Abaelardus, Petrus", "Abalos, Jorge W.", "Abaschidse, Grigol", "Abasıyanık, Sait Faik", "Abazov, Rafis", "Abašidze, Irakli", "Abba, Giuseppe Cesare", "Abbad y Lasierra, Iñigo", "Abbad y Lasierra, Íñigo", "Abbadi, Mostafa el-", "Abbadie, Marcel", "Abbas, M. Ackbar", "Abbink, John B.", "Abbotson, Susan C. W.", "Abbott, Barbara Kenyon", "Abbott, Jacob", "Abbott, Jeff", "Abbott, John S. C.", "Abbott, Megan E.", "Abbott, Pamela", "Abboushi, Wasif F.", "Abbé Pierre", "Abd-el-Jalil, Jean-Mohammed", "Abd-ru-shin", "Abdallah-Pretceille, Martine", "Abdel Hafiz, Mohamed Abdel Razek Mohamed", "Abdel-Malek, Anouar", "Abdelilah-Bauer, Barbara", "Abderhalden, Emil", "Abderhalden, Rudolf", "Abdesselam, Belaid", "Abdi, Abdi Ismaël", "Abdolah, Kader", "Abdul Aziz Zainal", "Abdul Halim Nasir", "Abdul Kalam, Avul Pakir Jainulabdeen", "Abdul Samad Said", "Abdulla, Muhammed Said", "Abdullah Hussain", "Abedi, Isabel", "Abegglen, James C.", "Abegunrin, Olayiwola", "Abeijón, Asencio", "Abel, Barbara", "Abel, Donald C.", "Abel, Louis", "Abel, Othenio", "Abel, Richard", "Abelaira, Augusto", "Abele, Helen", "Abell, Kjeld", "Abellio, Raymond", "Abeln, Reinhard", "Abelé, Sarah", "Abendroth, Walter", "Abensour, Liliane", "Abensour, Miguel", "Abenstein, Edelgard", "Aberly, Rachel", "Abert, Hermann", "Abeyratne, Ruwantissa I. R.", "Abib, Jonas", "Abish, Walter", "Ableman, Paul", "Aboites, Luis", "Abou, Olivier", "Abou-El-Haj, Barbara Fay", "Aboudrar, Bruno-Nassim", "About, Edmond", "Abraham, Ada", "Abraham, Claude Kurt", "Abraham, Gerald", "Abraham, Giorgio", "Abraham, Pearl", "Abraham, Peter", "Abraham, Pierre", "Abrahams, Anna", "Abrahams, Anthony", "Abrahams, Israel", "Abrahamse, Jaap Evert", "Abrahamsen, David", "Abram, David".

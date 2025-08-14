@@ -1,0 +1,136 @@
+# Query: predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname
+# Hashed IRI: https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dc11: <http://purl.org/dc/elements/1.1/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dbpedia: <http://dbpedia.org/resource/>.
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+@prefix dbpprop: <http://dbpedia.org/property/>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> {
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname#metadata> foaf:primaryTopic <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>.
+<https://fragments.dbpedia.org/#dataset> hydra:member <https://fragments.dbpedia.org/2016-04/en#dataset>.
+<https://fragments.dbpedia.org/2016-04/en#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
+    hydra:search _:triplePattern.
+_:triplePattern hydra:template "https://fragments.dbpedia.org/2016-04/en{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname> void:subset <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname>;
+    a hydra:PartialCollectionView;
+    dcterms:title "Linked Data Fragment of DBpedia 2016-04"@en;
+    dcterms:description "Triple Pattern Fragment of the 'DBpedia 2016-04' dataset containing triples matching the pattern { ?s <http://xmlns.com/foaf/0.1/name> ?o }."@en;
+    dcterms:source <https://fragments.dbpedia.org/2016-04/en#dataset>;
+    hydra:totalItems "8814887"^^xsd:integer;
+    void:triples "8814887"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=1>;
+    hydra:next <https://fragments.dbpedia.org/2016-04/en?predicate=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2Fname&page=2>
+}
+<http://dbpedia.org/resource/!!!> foaf:name "!!!"@en.
+<http://dbpedia.org/resource/!!!_(album)> foaf:name "!!!"@en.
+<http://dbpedia.org/resource/!!Destroy-Oh-Boy!!> foaf:name "!!Destroy-Oh-Boy!!"@en.
+<http://dbpedia.org/resource/!Action_Pact!> foaf:name "!Action Pact!"@en.
+<http://dbpedia.org/resource/!Arriba!_La_Pachanga> foaf:name "!Arriba! La Pachanga"@en.
+<http://dbpedia.org/resource/!Hero> foaf:name "!HERO"@en.
+<http://dbpedia.org/resource/!Hero_(album)> foaf:name "!Hero"@en.
+<http://dbpedia.org/resource/!Kung_language> foaf:name "!Kung"@en, "Northern Khoisan (obsolete)"@en.
+<http://dbpedia.org/resource/!Oka_Tokat> foaf:name "!Oka Tokat"@en.
+<http://dbpedia.org/resource/!PAUS3> foaf:name "!PAUS3"@en.
+<http://dbpedia.org/resource/!T.O.O.H.!> foaf:name "!T.O.O.H.!"@en.
+<http://dbpedia.org/resource/!Women_Art_Revolution> foaf:name "!Women Art Revolution"@en.
+<http://dbpedia.org/resource/!_(album)> foaf:name "!"@en.
+<http://dbpedia.org/resource/$1,000_Reward> foaf:name "$1,000 Reward"@en.
+<http://dbpedia.org/resource/$1,000_a_Touchdown> foaf:name "$1,000 a Touchdown"@en.
+<http://dbpedia.org/resource/$1.99_Romances> foaf:name "$1.99 Romances"@en.
+<http://dbpedia.org/resource/$100,000_Fortune_Hunt> foaf:name "$100,000 Fortune Hunt"@en.
+<http://dbpedia.org/resource/$100_Bill_Yall> foaf:name "$100 Bill Y'all"@en.
+<http://dbpedia.org/resource/$100_Film_Festival> foaf:name "$100 Film Festival"@en.
+<http://dbpedia.org/resource/$100_Room> foaf:name "$100 Room"@en.
+<http://dbpedia.org/resource/$24_in_24> foaf:name "$24 in 24"@en.
+<http://dbpedia.org/resource/$25_Million_Dollar_Hoax> foaf:name "$25 Million Dollar Hoax"@en.
+<http://dbpedia.org/resource/$40_a_Day> foaf:name "$40 a Day"@en.
+<http://dbpedia.org/resource/$5_Cover> foaf:name "$5 Cover"@en.
+<http://dbpedia.org/resource/$9.99> foaf:name "$9.99"@en.
+<http://dbpedia.org/resource/$O$_(Die_Antwoord_album)> foaf:name "$O$"@en.
+<http://dbpedia.org/resource/$_(Mark_Sultan_album)> foaf:name "$"@en.
+<http://dbpedia.org/resource/$_(film)> foaf:name "$"@en.
+<http://dbpedia.org/resource/$h*!_My_Dad_Says> foaf:name "$#*! My Dad Says"@en.
+<http://dbpedia.org/resource/$pent> foaf:name "$pent"@en.
+<http://dbpedia.org/resource/$pread> foaf:name "$pread"@en.
+<http://dbpedia.org/resource/%22...And_Ladies_of_the_Club%22> foaf:name "\"...And Ladies of the Club\""@en.
+<http://dbpedia.org/resource/%22...The_Truth_Is_a_Fucking_Lie...%22> foaf:name "\"...The Truth Is a Fucking Lie...\""@en.
+<http://dbpedia.org/resource/%22900%22,_Cahiers_dItalie_et_dEurope> foaf:name "\"900\", Cahiers d'Italie et d'Europe"@en.
+<http://dbpedia.org/resource/%22@%22_(album)> foaf:name "“@”"@en.
+<http://dbpedia.org/resource/%22A%22_Fort_and_Battery_Hill_Redoubt-Camp_Early> foaf:name "\"A\" Fort and Battery Hill Redoubt-Camp Early"@en.
+<http://dbpedia.org/resource/%22A%22_Is_for_Alibi> foaf:name "\"A\" Is for Alibi"@en.
+<http://dbpedia.org/resource/%22B%22_Is_for_Burglar> foaf:name "\"B\" Is for Burglar"@en.
+<http://dbpedia.org/resource/%22Babbacombe%22_Lee> foaf:name "\"Babbacombe\" Lee"@en.
+<http://dbpedia.org/resource/%22Bassy%22_Bob_Brockmann> foaf:name "Bob Brockmann"@en.
+<http://dbpedia.org/resource/%22Big%22_Donnie_MacLeod> foaf:name "\"Big\" Donnie MacLeod"@en.
+<http://dbpedia.org/resource/%22Buzz!!%22_The_Movie> foaf:name "\"Buzz!!\" The Movie"@en.
+<http://dbpedia.org/resource/%22By%22_Dunham> foaf:name "By Dunham"@en, "Dunham, By"@en.
+<http://dbpedia.org/resource/%22C%22_Is_for_Corpse> foaf:name "\"C\" Is for Corpse"@en.
+<http://dbpedia.org/resource/%22C%22_is_for_(Please_Insert_Sophomoric_Genitalia_Reference_HERE)> foaf:name "\"C\" is for (Please Insert Sophomoric Genitalia Reference HERE)"@en.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee> foaf:name "\"Crocodile\" Dundee"@en.
+<http://dbpedia.org/resource/%22Crocodile%22_Dundee_II> foaf:name "\"Crocodile\" Dundee II"@en.
+<http://dbpedia.org/resource/%22D%22_Is_for_Deadbeat> foaf:name "\"D\" Is for Deadbeat"@en.
+<http://dbpedia.org/resource/%22Dr._Death%22_Steve_Williams> foaf:name "\"Dr. Death\" Steve Williams"@en, "Steve Williams"@en.
+<http://dbpedia.org/resource/%22E%22_Is_for_Evidence> foaf:name "\"E\" Is for Evidence"@en.
+<http://dbpedia.org/resource/%22Emperor_Haute_Couture%22> foaf:name "Emperor Haute Couture"@en.
+<http://dbpedia.org/resource/%22Everything_For_the_Country%22_Party> foaf:name "\"Everything For the Country\" Party"@en, "Partidul \"Totul Pentru Ţară\""@en.
+<http://dbpedia.org/resource/%22F%22_Is_for_Fugitive> foaf:name "\"F\" Is for Fugitive"@en.
+<http://dbpedia.org/resource/%22FF.SS.%22_–_Cioè:_%22...che_mi_hai_portato_a_fare_sopra_a_Posillipo_se_non_mi_vuoi_più_bene%3F%22> foaf:name "\"FF.SS.\" - Cioè: \"...che mi hai portato a fare sopra a Posillipo se non mi vuoi più bene?\""@en.
+<http://dbpedia.org/resource/%22Fish_Alive%22_30min.,_1_Sequence_by_6_Songs_Sakanaquarium_2009_@_Sapporo> foaf:name "\"Fish Alive\" 30min., 1 Sequence by 6 Songs Sakanaquarium 2009 @ Sapporo"@en.
+<http://dbpedia.org/resource/%22Free_Albania%22_National_Committee> foaf:name "\"Free Albania\" National Committee"@en.
+<http://dbpedia.org/resource/%22Freeway%22_Rick_Ross> foaf:name "Ricky Ross"@en, "Ross, Ricky"@en.
+<http://dbpedia.org/resource/%22G%22_Is_for_Gumshoe> foaf:name "\"G\" Is for Gumshoe"@en.
+<http://dbpedia.org/resource/%22Good_Hair%22_and_Other_Dubious_Distinctions> foaf:name "\"Good Hair\" and Other Dubious Distinctions"@en.
+<http://dbpedia.org/resource/%22Good_Luck,_Father_Ted%22> foaf:name "'Good Luck, Father Ted'"@en.
+<http://dbpedia.org/resource/%22H%22_Is_for_Homicide> foaf:name "\"H\" Is for Homicide"@en.
+<http://dbpedia.org/resource/%22Happy%22_in_Galoshes> foaf:name "\"Happy\" in Galoshes"@en.
+<http://dbpedia.org/resource/%22Heroes%22_(David_Bowie_album)> foaf:name "\"Heroes\""@en.
+<http://dbpedia.org/resource/%22Heroes%22_(David_Bowie_song)> foaf:name "Hero"@en, "Heroes"@en.
+<http://dbpedia.org/resource/%22I%22_Is_for_Innocent> foaf:name "\"I\" Is for Innocent"@en.
+<http://dbpedia.org/resource/%22I_Luv_You_HB%22_Demos> foaf:name "\"I Luv You HB\" Demos"@en.
+<http://dbpedia.org/resource/%22Ibrahim_Kodra%22_Foundation> foaf:name "Fondazione per i Ragazzi del mondo di Ibrahim Kodra"@en.
+<http://dbpedia.org/resource/%22In%22_Jazz_for_the_Culture_Set> foaf:name "\"In\" Jazz for the Culture Set"@en.
+<http://dbpedia.org/resource/%22Irish%22_Teddy_Mann> foaf:name "Mann, Teddy"@en, "Teddy Mann"@en.
+<http://dbpedia.org/resource/%22It%22_the_Album> foaf:name "\"It\" the Album"@en.
+<http://dbpedia.org/resource/%22J%22_Is_for_Judgment> foaf:name "\"J\" Is for Judgment"@en.
+<http://dbpedia.org/resource/%22K%22_Is_for_Killer> foaf:name "\"K\" Is for Killer"@en.
+<http://dbpedia.org/resource/%22King%22_Bennie_Nawahi> foaf:name "Bennie Nawahi"@en.
+<http://dbpedia.org/resource/%22L%22_Is_for_Lawless> foaf:name "\"L\" Is for Lawless"@en.
+<http://dbpedia.org/resource/%22Leningrad%22_zonal_art_exhibition_(1964)> foaf:name "\"Leningrad\" Zonal Art Exhibition. Leningrad, 1964. Сatalog cover"@en.
+<http://dbpedia.org/resource/%22Live%22_at_the_London_Palladium> foaf:name "\"Live\" at the London Palladium"@en.
+<http://dbpedia.org/resource/%22Looked_Up%22_Plus_Four> foaf:name "\"Looked Up\" Plus Four"@en.
+<http://dbpedia.org/resource/%22M%22_Is_for_Malice> foaf:name "\"M\" Is for Malice"@en.
+<http://dbpedia.org/resource/%22Major%22_John_Buchanan> foaf:name "\"Major\" John Buchanan"@en, "thumb"@en.
+<http://dbpedia.org/resource/%22Master_Harold%22...and_the_Boys> foaf:name "\"Master Harold\"...and the Boys"@en.
+<http://dbpedia.org/resource/%22Moist%22_Paula_Henderson> foaf:name "Henderson, Paula"@en, "Paula Henderson"@en.
+<http://dbpedia.org/resource/%22N%22_Is_for_Noose> foaf:name "\"N\" Is for Noose"@en.
+<http://dbpedia.org/resource/%22No_Flashlight%22:_Songs_of_the_Fulfilled_Night> foaf:name "\"No Flashlight\": Songs of the Fulfilled Night"@en.
+<http://dbpedia.org/resource/%22No_Snow,_No_Show%22_for_the_Eskimo> foaf:name "\"No Snow, No Show\" for the Eskimo"@en.
+<http://dbpedia.org/resource/%22O%22-Jung.Ban.Hap.> foaf:name "\"O\"-Jung.Ban.Hap."@en.
+<http://dbpedia.org/resource/%22O%22_(Flowers_of_Hell_album)> foaf:name "“O”"@en.
+<http://dbpedia.org/resource/%22O%22_Is_for_Outlaw> foaf:name "\"O\" Is for Outlaw"@en.
+<http://dbpedia.org/resource/%22Oh_Yeah!%22_Live> foaf:name "\"Oh Yeah!\" Live"@en.
+<http://dbpedia.org/resource/%22Our_Contemporary%22_regional_art_exhibition_(Leningrad,_1975)> foaf:name "\"Our Contemporary\" Regional Art Exhibition. Leningrad, 1975. Сatalog"@en.
+<http://dbpedia.org/resource/%22P%22_Is_for_Peril> foaf:name "\"P\" Is for Peril"@en.
+<http://dbpedia.org/resource/%22Pimpernel%22_Smith> foaf:name "\"Pimpernel\" Smith"@en.

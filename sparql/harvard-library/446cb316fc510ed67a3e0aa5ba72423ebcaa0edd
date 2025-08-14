@@ -1,0 +1,36 @@
+# Query: predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace
+# Hashed IRI: https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace
+# Content-type: application/trig;charset=utf-8
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix hydra: <http://www.w3.org/ns/hydra/core#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix sd: <http://www.w3.org/TR/sparql11-service-description/#>.
+
+<https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace#metadata> {
+<https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace#metadata> <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace>.
+<https://data.linkeddatafragments.org/#dataset> hydra:member <https://data.linkeddatafragments.org/harvard#dataset>.
+<https://data.linkeddatafragments.org/harvard#dataset> a void:Dataset, hydra:Collection;
+    void:subset <https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace>;
+    hydra:search _:pattern.
+_:pattern hydra:template "https://data.linkeddatafragments.org/harvard{?subject,predicate,object}";
+    hydra:variableRepresentation hydra:ExplicitRepresentation;
+    hydra:mapping _:subject, _:predicate, _:object.
+_:subject hydra:variable "subject";
+    hydra:property rdf:subject.
+_:predicate hydra:variable "predicate";
+    hydra:property rdf:predicate.
+_:object hydra:variable "object";
+    hydra:property rdf:object.
+<https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace> void:subset <https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace>;
+    a hydra:PartialCollectionView;
+    <http://purl.org/dc/terms/title> "Linked Data Fragment of Harvard"@en;
+    <http://purl.org/dc/terms/description> "Triple/Quad Pattern Fragment of the 'Harvard' dataset containing triples matching the pattern { ?s <http://dbpedia.org/ontology/birthPlace> ?o. }."@en;
+    <http://purl.org/dc/terms/source> <https://data.linkeddatafragments.org/harvard#dataset>;
+    hydra:totalItems "0"^^xsd:integer;
+    void:triples "0"^^xsd:integer;
+    hydra:itemsPerPage "100"^^xsd:integer;
+    hydra:first <https://data.linkeddatafragments.org/harvard?predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace&page=1>
+}
