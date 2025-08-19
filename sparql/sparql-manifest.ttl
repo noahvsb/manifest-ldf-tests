@@ -286,3 +286,18 @@
     [ et:source <https://data.linkeddatafragments.org/> ;
       et:sourceType et:TPF ] ) ;
   mf:result  <tpfdatasets/result.srj> . 
+
+:harvard-library rdf:type et:LdfQueryEvaluationTest ;
+  mf:name    "SELECT - Books by San Franciscans in Harvard Library ;
+  rdfs:comment "A good test of complex federation, that also takes a while to execute" ;
+  mf:action
+        [ qt:query  <harvard-library.rq> ;
+          et:mockFlder <harvard-library> ] ;
+  et:dataSources(
+    [ et:source <https://fragments.dbpedia.org/2016-04/en> ;
+      et:sourceType et:TPF ]
+    [ et:source <https://data.linkeddatafragments.org/viaf> ;
+      et:sourceType et:TPF ]
+    [ et:source <https://data.linkeddatafragments.org/harvard> ;
+      et:sourceType et:TPF ] ) ;
+  mf:result  <harvard-library/result.srj> .
