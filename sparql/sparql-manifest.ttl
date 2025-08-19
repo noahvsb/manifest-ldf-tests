@@ -288,7 +288,7 @@
   mf:result  <tpfdatasets/result.srj> . 
 
 :harvard-library rdf:type et:LdfQueryEvaluationTest ;
-  mf:name    "SELECT - Books by San Franciscans in Harvard Library ;
+  mf:name    "SELECT - Books by San Franciscans in Harvard Library" ;
   rdfs:comment "A good test of complex federation, that also takes a while to execute" ;
   mf:action
         [ qt:query  <harvard-library.rq> ;
