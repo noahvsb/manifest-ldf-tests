@@ -266,7 +266,7 @@
       et:sourceType et:TPF ] ) ;
   mf:result  <starring-selective-filter/result.srj> .
 
-:employees rdf:type et:LdfQueryEvaluationTest ;
+:zero-or-more-path-zero rdf:type et:LdfQueryEvaluationTest ;
   mf:name    "SELECT - Zero or more path zero" ;
   rdfs:comment "Zero-or-more property path where only the zero part applies" ;
   mf:action
